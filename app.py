@@ -1,9 +1,18 @@
+import re
 import streamlit as st
 
+from backend.data_loader import (
+    load_rag_documents,
+    build_scheme_index,
+)
+
+from backend.scheme_search import hybrid_search
+from backend.eligibility_service import check_eligibility
+from backend.llm_client import generate_answer
+
+
 # ============================================================
-# MULTIRAG P2
-# Multilingual Government Scheme Discovery & Eligibility
-# Frontend Prototype
+# PAGE CONFIG
 # ============================================================
 
 st.set_page_config(
@@ -13,368 +22,1265 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+
 # ============================================================
-# DARK PROFESSIONAL THEME
+# LOAD DATA
 # ============================================================
 
-st.markdown(
+@st.cache_data
+def get_rag_documents():
+    try:
+        return load_rag_documents()
+    except Exception as error:
+        st.error(
+            f"Unable to load RAG documents: {error}"
+        )
+        return []
+
+
+@st.cache_data
+def get_scheme_index():
+    try:
+        return build_scheme_index()
+    except Exception as error:
+        st.error(
+            f"Unable to load scheme metadata: {error}"
+        )
+        return {}
+
+
+RAG_DOCUMENTS = get_rag_documents()
+SCHEME_INDEX = get_scheme_index()
+
+
+# ============================================================
+# LANGUAGE
+# ============================================================
+
+def detect_language(text: str) -> str:
     """
-    <style>
+    Detect the user's preferred response language.
 
-    /* =========================
-       GLOBAL
-       ========================= */
+    Telugu characters -> Telugu
+    Otherwise -> English
+    """
 
-    .stApp {
-        background-color: #070f1d;
-        color: #e8eef8;
-    }
+    if not text:
+        return "english"
 
-    .main .block-container {
-        max-width: 1400px;
-        padding-top: 1.2rem;
-        padding-bottom: 3rem;
-    }
+    telugu_chars = sum(
+        1
+        for char in text
+        if "\u0C00" <= char <= "\u0C7F"
+    )
 
-    h1, h2, h3, h4 {
-        color: #f5f8fc !important;
-        font-weight: 700 !important;
-    }
+    english_chars = sum(
+        1
+        for char in text
+        if char.isascii() and char.isalpha()
+    )
 
-    p {
-        color: #9fb1c8;
-    }
+    if telugu_chars == 0:
+        return "english"
 
-    hr {
-        border-color: #17283f !important;
-    }
+    if english_chars == 0:
+        return "telugu"
 
-    /* =========================
-       SIDEBAR
-       ========================= */
+    # Mixed Telugu + English:
+    # Telugu is preferred for the final answer.
+    if telugu_chars >= english_chars * 0.25:
+        return "telugu"
 
-    section[data-testid="stSidebar"] {
-        background-color: #091426;
-        border-right: 1px solid #172b46;
-    }
+    return "english"
 
-    section[data-testid="stSidebar"] * {
-        color: #dce7f5;
-    }
-
-    section[data-testid="stSidebar"] .stRadio label {
-        font-size: 0.88rem;
-    }
-
-    .brand {
-        padding: 0.3rem 0 1rem 0;
-    }
-
-    .brand-title {
-        color: #f5f8fc;
-        font-size: 1.55rem;
-        font-weight: 750;
-    }
-
-    .brand-subtitle {
-        color: #7f9abc !important;
-        font-size: 0.72rem;
-        line-height: 1.45;
-    }
-
-    .sidebar-section {
-        color: #4d91df !important;
-        font-size: 0.67rem;
-        font-weight: 750;
-        letter-spacing: 0.12em;
-        margin-top: 1rem;
-        margin-bottom: 0.35rem;
-    }
-
-    /* =========================
-       TOP BAR
-       ========================= */
-
-    .top-label {
-        color: #438fe5 !important;
-        font-size: 0.7rem;
-        font-weight: 750;
-        letter-spacing: 0.2em;
-    }
-
-    .top-status {
-        color: #7187a2 !important;
-        font-size: 0.72rem;
-        text-align: right;
-    }
-
-    /* =========================
-       HERO
-       ========================= */
-
-    .hero-title {
-        font-size: 2.7rem;
-        line-height: 1.08;
-        font-weight: 750;
-        color: #f5f8fc;
-        margin-top: 0.3rem;
-    }
-
-    .hero-title span {
-        color: #459fff;
-    }
-
-    .hero-text {
-        max-width: 850px;
-        color: #9eb1c9;
-        font-size: 0.98rem;
-        line-height: 1.6;
-        margin-top: 0.8rem;
-    }
-
-    /* =========================
-       SEARCH
-       ========================= */
-
-    .search-label {
-        color: #dce7f5;
-        font-size: 0.88rem;
-        font-weight: 650;
-        margin-bottom: 0.35rem;
-    }
-
-    .stTextInput input,
-    .stTextArea textarea {
-        background-color: #0b192c !important;
-        color: #edf4fc !important;
-        border: 1px solid #24476c !important;
-        border-radius: 9px !important;
-    }
-
-    .stTextInput input::placeholder,
-    .stTextArea textarea::placeholder {
-        color: #607995 !important;
-    }
-
-    .stTextInput input:focus,
-    .stTextArea textarea:focus {
-        border-color: #3e91ed !important;
-        box-shadow: 0 0 0 1px #3e91ed !important;
-    }
-
-    /* =========================
-       BUTTONS
-       ========================= */
-
-    .stButton > button {
-        background-color: #ff5b67 !important;
-        color: white !important;
-        border: none !important;
-        border-radius: 8px !important;
-        min-height: 2.55rem;
-        font-weight: 700;
-    }
-
-    .stButton > button:hover {
-        background-color: #ff6d77 !important;
-        color: white !important;
-    }
-
-    /* =========================
-       METRIC CARDS
-       ========================= */
-
-    .metric-box {
-        background-color: #0b192c;
-        border: 1px solid #183451;
-        border-radius: 11px;
-        padding: 1.15rem;
-        min-height: 125px;
-    }
-
-    .metric-label {
-        color: #7891ae;
-        font-size: 0.69rem;
-        text-transform: uppercase;
-        letter-spacing: 0.06em;
-        font-weight: 650;
-    }
-
-    .metric-number {
-        color: #f1f6fc;
-        font-size: 1.65rem;
-        font-weight: 750;
-        margin-top: 0.35rem;
-    }
-
-    .metric-description {
-        color: #637d9b;
-        font-size: 0.7rem;
-        margin-top: 0.2rem;
-    }
-
-    /* =========================
-       CATEGORY CARDS
-       ========================= */
-
-    .category-box {
-        background-color: #0b192c;
-        border: 1px solid #183451;
-        border-radius: 10px;
-        padding: 1rem;
-        min-height: 115px;
-    }
-
-    .category-icon {
-        font-size: 1.35rem;
-    }
-
-    .category-name {
-        color: #edf4fc;
-        font-size: 0.9rem;
-        font-weight: 700;
-        margin-top: 0.45rem;
-    }
-
-    .category-description {
-        color: #7188a3;
-        font-size: 0.7rem;
-        line-height: 1.35;
-        margin-top: 0.25rem;
-    }
-
-    /* =========================
-       INFO / STATUS
-       ========================= */
-
-    .info-box {
-        background-color: #0a1a30;
-        border: 1px solid #1d4266;
-        border-left: 4px solid #3689e6;
-        border-radius: 8px;
-        padding: 0.9rem 1rem;
-        color: #9db4ce;
-        font-size: 0.78rem;
-        line-height: 1.5;
-    }
-
-    .status-box {
-        background-color: #0b211a;
-        border: 1px solid #20543d;
-        border-left: 4px solid #45b879;
-        border-radius: 8px;
-        padding: 0.9rem 1rem;
-        color: #9ed1b7;
-    }
-
-    .status-title {
-        color: #5fd092;
-        font-weight: 750;
-    }
-
-    /* =========================
-       FOOTER
-       ========================= */
-
-    .footer {
-        text-align: center;
-        color: #536b86;
-        font-size: 0.68rem;
-        padding-top: 1.5rem;
-    }
-
-    /* =========================
-       MOBILE
-       ========================= */
-
-    @media (max-width: 900px) {
-
-        .main .block-container {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-
-        .hero-title {
-            font-size: 2rem;
-        }
-
-    }
-
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
 
 # ============================================================
-# DEMO DATA
+# LANGUAGE INSTRUCTION
 # ============================================================
 
-SCHEMES = [
-    {
-        "name": "PM-KISAN",
-        "government": "Central Government",
-        "category": "Agriculture",
-        "beneficiary": "Eligible farmer families",
-        "benefit": "Income support",
-        "description": "Income support for eligible landholding farmer families.",
-    },
-    {
-        "name": "PM Vishwakarma",
-        "government": "Central Government",
-        "category": "Entrepreneurship",
-        "beneficiary": "Traditional artisans and craftspeople",
-        "benefit": "Training and credit support",
-        "description": "Support for eligible traditional artisans and craftspeople.",
-    },
-    {
-        "name": "PMAY-U 2.0",
-        "government": "Central Government",
-        "category": "Housing",
-        "beneficiary": "Eligible urban households",
-        "benefit": "Housing assistance",
-        "description": "Housing assistance for eligible urban households.",
-    },
-    {
-        "name": "Rythu Bharosa",
-        "government": "Telangana",
-        "category": "Agriculture",
-        "beneficiary": "Eligible farmers",
-        "benefit": "Farmer support",
-        "description": "Government support for eligible farmers in Telangana.",
-    },
-    {
-        "name": "Aasara Pensions",
-        "government": "Telangana",
-        "category": "Social Welfare",
-        "beneficiary": "Eligible beneficiary groups",
-        "benefit": "Pension assistance",
-        "description": "Social security pension support for eligible categories.",
-    },
-    {
-        "name": "Kalyana Lakshmi",
-        "government": "Telangana",
-        "category": "Women Welfare",
-        "beneficiary": "Eligible beneficiaries",
-        "benefit": "Marriage assistance",
-        "description": "Financial assistance under applicable Telangana welfare rules.",
-    },
-    {
-        "name": "Dr. NTR Vaidya Seva",
-        "government": "Andhra Pradesh",
-        "category": "Health",
-        "beneficiary": "Eligible families",
-        "benefit": "Healthcare support",
-        "description": "Healthcare support for eligible beneficiaries.",
-    },
-    {
-        "name": "NTR Bharosa Pension",
-        "government": "Andhra Pradesh",
-        "category": "Social Welfare",
-        "beneficiary": "Eligible beneficiaries",
-        "benefit": "Pension assistance",
-        "description": "Social security support under applicable AP guidelines.",
-    },
-]
+def get_language_instruction(
+    response_language: str,
+) -> str:
+
+    if response_language == "telugu":
+
+        return """
+LANGUAGE REQUIREMENT:
+Respond entirely in Telugu.
+
+Important rules:
+- Explain the answer naturally in Telugu.
+- Keep official scheme names in their original form when useful.
+- Keep official URLs unchanged.
+- Government department names may remain in English if that
+  preserves official terminology.
+- Do not invent facts.
+- Do not infer missing eligibility information.
+- Do not convert percentage marks into percentile.
+- Clearly state when more information is required.
+- Clearly distinguish between confirmed eligibility and
+  possible relevance.
+"""
+
+    return """
+LANGUAGE REQUIREMENT:
+Respond entirely in English.
+
+Important rules:
+- Keep official scheme names in their original form.
+- Keep official URLs unchanged.
+- Do not invent facts.
+- Do not infer missing eligibility information.
+- Do not convert percentage marks into percentile.
+- Clearly state when more information is required.
+- Clearly distinguish between confirmed eligibility and
+  possible relevance.
+"""
+
+
+# ============================================================
+# SAFE VALUE
+# ============================================================
+
+def safe_value(
+    value,
+    default="Not specified",
+):
+    if value is None:
+        return default
+
+    if isinstance(value, str):
+
+        value = value.strip()
+
+        if not value:
+            return default
+
+    return value
+
+
+# ============================================================
+# SCHEME NAME
+# ============================================================
+
+def get_scheme_name(
+    scheme: dict,
+) -> str:
+
+    return (
+        scheme.get("scheme_name")
+        or scheme.get("official_scheme_name")
+        or "Government Scheme"
+    )
+
+
+# ============================================================
+# FORMAT RULES
+# ============================================================
+
+def format_rules(rules) -> str:
+
+    if not rules:
+        return "No structured rules available."
+
+    if isinstance(rules, str):
+        return rules
+
+    if not isinstance(rules, list):
+        return str(rules)
+
+    output = []
+
+    for rule in rules:
+
+        if isinstance(rule, dict):
+
+            description = (
+                rule.get("description")
+                or rule.get("condition")
+                or rule.get("rule")
+                or rule.get("field")
+                or str(rule)
+            )
+
+            output.append(
+                f"- {description}"
+            )
+
+        else:
+
+            output.append(
+                f"- {rule}"
+            )
+
+    return "\n".join(output)
+
+
+# ============================================================
+# ELIGIBILITY CONTEXT
+# ============================================================
+
+def build_eligibility_context(
+    eligibility_result: dict,
+) -> str:
+    """
+    Build strictly grounded context from the deterministic
+    eligibility service.
+
+    The LLM is only responsible for explaining the result.
+    It does NOT decide eligibility.
+    """
+
+    if not eligibility_result:
+        return (
+            "NO ELIGIBILITY RESULT AVAILABLE.\n"
+            "Do not invent information."
+        )
+
+    query = eligibility_result.get(
+        "query",
+        "",
+    )
+
+    profile = eligibility_result.get(
+        "profile",
+        {},
+    )
+
+    overall_status = eligibility_result.get(
+        "overall_status",
+        "NO_RELEVANT_SCHEME",
+    )
+
+    response_language = eligibility_result.get(
+        "response_language",
+        "english",
+    )
+
+    next_questions = eligibility_result.get(
+        "next_questions",
+        [],
+    )
+
+    results = eligibility_result.get(
+        "results",
+        [],
+    )
+
+    context_parts = []
+
+    context_parts.append(
+        f"""
+============================================================
+MULTIRAG ELIGIBILITY RESULT
+============================================================
+
+USER QUERY
+----------
+{query}
+
+RESPONSE LANGUAGE
+-----------------
+{response_language}
+
+OVERALL STATUS
+--------------
+{overall_status}
+
+USER PROFILE
+------------
+{profile}
+
+IMPORTANT:
+The eligibility status above was produced by the deterministic
+rule-based eligibility engine.
+
+The LLM must NOT change, override, or reinterpret the status.
+
+============================================================
+"""
+    )
+
+    for index, scheme in enumerate(
+        results,
+        start=1,
+    ):
+
+        if not isinstance(scheme, dict):
+            continue
+
+        scheme_name = get_scheme_name(
+            scheme
+        )
+
+        status = scheme.get(
+            "status",
+            "UNKNOWN",
+        )
+
+        government_level = safe_value(
+            scheme.get(
+                "government_level"
+            )
+        )
+
+        state = safe_value(
+            scheme.get("state")
+        )
+
+        category = safe_value(
+            scheme.get("category")
+        )
+
+        target = safe_value(
+            scheme.get(
+                "target_beneficiary"
+            )
+        )
+
+        benefit = safe_value(
+            scheme.get(
+                "benefit_description"
+            )
+        )
+
+        scheme_status = safe_value(
+            scheme.get(
+                "scheme_status"
+            )
+        )
+
+        verification_status = safe_value(
+            scheme.get(
+                "verification_status"
+            )
+        )
+
+        eligibility_rules = format_rules(
+            scheme.get(
+                "eligibility_rules",
+                [],
+            )
+        )
+
+        exclusion_rules = format_rules(
+            scheme.get(
+                "exclusion_rules",
+                [],
+            )
+        )
+
+        missing_fields = scheme.get(
+            "missing_fields",
+            [],
+        )
+
+        failed_rules = scheme.get(
+            "failed_rules",
+            [],
+        )
+
+        unsupported_rules = scheme.get(
+            "unsupported_rules",
+            [],
+        )
+
+        questions = scheme.get(
+            "questions",
+            [],
+        )
+
+        source_url = safe_value(
+            scheme.get(
+                "source_url"
+            ),
+            "Not available",
+        )
+
+        source_file = safe_value(
+            scheme.get(
+                "source_file"
+            ),
+            "Not available",
+        )
+
+        document_title = safe_value(
+            scheme.get(
+                "document_title"
+            ),
+            "Not available",
+        )
+
+        evaluation = scheme.get(
+            "evaluation"
+        ) or {}
+
+        reason = evaluation.get(
+            "reason"
+        )
+
+        context_parts.append(
+            f"""
+============================================================
+SCHEME {index}
+============================================================
+
+SCHEME NAME
+-----------
+{scheme_name}
+
+STATUS
+------
+{status}
+
+GOVERNMENT LEVEL
+----------------
+{government_level}
+
+STATE
+-----
+{state}
+
+CATEGORY
+--------
+{category}
+
+TARGET BENEFICIARY
+------------------
+{target}
+
+SCHEME STATUS
+-------------
+{scheme_status}
+
+VERIFICATION STATUS
+-------------------
+{verification_status}
+
+BENEFIT
+-------
+{benefit}
+
+ELIGIBILITY RULES
+-----------------
+{eligibility_rules}
+
+EXCLUSION RULES
+---------------
+{exclusion_rules}
+
+MISSING INFORMATION
+-------------------
+{missing_fields}
+
+FAILED RULES
+------------
+{failed_rules}
+
+UNSUPPORTED RULES
+-----------------
+{unsupported_rules}
+
+FOLLOW-UP QUESTIONS
+-------------------
+{questions}
+
+EVALUATION REASON
+-----------------
+{reason or "Not specified"}
+
+OFFICIAL SOURCE
+---------------
+{source_url}
+
+SOURCE FILE
+-----------
+{source_file}
+
+DOCUMENT TITLE
+--------------
+{document_title}
+
+============================================================
+"""
+        )
+
+    if next_questions:
+
+        context_parts.append(
+            """
+============================================================
+NEXT QUESTIONS
+============================================================
+"""
+        )
+
+        for index, question in enumerate(
+            next_questions,
+            start=1,
+        ):
+
+            if isinstance(question, dict):
+
+                question_text = question.get(
+                    "question",
+                    str(question),
+                )
+
+            else:
+
+                question_text = str(
+                    question
+                )
+
+            context_parts.append(
+                f"{index}. {question_text}\n"
+            )
+
+    return "\n".join(
+        context_parts
+    )
+
+
+# ============================================================
+# GENERAL SEARCH CONTEXT
+# ============================================================
+
+def build_search_context(
+    results,
+) -> str:
+    """
+    Context for normal Scheme Search.
+
+    Uses hybrid_search results directly.
+    """
+
+    if not results:
+
+        return (
+            "NO RELEVANT GOVERNMENT INFORMATION "
+            "WAS RETRIEVED.\n"
+            "Do not invent information."
+        )
+
+    context_parts = []
+
+    seen = set()
+
+    for index, result in enumerate(
+        results,
+        start=1,
+    ):
+
+        if not isinstance(result, dict):
+            continue
+
+        scheme_name = (
+            result.get("scheme_name")
+            or "Government Scheme"
+        )
+
+        if scheme_name in seen:
+            continue
+
+        seen.add(
+            scheme_name
+        )
+
+        context_parts.append(
+            f"""
+============================================================
+GOVERNMENT SOURCE {index}
+============================================================
+
+Scheme Name:
+{scheme_name}
+
+Government Level:
+{safe_value(result.get("government_level"))}
+
+State:
+{safe_value(result.get("state"))}
+
+Category:
+{safe_value(result.get("category"))}
+
+Subcategory:
+{safe_value(result.get("subcategory"))}
+
+Target Beneficiary:
+{safe_value(result.get("target_beneficiary"))}
+
+Scheme Status:
+{safe_value(result.get("scheme_status"))}
+
+Benefit:
+{safe_value(result.get("benefit_description"))}
+
+Eligibility Rules:
+{format_rules(result.get("eligibility_rules"))}
+
+Exclusion Rules:
+{format_rules(result.get("exclusion_rules"))}
+
+Official Source:
+{safe_value(
+    result.get("source_url"),
+    "Not available",
+)}
+
+Source File:
+{safe_value(
+    result.get("source_file"),
+    "Not available",
+)}
+
+Document Title:
+{safe_value(
+    result.get("document_title"),
+    "Not available",
+)}
+
+Evidence Text:
+{safe_value(
+    result.get("text"),
+    "Not available",
+)}
+
+============================================================
+"""
+        )
+
+    return "\n".join(
+        context_parts
+    )
+
+
+# ============================================================
+# GENERAL HYBRID SEARCH
+# ============================================================
+
+def run_hybrid_search(
+    query: str,
+    region: str,
+    limit: int = 8,
+):
+
+    try:
+
+        detected_scheme, detected_state, results = (
+            hybrid_search(
+                query=query.strip(),
+                top_k=max(limit, 8),
+            )
+        )
+
+    except Exception as error:
+
+        st.error(
+            f"Search failed: {error}"
+        )
+
+        return (
+            None,
+            None,
+            [],
+        )
+
+    # --------------------------------------------------------
+    # Region filter
+    # --------------------------------------------------------
+
+    filtered = []
+
+    for result in results:
+
+        if not isinstance(result, dict):
+            continue
+
+        result_state = (
+            str(
+                result.get(
+                    "state",
+                    "",
+                )
+            )
+            .strip()
+            .lower()
+        )
+
+        government_level = (
+            str(
+                result.get(
+                    "government_level",
+                    "",
+                )
+            )
+            .strip()
+            .lower()
+        )
+
+        if region == "All Regions":
+            filtered.append(result)
+
+        elif region == "Central Government":
+
+            if (
+                government_level
+                == "central"
+            ):
+                filtered.append(result)
+
+        elif region == "Telangana":
+
+            if (
+                government_level == "central"
+                or result_state == "telangana"
+            ):
+                filtered.append(result)
+
+        elif region == "Andhra Pradesh":
+
+            if (
+                government_level == "central"
+                or result_state
+                in {
+                    "andhra pradesh",
+                    "andhra_pradesh",
+                }
+            ):
+                filtered.append(result)
+
+    # Deduplicate scheme names.
+
+    final_results = []
+
+    seen = set()
+
+    for result in filtered:
+
+        scheme_name = (
+            result.get("scheme_name")
+            or result.get("scheme_id")
+        )
+
+        if scheme_name in seen:
+            continue
+
+        seen.add(
+            scheme_name
+        )
+
+        final_results.append(
+            result
+        )
+
+        if len(final_results) >= limit:
+            break
+
+    return (
+        detected_scheme,
+        detected_state,
+        final_results,
+    )
+
+
+# ============================================================
+# GENERAL LLM RESPONSE
+# ============================================================
+
+def generate_general_answer(
+    query: str,
+    results,
+    response_language: str,
+):
+
+    context = build_search_context(
+        results
+    )
+
+    language_instruction = (
+        get_language_instruction(
+            response_language
+        )
+    )
+
+    prompt = f"""
+{language_instruction}
+
+You are MultiRAG, a grounded government scheme
+information assistant.
+
+Answer the user's question ONLY using the supplied
+government information.
+
+USER QUESTION
+-------------
+{query}
+
+GOVERNMENT INFORMATION
+----------------------
+{context}
+
+STRICT RULES
+------------
+1. Do not invent eligibility requirements.
+2. Do not invent benefits.
+3. Do not invent application procedures.
+4. Do not treat semantic similarity as eligibility.
+5. Do not convert marks into percentile.
+6. If information is missing, say that it is missing.
+7. Preserve official scheme names.
+8. Preserve official URLs.
+9. Clearly distinguish verified information from
+   information that requires confirmation.
+10. If the user asks for eligibility, do not make
+    the final eligibility decision yourself. The
+    deterministic eligibility engine is responsible
+    for that.
+"""
+
+    try:
+
+        answer = generate_answer(
+            question=query,
+            context=prompt,
+            language=(
+                "Telugu"
+                if response_language == "telugu"
+                else "English"
+            ),
+        )
+
+        return answer
+
+    except Exception as error:
+
+        return (
+            "Unable to generate the AI response.\n\n"
+            f"Technical error: {error}"
+        )
+
+
+# ============================================================
+# ELIGIBILITY LLM RESPONSE
+# ============================================================
+
+def generate_eligibility_answer(
+    query: str,
+    eligibility_result: dict,
+) -> str:
+
+    response_language = eligibility_result.get(
+        "response_language",
+        detect_language(query),
+    )
+
+    language_instruction = (
+        get_language_instruction(
+            response_language
+        )
+    )
+
+    context = build_eligibility_context(
+        eligibility_result
+    )
+
+    prompt = f"""
+{language_instruction}
+
+You are the response-generation layer of MultiRAG.
+
+The deterministic eligibility engine has already
+evaluated the government scheme rules.
+
+Your job is ONLY to explain those results clearly
+to the user.
+
+USER QUESTION
+-------------
+{query}
+
+DETERMINISTIC ELIGIBILITY RESULT
+---------------------------------
+{context}
+
+STRICT RESPONSE RULES
+---------------------
+
+1. Do NOT change the eligibility status.
+
+2. Do NOT independently decide that the user is eligible
+   or ineligible.
+
+3. If status is NEED_MORE_INFORMATION, clearly say that
+   more information is required.
+
+4. If status is ELIGIBLE, explain that the deterministic
+   rules currently available indicate eligibility, but
+   final approval is by the concerned authority.
+
+5. If status is NOT_ELIGIBLE, explain which documented
+   rule failed.
+
+6. If status is RULES_REQUIRE_REVIEW, explain that the
+   available information is insufficient to safely
+   confirm current eligibility.
+
+7. Never invent missing income limits.
+
+8. Never say that an income is "within the limit" unless
+   the supplied government evidence explicitly provides
+   the applicable limit and the deterministic engine
+   supports that comparison.
+
+9. NEVER convert percentage marks into percentile.
+
+   Example:
+   "85% marks" does NOT automatically mean
+   "85th percentile".
+
+10. If a scheme requires a percentile and the user only
+    supplied percentage marks, explain that the percentile
+    is still unknown.
+
+11. Do not claim that the user qualifies for a scheme
+    merely because they are a student or resident.
+
+12. Do not claim "typical limits", "usually eligible",
+    or similar unsupported assumptions.
+
+13. Keep official scheme names and URLs unchanged.
+
+14. Keep the response concise and easy to understand.
+
+15. Use headings and bullet points.
+
+16. If next questions are supplied, show them under
+    a "Next information needed" section.
+
+17. End with a short statement that final approval is
+    determined by the concerned government authority.
+
+"""
+
+    try:
+
+        answer = generate_answer(
+            question=query,
+            context=prompt,
+            language=(
+                "Telugu"
+                if response_language == "telugu"
+                else "English"
+            ),
+        )
+
+        return answer
+
+    except Exception as error:
+
+        if response_language == "telugu":
+
+            return (
+                "AI సమాధానం రూపొందించడంలో సమస్య ఏర్పడింది.\n\n"
+                f"Technical error: {error}"
+            )
+
+        return (
+            "Unable to generate the AI response.\n\n"
+            f"Technical error: {error}"
+        )
+
+
+# ============================================================
+# SOURCE DISPLAY FOR ELIGIBILITY
+# ============================================================
+
+def display_eligibility_sources(
+    eligibility_result: dict,
+):
+
+    results = eligibility_result.get(
+        "results",
+        [],
+    )
+
+    if not results:
+        return
+
+    st.divider()
+
+    response_language = (
+        eligibility_result.get(
+            "response_language",
+            "english",
+        )
+    )
+
+    if response_language == "telugu":
+
+        st.subheader(
+            "సంబంధిత ప్రభుత్వ పథకాలు"
+        )
+
+    else:
+
+        st.subheader(
+            "Relevant Government Schemes"
+        )
+
+    for scheme in results:
+
+        scheme_name = get_scheme_name(
+            scheme
+        )
+
+        status = scheme.get(
+            "status",
+            "UNKNOWN",
+        )
+
+        with st.container(
+            border=True
+        ):
+
+            st.markdown(
+                f"### {scheme_name}"
+            )
+
+            col1, col2, col3 = st.columns(
+                3
+            )
+
+            with col1:
+
+                st.caption(
+                    "Government Level"
+                )
+
+                st.write(
+                    safe_value(
+                        scheme.get(
+                            "government_level"
+                        )
+                    )
+                )
+
+            with col2:
+
+                st.caption(
+                    "State"
+                )
+
+                st.write(
+                    safe_value(
+                        scheme.get(
+                            "state"
+                        )
+                    )
+                )
+
+            with col3:
+
+                st.caption(
+                    "Eligibility Status"
+                )
+
+                if status == "ELIGIBLE":
+
+                    st.success(status)
+
+                elif status == "NEED_MORE_INFORMATION":
+
+                    st.warning(status)
+
+                elif status == "NOT_ELIGIBLE":
+
+                    st.error(status)
+
+                else:
+
+                    st.info(status)
+
+            benefit = scheme.get(
+                "benefit_description"
+            )
+
+            if benefit:
+
+                if response_language == "telugu":
+
+                    st.write(
+                        f"**ప్రయోజనం:** {benefit}"
+                    )
+
+                else:
+
+                    st.write(
+                        f"**Benefit:** {benefit}"
+                    )
+
+            source_url = scheme.get(
+                "source_url"
+            )
+
+            if source_url:
+
+                st.link_button(
+                    "Official Source",
+                    source_url,
+                )
+
+            missing_fields = scheme.get(
+                "missing_fields",
+                [],
+            )
+
+            if missing_fields:
+
+                if response_language == "telugu":
+
+                    st.caption(
+                        "ఇంకా అవసరమైన సమాచారం: "
+                        + ", ".join(
+                            missing_fields
+                        )
+                    )
+
+                else:
+
+                    st.caption(
+                        "Missing information: "
+                        + ", ".join(
+                            missing_fields
+                        )
+                    )
+
+
+# ============================================================
+# GENERAL SOURCE DISPLAY
+# ============================================================
+
+def display_general_sources(
+    results,
+):
+
+    if not results:
+        return
+
+    st.divider()
+
+    st.subheader(
+        "Retrieved Government Sources"
+    )
+
+    seen = set()
+
+    for result in results:
+
+        scheme_name = (
+            result.get("scheme_name")
+            or "Government Scheme"
+        )
+
+        if scheme_name in seen:
+            continue
+
+        seen.add(
+            scheme_name
+        )
+
+        with st.container(
+            border=True
+        ):
+
+            st.markdown(
+                f"### {scheme_name}"
+            )
+
+            government_level = safe_value(
+                result.get(
+                    "government_level"
+                )
+            )
+
+            state = safe_value(
+                result.get("state")
+            )
+
+            category = safe_value(
+                result.get("category")
+            )
+
+            st.caption(
+                f"{government_level} · "
+                f"{state} · "
+                f"{category}"
+            )
+
+            target = result.get(
+                "target_beneficiary"
+            )
+
+            if target:
+
+                st.write(
+                    f"**Target beneficiary:** {target}"
+                )
+
+            status = result.get(
+                "scheme_status"
+            )
+
+            if status:
+
+                st.caption(
+                    f"Status: {status}"
+                )
+
+            benefit = result.get(
+                "benefit_description"
+            )
+
+            if benefit:
+
+                st.write(
+                    f"**Benefit:** {benefit}"
+                )
+
+            source_url = result.get(
+                "source_url"
+            )
+
+            if source_url:
+
+                st.link_button(
+                    "Official Source",
+                    source_url,
+                )
+
+
+# ============================================================
+# CLEAN ANSWER
+# ============================================================
+
+def clean_llm_output(
+    text: str,
+) -> str:
+
+    if not text:
+        return ""
+
+    # Remove accidental Streamlit anchor artifacts.
+    text = re.sub(
+        r"\[svg\]\(http://localhost:8501/#[^)]+\)",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    return text.strip()
 
 
 # ============================================================
@@ -383,26 +1289,34 @@ SCHEMES = [
 
 with st.sidebar:
 
-    st.markdown(
-        """
-        <div class="brand">
-            <div class="brand-title">🏛️ MultiRAG</div>
-            <div class="brand-subtitle">
-                Government Scheme Intelligence
-            </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
+    st.title(
+        "🏛️ MultiRAG"
+    )
+
+    st.caption(
+        "Government Scheme Intelligence"
     )
 
     st.divider()
 
     st.markdown(
-        '<div class="sidebar-section">DISCOVER</div>',
-        unsafe_allow_html=True,
+        "### AREA"
     )
 
-    page = st.radio(
+    active_area = st.radio(
+        "Area",
+        [
+            "Discover",
+            "Knowledge",
+        ],
+        label_visibility="collapsed",
+    )
+
+    st.markdown(
+        "### DISCOVER"
+    )
+
+    discover_page = st.radio(
         "Discover",
         [
             "Dashboard",
@@ -414,11 +1328,10 @@ with st.sidebar:
     )
 
     st.markdown(
-        '<div class="sidebar-section">KNOWLEDGE</div>',
-        unsafe_allow_html=True,
+        "### KNOWLEDGE"
     )
 
-    knowledge = st.radio(
+    knowledge_page = st.radio(
         "Knowledge",
         [
             "Government Sources",
@@ -428,11 +1341,10 @@ with st.sidebar:
     )
 
     st.markdown(
-        '<div class="sidebar-section">PREFERENCES</div>',
-        unsafe_allow_html=True,
+        "### PREFERENCES"
     )
 
-    language = st.selectbox(
+    ui_language = st.selectbox(
         "Language",
         [
             "English",
@@ -450,38 +1362,74 @@ with st.sidebar:
         ],
     )
 
+    st.divider()
+
     st.markdown(
-        '<div class="sidebar-section">SYSTEM STATUS</div>',
-        unsafe_allow_html=True,
+        "### SYSTEM STATUS"
     )
 
-    st.success("● RAG Engine Ready")
-    st.success("● AI Engine Ready")
+    if RAG_DOCUMENTS:
+
+        st.success(
+            "● RAG Data Connected"
+        )
+
+    else:
+
+        st.error(
+            "● RAG Data Not Available"
+        )
+
+    st.caption(
+        f"RAG Documents: {len(RAG_DOCUMENTS)}"
+    )
+
+    st.caption(
+        f"Indexed Schemes: {len(SCHEME_INDEX)}"
+    )
 
     st.divider()
 
-    st.caption("MultiRAG P2")
-    st.caption("v0.1.0")
+    st.caption(
+        "MultiRAG P2"
+    )
+
+    st.caption(
+        "Multilingual Government Scheme Intelligence"
+    )
+
+
+# ============================================================
+# PAGE
+# ============================================================
+
+if active_area == "Discover":
+
+    page = discover_page
+
+else:
+
+    page = knowledge_page
 
 
 # ============================================================
 # TOP BAR
 # ============================================================
 
-top_left, top_right = st.columns([6, 1])
+top_left, top_right = st.columns(
+    [6, 1]
+)
 
 with top_left:
 
-    st.markdown(
-        '<div class="top-label">MULTILINGUAL GOVERNMENT AI</div>',
-        unsafe_allow_html=True,
+    st.caption(
+        "MULTILINGUAL GOVERNMENT AI"
     )
 
 with top_right:
 
-    st.markdown(
-        '<div class="top-status">● Prototype</div>',
-        unsafe_allow_html=True,
+    st.success(
+        "● Connected"
     )
 
 st.divider()
@@ -493,209 +1441,165 @@ st.divider()
 
 if page == "Dashboard":
 
-    st.markdown(
-        """
-        <div class="hero-title">
-            Find Government Schemes<br>
-            <span>That Fit You</span>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    if ui_language == "తెలుగు":
 
-    st.markdown(
-        """
-        <div class="hero-text">
-            Ask naturally in English or Telugu. MultiRAG searches
-            verified government information and provides preliminary
-            eligibility guidance to help citizens discover relevant support.
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+        st.title(
+            "ప్రభుత్వ పథకాలను కనుగొనండి"
+        )
 
-    st.write("")
+        st.write(
+            "మీ అవసరాన్ని తెలుగులో లేదా ఇంగ్లీష్‌లో "
+            "తెలియజేయండి. MultiRAG సంబంధిత ప్రభుత్వ "
+            "సమాచారాన్ని శోధించి సమాధానం ఇస్తుంది."
+        )
 
-    # Main search
+        placeholder = (
+            "ఉదా: నేను తెలంగాణ రైతును. "
+            "నాకు ఏ ప్రభుత్వ పథకాలు అందుబాటులో ఉన్నాయి?"
+        )
 
-    query = st.text_input(
-        "Search government schemes",
-        placeholder=(
-            "I am a farmer from Telangana. What schemes can I apply for?"
-        ),
-        label_visibility="collapsed",
+        button_text = (
+            "సంబంధిత పథకాలను కనుగొనండి →"
+        )
+
+    else:
+
+        st.title(
+            "Find Government Schemes"
+        )
+
+        st.write(
+            "Ask your question in English or Telugu. "
+            "MultiRAG retrieves relevant government "
+            "information and provides a grounded answer."
+        )
+
+        placeholder = (
+            "Example: I am a farmer from Telangana. "
+            "What schemes can I get?"
+        )
+
+        button_text = (
+            "Find Relevant Schemes →"
+        )
+
+    query = st.text_area(
+        "Search Government Schemes",
+        placeholder=placeholder,
+        height=120,
+        key="dashboard_query",
     )
 
     if st.button(
-        "✦  Find Relevant Schemes  →",
+        button_text,
         type="primary",
         use_container_width=True,
+        key="dashboard_search",
     ):
 
         if not query.strip():
 
-            st.warning(
-                "Please enter your requirement."
-            )
+            if ui_language == "తెలుగు":
+
+                st.warning(
+                    "దయచేసి మీ అవసరాన్ని నమోదు చేయండి."
+                )
+
+            else:
+
+                st.warning(
+                    "Please enter your requirement."
+                )
 
         else:
 
-            st.success(
-                "Demo search completed. RAG retrieval will be connected next."
+            response_language = detect_language(
+                query
             )
 
-            results = SCHEMES
+            with st.spinner(
+                "Searching government information..."
+            ):
 
-            if region != "All Regions":
+                eligibility_result = (
+                    check_eligibility(
+                        query,
+                        max_schemes=6,
+                    )
+                )
 
-                results = [
-                    s for s in results
-                    if s["government"] == region
-                ]
+                # ------------------------------------------------
+                # Eligibility query
+                # ------------------------------------------------
 
-            st.subheader("Potentially Relevant Schemes")
+                if eligibility_result.get(
+                    "intent"
+                ) == "ELIGIBILITY":
 
-            for scheme in results[:4]:
-
-                with st.container(border=True):
-
-                    st.caption(
-                        f"{scheme['government']}  ·  {scheme['category']}"
+                    answer = (
+                        generate_eligibility_answer(
+                            query,
+                            eligibility_result,
+                        )
                     )
 
-                    st.subheader(
-                        scheme["name"]
+                    answer = clean_llm_output(
+                        answer
                     )
 
-                    st.write(
-                        scheme["description"]
+                    st.markdown(
+                        "## MultiRAG Answer"
                     )
 
-                    st.write(
-                        f"**Potential benefit:** {scheme['benefit']}"
+                    st.markdown(
+                        answer,
+                        unsafe_allow_html=False,
                     )
 
-    st.caption(
-        "Try: Schemes for farmers in Telangana  ·  "
-        "Scholarships for students  ·  "
-        "Health schemes in Andhra Pradesh"
-    )
+                    display_eligibility_sources(
+                        eligibility_result
+                    )
 
-    st.write("")
+                # ------------------------------------------------
+                # Discovery / information query
+                # ------------------------------------------------
 
-    # Metrics
+                else:
 
-    st.subheader("Scheme Intelligence")
+                    (
+                        detected_scheme,
+                        detected_state,
+                        results,
+                    ) = run_hybrid_search(
+                        query=query,
+                        region=region,
+                        limit=8,
+                    )
 
-    c1, c2, c3, c4 = st.columns(4)
+                    answer = (
+                        generate_general_answer(
+                            query=query,
+                            results=results,
+                            response_language=response_language,
+                        )
+                    )
 
-    metric_data = [
-        ("45+", "Government Schemes", "Initial target dataset"),
-        ("3", "Regions Covered", "Central · Telangana · Andhra Pradesh"),
-        ("2", "Languages Supported", "English · తెలుగు"),
-        ("100%", "Official Sources", "Target verified-source coverage"),
-    ]
+                    answer = clean_llm_output(
+                        answer
+                    )
 
-    for col, (number, title, description) in zip(
-        [c1, c2, c3, c4],
-        metric_data,
-    ):
+                    st.markdown(
+                        "## MultiRAG Answer"
+                    )
 
-        with col:
+                    st.markdown(
+                        answer,
+                        unsafe_allow_html=False,
+                    )
 
-            st.markdown(
-                f"""
-                <div class="metric-box">
-                    <div class="metric-label">{title}</div>
-                    <div class="metric-number">{number}</div>
-                    <div class="metric-description">{description}</div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
-    st.write("")
-
-    # Categories
-
-    st.subheader("Explore by Need")
-
-    categories = [
-        ("🌱", "Agriculture", "Farmer support and subsidies"),
-        ("🎓", "Education", "Scholarships and education"),
-        ("💼", "Employment", "Skills, jobs and livelihood"),
-        ("❤", "Health", "Healthcare and insurance"),
-        ("🏠", "Housing", "Housing assistance"),
-        ("👥", "Women & Child", "Women and child welfare"),
-        ("🏢", "MSME", "Business and enterprise"),
-        ("🤝", "Social Welfare", "Pensions and financial aid"),
-    ]
-
-    row1 = st.columns(4)
-    row2 = st.columns(4)
-
-    for col, item in zip(
-        row1 + row2,
-        categories,
-    ):
-
-        icon, title, description = item
-
-        with col:
-
-            st.markdown(
-                f"""
-                <div class="category-box">
-                    <div class="category-icon">{icon}</div>
-                    <div class="category-name">{title}</div>
-                    <div class="category-description">
-                        {description}
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
-    st.write("")
-
-    # Workflow
-
-    st.subheader("How MultiRAG Works")
-
-    steps = [
-        ("01", "Ask", "Ask your question in English or Telugu."),
-        ("02", "Retrieve", "Find relevant government information."),
-        ("03", "Evaluate", "Check eligibility using verified rules."),
-        ("04", "Guide", "Get clear guidance with official sources."),
-    ]
-
-    cols = st.columns(4)
-
-    for col, (number, title, description) in zip(
-        cols,
-        steps,
-    ):
-
-        with col:
-
-            with st.container(border=True):
-
-                st.caption(number)
-
-                st.subheader(title)
-
-                st.caption(description)
-
-    st.markdown(
-        """
-        <div class="info-box">
-            <b>Important:</b> MultiRAG provides preliminary guidance.
-            Final eligibility decisions are made by the concerned
-            government authority.
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+                    display_general_sources(
+                        results
+                    )
 
 
 # ============================================================
@@ -704,101 +1608,111 @@ if page == "Dashboard":
 
 elif page == "Scheme Search":
 
-    st.title("Scheme Search")
+    if ui_language == "తెలుగు":
 
-    st.caption(
-        "Search government schemes using natural language."
-    )
+        st.title(
+            "పథకం శోధన"
+        )
+
+        st.write(
+            "ప్రభుత్వ పథకం గురించి మీ ప్రశ్నను నమోదు చేయండి."
+        )
+
+        placeholder = (
+            "ఉదా: తెలంగాణలో రైతులకు ఏ పథకాలు ఉన్నాయి?"
+        )
+
+        search_button = "శోధించండి →"
+
+    else:
+
+        st.title(
+            "Scheme Search"
+        )
+
+        st.write(
+            "Search the government scheme knowledge base."
+        )
+
+        placeholder = (
+            "Example: What schemes are available "
+            "for farmers in Telangana?"
+        )
+
+        search_button = "Search →"
 
     query = st.text_area(
-        "Your requirement",
-        placeholder=(
-            "Example: I am a farmer from Telangana "
-            "looking for financial support."
-        ),
-        height=110,
+        "Query",
+        placeholder=placeholder,
+        height=120,
     )
 
-    c1, c2 = st.columns(2)
-
-    with c1:
-
-        category = st.selectbox(
-            "Category",
-            [
-                "All Categories",
-                "Agriculture",
-                "Education",
-                "Health",
-                "Housing",
-                "Entrepreneurship",
-                "Social Welfare",
-                "Women Welfare",
-            ],
-        )
-
-    with c2:
-
-        search_region = st.selectbox(
-            "Region",
-            [
-                "All Regions",
-                "Central Government",
-                "Telangana",
-                "Andhra Pradesh",
-            ],
-        )
-
     if st.button(
-        "✦  Search Schemes",
+        search_button,
         type="primary",
         use_container_width=True,
     ):
 
-        results = SCHEMES
+        if not query.strip():
 
-        if category != "All Categories":
+            st.warning(
+                "Please enter a query."
+            )
 
-            results = [
-                s for s in results
-                if s["category"] == category
-            ]
+        else:
 
-        if search_region != "All Regions":
+            response_language = detect_language(
+                query
+            )
 
-            results = [
-                s for s in results
-                if s["government"] == search_region
-            ]
+            with st.spinner(
+                "Searching..."
+            ):
 
-        st.subheader(
-            f"{len(results)} Potentially Relevant Schemes"
-        )
-
-        for scheme in results:
-
-            with st.container(border=True):
-
-                st.caption(
-                    f"{scheme['government']}  ·  {scheme['category']}"
+                (
+                    detected_scheme,
+                    detected_state,
+                    results,
+                ) = run_hybrid_search(
+                    query=query,
+                    region=region,
+                    limit=10,
                 )
 
-                st.subheader(
-                    scheme["name"]
+            if not results:
+
+                if response_language == "telugu":
+
+                    st.warning(
+                        "సంబంధిత ప్రభుత్వ సమాచారం "
+                        "కనుగొనబడలేదు."
+                    )
+
+                else:
+
+                    st.warning(
+                        "No relevant government information found."
+                    )
+
+            else:
+
+                answer = generate_general_answer(
+                    query=query,
+                    results=results,
+                    response_language=response_language,
                 )
 
-                st.write(
-                    scheme["description"]
+                st.markdown(
+                    "## MultiRAG Answer"
                 )
 
-                st.write(
-                    f"**Target beneficiary:** "
-                    f"{scheme['beneficiary']}"
+                st.markdown(
+                    clean_llm_output(answer),
+                    unsafe_allow_html=False,
                 )
 
-                st.write(
-                    f"**Potential benefit:** "
-                    f"{scheme['benefit']}"
+                display_general_sources(
+                    results
                 )
 
 
@@ -808,148 +1722,216 @@ elif page == "Scheme Search":
 
 elif page == "Eligibility Check":
 
-    st.title("Eligibility Check")
+    if ui_language == "తెలుగు":
 
-    st.caption(
-        "Provide your basic details for preliminary eligibility guidance."
+        st.title(
+            "అర్హత తనిఖీ"
+        )
+
+        st.write(
+            "మీ వయస్సు, రాష్ట్రం, ఆదాయం, విద్య, "
+            "వృత్తి వంటి వివరాలను సహజ భాషలో నమోదు చేయండి."
+        )
+
+        placeholder = (
+            "ఉదా: నేను తెలంగాణకు చెందిన విద్యార్థిని. "
+            "నాకు 12వ తరగతిలో 85% మార్కులు వచ్చాయి. "
+            "మా కుటుంబ ఆదాయం 3 లక్షలు. "
+            "నేను రెగ్యులర్ డిగ్రీ చదువుతున్నాను. "
+            "నాకు స్కాలర్‌షిప్ వస్తుందా?"
+        )
+
+        button_text = (
+            "నా అర్హతను తనిఖీ చేయండి →"
+        )
+
+    else:
+
+        st.title(
+            "Eligibility Check"
+        )
+
+        st.write(
+            "Describe your situation in natural language. "
+            "The system extracts your profile and evaluates "
+            "documented scheme rules deterministically."
+        )
+
+        placeholder = (
+            "Example: I am a student from Telangana. "
+            "I got 85% in 12th, my family income is "
+            "3 lakhs and I am studying a regular degree. "
+            "Can I get a scholarship?"
+        )
+
+        button_text = (
+            "Check My Eligibility →"
+        )
+
+    query = st.text_area(
+        "Your Details",
+        placeholder=placeholder,
+        height=180,
+        key="eligibility_query",
     )
-
-    st.markdown(
-        """
-        <div class="info-box">
-            This is a preliminary assessment only.
-            The final eligibility decision is made by the
-            concerned government authority.
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    st.write("")
-
-    selected_scheme = st.selectbox(
-        "Select Scheme",
-        [
-            s["name"]
-            for s in SCHEMES
-        ],
-    )
-
-    st.subheader("Applicant Information")
-
-    left, right = st.columns(2)
-
-    with left:
-
-        age = st.number_input(
-            "Age",
-            min_value=0,
-            max_value=120,
-            value=25,
-        )
-
-        residence = st.selectbox(
-            "State of Residence",
-            [
-                "Telangana",
-                "Andhra Pradesh",
-                "Other",
-            ],
-        )
-
-        occupation = st.selectbox(
-            "Occupation",
-            [
-                "Farmer",
-                "Student",
-                "Artisan",
-                "Self-employed",
-                "Worker",
-                "Other",
-            ],
-        )
-
-    with right:
-
-        income = st.number_input(
-            "Annual Household Income (₹)",
-            min_value=0,
-            step=10000,
-            value=150000,
-        )
-
-        social_category = st.selectbox(
-            "Social Category",
-            [
-                "Not specified",
-                "SC",
-                "ST",
-                "BC",
-                "Minority",
-                "General",
-            ],
-        )
-
-        gender = st.selectbox(
-            "Gender",
-            [
-                "Prefer not to say",
-                "Female",
-                "Male",
-                "Other",
-            ],
-        )
 
     if st.button(
-        "✓  Check Preliminary Eligibility",
+        button_text,
         type="primary",
         use_container_width=True,
+        key="eligibility_button",
     ):
 
-        st.markdown(
-            """
-            <div class="status-box">
-                <div class="status-title">
-                    ● Potentially Eligible
-                </div>
-                Demonstration result — production rule engine
-                will evaluate verified scheme criteria.
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
+        if not query.strip():
 
-        st.write("")
+            if ui_language == "తెలుగు":
 
-        a, b, c, d = st.columns(4)
+                st.warning(
+                    "దయచేసి మీ వివరాలను నమోదు చేయండి."
+                )
 
-        with a:
-            st.metric("Age", age)
+            else:
 
-        with b:
-            st.metric("Income", f"₹{income:,.0f}")
+                st.warning(
+                    "Please enter your details."
+                )
 
-        with c:
-            st.metric("Residence", residence)
+        else:
 
-        with d:
-            st.metric("Occupation", occupation)
+            with st.spinner(
+                "Evaluating documented government rules..."
+            ):
 
-        st.subheader("Assessment")
+                eligibility_result = (
+                    check_eligibility(
+                        query,
+                        max_schemes=8,
+                    )
+                )
 
-        st.write(
-            f"Selected scheme: **{selected_scheme}**"
-        )
+            response_language = (
+                eligibility_result.get(
+                    "response_language",
+                    detect_language(query),
+                )
+            )
 
-        st.write(
-            "The production eligibility engine will compare "
-            "the applicant profile against structured rules "
-            "extracted from official government documents."
-        )
+            # Debug information can be useful during development.
+            with st.expander(
+                "System Details"
+            ):
 
-        st.warning(
-            "Final eligibility is determined by the concerned government authority."
-        )
+                st.write(
+                    "Detected language:",
+                    response_language,
+                )
+
+                st.write(
+                    "Intent:",
+                    eligibility_result.get(
+                        "intent"
+                    ),
+                )
+
+                st.write(
+                    "Detected state:",
+                    eligibility_result.get(
+                        "detected_state"
+                    ),
+                )
+
+                st.write(
+                    "Detected scheme:",
+                    eligibility_result.get(
+                        "detected_scheme"
+                    ),
+                )
+
+                st.write(
+                    "Profile:",
+                    eligibility_result.get(
+                        "profile"
+                    ),
+                )
+
+                st.write(
+                    "Overall status:",
+                    eligibility_result.get(
+                        "overall_status"
+                    ),
+                )
+
+            answer = generate_eligibility_answer(
+                query,
+                eligibility_result,
+            )
+
+            answer = clean_llm_output(
+                answer
+            )
+
+            st.markdown(
+                "## MultiRAG Answer"
+            )
+
+            st.markdown(
+                answer,
+                unsafe_allow_html=False,
+            )
+
+            display_eligibility_sources(
+                eligibility_result
+            )
+
+            # ----------------------------------------------------
+            # Next questions
+            # ----------------------------------------------------
+
+            next_questions = (
+                eligibility_result.get(
+                    "next_questions",
+                    [],
+                )
+            )
+
+            if next_questions:
+
+                if response_language == "telugu":
+
+                    st.subheader(
+                        "తదుపరి అవసరమైన సమాచారం"
+                    )
+
+                else:
+
+                    st.subheader(
+                        "Next Information Needed"
+                    )
+
+                for index, question in enumerate(
+                    next_questions,
+                    start=1,
+                ):
+
+                    if isinstance(
+                        question,
+                        dict,
+                    ):
+
+                        question_text = question.get(
+                            "question",
+                            str(question),
+                        )
+
+                    else:
+
+                        question_text = str(
+                            question
+                        )
+
+                    st.write(
+                        f"{index}. {question_text}"
+                    )
 
 
 # ============================================================
@@ -958,153 +1940,254 @@ elif page == "Eligibility Check":
 
 elif page == "Scheme Catalogue":
 
-    st.title("Scheme Catalogue")
+    if ui_language == "తెలుగు":
 
-    st.caption(
-        "Browse the initial demonstration catalogue."
+        st.title(
+            "పథకాల క్యాటలాగ్"
+        )
+
+    else:
+
+        st.title(
+            "Scheme Catalogue"
+        )
+
+    # Build unique schemes from loaded RAG data.
+
+    catalogue = {}
+
+    for document in RAG_DOCUMENTS:
+
+        if not isinstance(
+            document,
+            dict,
+        ):
+            continue
+
+        scheme_id = (
+            document.get("scheme_id")
+            or document.get("scheme_name")
+        )
+
+        if not scheme_id:
+            continue
+
+        if scheme_id not in catalogue:
+
+            catalogue[scheme_id] = document
+
+    catalogue_items = list(
+        catalogue.values()
     )
 
-    results = SCHEMES
+    st.caption(
+        f"{len(catalogue_items)} unique schemes"
+    )
 
-    if region != "All Regions":
+    search_text = st.text_input(
+        "Filter schemes",
+        placeholder="Search by scheme name, state or category...",
+    )
 
-        results = [
-            s for s in results
-            if s["government"] == region
-        ]
+    filtered_catalogue = []
 
-    for scheme in results:
+    normalized_search = (
+        search_text.strip().lower()
+        if search_text
+        else ""
+    )
 
-        with st.expander(
-            f"{scheme['name']}  ·  {scheme['government']}"
+    for scheme in catalogue_items:
+
+        if not normalized_search:
+
+            filtered_catalogue.append(
+                scheme
+            )
+
+            continue
+
+        searchable = " ".join(
+            str(
+                scheme.get(
+                    field,
+                    "",
+                )
+            )
+            for field in [
+                "scheme_name",
+                "category",
+                "subcategory",
+                "state",
+                "target_beneficiary",
+            ]
+        ).lower()
+
+        if normalized_search in searchable:
+
+            filtered_catalogue.append(
+                scheme
+            )
+
+    for scheme in filtered_catalogue:
+
+        with st.container(
+            border=True
         ):
 
-            st.write(
-                scheme["description"]
-            )
-
-            st.write(
-                f"**Category:** {scheme['category']}"
-            )
-
-            st.write(
-                f"**Target beneficiary:** "
-                f"{scheme['beneficiary']}"
-            )
-
-            st.write(
-                f"**Potential benefit:** "
-                f"{scheme['benefit']}"
+            st.markdown(
+                f"### {get_scheme_name(scheme)}"
             )
 
             st.caption(
-                "Official document, evidence page and application URL "
-                "will be connected after dataset ingestion."
+                f"{safe_value(scheme.get('government_level'))} "
+                f"· {safe_value(scheme.get('state'))} "
+                f"· {safe_value(scheme.get('category'))}"
             )
+
+            target = scheme.get(
+                "target_beneficiary"
+            )
+
+            if target:
+
+                st.write(
+                    f"**Target:** {target}"
+                )
+
+            benefit = scheme.get(
+                "benefit_description"
+            )
+
+            if benefit:
+
+                st.write(
+                    f"**Benefit:** {benefit}"
+                )
+
+            status = scheme.get(
+                "scheme_status"
+            )
+
+            if status:
+
+                st.caption(
+                    f"Status: {status}"
+                )
 
 
 # ============================================================
 # GOVERNMENT SOURCES
 # ============================================================
 
-elif knowledge == "Government Sources":
+elif page == "Government Sources":
 
-    st.title("Government Sources")
+    if ui_language == "తెలుగు":
 
-    st.caption(
-        "Source transparency is a core design principle of MultiRAG."
-    )
+        st.title(
+            "ప్రభుత్వ మూలాలు"
+        )
 
-    st.markdown(
-        """
-        <div class="info-box">
-            The production system will display the official government
-            department, source document, publication/effective date,
-            last verified date, evidence page and application URL
-            supporting each answer.
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+        st.write(
+            "MultiRAG ఉపయోగిస్తున్న ప్రభుత్వ పథకాల "
+            "మూల సమాచారాన్ని ఇక్కడ చూడవచ్చు."
+        )
 
-    st.write("")
+    else:
 
-    sources = [
-        (
-            "🇮🇳 Central Government",
-            "Official ministries, departments and scheme portals.",
-        ),
-        (
-            "Telangana",
-            "Official Telangana departments and scheme portals.",
-        ),
-        (
-            "Andhra Pradesh",
-            "Official Andhra Pradesh departments and scheme portals.",
-        ),
-    ]
+        st.title(
+            "Government Sources"
+        )
 
-    for title, description in sources:
+        st.write(
+            "Government source information available "
+            "in the MultiRAG knowledge base."
+        )
 
-        with st.container(border=True):
+    seen = set()
 
-            st.subheader(title)
+    for document in RAG_DOCUMENTS:
 
-            st.write(description)
+        if not isinstance(
+            document,
+            dict,
+        ):
+            continue
+
+        scheme_name = get_scheme_name(
+            document
+        )
+
+        if scheme_name in seen:
+            continue
+
+        seen.add(
+            scheme_name
+        )
+
+        source_url = document.get(
+            "source_url"
+        )
+
+        with st.container(
+            border=True
+        ):
+
+            st.markdown(
+                f"### {scheme_name}"
+            )
+
+            st.caption(
+                f"{safe_value(document.get('government_level'))} "
+                f"· {safe_value(document.get('state'))}"
+            )
+
+            if source_url:
+
+                st.link_button(
+                    "Official Source",
+                    source_url,
+                )
 
 
 # ============================================================
 # RECENT UPDATES
 # ============================================================
 
-elif knowledge == "Recent Updates":
+elif page == "Recent Updates":
 
-    st.title("Recent Updates")
+    if ui_language == "తెలుగు":
 
-    st.caption(
-        "Future module for government scheme change detection."
+        st.title(
+            "ఇటీవలి సమాచారం"
+        )
+
+        st.info(
+            "ప్రస్తుతం ప్రాజెక్ట్‌లోని ప్రభుత్వ "
+            "మూలాల ఆధారంగా సమాచారం ప్రదర్శించబడుతోంది."
+        )
+
+    else:
+
+        st.title(
+            "Recent Updates"
+        )
+
+        st.info(
+            "Information shown here is based on the "
+            "government sources currently available "
+            "in the MultiRAG knowledge base."
+        )
+
+    # Show currently indexed documents as a simple
+    # knowledge-base snapshot.
+
+    st.metric(
+        "Indexed Government Records",
+        len(RAG_DOCUMENTS),
     )
 
-    with st.container(border=True):
-
-        st.subheader("Source Monitoring")
-
-        st.write(
-            "Monitor official government pages and documents "
-            "for changes to scheme information."
-        )
-
-    with st.container(border=True):
-
-        st.subheader("Version Detection")
-
-        st.write(
-            "Detect revised guidelines and preserve previous "
-            "versions for traceability."
-        )
-
-    with st.container(border=True):
-
-        st.subheader("Controlled Re-ingestion")
-
-        st.write(
-            "Updated documents will be processed and indexed "
-            "again after verification."
-        )
-
-
-# ============================================================
-# FOOTER
-# ============================================================
-
-st.divider()
-
-st.markdown(
-    """
-    <div class="footer">
-        MultiRAG P2 · Multilingual Government Scheme Discovery & Eligibility
-        · Frontend Prototype
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+    st.metric(
+        "Unique Scheme Metadata",
+        len(SCHEME_INDEX),
+    )

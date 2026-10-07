@@ -1,0 +1,140 @@
+{
+  "dataset": {
+    "name": "Andhra Pradesh Government Scheme Sources",
+    "version": "1.0",
+    "government_level": "state",
+    "state": "Andhra Pradesh",
+    "language": ["en", "te"],
+    "last_verified_date": "2026-09-25"
+  },
+  "sources": [
+    {
+      "scheme_id": "AP_NTR_BHAROSA",
+      "source_type": "official_state_pension_portal",
+      "title": "NTR Bharosa Pension Dashboard",
+      "url": "https://sspensions.ap.gov.in/SSP/Home/DashBoard/1000",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "AP_ANNADATA_SUKHIBHAVA_PM_KISAN",
+      "source_type": "official_AP_agriculture_department",
+      "title": "Annadata Sukhibhava - PM KISAN",
+      "url": "https://agriculture.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "AP_THALLIKI_VANDANAM",
+      "source_type": "official_AP_school_education_department",
+      "title": "Thalliki Vandanam",
+      "url": "https://schoolinfra.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_STREE_SHAKTI",
+      "source_type": "official_APSRTC",
+      "title": "Stree Shakti Scheme",
+      "url": "https://www.apsrtc.ap.gov.in/coverage.php",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "AP_DEEPAM_2_0",
+      "source_type": "official_AP_civil_supplies",
+      "title": "Deepam 2.0",
+      "url": "https://aepos.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_DR_NTR_VAIDYA_SEVA",
+      "source_type": "official_AP_health_department",
+      "title": "Dr. NTR Vaidya Seva",
+      "url": "https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_YSR_BIMA",
+      "source_type": "official_AP_labour_department",
+      "title": "YSR Bima",
+      "url": "https://bima.ap.gov.in/About.aspx",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "AP_JNANABHUMI_POST_MATRIC",
+      "source_type": "official_JnanaBhumi_portal",
+      "title": "JnanaBhumi Post-Matric Scholarships",
+      "url": "https://jnanabhumi.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "AP_RYTHU_BHAROSA",
+      "source_type": "official_AP_agriculture_department",
+      "title": "Rythu Bharosa",
+      "url": "https://agriculture.ap.gov.in/",
+      "language": "en",
+      "status": "HISTORICAL_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_HOUSING",
+      "source_type": "official_AP_housing_department",
+      "title": "Andhra Pradesh Housing Department",
+      "url": "https://housing.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_JAGANANNA_CHEDODU",
+      "source_type": "official_AP_BC_welfare",
+      "title": "Jagananna Chedodu",
+      "url": "https://bcwelfare.ap.gov.in/",
+      "language": "en",
+      "status": "HISTORICAL_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_KAPU_NESTHAM",
+      "source_type": "official_AP_BC_welfare",
+      "title": "Kapu Nestham",
+      "url": "https://bcwelfare.ap.gov.in/",
+      "language": "en",
+      "status": "HISTORICAL_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_EBC_NESTHAM",
+      "source_type": "official_AP_BC_welfare",
+      "title": "EBC Nestham",
+      "url": "https://bcwelfare.ap.gov.in/",
+      "language": "en",
+      "status": "HISTORICAL_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_YSR_NETANNA_NESTHAM",
+      "source_type": "official_AP_handlooms_department",
+      "title": "YSR Netanna Nestham",
+      "url": "https://handlooms.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "AP_SCHOOL_KITS_VIDYA_MITRA",
+      "source_type": "official_AP_school_education_department",
+      "title": "Sarvepalli Radhakrishnan Vidya Mitra",
+      "url": "https://schoolinfra.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "AP_DOKKA_SEETAMMA_MDM",
+      "source_type": "official_AP_PM_POSHAN",
+      "title": "Dokka Seetamma Madhyana Badi Bhojanam",
+      "url": "https://pmposhan.ap.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    }
+  ]
+}

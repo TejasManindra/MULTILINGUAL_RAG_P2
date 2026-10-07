@@ -1,0 +1,98 @@
+{
+  "dataset": {
+    "name": "Telangana Government Scheme Sources",
+    "version": "1.0",
+    "state": "Telangana",
+    "last_verified_date": "2026-09-25"
+  },
+  "sources": [
+    {
+      "scheme_id": "TG_AASARA",
+      "source_type": "official_telanganas_aaras_dashboard",
+      "title": "Aasara Pension Dashboard",
+      "url": "https://cheyutha.telangana.gov.in/SSPTG/userinterface/portal/AasaraDashboradReport.aspx",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "TG_CHEYUTHA",
+      "source_type": "telangana_state_portal",
+      "title": "Cheyutha Scheme",
+      "url": "https://www.telangana.gov.in/government-initiative/2023/12/cheyutha-scheme/",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "TG_MAHA_LAKSHMI",
+      "source_type": "telangana_state_portal",
+      "title": "Government Initiatives",
+      "url": "https://www.telangana.gov.in/government-initiatives/",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "TG_GRUHA_JYOTHI",
+      "source_type": "telangana_state_portal",
+      "title": "Government Initiatives",
+      "url": "https://www.telangana.gov.in/government-initiatives/",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "TG_RYTHU_BHAROSA",
+      "source_type": "telangana_state_government",
+      "title": "Rythu Bharosa",
+      "url": "https://www.telangana.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "TG_INDIRAMMA_INDLU",
+      "source_type": "official_indiramma_portal",
+      "title": "Indiramma Indlu",
+      "url": "https://indirammaindlu.telangana.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "TG_EPASS_POST_MATRIC",
+      "source_type": "official_epass_portal",
+      "title": "Telangana ePASS",
+      "url": "https://telanganaepass.cgg.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "TG_EPASS_PRE_MATRIC",
+      "source_type": "official_epass_portal",
+      "title": "Telangana ePASS",
+      "url": "https://telanganaepass.cgg.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "TG_EPASS_OVERSEAS_MINORITY",
+      "source_type": "official_epass_overseas_portal",
+      "title": "Overseas Scholarship",
+      "url": "https://telanganaepass.cgg.gov.in/OverseasLinks.do",
+      "language": "en",
+      "status": "CURRENT_REFERENCE"
+    },
+    {
+      "scheme_id": "TG_KALYANA_LAKSHMI",
+      "source_type": "official_epass_portal",
+      "title": "Kalyana Lakshmi",
+      "url": "https://telanganaepass.cgg.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "TG_SHAADI_MUBARAK",
+      "source_type": "official_epass_portal",
+      "title": "Shaadi Mubarak",
+      "url": "https://telanganaepass.cgg.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    }
+  ]
+}

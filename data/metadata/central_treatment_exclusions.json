@@ -1,0 +1,77 @@
+{
+    "dataset": {
+        "name": "Central Government Scheme Treatment Exclusions",
+        "version": "1.0",
+        "last_verified_date": null
+    },
+    "schemes": [
+        {
+            "scheme_id": "PM_JAY",
+            "exclusions": [
+                {
+                    "exclusion_type": "outpatient_condition",
+                    "description": "Conditions that do not require hospitalization and can be treated under outpatient care are excluded.",
+                    "source": {
+                        "file": "Ayushman Bharat PM-JAY.pdf",
+                        "page": 56,
+                        "chunk_id": "Ayushman Bharat PM-JAY_p56_c115"
+                    }
+                },
+                {
+                    "exclusion_type": "dental_treatment",
+                    "description": "Corrective, prosthetic or cosmetic dental treatment, cavity filling, root canal, dental implants and related dental conditions are excluded, subject to stated exceptions for trauma, injury, neoplasia, tumour or cyst requiring hospitalization for bone treatment.",
+                    "source": {
+                        "file": "Ayushman Bharat PM-JAY.pdf",
+                        "page": 56,
+                        "chunk_id": "Ayushman Bharat PM-JAY_p56_c115"
+                    }
+                },
+                {
+                    "exclusion_type": "assisted_reproductive_or_infertility_procedure",
+                    "description": "Assisted reproductive techniques and infertility-related procedures are excluded unless included in the applicable National Health Benefit Package.",
+                    "source": {
+                        "file": "Ayushman Bharat PM-JAY.pdf",
+                        "page": 56,
+                        "chunk_id": "Ayushman Bharat PM-JAY_p56_c115"
+                    }
+                },
+                {
+                    "exclusion_type": "vaccination_immunization",
+                    "description": "Vaccination and immunization are excluded.",
+                    "source": {
+                        "file": "Ayushman Bharat PM-JAY.pdf",
+                        "page": 56,
+                        "chunk_id": "Ayushman Bharat PM-JAY_p56_c115"
+                    }
+                },
+                {
+                    "exclusion_type": "cosmetic_procedure",
+                    "description": "Purely cosmetic procedures including certain ageing-related surgeries, tattoo removal laser procedures, augmentation surgeries, fat grafting, neck lift and aesthetic rhinoplasty are excluded.",
+                    "source": {
+                        "file": "Ayushman Bharat PM-JAY.pdf",
+                        "page": 56,
+                        "chunk_id": "Ayushman Bharat PM-JAY_p56_c115"
+                    }
+                },
+                {
+                    "exclusion_type": "circumcision_under_two",
+                    "description": "Circumcision for children below two years is excluded unless required for treatment of a non-excluded disease or due to an accident.",
+                    "source": {
+                        "file": "Ayushman Bharat PM-JAY.pdf",
+                        "page": 56,
+                        "chunk_id": "Ayushman Bharat PM-JAY_p56_c116"
+                    }
+                },
+                {
+                    "exclusion_type": "persistent_vegetative_state",
+                    "description": "Treatment associated with persistent vegetative state is listed under the policy exclusions.",
+                    "source": {
+                        "file": "Ayushman Bharat PM-JAY.pdf",
+                        "page": 56,
+                        "chunk_id": "Ayushman Bharat PM-JAY_p56_c116"
+                    }
+                }
+            ]
+        }
+    ]
+}

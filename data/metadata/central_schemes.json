@@ -1,0 +1,130 @@
+{
+  "dataset": {
+    "name": "Central Government Schemes",
+    "version": "1.0",
+    "language": ["en", "te"],
+    "last_verified_date": null
+  },
+  "schemes": [
+    {
+      "scheme_id": "PM_JAY",
+      "scheme_name": "Ayushman Bharat PM-JAY",
+      "government_level": "central",
+      "ministry_department": "Ministry of Health and Family Welfare",
+      "category": "Health",
+      "source_file": "Ayushman Bharat PM-JAY.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "CSSS",
+      "scheme_name": "Central Sector Scholarship Scheme",
+      "government_level": "central",
+      "ministry_department": "Ministry of Education",
+      "category": "Education",
+      "source_file": "Central Sector Scholarship Scheme.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PMAY_U_2",
+      "scheme_name": "Pradhan Mantri Awas Yojana - Urban 2.0",
+      "government_level": "central",
+      "ministry_department": "Ministry of Housing and Urban Affairs",
+      "category": "Housing",
+      "source_file": "Guidelines of PMAY-U-2.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "KCC",
+      "scheme_name": "Kisan Credit Card",
+      "government_level": "central",
+      "ministry_department": "Ministry of Agriculture and Farmers Welfare",
+      "category": "Agriculture",
+      "source_file": "Kisan Credit Card (KCC).PDF",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "NSAP",
+      "scheme_name": "National Social Assistance Programme",
+      "government_level": "central",
+      "ministry_department": "Ministry of Rural Development",
+      "category": "Social Security",
+      "source_file": "National Social Assistance Programme.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PM_SVANIDHI",
+      "scheme_name": "PM SVANidhi",
+      "government_level": "central",
+      "ministry_department": "Ministry of Housing and Urban Affairs",
+      "category": "Livelihood",
+      "source_file": "PM SVANidhi Scheme Guidelines.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PM_VISHWAKARMA",
+      "scheme_name": "PM Vishwakarma",
+      "government_level": "central",
+      "ministry_department": "Ministry of Micro, Small and Medium Enterprises",
+      "category": "Livelihood",
+      "source_file": "PM Vishwakarma-Guidelines.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PM_KISAN",
+      "scheme_name": "PM-KISAN",
+      "government_level": "central",
+      "ministry_department": "Ministry of Agriculture and Farmers Welfare",
+      "category": "Agriculture",
+      "source_file": "PM-KISAN(English).pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PMAY_G",
+      "scheme_name": "Pradhan Mantri Awas Yojana - Gramin",
+      "government_level": "central",
+      "ministry_department": "Ministry of Rural Development",
+      "category": "Housing",
+      "source_file": "PMAY-G for Rural Housing.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PMKVY",
+      "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana",
+      "government_level": "central",
+      "ministry_department": "Ministry of Skill Development and Entrepreneurship",
+      "category": "Skill Development",
+      "source_file": "PMKVY-Guidelines.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PMFBY",
+      "scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+      "government_level": "central",
+      "ministry_department": "Ministry of Agriculture and Farmers Welfare",
+      "category": "Agriculture",
+      "source_file": "Pradhan Mantri Fasal Bima Yojana (PMFBY)_english_.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    },
+    {
+      "scheme_id": "PM_MUDRA",
+      "scheme_name": "Pradhan Mantri MUDRA Yojana",
+      "government_level": "central",
+      "ministry_department": "Ministry of Finance",
+      "category": "Finance and Entrepreneurship",
+      "source_file": "Pradhana Mantri MUDRA Yojana.pdf",
+      "status": "NEEDS_CURRENT_VERIFICATION",
+      "sources": []
+    }
+  ]
+}

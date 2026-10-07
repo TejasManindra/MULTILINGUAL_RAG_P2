@@ -1,0 +1,107 @@
+{
+  "dataset": {
+    "name": "Central Government Scheme Sources",
+    "version": "1.0",
+    "government_level": "central",
+    "country": "India",
+    "last_verified_date": "2026-09-25"
+  },
+  "sources": [
+    {
+      "scheme_id": "PM_JAY",
+      "source_type": "official_nha",
+      "title": "Ayushman Bharat PM-JAY",
+      "url": "https://pmjay.gov.in/",
+      "language": "en",
+      "status": "CURRENT_SOURCE_NEEDS_VERIFICATION"
+    },
+    {
+      "scheme_id": "CSSS",
+      "source_type": "official_ministry_of_education",
+      "title": "Central Sector Scheme of Scholarship for College and University Students",
+      "url": "https://www.education.gov.in/",
+      "language": "en",
+      "status": "CURRENT_SOURCE_NEEDS_VERIFICATION"
+    },
+    {
+      "scheme_id": "PMAY_U_2",
+      "source_type": "official_mohua",
+      "title": "PMAY-U 2.0 Operational Guidelines",
+      "url": "https://pmay-urban.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "KCC",
+      "source_type": "official_rbi",
+      "title": "Kisan Credit Card",
+      "url": "https://www.rbi.org.in/",
+      "language": "en",
+      "status": "CURRENT_SOURCE_NEEDS_VERIFICATION"
+    },
+    {
+      "scheme_id": "NSAP",
+      "source_type": "official_ministry_of_rural_development",
+      "title": "National Social Assistance Programme",
+      "url": "https://nsap.nic.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "PM_SVANIDHI",
+      "source_type": "official_mohua",
+      "title": "PM SVANidhi",
+      "url": "https://pmsvanidhi.mohua.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "PM_VISHWAKARMA",
+      "source_type": "official_msme",
+      "title": "PM Vishwakarma",
+      "url": "https://pmvishwakarma.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "PM_KISAN",
+      "source_type": "official_pm_kisan",
+      "title": "PM-KISAN",
+      "url": "https://pmkisan.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "PMAY_G",
+      "source_type": "official_pmay_g",
+      "title": "Pradhan Mantri Awaas Yojana - Gramin",
+      "url": "https://pmayg.nic.in/",
+      "language": "en",
+      "status": "CURRENT_SOURCE_NEEDS_VERIFICATION"
+    },
+    {
+      "scheme_id": "PMKVY",
+      "source_type": "official_msde",
+      "title": "Pradhan Mantri Kaushal Vikas Yojana",
+      "url": "https://www.msde.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "PMFBY",
+      "source_type": "official_pmfby",
+      "title": "Pradhan Mantri Fasal Bima Yojana",
+      "url": "https://pmfby.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    },
+    {
+      "scheme_id": "PM_MUDRA",
+      "source_type": "official_department_of_financial_services",
+      "title": "Pradhan Mantri MUDRA Yojana",
+      "url": "https://financialservices.gov.in/",
+      "language": "en",
+      "status": "CURRENT"
+    }
+  ]
+}

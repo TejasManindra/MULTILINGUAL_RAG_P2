@@ -1,0 +1,611 @@
+{
+    "dataset": {
+        "name": "Telangana Government Schemes",
+        "version": "1.0",
+        "language": [
+            "en",
+            "te"
+        ],
+        "government_level": "state",
+        "state": "Telangana",
+        "country": "India",
+        "last_verified_date": "2026-09-25",
+        "verification_policy": "Official Telangana Government and official scheme portals preferred. Historical or incomplete sources must not be treated as current eligibility rules."
+    },
+    "schemes": [
+        {
+            "scheme_id": "TG_AASARA",
+            "official_scheme_name": "Aasara Pensions",
+            "aliases": [
+                "Aasara Pension",
+                "Aasara Pensions"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Panchayat Raj and Rural Development",
+            "category": "Social Security",
+            "target_beneficiary": [
+                "Old age persons",
+                "Widows",
+                "Persons with disabilities",
+                "Weavers",
+                "Toddy tappers",
+                "HIV patients",
+                "Filaria patients",
+                "Beedi workers",
+                "Single women"
+            ],
+            "benefits": {
+                "type": "social_security_pension",
+                "description": "Social security financial assistance for vulnerable groups."
+            },
+            "eligibility": {
+                "residence": "Telangana resident",
+                "category_specific": true,
+                "income_requirement": "Requires verification against current Aasara guidelines",
+                "age_requirement": "Category-specific",
+                "disability_requirement": "Applicable for disability category",
+                "bpl_requirement": "Applicable according to scheme/category rules",
+                "status": "CURRENT_SOURCE_NEEDS_DETAILED_VERIFICATION"
+            },
+            "documents": [
+                "Aadhaar",
+                "Residence/identity documents",
+                "Category-specific supporting documents",
+                "Income/BPL-related documents where applicable"
+            ],
+            "application_method": [
+                "Government/local administration channels"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_telanganas_aaras_dashboard",
+                    "url": "https://cheyutha.telangana.gov.in/SSPTG/userinterface/portal/AasaraDashboradReport.aspx",
+                    "status": "CURRENT"
+                },
+                {
+                    "source_type": "official_district_government",
+                    "url": "https://wanaparthy.telangana.gov.in/district-rural-development-agency-drda/",
+                    "status": "REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_BENEFICIARY_DATA_AVAILABLE_BUT_RULES_NEED_VERIFICATION",
+            "notes": "Current official dashboard reports live beneficiaries by category. Exact category-wise eligibility rules should be extracted from current government orders/guidelines before deterministic eligibility evaluation."
+        },
+        {
+            "scheme_id": "TG_CHEYUTHA",
+            "official_scheme_name": "Cheyutha Scheme",
+            "aliases": [
+                "Cheyutha",
+                "Rajiv Aarogyasri under Cheyutha"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Health and Family Welfare",
+            "category": "Health",
+            "target_beneficiary": [
+                "Economically backward families",
+                "BPL families"
+            ],
+            "benefits": {
+                "health_insurance_coverage_inr": 1000000,
+                "description": "Free medical and healthcare coverage through the Rajiv Aarogyasri initiative."
+            },
+            "eligibility": {
+                "bpl_family": true,
+                "economically_backward_section": true,
+                "status": "CURRENT_SOURCE_AVAILABLE"
+            },
+            "documents": [
+                "Aarogyasri/BPL-related beneficiary identification documents",
+                "Identity documents"
+            ],
+            "application_method": [
+                "Government beneficiary identification",
+                "Praja Palana-related application where applicable"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "telangana_state_portal",
+                    "url": "https://www.telangana.gov.in/government-initiative/2023/12/cheyutha-scheme/",
+                    "status": "CURRENT_REFERENCE"
+                },
+                {
+                    "source_type": "district_government",
+                    "url": "https://suryapet.telangana.gov.in/scheme/cheyutha-scheme/",
+                    "status": "CURRENT_REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_SOURCE_AVAILABLE",
+            "notes": "Official Telangana sources describe Rs.10 lakh coverage and BPL/economically backward beneficiaries."
+        },
+        {
+            "scheme_id": "TG_MAHA_LAKSHMI",
+            "official_scheme_name": "Maha Lakshmi Scheme",
+            "aliases": [
+                "Mahalakshmi",
+                "Maha Lakshmi"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Government of Telangana",
+            "category": "Women Welfare",
+            "target_beneficiary": [
+                "Women",
+                "Girls",
+                "Transgender persons for applicable transport benefit"
+            ],
+            "benefits": {
+                "monthly_financial_assistance_inr": 2500,
+                "lpg_cylinder_price_inr": 500,
+                "free_tsrtc_bus_travel": true
+            },
+            "eligibility": {
+                "financial_assistance": {
+                    "target": "Eligible women who are heads of families",
+                    "bpl_reference": true,
+                    "status": "CURRENT_SOURCE_AVAILABLE"
+                },
+                "lpg": {
+                    "target": "Eligible families",
+                    "status": "CURRENT_SOURCE_AVAILABLE"
+                },
+                "bus_travel": {
+                    "target": "Women/girls/transgender persons according to applicable transport rules",
+                    "status": "CURRENT_SOURCE_AVAILABLE"
+                }
+            },
+            "documents": [
+                "Aadhaar",
+                "Telangana residence/identity",
+                "Ration card where applicable",
+                "Gas connection documents where applicable"
+            ],
+            "application_method": [
+                "Government/Praja Palana channels where applicable",
+                "TSRTC travel benefit through applicable identification"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "telangana_state_portal",
+                    "url": "https://www.telangana.gov.in/government-initiatives/",
+                    "status": "CURRENT_REFERENCE"
+                },
+                {
+                    "source_type": "district_government",
+                    "url": "https://mahabubnagar.telangana.gov.in/scheme/maha-lakshmi-scheme/",
+                    "status": "REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_SOURCE_AVAILABLE",
+            "notes": "The three benefits should be represented as separate benefit components because their eligibility conditions can differ."
+        },
+        {
+            "scheme_id": "TG_GRUHA_JYOTHI",
+            "official_scheme_name": "Gruha Jyothi Scheme",
+            "aliases": [
+                "Gruha Jyothi",
+                "Free Electricity Scheme"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Energy",
+            "category": "Electricity",
+            "target_beneficiary": [
+                "Eligible domestic households"
+            ],
+            "benefits": {
+                "free_electricity_units_per_month": 200,
+                "description": "Eligible households consuming up to 200 units per month receive zero electricity bills."
+            },
+            "eligibility": {
+                "household_type": "domestic",
+                "monthly_consumption_units_max": 200,
+                "low_income_household": true,
+                "ration_card_reference": true,
+                "status": "CURRENT_SOURCE_AVAILABLE"
+            },
+            "documents": [
+                "Domestic electricity service information",
+                "Aadhaar",
+                "Ration card where applicable"
+            ],
+            "application_method": [
+                "Applicable electricity distribution/government channels"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "telangana_state_portal",
+                    "url": "https://www.telangana.gov.in/government-initiatives/",
+                    "status": "CURRENT_REFERENCE"
+                },
+                {
+                    "source_type": "telangana_state_budget",
+                    "url": "https://www.telangana.gov.in/news/press-releases/2024/07/deputy-cm-presents-budget-for-the-year-2024-25/",
+                    "status": "REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_SOURCE_AVAILABLE"
+        },
+        {
+            "scheme_id": "TG_RYTHU_BHAROSA",
+            "official_scheme_name": "Rythu Bharosa",
+            "aliases": [
+                "Rythu Bharosa Scheme",
+                "Rythu Bharosa Agriculture Support"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Agriculture and Co-operation",
+            "category": "Agriculture",
+            "target_beneficiary": [
+                "Farmers",
+                "Tenant farmers"
+            ],
+            "benefits": {
+                "annual_support_per_acre_inr": 12000,
+                "seasonal_support_per_acre_inr": 6000,
+                "paddy_bonus_per_quintal_inr": 500
+            },
+            "eligibility": {
+                "telangana_resident": true,
+                "farmer_or_tenant_farmer": true,
+                "cultivable_land_requirement": true,
+                "land_record_verification": true,
+                "tenant_farmer_possible": true,
+                "status": "CURRENT_SOURCE_AVAILABLE"
+            },
+            "documents": [
+                "Land records where applicable",
+                "Tenant farming/lease evidence where applicable",
+                "Aadhaar",
+                "Bank account"
+            ],
+            "application_method": [
+                "Agriculture Department",
+                "Official Rythu Bharosa portal"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_rythu_bharosa_portal",
+                    "url": "https://rythubharosa.telangana.gov.in/Default_Eng.aspx",
+                    "status": "CURRENT"
+                },
+                {
+                    "source_type": "district_government",
+                    "url": "https://suryapet.telangana.gov.in/scheme/rythu-bharosa/",
+                    "status": "CURRENT_REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_SOURCE_AVAILABLE",
+            "notes": "Current official/district sources indicate Rs.12,000 per acre annually. Detailed land and tenant verification rules should be extracted from current operational guidelines before deterministic evaluation."
+        },
+        {
+            "scheme_id": "TG_INDIRAMMA_INDLU",
+            "official_scheme_name": "Indiramma Indlu",
+            "aliases": [
+                "Indiramma Illu",
+                "Indiramma Housing Scheme"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Housing",
+            "category": "Housing",
+            "target_beneficiary": [
+                "Homeless families",
+                "Low-income families",
+                "Eligible landless families"
+            ],
+            "benefits": {
+                "house_construction_assistance_inr": 500000,
+                "land_support": "Up to 250 square yards for eligible landless beneficiaries according to applicable rules"
+            },
+            "eligibility": {
+                "telangana_resident": true,
+                "homeless_or_without_pucca_house": true,
+                "low_income_or_economically_weaker_family": true,
+                "land_requirement": "Category dependent",
+                "status": "CURRENT_SOURCE_AVAILABLE"
+            },
+            "documents": [
+                "Aadhaar",
+                "Residence proof",
+                "Land/site documents where applicable",
+                "Income/economic status documents",
+                "Ration card where applicable"
+            ],
+            "application_method": [
+                "Praja Palana",
+                "Official Indiramma Indlu portal",
+                "MeeSeva for applicable housing-board notifications"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_indiramma_portal",
+                    "url": "https://indirammaindlu.telangana.gov.in/",
+                    "status": "CURRENT"
+                },
+                {
+                    "source_type": "district_government",
+                    "url": "https://mulugu.telangana.gov.in/scheme/indiramma-indlu/",
+                    "status": "CURRENT_REFERENCE"
+                },
+                {
+                    "source_type": "telangana_housing_board",
+                    "url": "https://tghb.telangana.gov.in/",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_SOURCE_AVAILABLE",
+            "notes": "Current 2026 Housing Board notifications also show active Indiramma Indlu housing activity. Different housing components/notifications may have different eligibility conditions."
+        },
+        {
+            "scheme_id": "TG_EPASS_POST_MATRIC",
+            "official_scheme_name": "Telangana ePASS Post-Matric Scholarships",
+            "aliases": [
+                "ePASS",
+                "Post Matric Scholarship",
+                "Telangana Post Matric Scholarships"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Welfare Departments / ePASS",
+            "category": "Education",
+            "target_beneficiary": [
+                "SC students",
+                "ST students",
+                "BC students",
+                "EBC students",
+                "Minority students",
+                "Disabled welfare students"
+            ],
+            "benefits": {
+                "type": "scholarship_and_fee_support",
+                "components": [
+                    "Maintenance support",
+                    "Tuition fee reimbursement where applicable"
+                ]
+            },
+            "eligibility": {
+                "state_student_requirement": true,
+                "recognized_post_secondary_course": true,
+                "category_specific_income_limits": true,
+                "income_limits": {
+                    "SC": 250000,
+                    "ST": 200000,
+                    "BC_EBC_Minority_Rural": 150000,
+                    "BC_EBC_Minority_Urban": 200000,
+                    "Disabled_Welfare": 100000
+                },
+                "renewal_attendance_percent_min": 75,
+                "status": "CURRENT_PORTAL_ACTIVE"
+            },
+            "documents": [
+                "Aadhaar",
+                "Caste certificate",
+                "Income certificate",
+                "Bank account details where applicable",
+                "Study/Bonafide certificate",
+                "CET allotment order where applicable",
+                "Seven-year study certificate where applicable"
+            ],
+            "application_method": [
+                "Telangana ePASS portal"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_epass_portal",
+                    "url": "https://telanganaepass.cgg.gov.in/",
+                    "status": "CURRENT"
+                },
+                {
+                    "source_type": "official_epass_eligibility",
+                    "url": "https://telanganaepass.cgg.gov.in/WhoareEligible.do",
+                    "status": "CURRENT"
+                },
+                {
+                    "source_type": "official_epass_2026_registration",
+                    "url": "https://telanganaepass.cgg.gov.in/FreshRegistration202627.do",
+                    "status": "CURRENT_2026_27"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "WEB_VERIFIED_CURRENT",
+            "notes": "The official ePASS portal currently provides 2026-27 fresh registration information. Eligibility varies by welfare category."
+        },
+        {
+            "scheme_id": "TG_EPASS_PRE_MATRIC",
+            "official_scheme_name": "Telangana ePASS Pre-Matric Scholarships",
+            "aliases": [
+                "Pre-Matric Scholarship",
+                "ePASS Pre-Matric"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Welfare Departments / ePASS",
+            "category": "Education",
+            "target_beneficiary": [
+                "Eligible welfare-category school students"
+            ],
+            "benefits": {
+                "type": "pre_matric_scholarship"
+            },
+            "eligibility": {
+                "category_specific": true,
+                "class_range": "Category-specific",
+                "income_limit": "Requires current category-specific verification",
+                "status": "CURRENT_SOURCE_AVAILABLE_BUT_RULES_NEED_NORMALIZATION"
+            },
+            "documents": [
+                "Aadhaar",
+                "Caste certificate where applicable",
+                "Income certificate",
+                "School/study certificate"
+            ],
+            "application_method": [
+                "Telangana ePASS portal"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_epass_portal",
+                    "url": "https://telanganaepass.cgg.gov.in/",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_SOURCE_AVAILABLE"
+        },
+        {
+            "scheme_id": "TG_EPASS_OVERSEAS_MINORITY",
+            "official_scheme_name": "Chief Minister's Overseas Scholarship Scheme for Minorities",
+            "aliases": [
+                "Minority Overseas Scholarship",
+                "CM Overseas Scholarship for Minorities"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Minorities Welfare",
+            "category": "Higher Education",
+            "target_beneficiary": [
+                "Minority students"
+            ],
+            "benefits": {
+                "maximum_scholarship_inr": 2000000,
+                "travel_support": "One-way economic airfare according to applicable guidelines"
+            },
+            "eligibility": {
+                "minority_community": true,
+                "family_income_annual_less_than_inr": 500000,
+                "graduation_marks_percent_min": 60,
+                "english_or_standardized_test_requirement": true,
+                "one_child_per_family": true,
+                "eligible_countries": [
+                    "USA",
+                    "UK",
+                    "Australia",
+                    "Canada",
+                    "Singapore",
+                    "Germany",
+                    "New Zealand",
+                    "Japan",
+                    "France",
+                    "South Korea"
+                ],
+                "status": "CURRENT_PORTAL_SOURCE_AVAILABLE"
+            },
+            "documents": [
+                "Academic certificates",
+                "Income certificate",
+                "Minority/community documentation",
+                "Admission documents",
+                "English proficiency/test documents where applicable"
+            ],
+            "application_method": [
+                "Telangana ePASS Overseas Scholarship portal"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_epass_overseas_portal",
+                    "url": "https://telanganaepass.cgg.gov.in/OverseasLinks.do",
+                    "status": "CURRENT_REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_SOURCE_AVAILABLE"
+        },
+        {
+            "scheme_id": "TG_KALYANA_LAKSHMI",
+            "official_scheme_name": "Kalyana Lakshmi Scheme",
+            "aliases": [
+                "Kalyana Lakshmi"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Revenue / Welfare Departments",
+            "category": "Marriage Assistance",
+            "target_beneficiary": [
+                "Eligible economically disadvantaged brides"
+            ],
+            "benefits": {
+                "type": "marriage_financial_assistance",
+                "amount": "Current amount requires verification from latest Government Order"
+            },
+            "eligibility": {
+                "telangana_resident": true,
+                "bride_age_min": 18,
+                "community_or_category_specific": true,
+                "income_limit": "Requires current GO verification",
+                "status": "CURRENT_PROGRAM_BUT_AMOUNT_AND_RULES_NEED_CURRENT_GO_VERIFICATION"
+            },
+            "documents": [
+                "Aadhaar",
+                "Income certificate",
+                "Caste/community certificate where applicable",
+                "Marriage certificate",
+                "Residence documents"
+            ],
+            "application_method": [
+                "Telangana ePASS / applicable government portal"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_epass_portal",
+                    "url": "https://telanganaepass.cgg.gov.in/",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_RULES_NEED_VERIFICATION"
+        },
+        {
+            "scheme_id": "TG_SHAADI_MUBARAK",
+            "official_scheme_name": "Shaadi Mubarak Scheme",
+            "aliases": [
+                "Shaadi Mubarak"
+            ],
+            "government_level": "state",
+            "state": "Telangana",
+            "department": "Minorities Welfare",
+            "category": "Marriage Assistance",
+            "target_beneficiary": [
+                "Eligible minority brides"
+            ],
+            "benefits": {
+                "type": "marriage_financial_assistance",
+                "amount": "Current amount requires verification from latest Government Order"
+            },
+            "eligibility": {
+                "telangana_resident": true,
+                "bride_age_min": 18,
+                "minority_community": true,
+                "income_limit": "Requires current GO verification",
+                "status": "CURRENT_PROGRAM_RULES_NEED_VERIFICATION"
+            },
+            "documents": [
+                "Aadhaar",
+                "Income certificate",
+                "Minority/community certificate",
+                "Marriage certificate",
+                "Residence documents"
+            ],
+            "application_method": [
+                "Telangana ePASS / applicable government portal"
+            ],
+            "official_sources": [
+                {
+                    "source_type": "official_epass_portal",
+                    "url": "https://telanganaepass.cgg.gov.in/",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_RULES_NEED_VERIFICATION"
+        }
+    ]
+}

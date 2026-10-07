@@ -1,0 +1,1581 @@
+{
+  "dataset": {
+    "name": "Central Government Scheme Eligibility Rules",
+    "version": "1.1",
+    "last_verified_date": "2026-09-25"
+  },
+  "schemes": [
+    {
+      "scheme_id": "PM_JAY",
+      "eligibility_rules": [
+        {
+          "field": "secc_deprivation_category",
+          "operator": "in",
+          "value": [
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5",
+            "D7"
+          ],
+          "condition_group": "secc_deprivation",
+          "source": {
+            "file": "Ayushman Bharat PM-JAY.pdf",
+            "page": 6,
+            "chunk_id": "Ayushman Bharat PM-JAY_p6_c16"
+          }
+        },
+        {
+          "field": "secc_automatically_included",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "automatic_inclusion",
+          "source": {
+            "file": "Ayushman Bharat PM-JAY.pdf",
+            "page": 6,
+            "chunk_id": "Ayushman Bharat PM-JAY_p6_c16"
+          }
+        },
+        {
+          "field": "urban_occupational_category",
+          "operator": "matches_defined_pmjay_category",
+          "value": true,
+          "condition_group": "urban_occupation",
+          "source": {
+            "file": "Ayushman Bharat PM-JAY.pdf",
+            "page": 6,
+            "chunk_id": "Ayushman Bharat PM-JAY_p6_c16"
+          }
+        },
+        {
+          "field": "existing_RSBY_beneficiary_family",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "legacy_rsbY",
+          "source": {
+            "file": "Ayushman Bharat PM-JAY.pdf",
+            "page": 6,
+            "chunk_id": "Ayushman Bharat PM-JAY_p6_c16"
+          }
+        }
+      ],
+      "exclusion_rules": [],
+      "evidence": [
+        {
+          "file": "Ayushman Bharat PM-JAY.pdf",
+          "page": 6,
+          "chunk_id": "Ayushman Bharat PM-JAY_p6_c16",
+          "section": "1.1 Objectives of the Scheme",
+          "description": "Describes eligible AB-PMJAY beneficiary families using SECC deprivation categories, automatically included categories, specified urban occupational groups and existing RSBY beneficiary families."
+        }
+      ],
+      "verification_status": "CURRENT_SOURCE_NEEDS_VERIFICATION",
+      "verification_note": "Uploaded PM-JAY guideline evidence supports the beneficiary categories encoded here; current beneficiary database/coverage rules require current official NHA verification."
+    },
+    {
+      "scheme_id": "CSSS",
+      "eligibility_rules": [
+        {
+          "field": "class_12_percentile",
+          "operator": "greater_than",
+          "value": 80,
+          "condition_group": "academic_merit",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 1,
+            "chunk_id": "Central Sector Scholarship Scheme_p1_c2"
+          }
+        },
+        {
+          "field": "course_mode",
+          "operator": "equals",
+          "value": "regular",
+          "condition_group": "course_requirement",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c3"
+          }
+        },
+        {
+          "field": "course_type",
+          "operator": "not_in",
+          "value": [
+            "correspondence",
+            "distance",
+            "diploma"
+          ],
+          "condition_group": "course_requirement",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c3"
+          }
+        },
+        {
+          "field": "institution_recognition",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "institution_requirement",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c3"
+          }
+        },
+        {
+          "field": "family_income_annual",
+          "operator": "less_than_or_equal",
+          "value": 450000,
+          "currency": "INR",
+          "condition_group": "income_requirement",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c3"
+          }
+        },
+        {
+          "field": "other_scholarship_benefit",
+          "operator": "equals",
+          "value": false,
+          "condition_group": "duplicate_benefit_exclusion",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c3"
+          }
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "other_scholarship_benefit",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "duplicate_benefit_exclusion",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c3"
+          }
+        }
+      ],
+      "renewal_rules": [
+        {
+          "field": "annual_exam_marks",
+          "operator": "greater_than_or_equal",
+          "value": 50,
+          "unit": "percent",
+          "condition_group": "renewal",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c4"
+          }
+        },
+        {
+          "field": "attendance",
+          "operator": "greater_than_or_equal",
+          "value": 75,
+          "unit": "percent",
+          "condition_group": "renewal",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c4"
+          }
+        },
+        {
+          "field": "disciplinary_or_criminal_misconduct",
+          "operator": "equals",
+          "value": false,
+          "condition_group": "renewal",
+          "source": {
+            "file": "Central Sector Scholarship Scheme.pdf",
+            "page": 2,
+            "chunk_id": "Central Sector Scholarship Scheme_p2_c4"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "file": "Central Sector Scholarship Scheme.pdf",
+          "page": 1,
+          "chunk_id": "Central Sector Scholarship Scheme_p1_c2",
+          "section": "4. Eligibility for Scholarship",
+          "description": "Students above the 80th percentile of successful candidates in the relevant stream from their Class XII Board are eligible subject to the remaining conditions."
+        },
+        {
+          "file": "Central Sector Scholarship Scheme.pdf",
+          "page": 2,
+          "chunk_id": "Central Sector Scholarship Scheme_p2_c3",
+          "section": "4. Eligibility for Scholarship",
+          "description": "Specifies regular degree study, recognized institutions, no other scholarship/fee waiver benefit and gross parental/family income up to Rs. 4.5 lakh per annum."
+        },
+        {
+          "file": "Central Sector Scholarship Scheme.pdf",
+          "page": 2,
+          "chunk_id": "Central Sector Scholarship Scheme_p2_c4",
+          "section": "4. Eligibility for Scholarship",
+          "description": "Specifies renewal requirements including at least 50% marks, at least 75% attendance and disciplinary conditions."
+        }
+      ],
+      "verification_status": "CURRENT_SOURCE_NEEDS_VERIFICATION",
+      "verification_note": "Uploaded CSSS guideline applies from academic year 2022-23 onward; current scholarship cycle rules should be verified against the current Ministry/NSP notification before production use."
+    },
+    {
+      "scheme_id": "PMAY_U_2",
+      "eligibility_rules": [
+        {
+          "field": "urban_household",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "general",
+          "source": {
+            "source_type": "official_pmay_urban_guidelines",
+            "title": "Operational Guidelines of PMAY-U 2.0",
+            "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf"
+          }
+        },
+        {
+          "field": "has_pucca_house_anywhere_in_india",
+          "operator": "equals",
+          "value": false,
+          "condition_group": "general",
+          "source": {
+            "source_type": "official_pmay_urban_guidelines",
+            "title": "Operational Guidelines of PMAY-U 2.0",
+            "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf"
+          }
+        },
+        {
+          "field": "annual_household_income",
+          "operator": "less_than_or_equal",
+          "value": 300000,
+          "currency": "INR",
+          "condition_group": "BLC_EWS",
+          "source": {
+            "source_type": "official_pmay_urban_guidelines",
+            "title": "Operational Guidelines of PMAY-U 2.0",
+            "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf"
+          }
+        },
+        {
+          "field": "annual_household_income",
+          "operator": "less_than_or_equal",
+          "value": 300000,
+          "currency": "INR",
+          "condition_group": "ISS_EWS",
+          "source": {
+            "source_type": "official_pmay_urban_guidelines",
+            "title": "PMAY-U 2.0 ISS",
+            "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf"
+          }
+        },
+        {
+          "field": "annual_household_income",
+          "operator": "between",
+          "value": [
+            300001,
+            600000
+          ],
+          "currency": "INR",
+          "condition_group": "ISS_LIG",
+          "source": {
+            "source_type": "official_pmay_urban_government_document",
+            "title": "PMAY-U 2.0 ISS",
+            "url": "https://pmay-urban.gov.in/uploads/sanction-releases/2025-2026/HUDCO-3071541.pdf"
+          }
+        },
+        {
+          "field": "annual_household_income",
+          "operator": "between",
+          "value": [
+            600001,
+            900000
+          ],
+          "currency": "INR",
+          "condition_group": "ISS_MIG",
+          "source": {
+            "source_type": "official_pmay_urban_government_document",
+            "title": "PMAY-U 2.0 ISS",
+            "url": "https://pmay-urban.gov.in/uploads/sanction-releases/2025-2026/HUDCO-3071541.pdf"
+          }
+        },
+        {
+          "field": "land_ownership_for_proposed_construction",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "BLC",
+          "source": {
+            "source_type": "uploaded_scheme_guidelines",
+            "file": "Guidelines of PMAY-U-2.pdf",
+            "page": 69,
+            "chunk_id": "Guidelines of PMAY-U-2_p69_c160"
+          }
+        },
+        {
+          "field": "proposed_land_has_valid_documents",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "BLC",
+          "source": {
+            "source_type": "uploaded_scheme_guidelines",
+            "file": "Guidelines of PMAY-U-2.pdf",
+            "page": 69,
+            "chunk_id": "Guidelines of PMAY-U-2_p69_c160"
+          }
+        },
+        {
+          "field": "proposed_land_free_from_legal_disputes",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "BLC",
+          "source": {
+            "source_type": "uploaded_scheme_guidelines",
+            "file": "Guidelines of PMAY-U-2.pdf",
+            "page": 69,
+            "chunk_id": "Guidelines of PMAY-U-2_p69_c160"
+          }
+        },
+        {
+          "field": "iss_home_loan_amount",
+          "operator": "less_than_or_equal",
+          "value": 2500000,
+          "currency": "INR",
+          "condition_group": "ISS",
+          "source": {
+            "source_type": "uploaded_scheme_guidelines",
+            "file": "Guidelines of PMAY-U-2.pdf",
+            "page": 38,
+            "chunk_id": "Guidelines of PMAY-U-2_p38_c76"
+          }
+        },
+        {
+          "field": "house_value",
+          "operator": "less_than_or_equal",
+          "value": 3500000,
+          "currency": "INR",
+          "condition_group": "ISS",
+          "source": {
+            "source_type": "uploaded_scheme_guidelines",
+            "file": "Guidelines of PMAY-U-2.pdf",
+            "page": 38,
+            "chunk_id": "Guidelines of PMAY-U-2_p38_c76"
+          }
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "housing_scheme_benefit_last_20_years",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "general",
+          "source": {
+            "file": "Guidelines of PMAY-U-2.pdf",
+            "page": 69,
+            "chunk_id": "Guidelines of PMAY-U-2_p69_c160"
+          }
+        },
+        {
+          "field": "benefit_from_other_pmAY_U_2_vertical",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "general",
+          "source": {
+            "file": "Guidelines of PMAY-U-2.pdf",
+            "page": 69,
+            "chunk_id": "Guidelines of PMAY-U-2_p69_c161"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "file": "Guidelines of PMAY-U-2.pdf",
+          "page": 69,
+          "chunk_id": "Guidelines of PMAY-U-2_p69_c160",
+          "section": "PMAY-U 2.0 beneficiary declaration",
+          "description": "The declaration states that the applicant has no pucca house in their or any family member's name anywhere in India, belongs to EWS with annual household income up to ₹3 lakh, owns the proposed construction land with valid documents, and has not received another Government housing-scheme benefit in the previous 20 years."
+        },
+        {
+          "file": "Guidelines of PMAY-U-2.pdf",
+          "page": 69,
+          "chunk_id": "Guidelines of PMAY-U-2_p69_c161",
+          "section": "PMAY-U 2.0 beneficiary declaration",
+          "description": "The declaration states that the applicant has not applied for or availed benefit under another PMAY-U 2.0 vertical."
+        },
+        {
+          "file": "Guidelines of PMAY-U-2.pdf",
+          "page": 38,
+          "chunk_id": "Guidelines of PMAY-U-2_p38_c76",
+          "section": "Interest Subsidy Scheme",
+          "description": "For ISS, only loans up to ₹25 lakh and house value up to ₹35 lakh are stated as eligible, subject to the applicable income/property eligibility limits."
+        }
+      ],
+      "verification_status": "WEB_VERIFIED_CURRENT",
+      "verification": {
+        "verified_date": "2026-09-25",
+        "sources": [
+          {
+            "title": "Operational Guidelines of PMAY-U 2.0",
+            "url": "https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf"
+          },
+          {
+            "title": "PMAY-U 2.0 official guidelines page",
+            "url": "https://pmay-urban.gov.in/index.php/pmay-u-2.0-guidelines"
+          }
+        ]
+      }
+    },
+    {
+      "scheme_id": "KCC",
+      "eligibility_rules": [
+        {
+          "field": "farmer_status",
+          "operator": "in",
+          "value": [
+            "owner_cultivator",
+            "tenant_farmer",
+            "oral_lessee",
+            "sharecropper"
+          ],
+          "condition_group": "crop_cultivation",
+          "source": {
+            "file": "Kisan Credit Card (KCC).PDF",
+            "page": 5,
+            "chunk_id": "Kisan Credit Card (KCC)_p5_c8"
+          }
+        },
+        {
+          "field": "borrower_group",
+          "operator": "in",
+          "value": [
+            "individual_farmer",
+            "joint_borrower"
+          ],
+          "condition_group": "crop_cultivation",
+          "source": {
+            "file": "Kisan Credit Card (KCC).PDF",
+            "page": 5,
+            "chunk_id": "Kisan Credit Card (KCC)_p5_c8"
+          }
+        },
+        {
+          "field": "farmer_group",
+          "operator": "in",
+          "value": [
+            "SHG",
+            "JLG"
+          ],
+          "condition_group": "crop_cultivation",
+          "source": {
+            "file": "Kisan Credit Card (KCC).PDF",
+            "page": 5,
+            "chunk_id": "Kisan Credit Card (KCC)_p5_c8"
+          }
+        },
+        {
+          "field": "allied_activity_status",
+          "operator": "in",
+          "value": [
+            "animal_husbandry_farmer",
+            "fisher",
+            "fish_farmer",
+            "farmer"
+          ],
+          "condition_group": "allied_activities",
+          "source": {
+            "file": "Kisan Credit Card (KCC).PDF",
+            "page": 7,
+            "chunk_id": "Kisan Credit Card (KCC)_p7_c12"
+          }
+        },
+        {
+          "field": "allied_borrower_group",
+          "operator": "in",
+          "value": [
+            "individual",
+            "joint_borrower",
+            "SHG",
+            "JLG"
+          ],
+          "condition_group": "allied_activities",
+          "source": {
+            "file": "Kisan Credit Card (KCC).PDF",
+            "page": 7,
+            "chunk_id": "Kisan Credit Card (KCC)_p7_c12"
+          }
+        }
+      ],
+      "exclusion_rules": [],
+      "evidence": [
+        {
+          "file": "Kisan Credit Card (KCC).PDF",
+          "page": 5,
+          "chunk_id": "Kisan Credit Card (KCC)_p5_c8",
+          "section": "12. Eligibility",
+          "description": "Crop-cultivation working-capital credit is available to owner cultivators, tenant farmers, oral lessees, sharecroppers, and SHGs/JLGs of farmers and cultivators."
+        },
+        {
+          "file": "Kisan Credit Card (KCC).PDF",
+          "page": 7,
+          "chunk_id": "Kisan Credit Card (KCC)_p7_c12",
+          "section": "15. Eligibility",
+          "description": "Working-capital credit for allied activities is available to animal husbandry farmers, fishers, fish farmers and farmers, including tenant farmers and sharecroppers, as individuals/joint borrowers, as well as SHGs/JLGs."
+        },
+        {
+          "file": "Kisan Credit Card (KCC).PDF",
+          "page": 8,
+          "chunk_id": "Kisan Credit Card (KCC)_p8_c14",
+          "section": "18. Eligibility",
+          "description": "Beneficiaries specified under paragraphs 12 and 15 are eligible for investment credit related to agriculture and allied activities."
+        }
+      ],
+      "verification_status": "CURRENT_SOURCE_NEEDS_VERIFICATION",
+      "verification_note": "Uploaded KCC material contains provisions with stated future effective dates; current lending eligibility should be checked against the latest RBI/DFS guidance before production use."
+    },
+    {
+      "scheme_id": "NSAP",
+      "eligibility_rules": [
+        {
+          "field": "bpl_status",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "common",
+          "source": {
+            "source_type": "official_central_guideline",
+            "title": "NSAP Guidelines",
+            "url": "https://rural.gov.in/sites/default/files/NSAP_Guidelines_English.pdf"
+          }
+        },
+        {
+          "field": "age",
+          "operator": "greater_than_or_equal",
+          "value": 60,
+          "condition_group": "IGNOAPS"
+        },
+        {
+          "field": "age",
+          "operator": "greater_than_or_equal",
+          "value": 40,
+          "condition_group": "IGNWPS"
+        },
+        {
+          "field": "widow_status",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "IGNWPS"
+        },
+        {
+          "field": "age",
+          "operator": "greater_than_or_equal",
+          "value": 18,
+          "condition_group": "IGNDPS"
+        },
+        {
+          "field": "disability_percentage",
+          "operator": "greater_than_or_equal",
+          "value": 80,
+          "condition_group": "IGNDPS"
+        },
+        {
+          "field": "dwarf_status",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "IGNDPS"
+        }
+      ],
+      "exclusion_rules": [],
+      "state_specific_rules": {
+        "telangana": {
+          "note": "Use Telangana Aasara rules separately; do not apply as Central NSAP rules."
+        },
+        "andhra_pradesh": {
+          "note": "Use Andhra Pradesh NTR Bharosa rules separately; do not apply as Central NSAP rules."
+        }
+      },
+      "verification_status": "WEB_VERIFIED_BASELINE",
+      "verification": {
+        "verified_date": "2026-09-25",
+        "source": "https://rural.gov.in/sites/default/files/NSAP_Guidelines_English.pdf",
+        "note": "Central component rules verified; Telangana and Andhra Pradesh implementation rules must remain separate."
+      }
+    },
+    {
+      "scheme_id": "PM_SVANIDHI",
+      "eligibility_rules": [
+        {
+          "field": "beneficiary_type",
+          "operator": "equals",
+          "value": "street_vendor",
+          "condition_group": "general",
+          "source": {
+            "file": "PM SVANIDHI Scheme Guidelines.pdf",
+            "page": 3,
+            "chunk_id": "PM SVANIDHI Scheme Guidelines_p3_c8"
+          }
+        },
+        {
+          "field": "vending_location_type",
+          "operator": "in",
+          "value": [
+            "statutory_town",
+            "census_town",
+            "peri_urban_area",
+            "city_region"
+          ],
+          "condition_group": "coverage",
+          "source": {
+            "file": "PM SVANIDHI Scheme Guidelines.pdf",
+            "page": 3,
+            "chunk_id": "PM SVANIDHI Scheme Guidelines_p3_c8"
+          }
+        },
+        {
+          "field": "street_vendor_activity",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "vendor_definition",
+          "source": {
+            "file": "PM SVANIDHI Scheme Guidelines.pdf",
+            "page": 2,
+            "chunk_id": "PM SVANIDHI Scheme Guidelines_p2_c5"
+          }
+        },
+        {
+          "field": "vending_in_respective_census_or_peri_urban_area",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "city_region",
+          "source": {
+            "file": "PM SVANIDHI Scheme Guidelines.pdf",
+            "page": 11,
+            "chunk_id": "PM SVANIDHI Scheme Guidelines_p11_c27"
+          }
+        }
+      ],
+      "exclusion_rules": [],
+      "documentation_rules": [
+        {
+          "field": "vendor_identification_document",
+          "operator": "one_of",
+          "value": [
+            "certificate_of_vending",
+            "identity_card",
+            "letter_of_recommendation"
+          ],
+          "condition_group": "identification",
+          "source": {
+            "file": "PM SVANIDHI Scheme Guidelines.pdf",
+            "page": 3,
+            "chunk_id": "PM SVANIDHI Scheme Guidelines_p3_c8"
+          }
+        }
+      ],
+      "loan_rules": [
+        {
+          "loan_tranche": 1,
+          "maximum_amount": 15000,
+          "currency": "INR",
+          "repayment_period_months": 12
+        },
+        {
+          "loan_tranche": 2,
+          "maximum_amount": 25000,
+          "currency": "INR",
+          "repayment_period_months": 18,
+          "condition": "timely_or_early_repayment_of_previous_tranche"
+        },
+        {
+          "loan_tranche": 3,
+          "maximum_amount": 50000,
+          "currency": "INR",
+          "repayment_period_months": 36,
+          "condition": "timely_or_early_repayment_of_previous_tranche"
+        }
+      ],
+      "evidence": [
+        {
+          "file": "PM SVANIDHI Scheme Guidelines.pdf",
+          "page": 3,
+          "chunk_id": "PM SVANIDHI Scheme Guidelines_p3_c8",
+          "description": "Target beneficiaries are street vendors vending in various city-regions. In statutory towns, CoV/Identity Card/LoR is issued by TVC/ULBs."
+        },
+        {
+          "file": "PM SVANIDHI Scheme Guidelines.pdf",
+          "page": 11,
+          "chunk_id": "PM SVANIDHI Scheme Guidelines_p11_c27",
+          "description": "For census towns and peri-urban areas, eligible vendors may be seasonal or year-round, mobile or stationary, and must vend in the respective census town or peri-urban area."
+        },
+        {
+          "file": "PM SVANIDHI Scheme Guidelines.pdf",
+          "page": 4,
+          "chunk_id": "PM SVANIDHI Scheme Guidelines_p4_c10",
+          "description": "Working-capital term loans are available in three tranches up to ₹15,000, ₹25,000 and ₹50,000."
+        }
+      ],
+      "verification_status": "WEB_VERIFIED_CURRENT",
+      "verification": {
+        "verified_date": "2026-09-25",
+        "source": "https://www.disclaimerpms.mohua.gov.in/",
+        "note": "Portal confirms that PM SVANidhi guidelines/content are defined by MoHUA; detailed eligibility remains grounded in the uploaded scheme guidelines."
+      }
+    },
+    {
+      "scheme_id": "PM_VISHWAKARMA",
+      "eligibility_rules": [
+        {
+          "field": "occupation_type",
+          "operator": "equals",
+          "value": "artisan_or_craftsperson",
+          "condition_group": "occupation",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "works_with_hands_and_tools",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "occupation",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "traditional_trade",
+          "operator": "in_specified_trades",
+          "value": true,
+          "condition_group": "trade",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "employment_type",
+          "operator": "equals",
+          "value": "self_employed",
+          "condition_group": "employment",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "sector",
+          "operator": "equals",
+          "value": "unorganized",
+          "condition_group": "employment",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "age",
+          "operator": "greater_than_or_equal",
+          "value": 18,
+          "condition_group": "age",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "currently_engaged_in_trade",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "trade",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "similar_government_credit_loan_within_5_years",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "credit_history",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "family_member_already_registered",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "family_limit",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "government_employee",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "government_service",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        },
+        {
+          "field": "government_employee_family_member",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "government_service",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        }
+      ],
+      "exceptions": [
+        {
+          "field": "previous_mudra_or_svanidhi_loan",
+          "condition": "loan_repaid",
+          "effect": "eligible",
+          "source": {
+            "file": "PM Vishwakarma-Guidelines.pdf",
+            "page": 27,
+            "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+          }
+        }
+      ],
+      "family_definition": {
+        "members": [
+          "husband",
+          "wife",
+          "unmarried_children"
+        ],
+        "maximum_registered_members": 1,
+        "source": {
+          "file": "PM Vishwakarma-Guidelines.pdf",
+          "page": 27,
+          "chunk_id": "PM Vishwakarma-Guidelines_p27_c41"
+        }
+      },
+      "evidence": [
+        {
+          "file": "PM Vishwakarma-Guidelines.pdf",
+          "page": 27,
+          "chunk_id": "PM Vishwakarma-Guidelines_p27_c41",
+          "section": "4. Eligibility",
+          "description": "Defines eligibility based on specified traditional trades, self-employment in the unorganised sector, minimum age of 18 years, current engagement in the trade, previous government credit-based loans, one-member-per-family restriction, and government-service exclusion."
+        }
+      ],
+      "verification_status": "WEB_VERIFIED_CURRENT",
+      "verification": {
+        "verified_date": "2026-09-25",
+        "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1989108"
+      }
+    },
+    {
+      "scheme_id": "PM_KISAN",
+      "eligibility_rules": [
+        {
+          "field": "family_land_status",
+          "operator": "equals",
+          "value": "owns_cultivable_land",
+          "condition_group": "landholding",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 2,
+            "chunk_id": "PM-KISAN(English)_p2_c2"
+          }
+        },
+        {
+          "field": "farmer_family_definition",
+          "operator": "matches",
+          "value": "husband_wife_minor_children",
+          "condition_group": "family_definition",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 2,
+            "chunk_id": "PM-KISAN(English)_p2_c2"
+          }
+        },
+        {
+          "field": "cultivable_land_recorded_in_state_ut_land_records",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "landholding",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 3,
+            "chunk_id": "PM-KISAN(English)_p3_c5"
+          }
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "institutional_landholder",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "institutional_landholding",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 2,
+            "chunk_id": "PM-KISAN(English)_p2_c3"
+          }
+        },
+        {
+          "field": "constitutional_post_holder_in_family",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "constitutional_posts",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 2,
+            "chunk_id": "PM-KISAN(English)_p2_c3"
+          }
+        },
+        {
+          "field": "specified_political_or_local_body_post_holder_in_family",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "public_office",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 2,
+            "chunk_id": "PM-KISAN(English)_p2_c3"
+          }
+        },
+        {
+          "field": "serving_or_retired_government_employee_in_family",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "government_employment",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 3,
+            "chunk_id": "PM-KISAN(English)_p3_c4"
+          }
+        },
+        {
+          "field": "monthly_pension",
+          "operator": "greater_than_or_equal",
+          "value": 10000,
+          "currency": "INR",
+          "condition_group": "pension",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 3,
+            "chunk_id": "PM-KISAN(English)_p3_c4"
+          }
+        },
+        {
+          "field": "paid_income_tax_last_assessment_year",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "income_tax",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 3,
+            "chunk_id": "PM-KISAN(English)_p3_c4"
+          }
+        },
+        {
+          "field": "practising_registered_professional",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "professional_exclusion",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 3,
+            "chunk_id": "PM-KISAN(English)_p3_c4"
+          }
+        },
+        {
+          "field": "nri_new_beneficiary",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "residency",
+          "source": {
+            "file": "PM-KISAN(English).pdf",
+            "page": 3,
+            "chunk_id": "PM-KISAN(English)_p3_c4"
+          }
+        },
+        {
+          "field": "land_acquired_after_2019_02_01_without_succession_exception",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "landholding_cutoff",
+          "source": {
+            "source_type": "official_pm_kisan_portal",
+            "title": "PM-KISAN current portal notice",
+            "url": "https://pmkisan.gov.in/"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "file": "PM-KISAN(English).pdf",
+          "page": 2,
+          "chunk_id": "PM-KISAN(English)_p2_c2",
+          "section": "1-3",
+          "description": "Defines PM-KISAN as income support for landholding farmer families with cultivable land and defines the farmer family."
+        },
+        {
+          "file": "PM-KISAN(English).pdf",
+          "page": 2,
+          "chunk_id": "PM-KISAN(English)_p2_c3",
+          "section": "4.1 Exclusions",
+          "description": "Lists institutional landholders and specified higher-economic-status exclusions."
+        },
+        {
+          "file": "PM-KISAN(English).pdf",
+          "page": 3,
+          "chunk_id": "PM-KISAN(English)_p3_c4",
+          "section": "4.1 Exclusions",
+          "description": "Lists government employees, pensioners, income-tax payers, practising professionals and new NRI beneficiaries as exclusions."
+        }
+      ],
+      "operational_requirements": [
+        {
+          "field": "ekyc",
+          "operator": "required",
+          "value": true,
+          "source": {
+            "source_type": "official_pm_kisan_portal",
+            "title": "PM-KISAN current portal",
+            "url": "https://pmkisan.gov.in/"
+          }
+        }
+      ],
+      "verification_status": "WEB_VERIFIED_CURRENT",
+      "verification": {
+        "verified_date": "2026-09-25",
+        "source": "https://pmkisan.gov.in/"
+      }
+    },
+    {
+      "scheme_id": "PMAY_G",
+      "eligibility_rules": [
+        {
+          "field": "rural_household",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "coverage",
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 2,
+            "chunk_id": "PMAY-G for Rural Housing_p2_c3"
+          }
+        },
+        {
+          "field": "passes_secc_2011_13_point_criteria",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "selection",
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 2,
+            "chunk_id": "PMAY-G for Rural Housing_p2_c3"
+          }
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "has_pucca_house_or_availed_other_housing_scheme",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "motorised_vehicle_or_fishing_boat",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "mechanised_agricultural_equipment",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "kisan_credit_card_limit",
+          "operator": "greater_than_or_equal",
+          "value": 50000,
+          "currency": "INR",
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "government_employee_in_household",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "registered_non_agricultural_enterprise_with_government",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "household_member_monthly_income",
+          "operator": "greater_than",
+          "value": 10000,
+          "currency": "INR",
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "pays_income_tax",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "pays_professional_tax",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "owns_refrigerator",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "owns_landline_phone",
+          "operator": "equals",
+          "value": true,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "irrigated_land_acres_with_irrigation_equipment",
+          "operator": "greater_than_or_equal",
+          "value": 2.5,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "irrigated_land_two_or_more_crop_seasons_acres",
+          "operator": "greater_than_or_equal",
+          "value": 5,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        },
+        {
+          "field": "land_with_irrigation_equipment_acres",
+          "operator": "greater_than_or_equal",
+          "value": 7.5,
+          "source": {
+            "file": "PMAY-G for Rural Housing.pdf",
+            "page": 9,
+            "chunk_id": "PMAY-G for Rural Housing_p9_c21"
+          }
+        }
+      ],
+      "operational_exclusion_rules": [
+        {
+          "field": "beneficiary_deceased_without_nominee",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "permanently_migrated",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "duplicate_registration",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "switched_from_rural_to_urban_area",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "site_dispute_or_joint_property_or_court_case",
+          "operator": "equals",
+          "value": true
+        }
+      ],
+      "evidence": [
+        {
+          "file": "PMAY-G for Rural Housing.pdf",
+          "page": 2,
+          "chunk_id": "PMAY-G for Rural Housing_p2_c3",
+          "description": "States that the Permanent Wait List is based on SECC 2011 and that non-compliance with SECC 2011 13-point criteria can make a beneficiary ineligible."
+        },
+        {
+          "file": "PMAY-G for Rural Housing.pdf",
+          "page": 9,
+          "chunk_id": "PMAY-G for Rural Housing_p9_c21",
+          "description": "Lists the documented PMAY-G rejection reasons used in the AwaasSoft remand module."
+        }
+      ],
+      "source_context": {
+        "document_date": "2021-06-21",
+        "source_type": "PMAY-G deletion/remand guidance",
+        "current_verification_required": true
+      },
+      "verification_status": "CURRENT_SOURCE_NEEDS_VERIFICATION",
+      "verification_note": "The uploaded source is dated 2021 and is deletion/remand guidance. Do not treat its SECC exclusion list as a fully current 2026 eligibility rule until the current official PMAY-G guidelines are verified."
+    },
+    {
+      "scheme_id": "PMKVY",
+      "eligibility_rules": [
+        {
+          "field": "nationality",
+          "operator": "equals",
+          "value": "Indian",
+          "condition_group": "general",
+          "source": {
+            "file": "PMKVY-Guidelines.pdf",
+            "page": 12,
+            "chunk_id": "PMKVY-Guidelines_p12_c30"
+          }
+        },
+        {
+          "field": "aadhaar",
+          "operator": "required",
+          "value": true,
+          "condition_group": "general",
+          "source": {
+            "file": "PMKVY-Guidelines.pdf",
+            "page": 12,
+            "chunk_id": "PMKVY-Guidelines_p12_c30"
+          }
+        },
+        {
+          "field": "age",
+          "operator": "between",
+          "value": [
+            15,
+            45
+          ],
+          "condition_group": "STT",
+          "source": {
+            "file": "PMKVY-Guidelines.pdf",
+            "page": 12,
+            "chunk_id": "PMKVY-Guidelines_p12_c30"
+          }
+        },
+        {
+          "field": "age",
+          "operator": "between",
+          "value": [
+            15,
+            45
+          ],
+          "condition_group": "Special Projects",
+          "source": {
+            "file": "PMKVY-Guidelines.pdf",
+            "page": 12,
+            "chunk_id": "PMKVY-Guidelines_p12_c30"
+          }
+        },
+        {
+          "field": "age",
+          "operator": "between",
+          "value": [
+            18,
+            59
+          ],
+          "condition_group": "RPL",
+          "source": {
+            "file": "PMKVY-Guidelines.pdf",
+            "page": 12,
+            "chunk_id": "PMKVY-Guidelines_p12_c30"
+          }
+        },
+        {
+          "field": "prior_learning_experience",
+          "operator": "required",
+          "value": true,
+          "condition_group": "RPL",
+          "source": {
+            "file": "PMKVY-Guidelines.pdf",
+            "page": 12,
+            "chunk_id": "PMKVY-Guidelines_p12_c30"
+          }
+        }
+      ],
+      "exclusion_rules": [],
+      "evidence": [
+        {
+          "file": "PMKVY-Guidelines.pdf",
+          "page": 12,
+          "chunk_id": "PMKVY-Guidelines_p12_c30",
+          "description": "Target Group, Eligibility and Geographical Coverage"
+        }
+      ],
+      "verification_status": "WEB_VERIFIED_CURRENT",
+      "verification": {
+        "verified_date": "2026-09-25",
+        "source": "https://www.msde.gov.in/static/uploads/2025/09/20d9aac4ce972a765e83f28682536ee0.pdf"
+      }
+    },
+    {
+      "scheme_id": "PMFBY",
+      "eligibility_rules": [
+        {
+          "field": "farmer_type",
+          "operator": "in",
+          "value": [
+            "loanee_farmer",
+            "non_loanee_farmer",
+            "tenant_farmer",
+            "sharecropper"
+          ],
+          "condition_group": "coverage",
+          "source": {
+            "source_type": "official_pmfby_operational_guidelines",
+            "title": "PMFBY Coverage of Farmers",
+            "url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf"
+          }
+        },
+        {
+          "field": "grows_notified_crop_in_notified_area",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "coverage",
+          "source": {
+            "source_type": "official_pmfby_operational_guidelines",
+            "title": "PMFBY Coverage of Farmers",
+            "url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf"
+          }
+        },
+        {
+          "field": "has_insurable_interest_in_notified_crop",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "coverage",
+          "source": {
+            "source_type": "official_pmfby_operational_guidelines",
+            "title": "PMFBY Coverage of Farmers",
+            "url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf"
+          }
+        }
+      ],
+      "exclusion_rules": [],
+      "evidence": [
+        {
+          "file": "Pradhan Mantri Fasal Bima Yojana (PMFBY)_english_.pdf",
+          "page": 4,
+          "description": "Farmers who have insurable interest in the crop are eligible."
+        }
+      ],
+      "participation_rules": [
+        {
+          "farmer_type": "loanee_farmer",
+          "participation": "voluntary",
+          "effective_from": "Kharif_2020",
+          "source": {
+            "source_type": "official_pmfby_compendium",
+            "url": "https://pmfby.gov.in/compendium/General/1_2_3_merged.pdf"
+          }
+        },
+        {
+          "farmer_type": "non_loanee_farmer",
+          "participation": "voluntary",
+          "source": {
+            "source_type": "official_pmfby_compendium",
+            "url": "https://pmfby.gov.in/compendium/General/1_2_3_merged.pdf"
+          }
+        }
+      ],
+      "verification_status": "WEB_VERIFIED_CURRENT",
+      "verification": {
+        "verified_date": "2026-09-25",
+        "source": "https://pmfby.gov.in/compendium/General/1_2_3_merged.pdf"
+      }
+    },
+    {
+      "scheme_id": "PM_MUDRA",
+      "eligibility_rules": [
+        {
+          "field": "applicant_type",
+          "operator": "equals",
+          "value": "individual",
+          "condition_group": "general",
+          "source": {
+            "source_type": "official_pib_2026",
+            "title": "PM Mudra Yojana Provides Collateral-Free Loans up to ₹20 Lakh",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240159"
+          }
+        },
+        {
+          "field": "has_business_plan",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "business_requirement",
+          "source": {
+            "source_type": "official_pib_2026",
+            "title": "PM Mudra Yojana Provides Collateral-Free Loans up to ₹20 Lakh",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240159"
+          }
+        },
+        {
+          "field": "activity_type",
+          "operator": "in",
+          "value": [
+            "manufacturing",
+            "trading",
+            "services",
+            "agriculture_allied"
+          ],
+          "condition_group": "income_generating_activity",
+          "source": {
+            "source_type": "official_dfs",
+            "title": "Pradhan Mantri MUDRA Yojana (PMMY)",
+            "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+          }
+        },
+        {
+          "field": "credit_need",
+          "operator": "less_than_or_equal",
+          "value": 2000000,
+          "currency": "INR",
+          "condition_group": "loan_limit",
+          "source": {
+            "source_type": "official_dfs",
+            "title": "Pradhan Mantri MUDRA Yojana (PMMY)",
+            "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+          }
+        }
+      ],
+      "exclusion_rules": [],
+      "loan_rules": [
+        {
+          "loan_category": "Shishu",
+          "amount_max": 50000,
+          "currency": "INR"
+        },
+        {
+          "loan_category": "Kishor",
+          "amount_min_exclusive": 50000,
+          "amount_max": 500000,
+          "currency": "INR"
+        },
+        {
+          "loan_category": "Tarun",
+          "amount_min_exclusive": 500000,
+          "amount_max": 1000000,
+          "currency": "INR"
+        },
+        {
+          "loan_category": "Tarun Plus",
+          "amount_min_exclusive": 1000000,
+          "amount_max": 2000000,
+          "currency": "INR",
+          "additional_condition": "previous_Tarun_loan_successfully_repaid",
+          "effective_from": "2024-10-24"
+        }
+      ],
+      "evidence": [
+        {
+          "source_type": "official_pib_2026",
+          "title": "PM Mudra Yojana Provides Collateral-Free Loans up to ₹20 Lakh",
+          "description": "States that an individual otherwise eligible for a loan with a business plan for a small business enterprise can access PMMY credit for income-generating activities in manufacturing, trading, services and activities allied to agriculture.",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240159"
+        },
+        {
+          "source_type": "official_dfs",
+          "title": "Pradhan Mantri MUDRA Yojana (PMMY)",
+          "description": "Confirms the four current loan categories and the ₹20 lakh maximum, including Tarun Plus.",
+          "url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy"
+        }
+      ],
+      "source_context": {
+        "current_verification_date": "2026-09-25",
+        "current_source_verified": true
+      },
+      "verification_status": "WEB_VERIFIED_CURRENT"
+    }
+  ],
+  "rule_engine_notes": {
+    "evaluation_policy": {
+      "missing_field": "UNKNOWN",
+      "unknown_does_not_mean_false": true,
+      "result_labels": [
+        "Potentially eligible",
+        "Potentially not eligible",
+        "More information required",
+        "Unable to determine from available information"
+      ],
+      "discovery_is_separate_from_eligibility": true
+    },
+    "source_policy": {
+      "official_current_sources_preferred": true,
+      "uploaded_document_evidence_retained": true,
+      "historical_sources_must_not_be_presented_as_current": true
+    }
+  }
+}

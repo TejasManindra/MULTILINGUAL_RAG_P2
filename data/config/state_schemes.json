@@ -1,0 +1,221 @@
+{
+  "telangana": [
+    {
+      "scheme_id": "TS_RYTHU_BHAROSA",
+      "scheme_name": "Rythu Bharosa",
+      "aliases": ["Rythu Bharosa", "Rythu Bharosa Scheme"],
+      "category": "Agriculture",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_RYTHU_BIMA",
+      "scheme_name": "Rythu Bima",
+      "aliases": ["Rythu Bima", "Rythu Beema"],
+      "category": "Agriculture / Insurance",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_CROP_LOAN_WAIVER",
+      "scheme_name": "Crop Loan Waiver",
+      "aliases": ["Crop Loan Waiver", "Rythu Runamafi", "Farm Loan Waiver"],
+      "category": "Agriculture",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_INDIRAMMA_INDLU",
+      "scheme_name": "Indiramma Indlu",
+      "aliases": ["Indiramma Indlu", "Indiramma Houses"],
+      "category": "Housing",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_GRUHA_JYOTHI",
+      "scheme_name": "Gruha Jyothi",
+      "aliases": ["Gruha Jyothi", "Gruha Jyothi Scheme"],
+      "category": "Energy / Household",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_MAHA_LAKSHMI",
+      "scheme_name": "Maha Lakshmi",
+      "aliases": ["Maha Lakshmi", "Mahalakshmi"],
+      "category": "Women / Household",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_CHEYUTHA",
+      "scheme_name": "Cheyutha",
+      "aliases": ["Cheyutha", "Rajiv Aarogyasri", "Rajiv Arogyasri"],
+      "category": "Healthcare",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_INDIRAMMA_ATMEYA_BHAROSA",
+      "scheme_name": "Indiramma Atmeeya Bharosa",
+      "aliases": ["Indiramma Atmeeya Bharosa", "Indiramma Atmiya Bharosa"],
+      "category": "Rural / Livelihood",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_KALYANA_LAKSHMI",
+      "scheme_name": "Kalyana Lakshmi",
+      "aliases": ["Kalyana Lakshmi"],
+      "category": "Women / Marriage Assistance",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_SHAADI_MUBARAK",
+      "scheme_name": "Shaadi Mubarak",
+      "aliases": ["Shaadi Mubarak", "Shaadi Mubarak Scheme"],
+      "category": "Minority Welfare / Marriage Assistance",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_EPASS",
+      "scheme_name": "Telangana ePASS Scholarships",
+      "aliases": ["ePASS", "Telangana ePASS", "Post Matric Scholarship", "Pre Matric Scholarship"],
+      "category": "Education / Scholarships",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in", "cgg.gov.in"]
+    },
+    {
+      "scheme_id": "TS_AASARA",
+      "scheme_name": "Aasara Pensions",
+      "aliases": ["Aasara", "Aasara Pensions"],
+      "category": "Social Security",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_RAJIV_YUVA_VIKASAM",
+      "scheme_name": "Rajiv Yuva Vikasam",
+      "aliases": ["Rajiv Yuva Vikasam", "Yuva Vikasam"],
+      "category": "Youth / Entrepreneurship",
+      "priority": 1,
+      "official_domains": ["telangana.gov.in"]
+    },
+    {
+      "scheme_id": "TS_DALIT_BANDHU",
+      "scheme_name": "Dalit Bandhu",
+      "aliases": ["Dalit Bandhu"],
+      "category": "SC Welfare / Livelihood",
+      "priority": 2,
+      "official_domains": ["telangana.gov.in"]
+    },
+
+    {
+      "scheme_id": "AP_NTR_BHAROSA",
+      "scheme_name": "NTR Bharosa Pension Scheme",
+      "aliases": ["NTR Bharosa", "NTR Bharosa Pension"],
+      "category": "Social Security",
+      "priority": 1,
+      "official_domains": ["ap.gov.in", "sspensions.ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_ANNADATA_SUKHIBHAVA",
+      "scheme_name": "Annadata Sukhibhava PM KISAN",
+      "aliases": ["Annadata Sukhibhava", "Annadata Sukhibhava PM KISAN", "PM KISAN"],
+      "category": "Agriculture",
+      "priority": 1,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_THALLIKI_VANDANAM",
+      "scheme_name": "Thalliki Vandanam",
+      "aliases": ["Thalliki Vandanam", "Talliki Vandanam"],
+      "category": "Education",
+      "priority": 1,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_NTR_VAIDYA_SEVA",
+      "scheme_name": "Dr NTR Vaidya Seva",
+      "aliases": ["NTR Vaidya Seva", "Aarogyasri", "Aarogya Sri"],
+      "category": "Healthcare",
+      "priority": 1,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_DEEPAM_2",
+      "scheme_name": "Deepam-2",
+      "aliases": ["Deepam-2", "Deepam 2"],
+      "category": "LPG / Household",
+      "priority": 1,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_STREE_SHAKTI",
+      "scheme_name": "Stree Shakti",
+      "aliases": ["Stree Shakti"],
+      "category": "Women / Transport",
+      "priority": 1,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_VADDI_LENI_RUNALU",
+      "scheme_name": "Vaddi Leni Runalu",
+      "aliases": ["Vaddi Leni Runalu", "Vaddi Leni Runalu Scheme"],
+      "category": "Women / SHG / Livelihood",
+      "priority": 2,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_STREE_NIDHI",
+      "scheme_name": "Stree Nidhi",
+      "aliases": ["Stree Nidhi"],
+      "category": "Women / Livelihood",
+      "priority": 2,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_HOUSING",
+      "scheme_name": "Andhra Pradesh Housing Assistance",
+      "aliases": ["Housing for All", "AP Housing", "Housing Scheme"],
+      "category": "Housing",
+      "priority": 1,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_SCHOLARSHIPS",
+      "scheme_name": "Andhra Pradesh Scholarships",
+      "aliases": ["Post Matric Scholarship", "Pre Matric Scholarship", "Jnanabhumi"],
+      "category": "Education / Scholarships",
+      "priority": 1,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_HANDLOOM_FREE_POWER",
+      "scheme_name": "Free Power to Handloom Weaver Households",
+      "aliases": ["Free Power to Handloom Weaver Households", "Free Power to Handloom Weavers"],
+      "category": "Handlooms / Livelihood",
+      "priority": 2,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_WEAVER_PENSION",
+      "scheme_name": "NTR Pension Bharosa to Weavers",
+      "aliases": ["NTR Pension Bharosa to Weavers", "Weavers Pension"],
+      "category": "Handlooms / Social Security",
+      "priority": 2,
+      "official_domains": ["ap.gov.in"]
+    },
+    {
+      "scheme_id": "AP_HANDLOOM_THRIFT",
+      "scheme_name": "Co-operative Handloom Weavers Thrift Fund",
+      "aliases": ["Handloom Weavers Thrift Fund", "Thrift Fund Scheme"],
+      "category": "Handlooms / Livelihood",
+      "priority": 3,
+      "official_domains": ["ap.gov.in"]
+    }
+  ]
+}

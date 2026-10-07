@@ -1,0 +1,850 @@
+{
+    "dataset": {
+        "name": "Andhra Pradesh Government Schemes",
+        "version": "1.0",
+        "language": [
+            "en",
+            "te"
+        ],
+        "government_level": "state",
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "last_verified_date": "2026-09-25",
+        "verification_policy": "Official Government of Andhra Pradesh, department, district administration and official scheme portals are preferred. Historical pages are retained as evidence but must not automatically be treated as current eligibility rules."
+    },
+    "schemes": [
+        {
+            "scheme_id": "AP_NTR_BHAROSA",
+            "official_scheme_name": "NTR Bharosa Pension Scheme",
+            "aliases": [
+                "NTR Bharosa",
+                "NTR Bharosa Pension",
+                "Social Security Pension"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Department of Rural Development / Social Security Pensions",
+            "category": "Social Security",
+            "target_beneficiary": [
+                "Old age persons",
+                "Widows",
+                "Persons with disabilities",
+                "Weavers",
+                "Toddy tappers",
+                "Fishermen",
+                "Single women",
+                "Traditional occupations",
+                "Other eligible vulnerable groups"
+            ],
+            "benefits": {
+                "type": "monthly_social_security_pension",
+                "amount": "Category-specific",
+                "description": "Monthly social security pension support for eligible vulnerable groups."
+            },
+            "eligibility": {
+                "andhra_pradesh_resident": true,
+                "category_specific": true,
+                "age_requirement": "Category-specific",
+                "income_requirement": "Category-specific",
+                "social_security_database_verification": true,
+                "status": "CURRENT_PROGRAM_ACTIVE"
+            },
+            "documents": [
+                "Aadhaar",
+                "Residence/identity proof",
+                "Category-specific supporting documents",
+                "Bank/post-office account details where applicable",
+                "Disability certificate where applicable"
+            ],
+            "application_method": [
+                "Village/Ward Secretariat",
+                "Official pension administration channels"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_NTR_BHAROSA_OFFICIAL_PENSION_DASHBOARD",
+                    "source_type": "official_state_pension_portal",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_ACTIVE_RULES_NEED_CATEGORY_NORMALIZATION",
+            "notes": "Official pension dashboard shows active monthly disbursement in September 2026. Category-specific eligibility and pension amounts should be extracted from current Government Orders before deterministic evaluation."
+        },
+        {
+            "scheme_id": "AP_ANNADATA_SUKHIBHAVA_PM_KISAN",
+            "official_scheme_name": "Annadata Sukhibhava – PM KISAN",
+            "aliases": [
+                "Annadata Sukhibhava",
+                "Annadata Sukhibhava PM KISAN",
+                "AP Farmer Investment Support"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Agriculture Department",
+            "category": "Agriculture",
+            "target_beneficiary": [
+                "Small farmers",
+                "Marginal farmers",
+                "Tenant farmers"
+            ],
+            "benefits": {
+                "annual_support_inr": 20000,
+                "description": "Annual investment support to eligible farmers, incorporating the Government of India PM-KISAN component."
+            },
+            "eligibility": {
+                "andhra_pradesh_farmer": true,
+                "small_or_marginal_farmer": true,
+                "tenant_farmer": true,
+                "land_record_verification": true,
+                "farmer_database_verification": true,
+                "status": "CURRENT_PROGRAM_ACTIVE"
+            },
+            "documents": [
+                "Aadhaar",
+                "Land records where applicable",
+                "Tenant farmer identification where applicable",
+                "Bank account",
+                "Agriculture registration/database details"
+            ],
+            "application_method": [
+                "Agriculture Department",
+                "Official Annadata Sukhibhava portal",
+                "Agriculture field administration"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_ANNADATA_SUKHIBHAVA_AGRICULTURE",
+                    "source_type": "official_district_agriculture_department",
+                    "status": "CURRENT_REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_ACTIVE",
+            "notes": "Official AP Agriculture information states annual support of Rs.20,000 per farmer including Rs.6,000 from PM-KISAN."
+        },
+        {
+            "scheme_id": "AP_THALLIKI_VANDANAM",
+            "official_scheme_name": "Thalliki Vandanam",
+            "aliases": [
+                "Thalliki Vandanam Scheme",
+                "Financial Support to Mothers"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "School Education Department",
+            "category": "Education",
+            "target_beneficiary": [
+                "Mothers/guardians of eligible school-going children"
+            ],
+            "benefits": {
+                "type": "direct_financial_assistance",
+                "amount": "Current academic-year amount must be taken from latest notification"
+            },
+            "eligibility": {
+                "eligible_student": true,
+                "school_education_requirement": true,
+                "mother_or_guardian": true,
+                "attendance_requirement": "As specified in current academic-year guidelines",
+                "income_and_family_conditions": "Current notification required",
+                "status": "CURRENT_PROGRAM_ACTIVE"
+            },
+            "documents": [
+                "Student identification",
+                "Parent/guardian identification",
+                "School enrollment details",
+                "Bank account details where applicable",
+                "Residence/family documentation where applicable"
+            ],
+            "application_method": [
+                "School Education Department",
+                "School/education administration"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_SCHOOL_EDUCATION_OFFICIAL",
+                    "source_type": "official_district_school_education_department",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_ACTIVE_RULES_NEED_CURRENT_NOTIFICATION",
+            "notes": "Current AP School Education pages list Thalliki Vandanam as a key scheme providing direct financial benefit to mothers for educating children."
+        },
+        {
+            "scheme_id": "AP_STREE_SHAKTI",
+            "official_scheme_name": "Stree Shakti Scheme",
+            "aliases": [
+                "Stree Shakti Free Bus Travel",
+                "Free Bus Travel for Women"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Transport / APSRTC",
+            "category": "Women Welfare and Transport",
+            "target_beneficiary": [
+                "Girls",
+                "Women",
+                "Transgender citizens"
+            ],
+            "benefits": {
+                "type": "free_bus_travel",
+                "description": "Free travel on eligible APSRTC services under the applicable scheme rules."
+            },
+            "eligibility": {
+                "domiciled_in_andhra_pradesh": true,
+                "gender_or_category": [
+                    "girl",
+                    "woman",
+                    "transgender"
+                ],
+                "valid_identity_proof": true,
+                "status": "CURRENT"
+            },
+            "documents": [
+                "Valid government identity proof",
+                "Applicable APSRTC identification"
+            ],
+            "application_method": [
+                "APSRTC services",
+                "Applicable bus/pass or identity verification process"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "APSRTC_STREE_SHAKTI_OFFICIAL",
+                    "source_type": "official_APSRTC",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "WEB_VERIFIED_CURRENT",
+            "notes": "APSRTC states that the Stree Shakti Scheme was launched on 15 August 2025 and provides free bus travel to girls, women and transgender citizens domiciled in Andhra Pradesh with valid ID proof."
+        },
+        {
+            "scheme_id": "AP_DEEPAM_2_0",
+            "official_scheme_name": "Deepam 2.0",
+            "aliases": [
+                "Deepam 2.0 LPG Scheme",
+                "Free LPG Cylinder Scheme"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Civil Supplies / Energy",
+            "category": "Household Welfare",
+            "target_beneficiary": [
+                "Eligible LPG-consuming households"
+            ],
+            "benefits": {
+                "type": "LPG_cylinder_support",
+                "frequency": "According to current scheme rules"
+            },
+            "eligibility": {
+                "andhra_pradesh_household": true,
+                "eligible_lpg_connection": true,
+                "household_database_verification": true,
+                "status": "CURRENT_PROGRAM_ACTIVE"
+            },
+            "documents": [
+                "Aadhaar",
+                "Ration/family card where applicable",
+                "LPG consumer details",
+                "Bank account details where applicable"
+            ],
+            "application_method": [
+                "Civil Supplies Department",
+                "LPG distributor",
+                "Applicable government beneficiary database"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_DEEPAM_2_DISTRICT_OFFICIAL",
+                    "source_type": "official_district_government",
+                    "status": "CURRENT_REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_ACTIVE_RULES_NEED_CURRENT_ORDER",
+            "notes": "Official district government sources document the Deepam 2.0 launch. Exact current 2026 beneficiary frequency and eligibility should be extracted from the latest Government Order."
+        },
+        {
+            "scheme_id": "AP_DR_NTR_VAIDYA_SEVA",
+            "official_scheme_name": "Dr. NTR Vaidya Seva",
+            "aliases": [
+                "NTR Vaidya Seva",
+                "Aarogyasri",
+                "Dr NTR Aarogyaseva"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Health, Medical and Family Welfare",
+            "category": "Health",
+            "target_beneficiary": [
+                "Eligible poor and vulnerable families"
+            ],
+            "benefits": {
+                "type": "healthcare_coverage",
+                "historical_coverage_reference_inr": 250000,
+                "procedures_reference": 1038,
+                "description": "Government-funded healthcare treatment through the state health assurance system."
+            },
+            "eligibility": {
+                "poor_or_eligible_family": true,
+                "beneficiary_database_identification": true,
+                "status": "CURRENT_HEALTH_PROGRAM"
+            },
+            "documents": [
+                "Aadhaar/identity",
+                "Eligible family/health card",
+                "Medical documents where applicable"
+            ],
+            "application_method": [
+                "Empanelled hospitals",
+                "Health scheme beneficiary verification"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_HEALTH_NTR_VAIDYA_SEVA",
+                    "source_type": "official_AP_health_department",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_RULES_NEED_CURRENT_BENEFIT_VERIFICATION",
+            "notes": "The AP Health Department describes the scheme as the renamed Rajiv Aarogyasri scheme after state reorganisation and provides historical coverage/procedure information. Current benefit limits should be verified from the latest health department notification before encoding as a hard rule."
+        },
+        {
+            "scheme_id": "AP_YSR_BIMA",
+            "official_scheme_name": "YSR Bima",
+            "aliases": [
+                "YSR Bima Scheme"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Labour Department",
+            "category": "Insurance and Social Security",
+            "target_beneficiary": [
+                "Unorganised workers",
+                "Eligible primary bread earners"
+            ],
+            "benefits": {
+                "accidental_death_total_disability_inr": 500000,
+                "partial_disability_max_inr": 362500,
+                "natural_death_inr": 30000,
+                "child_scholarship_annual_inr": 1200
+            },
+            "eligibility": {
+                "unorganised_worker": true,
+                "registration_age_min": 18,
+                "registration_age_max": 70,
+                "benefit_age_18_59": true,
+                "benefit_age_60_70": true,
+                "status": "CURRENT_OFFICIAL_SOURCE"
+            },
+            "documents": [
+                "Worker registration details",
+                "Identity proof",
+                "Bank account details",
+                "Family/dependent details where applicable"
+            ],
+            "application_method": [
+                "Labour Department registration",
+                "SERP/community registration channels where applicable"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_YSR_BIMA_OFFICIAL",
+                    "source_type": "official_AP_labour_department",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "WEB_VERIFIED_CURRENT",
+            "notes": "Official AP Labour Department states that unorganised workers aged 18–70 can register. Benefits differ between ages 18–59 and 60–70."
+        },
+        {
+            "scheme_id": "AP_JNANABHUMI_POST_MATRIC",
+            "official_scheme_name": "Andhra Pradesh Post-Matric Scholarships",
+            "aliases": [
+                "JnanaBhumi Post Matric Scholarships",
+                "RTF",
+                "MTF",
+                "Post Matric Scholarship"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Social Welfare / Tribal Welfare / BC Welfare / Minority Welfare / Disabled Welfare",
+            "category": "Education",
+            "target_beneficiary": [
+                "SC students",
+                "ST students",
+                "BC students",
+                "EBC students",
+                "Kapu students",
+                "Minority students",
+                "Differently Abled students"
+            ],
+            "benefits": {
+                "RTF": "Full fee reimbursement for eligible students according to applicable rules",
+                "MTF": "Maintenance support according to course/category rules"
+            },
+            "eligibility": {
+                "eligible_social_category": true,
+                "recognized_post_matric_course": true,
+                "income_limit": "Category-specific",
+                "academic_requirements": "Course/category-specific",
+                "status": "CURRENT_PORTAL_ACTIVE"
+            },
+            "documents": [
+                "Aadhaar",
+                "Caste/community certificate",
+                "Income certificate",
+                "Study/bonafide certificate",
+                "Bank details where applicable",
+                "Admission/course details"
+            ],
+            "application_method": [
+                "JnanaBhumi portal",
+                "College/institution verification"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_JNANABHUMI_OFFICIAL",
+                    "source_type": "official_JnanaBhumi_portal",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "WEB_VERIFIED_CURRENT",
+            "notes": "Current official JnanaBhumi portal states that post-matric scholarships cover eligible SC, ST, BC, EBC, Kapu, Minority and Differently Abled students on a saturation basis. Category-specific income and academic rules must be normalized from current guidelines."
+        },
+        {
+            "scheme_id": "AP_RYTHU_BHAROSA",
+            "official_scheme_name": "Rythu Bharosa",
+            "aliases": [
+                "YSR Rythu Bharosa"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Agriculture",
+            "category": "Agriculture",
+            "target_beneficiary": [
+                "Farmers",
+                "Tenant farmers"
+            ],
+            "benefits": {
+                "type": "farmer_investment_support",
+                "status": "Historical_or_replaced_component_requires_current_verification"
+            },
+            "eligibility": {
+                "farmer": true,
+                "tenant_farmer": true,
+                "status": "NEEDS_CURRENT_PROGRAM_MAPPING"
+            },
+            "documents": [
+                "Land records",
+                "Tenant farmer identification where applicable",
+                "Aadhaar",
+                "Bank details"
+            ],
+            "application_method": [
+                "Agriculture Department"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_DISTRICT_AGRICULTURE_SOURCES",
+                    "source_type": "official_AP_district_government",
+                    "status": "HISTORICAL_REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "DO_NOT_USE_AS_CURRENT_RULE_BLOCK",
+            "notes": "Current AP agriculture material identifies Annadata Sukhibhava–PM KISAN as the current farmer investment-support program. Rythu Bharosa references should be retained for historical/canonical mapping until current status is explicitly verified."
+        },
+        {
+            "scheme_id": "AP_HOUSING",
+            "official_scheme_name": "Andhra Pradesh State Housing Assistance",
+            "aliases": [
+                "Housing for Poor",
+                "State Housing Schemes",
+                "Housing Department Schemes"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Housing Department",
+            "category": "Housing",
+            "target_beneficiary": [
+                "Eligible homeless families",
+                "Economically weaker households",
+                "Other housing beneficiaries under notified categories"
+            ],
+            "benefits": {
+                "type": "housing_assistance",
+                "amount": "Component-specific"
+            },
+            "eligibility": {
+                "homeless_or_housing_need": true,
+                "income_category": "Component-specific",
+                "land_requirement": "Component-specific",
+                "status": "CURRENT_DEPARTMENT_PROGRAMS_NEED_COMPONENT_MAPPING"
+            },
+            "documents": [
+                "Aadhaar",
+                "Residence proof",
+                "Land/site documents where applicable",
+                "Income/family documentation"
+            ],
+            "application_method": [
+                "Village/Ward Secretariat",
+                "Housing Department",
+                "Applicable housing portal"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_HOUSING_DEPARTMENT",
+                    "source_type": "official_AP_housing_department",
+                    "status": "CURRENT_REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAMS_NEED_COMPONENT_NORMALIZATION",
+            "notes": "Housing should be represented as separate components once current AP Housing Department Government Orders are ingested."
+        },
+        {
+            "scheme_id": "AP_JAGANANNA_CHEDODU",
+            "official_scheme_name": "Jagananna Chedodu",
+            "aliases": [
+                "Jagananna Chedodu Scheme"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Backward Classes Welfare",
+            "category": "Livelihood",
+            "target_beneficiary": [
+                "Rajakas/Dhobis",
+                "Nayee Brahmins",
+                "Tailors"
+            ],
+            "benefits": {
+                "annual_assistance_inr": 10000,
+                "duration_years": 5,
+                "description": "Financial assistance for eligible occupational groups."
+            },
+            "eligibility": {
+                "occupation": [
+                    "washerman",
+                    "barber",
+                    "tailor"
+                ],
+                "age_min": 21,
+                "age_max_exclusive": 60,
+                "income_limit": {
+                    "rural_monthly_inr_less_than": 10000,
+                    "urban_monthly_inr_less_than": 12000
+                },
+                "land_limit": {
+                    "wet_acres_less_than": 3,
+                    "dry_acres_less_than": 10
+                },
+                "government_employee_exclusion": true,
+                "income_tax_payer_exclusion": true,
+                "four_wheeler_exclusion": true,
+                "status": "CURRENT_SOURCE_IS_OLDER_PROGRAM_GUIDANCE"
+            },
+            "documents": [
+                "Integrated caste certificate",
+                "Age/DOB proof",
+                "Occupation/shop proof",
+                "Income certificate",
+                "Bank account details"
+            ],
+            "application_method": [
+                "BC Welfare Department",
+                "Village/Ward Secretariat"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_BC_CORPORATION_CHEDODU",
+                    "source_type": "official_district_BC_welfare_page",
+                    "status": "REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "HISTORICAL_RULES_RETAINED_CURRENT_STATUS_NEEDS_VERIFICATION",
+            "notes": "Official district BC Corporation pages document the scheme and detailed criteria, but the source contains older implementation/progress years. Do not use these rules as current 2026 eligibility until latest GO is verified."
+        },
+        {
+            "scheme_id": "AP_KAPU_NESTHAM",
+            "official_scheme_name": "Kapu Nestham",
+            "aliases": [
+                "Kapu Nestham Scheme"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Backward Classes Welfare",
+            "category": "Women Welfare and Livelihood",
+            "target_beneficiary": [
+                "Kapu women",
+                "Telaga women",
+                "Balija women",
+                "Vontari women"
+            ],
+            "benefits": {
+                "annual_assistance_inr": 15000,
+                "total_assistance_inr": 75000,
+                "duration_years": 5
+            },
+            "eligibility": {
+                "female": true,
+                "age_min": 45,
+                "age_max_exclusive": 60,
+                "community": [
+                    "Kapu",
+                    "Telaga",
+                    "Balija",
+                    "Vontari"
+                ],
+                "income_limit": {
+                    "rural_monthly_inr_less_than": 10000,
+                    "urban_monthly_inr_less_than": 12000
+                },
+                "land_limit": {
+                    "wet_acres_less_than": 3,
+                    "dry_acres_less_than": 10
+                },
+                "government_employee_exclusion": true,
+                "income_tax_payer_exclusion": true,
+                "four_wheeler_exclusion": true,
+                "status": "CURRENT_STATUS_NEEDS_VERIFICATION"
+            },
+            "documents": [
+                "Integrated caste certificate",
+                "Age/DOB proof",
+                "Income certificate",
+                "Bank details"
+            ],
+            "application_method": [
+                "BC Welfare Department",
+                "Village/Ward Secretariat"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_BC_CORPORATION_KAPU_NESTHAM",
+                    "source_type": "official_district_BC_welfare_page",
+                    "status": "REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "HISTORICAL_RULES_RETAINED_CURRENT_STATUS_NEEDS_VERIFICATION"
+        },
+        {
+            "scheme_id": "AP_EBC_NESTHAM",
+            "official_scheme_name": "EBC Nestham",
+            "aliases": [
+                "EBC Nestham Scheme"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Backward Classes Welfare",
+            "category": "Women Welfare and Livelihood",
+            "target_beneficiary": [
+                "Eligible EBC women"
+            ],
+            "benefits": {
+                "annual_assistance_inr": 15000,
+                "total_assistance_inr": 45000,
+                "duration_years": 3
+            },
+            "eligibility": {
+                "female": true,
+                "age_min": 45,
+                "age_max_exclusive": 60,
+                "ebc_status": true,
+                "income_limit": {
+                    "rural_monthly_inr_less_than": 10000,
+                    "urban_monthly_inr_less_than": 12000
+                },
+                "land_limit": {
+                    "wet_acres_less_than": 3,
+                    "dry_acres_less_than": 10
+                },
+                "government_employee_exclusion": true,
+                "income_tax_payer_exclusion": true,
+                "four_wheeler_exclusion": true,
+                "status": "CURRENT_STATUS_NEEDS_VERIFICATION"
+            },
+            "documents": [
+                "Community/EBC certificate",
+                "Age/DOB proof",
+                "Income certificate",
+                "Bank details"
+            ],
+            "application_method": [
+                "BC Welfare Department",
+                "Village/Ward Secretariat"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_BC_CORPORATION_EBC_NESTHAM",
+                    "source_type": "official_district_BC_welfare_page",
+                    "status": "REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "HISTORICAL_RULES_RETAINED_CURRENT_STATUS_NEEDS_VERIFICATION"
+        },
+        {
+            "scheme_id": "AP_YSR_NETANNA_NESTHAM",
+            "official_scheme_name": "YSR Netanna Nestham",
+            "aliases": [
+                "Netanna Nestham",
+                "Weaver Assistance Scheme"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "Handlooms and Textiles",
+            "category": "Livelihood",
+            "target_beneficiary": [
+                "Handloom weaver families"
+            ],
+            "benefits": {
+                "annual_assistance_inr": 24000,
+                "description": "Financial assistance for eligible handloom weaver families."
+            },
+            "eligibility": {
+                "handloom_weaver_family": true,
+                "handloom_asset_or_occupation_verification": true,
+                "status": "PROGRAM_REFERENCE_REQUIRES_CURRENT_VERIFICATION"
+            },
+            "documents": [
+                "Weaver/occupational identification",
+                "Aadhaar",
+                "Bank details",
+                "Handloom-related registration where applicable"
+            ],
+            "application_method": [
+                "Handlooms and Textiles Department"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_HANDLOOM_DISTRICT_OFFICIAL",
+                    "source_type": "official_AP_district_government",
+                    "status": "REFERENCE"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_REFERENCE_NEEDS_CURRENT_GO",
+            "notes": "Official district material reports Rs.24,000 annual assistance for eligible handloom families but the source is a historical achievement/ODOP page. Current rules require verification."
+        },
+        {
+            "scheme_id": "AP_SCHOOL_KITS_VIDYA_MITRA",
+            "official_scheme_name": "Sarvepalli Radhakrishnan Vidya Mitra",
+            "aliases": [
+                "Vidya Mitra",
+                "School Kits Distribution"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "School Education",
+            "category": "Education",
+            "target_beneficiary": [
+                "Students in eligible government schools"
+            ],
+            "benefits": {
+                "type": "educational_kit",
+                "components": [
+                    "Uniforms",
+                    "School bags",
+                    "Shoes",
+                    "Books",
+                    "Notebooks"
+                ]
+            },
+            "eligibility": {
+                "government_school_student": true,
+                "class_range": "According to current school education guidelines",
+                "status": "CURRENT_PROGRAM_ACTIVE"
+            },
+            "documents": [
+                "Student enrollment details",
+                "School records"
+            ],
+            "application_method": [
+                "Through participating schools"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_SCHOOL_EDUCATION_VIDYA_MITRA",
+                    "source_type": "official_AP_school_education_department",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "CURRENT_PROGRAM_ACTIVE"
+        },
+        {
+            "scheme_id": "AP_DOKKA_SEETAMMA_MDM",
+            "official_scheme_name": "Dokka Seetamma Madhyana Badi Bhojanam",
+            "aliases": [
+                "Dokka Seetamma Mid-Day Meal",
+                "PM POSHAN Andhra Pradesh"
+            ],
+            "government_level": "state",
+            "state": "Andhra Pradesh",
+            "department": "School Education",
+            "category": "Nutrition and Education",
+            "target_beneficiary": [
+                "Students in eligible government schools",
+                "Eligible government junior college students according to state coverage"
+            ],
+            "benefits": {
+                "type": "school_meal",
+                "description": "Nutritious meals provided through the state's PM POSHAN implementation."
+            },
+            "eligibility": {
+                "eligible_school_student": true,
+                "government_school_or_covered_institution": true,
+                "status": "CURRENT_PROGRAM_ACTIVE"
+            },
+            "documents": [
+                "School enrollment records"
+            ],
+            "application_method": [
+                "Through participating educational institutions"
+            ],
+            "official_sources": [
+                {
+                    "source_key": "AP_PM_POSHAN_OFFICIAL",
+                    "source_type": "official_AP_PM_POSHAN_portal",
+                    "status": "CURRENT"
+                }
+            ],
+            "last_verified_date": "2026-09-25",
+            "verification_status": "WEB_VERIFIED_CURRENT"
+        }
+    ],
+    "rule_engine_notes": {
+        "evaluation_policy": {
+            "missing_field": "UNKNOWN",
+            "unknown_does_not_mean_false": true,
+            "result_labels": [
+                "Potentially eligible",
+                "Potentially not eligible",
+                "More information required",
+                "Unable to determine from available information"
+            ],
+            "discovery_is_separate_from_eligibility": true
+        },
+        "source_policy": {
+            "official_current_sources_preferred": true,
+            "historical_sources_retained": true,
+            "historical_sources_must_not_be_presented_as_current": true,
+            "current_government_orders_override_older_pages": true
+        },
+        "scheme_status_policy": {
+            "CURRENT": "Current official source supports active program information.",
+            "CURRENT_PROGRAM_ACTIVE_RULES_NEED_CURRENT_NOTIFICATION": "Program is currently referenced by official government sources, but detailed current eligibility needs the latest notification/GO.",
+            "HISTORICAL_RULES_RETAINED_CURRENT_STATUS_NEEDS_VERIFICATION": "Historical official rules are retained as evidence but cannot be used as current deterministic eligibility.",
+            "DO_NOT_USE_AS_CURRENT_RULE_BLOCK": "Do not evaluate eligibility using this block until current source verification is completed."
+        }
+    }
+}

@@ -1,0 +1,505 @@
+{
+  "dataset": {
+    "name": "Andhra Pradesh Government Scheme Eligibility Rules",
+    "version": "1.0",
+    "language": ["en", "te"],
+    "government_level": "state",
+    "state": "Andhra Pradesh",
+    "last_verified_date": "2026-09-25"
+  },
+
+  "rule_engine_notes": {
+    "missing_field": "UNKNOWN",
+    "unknown_does_not_mean_false": true,
+    "discovery_is_separate_from_eligibility": true,
+    "result_labels": [
+      "Potentially eligible",
+      "Potentially not eligible",
+      "More information required",
+      "Unable to determine from available information"
+    ],
+    "historical_rules_must_not_be_used_as_current": true
+  },
+
+  "schemes": [
+
+    {
+      "scheme_id": "AP_NTR_BHAROSA",
+      "eligibility_rules": [
+        {
+          "field": "andhra_pradesh_resident",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "common"
+        },
+        {
+          "field": "pension_category",
+          "operator": "required",
+          "value": true,
+          "condition_group": "category_specific"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAM_ACTIVE_RULES_NEED_CATEGORY_NORMALIZATION",
+      "notes": "Category-specific age, income and pension rules must be extracted from the latest AP Government Orders before deterministic evaluation."
+    },
+
+    {
+      "scheme_id": "AP_ANNADATA_SUKHIBHAVA_PM_KISAN",
+      "eligibility_rules": [
+        {
+          "field": "andhra_pradesh_farmer",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "farmer"
+        },
+        {
+          "field": "farmer_type",
+          "operator": "in",
+          "value": [
+            "small_farmer",
+            "marginal_farmer",
+            "tenant_farmer"
+          ],
+          "condition_group": "farmer"
+        },
+        {
+          "field": "farmer_database_verified",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "verification"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAM_ACTIVE",
+      "notes": "Detailed PM-KISAN exclusions and AP-specific farmer verification should be evaluated as separate rule groups."
+    },
+
+    {
+      "scheme_id": "AP_THALLIKI_VANDANAM",
+      "eligibility_rules": [
+        {
+          "field": "eligible_school_student",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "education"
+        },
+        {
+          "field": "mother_or_eligible_guardian",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "beneficiary"
+        },
+        {
+          "field": "school_enrollment_verified",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "education"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAM_ACTIVE_RULES_NEED_CURRENT_NOTIFICATION"
+    },
+
+    {
+      "scheme_id": "AP_STREE_SHAKTI",
+      "eligibility_rules": [
+        {
+          "field": "domiciled_in_andhra_pradesh",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "residence"
+        },
+        {
+          "field": "gender_or_category",
+          "operator": "in",
+          "value": [
+            "girl",
+            "woman",
+            "transgender"
+          ],
+          "condition_group": "beneficiary"
+        },
+        {
+          "field": "valid_identity_proof",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "identity"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "WEB_VERIFIED_CURRENT"
+    },
+
+    {
+      "scheme_id": "AP_DEEPAM_2_0",
+      "eligibility_rules": [
+        {
+          "field": "andhra_pradesh_household",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "residence"
+        },
+        {
+          "field": "eligible_lpg_connection",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "lpg"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAM_ACTIVE_RULES_NEED_CURRENT_ORDER"
+    },
+
+    {
+      "scheme_id": "AP_DR_NTR_VAIDYA_SEVA",
+      "eligibility_rules": [
+        {
+          "field": "eligible_health_scheme_family",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "beneficiary"
+        },
+        {
+          "field": "beneficiary_database_verified",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "verification"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAM_RULES_NEED_CURRENT_BENEFIT_VERIFICATION"
+    },
+
+    {
+      "scheme_id": "AP_YSR_BIMA",
+      "eligibility_rules": [
+        {
+          "field": "unorganised_worker",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "occupation"
+        },
+        {
+          "field": "age",
+          "operator": "between",
+          "value": [18, 70],
+          "condition_group": "age"
+        }
+      ],
+      "exclusion_rules": [],
+      "benefit_rules": [
+        {
+          "condition": "age_between_18_and_59",
+          "benefit_age_range": [18, 59]
+        },
+        {
+          "condition": "age_between_60_and_70",
+          "benefit_age_range": [60, 70]
+        }
+      ],
+      "verification_status": "WEB_VERIFIED_CURRENT"
+    },
+
+    {
+      "scheme_id": "AP_JNANABHUMI_POST_MATRIC",
+      "eligibility_rules": [
+        {
+          "field": "eligible_social_category",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "category"
+        },
+        {
+          "field": "recognized_post_matric_course",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "education"
+        },
+        {
+          "field": "category_specific_income_limit_satisfied",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "income"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "WEB_VERIFIED_CURRENT",
+      "notes": "Income and academic rules must be evaluated according to the student's specific welfare category and current academic-year guidelines."
+    },
+
+    {
+      "scheme_id": "AP_RYTHU_BHAROSA",
+      "eligibility_rules": [],
+      "exclusion_rules": [],
+      "verification_status": "DO_NOT_USE_AS_CURRENT_RULE_BLOCK",
+      "notes": "Retained as historical/canonical scheme information. Current farmer-support evaluation should use AP_ANNADATA_SUKHIBHAVA_PM_KISAN until current status is explicitly verified."
+    },
+
+    {
+      "scheme_id": "AP_HOUSING",
+      "eligibility_rules": [
+        {
+          "field": "housing_need",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "housing_need"
+        },
+        {
+          "field": "eligible_income_category",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "income"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAMS_NEED_COMPONENT_NORMALIZATION",
+      "notes": "Housing must be split into individual components after current AP Housing Department Government Orders are ingested."
+    },
+
+    {
+      "scheme_id": "AP_JAGANANNA_CHEDODU",
+      "eligibility_rules": [
+        {
+          "field": "occupation",
+          "operator": "in",
+          "value": [
+            "washerman",
+            "barber",
+            "tailor"
+          ],
+          "condition_group": "occupation"
+        },
+        {
+          "field": "age",
+          "operator": "between",
+          "value": [21, 59],
+          "condition_group": "age"
+        },
+        {
+          "field": "rural_monthly_income",
+          "operator": "less_than",
+          "value": 10000,
+          "currency": "INR",
+          "condition_group": "income"
+        },
+        {
+          "field": "urban_monthly_income",
+          "operator": "less_than",
+          "value": 12000,
+          "currency": "INR",
+          "condition_group": "income"
+        },
+        {
+          "field": "wet_land_acres",
+          "operator": "less_than",
+          "value": 3,
+          "condition_group": "land"
+        },
+        {
+          "field": "dry_land_acres",
+          "operator": "less_than",
+          "value": 10,
+          "condition_group": "land"
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "government_employee",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "income_tax_payer",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "owns_four_wheeler",
+          "operator": "equals",
+          "value": true
+        }
+      ],
+      "verification_status": "HISTORICAL_RULES_RETAINED_CURRENT_STATUS_NEEDS_VERIFICATION",
+      "notes": "Rules originate from older official program guidance and must not be treated as current 2026 rules until the latest GO is verified."
+    },
+
+    {
+      "scheme_id": "AP_KAPU_NESTHAM",
+      "eligibility_rules": [
+        {
+          "field": "gender",
+          "operator": "equals",
+          "value": "female",
+          "condition_group": "beneficiary"
+        },
+        {
+          "field": "age",
+          "operator": "between",
+          "value": [45, 59],
+          "condition_group": "age"
+        },
+        {
+          "field": "community",
+          "operator": "in",
+          "value": [
+            "Kapu",
+            "Telaga",
+            "Balija",
+            "Vontari"
+          ],
+          "condition_group": "community"
+        },
+        {
+          "field": "rural_monthly_income",
+          "operator": "less_than",
+          "value": 10000,
+          "currency": "INR",
+          "condition_group": "income"
+        },
+        {
+          "field": "urban_monthly_income",
+          "operator": "less_than",
+          "value": 12000,
+          "currency": "INR",
+          "condition_group": "income"
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "government_employee",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "income_tax_payer",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "owns_four_wheeler",
+          "operator": "equals",
+          "value": true
+        }
+      ],
+      "verification_status": "HISTORICAL_RULES_RETAINED_CURRENT_STATUS_NEEDS_VERIFICATION"
+    },
+
+    {
+      "scheme_id": "AP_EBC_NESTHAM",
+      "eligibility_rules": [
+        {
+          "field": "gender",
+          "operator": "equals",
+          "value": "female",
+          "condition_group": "beneficiary"
+        },
+        {
+          "field": "age",
+          "operator": "between",
+          "value": [45, 59],
+          "condition_group": "age"
+        },
+        {
+          "field": "ebc_status",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "category"
+        },
+        {
+          "field": "rural_monthly_income",
+          "operator": "less_than",
+          "value": 10000,
+          "currency": "INR",
+          "condition_group": "income"
+        },
+        {
+          "field": "urban_monthly_income",
+          "operator": "less_than",
+          "value": 12000,
+          "currency": "INR",
+          "condition_group": "income"
+        }
+      ],
+      "exclusion_rules": [
+        {
+          "field": "government_employee",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "income_tax_payer",
+          "operator": "equals",
+          "value": true
+        },
+        {
+          "field": "owns_four_wheeler",
+          "operator": "equals",
+          "value": true
+        }
+      ],
+      "verification_status": "HISTORICAL_RULES_RETAINED_CURRENT_STATUS_NEEDS_VERIFICATION"
+    },
+
+    {
+      "scheme_id": "AP_YSR_NETANNA_NESTHAM",
+      "eligibility_rules": [
+        {
+          "field": "handloom_weaver_family",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "occupation"
+        },
+        {
+          "field": "handloom_occupation_verified",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "verification"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAM_REFERENCE_NEEDS_CURRENT_GO"
+    },
+
+    {
+      "scheme_id": "AP_SCHOOL_KITS_VIDYA_MITRA",
+      "eligibility_rules": [
+        {
+          "field": "government_school_student",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "education"
+        },
+        {
+          "field": "student_enrollment_verified",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "verification"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "CURRENT_PROGRAM_ACTIVE"
+    },
+
+    {
+      "scheme_id": "AP_DOKKA_SEETAMMA_MDM",
+      "eligibility_rules": [
+        {
+          "field": "eligible_school_student",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "education"
+        },
+        {
+          "field": "covered_institution",
+          "operator": "equals",
+          "value": true,
+          "condition_group": "institution"
+        }
+      ],
+      "exclusion_rules": [],
+      "verification_status": "WEB_VERIFIED_CURRENT"
+    }
+
+  ]
+}

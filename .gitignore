@@ -9,4 +9,5 @@ __pycache__/
 data/raw/
 data/processed/
 *.log
-"@ | Out-File -Encoding utf8 .gitignore
+
+
