@@ -1,0 +1,895 @@
+# Jnanabhumi Post-Matric Scholarships (RTF/MTF)
+
+## 1. Basic Information
+
+Scheme ID: AP_JNANABHUMI_POST_MATRIC
+
+Official Current Name:
+Post Matric Scholarships (RTF/MTF)
+
+Portal:
+Jnanabhumi
+
+Historical / Component Names:
+- Jagananna Vidya Deevena (RTF)
+- Jagananna Vasathi Deevena (MTF)
+
+State:
+Andhra Pradesh
+
+Government:
+Government of Andhra Pradesh
+
+Primary Department:
+Social Welfare Department
+
+Participating Welfare Departments:
+- Social Welfare
+- Tribal Welfare
+- Backward Classes Welfare
+- Minority Welfare
+- Kapu Welfare
+- Differently Abled Welfare
+- Other designated welfare authorities
+
+Category:
+Education / Higher Education / Scholarships
+
+Subcategory:
+Post-Matric Fee Reimbursement and Maintenance Assistance
+
+Scheme Type:
+Fee reimbursement + maintenance assistance
+
+Current Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Implementation Portal:
+JnanaBhumi
+
+Important Naming Note:
+The current Jnanabhumi portal presents the programme as
+"Post Matric Scholarships (RTF/MTF)".
+
+The terms Jagananna Vidya Deevena and Jagananna Vasathi Deevena
+refer to the RTF and MTF components respectively under the
+post-matric scholarship framework.
+
+Do not create three independent schemes from these names.
+
+
+## 2. Scheme Overview
+
+The Andhra Pradesh Post Matric Scholarship programme provides
+financial assistance to eligible students pursuing post-matric
+education.
+
+The current Jnanabhumi portal states that the scheme is implemented
+on a saturation basis for eligible students belonging to:
+
+- SC
+- ST
+- BC
+- EBC (other than Kapu)
+- Kapu
+- Minority
+- Differently Abled
+
+The programme has two major components:
+
+### RTF — Reimbursement of Tuition Fee
+
+RTF provides reimbursement of eligible tuition and other approved
+fees according to the applicable fee structure and Government Orders.
+
+The current Jnanabhumi portal describes RTF as full fee reimbursement
+for eligible students.
+
+### MTF — Maintenance / Food and Hostel Assistance
+
+MTF provides annual maintenance assistance:
+
+- ITI: ₹10,000 per student
+- Polytechnic: ₹15,000 per student
+- Degree and above: ₹20,000 per student
+
+The current Jnanabhumi portal states that MTF is intended for food
+and hostel expenses.
+
+The amount is credited to the mother's bank account where the
+applicable implementation rules require mother-account payment.
+If the mother is deceased or unavailable, payment may be made to
+the natural guardian according to the applicable rules.
+
+
+## 3. Target Beneficiaries
+
+Eligible students pursuing post-matric courses.
+
+The current Jnanabhumi portal identifies the following beneficiary
+categories:
+
+1. Scheduled Caste (SC)
+2. Scheduled Tribe (ST)
+3. Backward Classes (BC)
+4. Economically Backward Classes (EBC), other than Kapu
+5. Kapu
+6. Minority
+7. Differently Abled
+
+The programme is intended for students pursuing eligible
+post-matric education in recognised institutions.
+
+
+## 4. Eligibility Criteria
+
+### Course Level
+
+Eligible courses include:
+
+- ITI
+- Polytechnic
+- Degree
+- Degree and above-level courses
+
+The current Jnanabhumi portal specifically describes Polytechnic,
+ITI and Degree & above courses.
+
+Intermediate is not treated as a post-matric scholarship course
+under this current scheme record.
+
+
+### Institution
+
+Eligible students may study in:
+
+- Government colleges/institutions
+- Aided colleges/institutions
+- Eligible private colleges
+- Institutions affiliated to State Universities / Boards
+
+The institution must satisfy the applicable recognition,
+affiliation and Jnanabhumi requirements.
+
+
+### Attendance
+
+The current Jnanabhumi portal states:
+
+75% aggregate attendance is mandatory for release of scholarships.
+
+In addition, G.O.Ms.No.87 dated 20-11-2024 states that:
+
+- From AY 2024-25, RTF for students other than SC students is
+  released to college accounts according to the revised guidelines.
+- From AY 2025-26, RTF for students other than SC students is
+  subject to FRS attendance in colleges.
+- SC RTF continues to be released to student accounts according to
+  the applicable Government of India guidelines.
+
+Therefore attendance must be represented as a current operational
+condition, with the exact release mechanism differentiated by
+category/year.
+
+
+### Family Income
+
+The current Jnanabhumi scheme page specifies:
+
+Total family annual income:
+Less than or equal to ₹2.50 lakh.
+
+This is the principal income threshold currently displayed by the
+Jnanabhumi portal.
+
+
+### Landholding
+
+The current Jnanabhumi portal specifies that family landholding
+must be within the prescribed limits:
+
+- Less than 10 acres wet land, OR
+- Less than 25 acres dry land, OR
+- Less than 25 acres combined wet and dry land.
+
+Important:
+The portal's wording should be preserved exactly in the eligibility
+engine because older application forms contain a different
+presentation of the land condition.
+
+
+### Government Employment / Pension
+
+No family member should be a government employee or pensioner.
+
+Exception:
+Sanitary workers are exempt from this exclusion irrespective of
+salary/recruitment, subject to the applicable certification process.
+
+
+### Four-Wheeler
+
+No family member should own a four-wheeler.
+
+Exemptions include:
+
+- Taxi
+- Tractor
+- Auto
+
+as specified by the Jnanabhumi eligibility rules.
+
+
+### Urban Property
+
+The current Jnanabhumi portal states that the family is eligible
+where it owns no property or less than 1500 square feet of built-up
+area in urban areas.
+
+Therefore:
+
+Urban property threshold:
+Less than 1500 sq ft.
+
+
+### Income Tax
+
+No family member should be an income-tax payer.
+
+
+### Local Nativity
+
+Jnanabhumi application documentation requires local nativity
+information.
+
+The application form records AP local nativity under Article 371-D.
+
+The form specifies that the student should have studied at least
+four years in Andhra Pradesh out of seven years of total study up
+to the qualifying course for the indicated local-nativity test.
+
+This condition should be evaluated according to the applicable
+admission/local-status rules rather than being treated as a simple
+residence-duration rule for every student.
+
+
+## 5. Exclusions / Non-Eligibility
+
+The current Jnanabhumi portal identifies the following categories
+as ineligible:
+
+1. Students studying in Private Universities / Deemed Universities.
+2. Students pursuing Correspondence / Distance Education.
+3. Students admitted under Management / Spot Quota.
+
+Additional non-eligibility conditions include failure to satisfy
+the prescribed:
+
+- Income criteria
+- Land criteria
+- Vehicle criteria
+- Urban-property criteria
+- Government employment/pension criteria
+- Income-tax criteria
+- Attendance requirements
+- Category/caste requirements
+- Institution/course requirements
+
+
+## 6. Benefits
+
+### RTF — Reimbursement of Tuition Fee
+
+Eligible students receive reimbursement of the approved fees under
+the applicable fee structure.
+
+The current Jnanabhumi portal describes full fee reimbursement
+covering:
+
+- Tuition Fee
+- Special Fees
+- Other Fees
+- Examination Fees
+
+subject to the applicable Government-approved fee structure.
+
+
+### MTF — Maintenance / Food and Hostel Assistance
+
+Annual amounts currently displayed by Jnanabhumi:
+
+| Course | Annual MTF |
+|---|---:|
+| ITI | ₹10,000 |
+| Polytechnic | ₹15,000 |
+| Degree & above | ₹20,000 |
+
+The MTF is intended for food and hostel expenses.
+
+
+### MTF Payment
+
+MTF is credited to the mother's bank account under the applicable
+implementation mechanism.
+
+If the mother is deceased or unavailable, the amount may be credited
+to the natural guardian according to the applicable rules.
+
+
+### RTF Payment — Current Version
+
+G.O.Ms.No.87 dated 20-11-2024 modified RTF disbursement:
+
+From AY 2024-25:
+RTF for students other than SC students is released to the
+respective college accounts.
+
+From AY 2025-26:
+RTF for students other than SC students is released to college
+accounts subject to FRS attendance.
+
+For SC students:
+RTF continues to be released to student accounts according to
+applicable Government of India guidelines.
+
+
+## 7. Required Documents
+
+The current Jnanabhumi application system identifies documents/
+information including:
+
+- Caste Certificate
+- Income Certificate
+- Rice Card, if available
+- SSC / Date of Birth certificate
+- Aadhaar
+- Nativity certificate
+- Qualifying Intermediate/Degree/PG certificate
+- Qualifying examination marksheet
+- Student bank-account details
+- Mother bank-account details where applicable
+- Passport-size photograph
+- Other scheme-specific supporting information
+
+Additional information may be required depending on the student's
+category/course.
+
+### Bank Account
+
+The Jnanabhumi application documentation requires bank-account
+details.
+
+For mother-account payment under the applicable RTF/MTF mechanisms,
+the mother's bank account must satisfy the required Aadhaar-seeding/
+authentication conditions.
+
+
+## 8. Application Process
+
+### Fresh Application
+
+The Jnanabhumi process generally follows:
+
+1. Student obtains the scholarship application information/form
+   through the college.
+2. Student provides required personal, caste, income, education and
+   bank details.
+3. College verifies the student's information.
+4. College submits the application through Jnanabhumi.
+5. Student verifies the application details.
+6. Required authentication/biometric verification is completed.
+7. Welfare department verifies eligibility.
+8. Scholarship is sanctioned according to the applicable rules.
+9. RTF/MTF is released through the applicable payment mechanism.
+
+
+### Renewal
+
+For renewal:
+
+1. College enters current-year admission information.
+2. Previous examination/hall-ticket information is updated.
+3. Student verifies the application.
+4. Required authentication is completed.
+5. Welfare department processes the renewal.
+
+
+### Institutional Role
+
+Colleges are responsible for:
+
+- Registration
+- Application submission
+- Fee details
+- Student verification
+- Attendance information
+- Examination/result information
+- Other required Jnanabhumi updates
+
+The Social Welfare Directorate is the nodal authority for issuing
+timelines/guidelines and monitoring implementation.
+
+
+## 9. Important Dates
+
+Original online implementation:
+2008-09
+
+Jnanabhumi implementation:
+2017-18
+
+Jagananna Vidya Deevena / Vasathi Deevena formulation:
+2019-20
+
+G.O.Ms.No.18:
+04 April 2022
+
+G.O.Ms.No.87:
+20 November 2024
+
+RTF disbursement modification:
+Academic Year 2024-25 onward
+
+FRS attendance condition for non-SC RTF:
+Academic Year 2025-26 onward
+
+Current status:
+ACTIVE_CURRENT
+
+Application deadlines:
+Academic-year-specific.
+
+Students should follow the current Jnanabhumi/college notification
+for the relevant academic year rather than using an old deadline.
+
+
+## 10. Selection / Verification / Approval
+
+This is an eligibility-and-verification-based scholarship rather
+than a competitive selection programme.
+
+### Verification Layers
+
+#### Student Verification
+
+- Identity
+- Aadhaar
+- Date of birth
+- Caste/category
+- Nativity
+- Course
+- Institution
+- Admission details
+
+#### Family Eligibility
+
+- Income
+- Rice Card / household information
+- Landholding
+- Vehicle ownership
+- Urban property
+- Government employment/pension
+- Income-tax status
+
+#### Academic Verification
+
+- Admission
+- Course
+- Institution affiliation
+- Attendance
+- Examination results
+- FRS attendance where applicable
+
+#### Institutional Verification
+
+The college submits/updates student information through Jnanabhumi.
+
+#### Welfare Department Verification
+
+The relevant welfare department verifies and sanctions the scholarship
+according to category and applicable rules.
+
+
+## 11. Implementing Authority
+
+Government:
+Government of Andhra Pradesh
+
+Nodal Department:
+Social Welfare Department
+
+Participating departments:
+
+- Social Welfare Department
+- Tribal Welfare Department
+- BC Welfare Department
+- Minority Welfare Department
+- Kapu Welfare Department
+- Differently Abled Welfare Department
+
+Portal:
+JnanaBhumi
+
+Educational Institutions:
+Responsible for registration, verification and submission.
+
+Universities/Affiliation Authorities:
+Responsible for recognition/affiliation and relevant institutional
+data.
+
+
+## 12. Related / Linked Government Programs
+
+### Jagananna Vidya Deevena
+
+RTF component of the post-matric scholarship framework.
+
+Provides reimbursement of approved educational fees.
+
+### Jagananna Vasathi Deevena
+
+MTF component.
+
+Provides annual maintenance assistance for eligible students.
+
+### JnanaBhumi
+
+The integrated Andhra Pradesh education/scholarship portal through
+which applications and institutional processing are carried out.
+
+### Post-Matric Scholarships for Different Welfare Categories
+
+The same broad post-matric framework is administered across multiple
+welfare departments.
+
+The eligibility category must therefore be retained in the RAG.
+
+### Overseas Scholarship Schemes
+
+Ambedkar Overseas Vidya Nidhi and other overseas scholarships are
+separate schemes.
+
+Do not merge their income/age/qualification rules with the
+post-matric scholarship.
+
+
+## 13. Official Websites and Portals
+
+### JnanaBhumi
+
+Official portal:
+https://jnanabhumi.ap.gov.in/
+
+Current Post-Matric Scholarship information:
+https://jnanabhumi.ap.gov.in/
+
+
+### Jnanabhumi Government Orders
+
+Official Jnanabhumi GO repository:
+https://jnanabhumi.ap.gov.in/GOs/
+
+
+### G.O.Ms.No.87 — 20.11.2024
+
+Official Government of Andhra Pradesh document:
+https://jnanabhumi.ap.gov.in/GOs/2024SW_MS87.pdf
+
+
+## 14. Official Source Documents
+
+### Source 1
+
+Official Jnanabhumi Portal
+
+Current Post Matric Scholarships (RTF/MTF) page.
+
+Supported facts:
+
+- Current scheme identity
+- Eligible categories
+- RTF
+- MTF
+- ₹10,000 ITI
+- ₹15,000 Polytechnic
+- ₹20,000 Degree & above
+- 75% aggregate attendance
+- Income criterion
+- Land criterion
+- Government employee/pensioner exclusion
+- Four-wheeler exclusion
+- Urban property condition
+- Income-tax condition
+- Course/institution exclusions
+- Application process
+
+
+### Source 2
+
+G.O.Ms.No.115, Social Welfare Department,
+dated 30.11.2019.
+
+This order established the Jagananna Vidya Deevena / Vasathi Deevena
+framework and its eligibility structure.
+
+### Source 3
+
+G.O.Ms.No.18, Social Welfare (EDN) Department,
+dated 04.04.2022.
+
+This order prescribes duties and timelines for stakeholders.
+
+It confirms that Post Matric Scholarships have operated online and
+through Jnanabhumi since 2017-18.
+
+
+### Source 4
+
+G.O.Ms.No.87, Social Welfare (EDU.I) Department,
+dated 20.11.2024.
+
+This is especially important for current RAG data.
+
+It modifies the RTF disbursement mechanism from AY 2024-25 and
+introduces FRS attendance as a condition for non-SC RTF releases
+from AY 2025-26.
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Evidence:
+
+1. The official Jnanabhumi portal currently lists Post Matric
+   Scholarships (RTF/MTF).
+2. The portal currently identifies SC, ST, BC, EBC, Kapu, Minority
+   and Differently Abled beneficiaries.
+3. The portal continues to provide current scholarship application
+   and notification information.
+4. G.O.Ms.No.87 provides the current RTF disbursement modification
+   beginning AY 2024-25 and FRS attendance condition from AY
+   2025-26.
+5. Current AP district government pages continue to describe
+   Post-Matric RTF/MTF implementation.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- Post Matric Scholarships (RTF/MTF) are currently listed on the
+  official Jnanabhumi portal.
+- Eligible categories include SC, ST, BC, EBC (other than Kapu),
+  Kapu, Minority and Differently Abled.
+- Eligible education includes ITI, Polytechnic and Degree & above
+  courses.
+- 75% aggregate attendance is stated as mandatory for scholarship
+  release.
+- Current portal income threshold is ₹2.50 lakh annual family income.
+- Current portal land criteria are:
+  less than 10 acres wet OR less than 25 acres dry OR less than
+  25 acres combined wet/dry.
+- Government employee/pensioner exclusion applies, with the stated
+  sanitary-worker exception.
+- Four-wheeler exclusion applies, with taxi/tractor/auto exceptions.
+- Urban property threshold is 1500 sq ft.
+- Income-tax payer exclusion applies.
+- Private University/Deemed University students are excluded.
+- Correspondence/Distance Education students are excluded.
+- Management/Spot Quota admissions are excluded.
+- MTF amounts are ₹10,000 / ₹15,000 / ₹20,000 for ITI /
+  Polytechnic / Degree & above respectively.
+- G.O.Ms.No.87 changes RTF disbursement from AY 2024-25.
+- FRS attendance applies to non-SC RTF releases from AY 2025-26.
+
+
+### VERSION / IMPLEMENTATION DEPENDENT
+
+- Exact academic-year application deadline.
+- Exact RTF fee amount because approved fee structures can change.
+- Exact institution/course eligibility by academic year.
+- Exact payment schedule.
+- Category-specific implementation rules.
+- Current local-nativity determination in individual cases.
+
+
+## 17. Notes and Limitations
+
+1. The current official name is "Post Matric Scholarships (RTF/MTF)"
+   on Jnanabhumi.
+
+2. Jagananna Vidya Deevena and Jagananna Vasathi Deevena are the
+   commonly used names of the RTF and MTF components.
+
+3. Do not create duplicate RAG entries unless historical scheme
+   tracking is required.
+
+4. The current portal should be preferred for current eligibility
+   values.
+
+5. G.O.Ms.No.87 dated 20.11.2024 must be incorporated into the
+   current eligibility/payment logic.
+
+6. RTF payment mechanics changed from AY 2024-25.
+
+7. FRS attendance becomes specifically important for non-SC RTF
+   releases from AY 2025-26.
+
+8. SC RTF has a different disbursement treatment because of the
+   Government of India funding component.
+
+9. The RAG must distinguish RTF from MTF.
+
+10. The RAG must distinguish beneficiary eligibility from the actual
+    approved fee amount.
+
+11. The ₹2.50 lakh income threshold should not be replaced with older
+    district-page figures from unrelated or historical scholarship
+    implementations.
+
+12. The land threshold should be stored exactly as the current
+    Jnanabhumi portal presents it.
+
+13. Do not copy eligibility rules from Pre-Matric Scholarships,
+    Overseas Scholarships or Differently-Abled-only schemes.
+
+14. Course and institution eligibility must be checked before
+    determining benefit.
+
+15. Academic-year deadlines should be stored as separate metadata
+    rather than permanently hard-coded.
+
+
+## 18. Structured Eligibility Data
+
+scheme_id:
+AP_JNANABHUMI_POST_MATRIC
+
+current_status:
+ACTIVE_CURRENT
+
+scheme_name_current:
+Post Matric Scholarships (RTF/MTF)
+
+rtf_component:
+Jagananna Vidya Deevena
+
+mtf_component:
+Jagananna Vasathi Deevena
+
+eligible_categories:
+- SC
+- ST
+- BC
+- EBC (other than Kapu)
+- Kapu
+- Minority
+- Differently Abled
+
+course_levels:
+- ITI
+- Polytechnic
+- Degree
+- Degree and above
+
+institution_types:
+Government / Aided / eligible Private institutions affiliated
+to State Universities / Boards
+
+attendance_requirement:
+75% aggregate attendance
+
+income_limit:
+<= ₹2,50,000 annual family income
+
+land_limit:
+< 10 acres wet
+OR
+< 25 acres dry
+OR
+< 25 acres combined wet + dry
+
+government_employee_exclusion:
+YES
+
+pensioner_exclusion:
+YES
+
+sanitary_worker_exception:
+YES
+
+four_wheeler_exclusion:
+YES
+
+taxi_tractor_auto_exception:
+YES
+
+urban_property_limit:
+< 1500 sq ft built-up area
+
+income_tax_payer_exclusion:
+YES
+
+private_university_exclusion:
+YES
+
+deemed_university_exclusion:
+YES
+
+distance_education_exclusion:
+YES
+
+management_quota_exclusion:
+YES
+
+spot_quota_exclusion:
+YES
+
+rtf_benefit:
+Full approved eligible fee reimbursement
+
+mtf_iti:
+₹10,000/year
+
+mtf_polytechnic:
+₹15,000/year
+
+mtf_degree_and_above:
+₹20,000/year
+
+rtf_disbursement_non_sc:
+College account from AY 2024-25
+
+frs_condition_non_sc:
+Applicable from AY 2025-26
+
+sc_rtf:
+Student-account treatment continues under applicable GoI
+guidelines
+
+application_portal:
+https://jnanabhumi.ap.gov.in/
+
+primary_department:
+Social Welfare Department
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source | Status |
+|---|---|---|
+| Current scheme name | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Current beneficiary categories | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| RTF component | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| MTF component | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| ₹10,000 ITI MTF | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| ₹15,000 Polytechnic MTF | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| ₹20,000 Degree & above MTF | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| 75% aggregate attendance | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| ₹2.50 lakh income ceiling | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Wet/dry land criteria | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Government employee/pensioner exclusion | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Sanitary-worker exception | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Four-wheeler exclusion | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Taxi/tractor/auto exception | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| 1500 sq ft urban property criterion | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Income-tax exclusion | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Private/deemed university exclusion | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Distance education exclusion | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Management/Spot quota exclusion | Official Jnanabhumi portal | VERIFIED_CURRENT |
+| Jnanabhumi implementation since 2017-18 | G.O.Ms.No.18, 04.04.2022 | VERIFIED |
+| Jagananna Vidya/Vasathi Deevena formulation | G.O.Ms.No.18 / G.O.Ms.No.115 | VERIFIED |
+| RTF change from AY 2024-25 | G.O.Ms.No.87, 20.11.2024 | VERIFIED_CURRENT |
+| Non-SC RTF to college accounts | G.O.Ms.No.87 | VERIFIED_CURRENT |
+| FRS condition from AY 2025-26 | G.O.Ms.No.87 | VERIFIED_CURRENT |
+| SC RTF treatment | G.O.Ms.No.87 | VERIFIED_CURRENT |
+| Academic-year application deadline | Current year-specific notification | VERSION_DEPENDENT |
+| Exact approved fee amount | Competent fee authorities | VERSION_DEPENDENT |

@@ -1,14 +1,9 @@
-"""
-Progressive eligibility question generator.
-
-Converts missing eligibility-rule fields into
-user-friendly questions.
-
-This module does NOT decide eligibility.
-"""
-
 from typing import Any, Dict, List
 
+
+# ============================================================
+# HUMAN-READABLE QUESTIONS
+# ============================================================
 
 FIELD_QUESTIONS = {
 
@@ -19,10 +14,13 @@ FIELD_QUESTIONS = {
         "What is your gender?",
 
     "state":
-        "Which state do you live in?",
+        "Which state do you currently live in?",
 
     "occupation":
-        "What is your occupation?",
+        "What is your current occupation?",
+
+    "employment_status":
+        "What is your current employment status?",
 
     "student":
         "Are you currently a student?",
@@ -31,25 +29,28 @@ FIELD_QUESTIONS = {
         "What is your current education level?",
 
     "class_12_percentile":
-        "What percentage did you score in Class 12?",
+        "What is your Class 12 percentile?",
 
     "course_mode":
-        "Are you studying in a regular, distance, or correspondence course?",
+        "Are you studying in regular, distance, or correspondence mode?",
 
     "course_type":
         "What type of course are you pursuing?",
 
     "institution_recognition":
-        "Is your college or institution recognized/approved as required by the scheme?",
+        "Is your educational institution recognised by the relevant authority?",
 
     "family_income_annual":
-        "What is your family's annual income?",
+        "What is your annual family income?",
 
     "annual_income":
         "What is your annual income?",
 
+    "annual_household_income":
+        "What is your annual household income?",
+
     "caste_category":
-        "What is your social or caste category?",
+        "What is your caste category?",
 
     "social_category":
         "What is your social category?",
@@ -67,7 +68,7 @@ FIELD_QUESTIONS = {
         "Do you own agricultural land?",
 
     "land_area":
-        "How much agricultural land do you own?",
+        "How much agricultural land do you own or cultivate?",
 
     "tenant_farmer":
         "Are you a tenant farmer?",
@@ -75,14 +76,50 @@ FIELD_QUESTIONS = {
     "landless":
         "Are you landless?",
 
+    "family_land_status":
+        "What is your family's agricultural land ownership/status?",
+
+    "cultivable_land_recorded_in_state_ut_land_records":
+        "Is your cultivable land recorded in the relevant State/UT land records?",
+
+    "farmer_status":
+        "What is your farmer status, such as owner cultivator or tenant farmer?",
+
+    "farmer_type":
+        "What type of farmer are you?",
+
+    "farmer_group":
+        "Which farmer group or category do you belong to?",
+
+    "borrower_group":
+        "Which borrower group applies to you?",
+
+    "allied_activity_status":
+        "Do you have an allied agricultural activity such as dairy, poultry, or fisheries?",
+
+    "allied_borrower_group":
+        "If you have an allied agricultural activity, which borrower group applies to you?",
+
+    "grows_notified_crop_in_notified_area":
+        "Do you grow a notified crop in a notified area?",
+
+    "has_insurable_interest_in_notified_crop":
+        "Do you have an insurable interest in the notified crop?",
+
     "ration_card":
-        "Do you have a ration/rice card?",
+        "Do you have a ration card?",
 
     "owns_house":
-        "Do you own a house?",
+        "Do you already own a house?",
+
+    "has_pucca_house_anywhere_in_india":
+        "Do you already own a pucca house anywhere in India?",
+
+    "urban_household":
+        "Is your household located in an urban area?",
 
     "government_employee":
-        "Are you a government employee?",
+        "Are you or a relevant household member a government employee?",
 
     "income_tax_payer":
         "Are you an income-tax payer?",
@@ -97,183 +134,64 @@ FIELD_QUESTIONS = {
         "How many children do you have?",
 
     "other_scholarship_benefit":
-        "Are you currently receiving another scholarship or similar scholarship benefit?",
+        "Are you currently receiving another scholarship or similar educational benefit?",
 }
 
 
-def get_missing_fields(
-    evaluation: Dict[str, Any],
-) -> List[str]:
-    """
-    Extract fields whose values are unknown.
-    """
+# ============================================================
+# NORMALIZATION
+# ============================================================
 
-    missing = []
+def _normalize_field(
+    field: Any,
+) -> str:
 
-    for rule in evaluation.get(
-        "rule_results",
-        [],
-    ):
+    if field is None:
+        return ""
 
-        if not isinstance(
-            rule,
-            dict,
-        ):
-            continue
+    return str(field).strip()
 
-        if rule.get(
-            "status"
-        ) != "UNKNOWN":
-            continue
 
-        field = rule.get(
-            "field"
-        )
-
-        if (
-            field
-            and field not in missing
-        ):
-            missing.append(
-                field
-            )
-
-    return missing
-
+# ============================================================
+# QUESTION GENERATOR
+# ============================================================
 
 def generate_questions(
     evaluation: Dict[str, Any],
     max_questions: int = 3,
-) -> List[Dict[str, str]]:
-    """
-    Generate questions only for fields that
-    are actually required by the scheme.
-    """
+) -> List[str]:
 
-    missing_fields = get_missing_fields(
-        evaluation
+    if not evaluation:
+        return []
+
+    missing_fields = (
+        evaluation.get("missing_fields")
+        or []
     )
 
     questions = []
 
     for field in missing_fields:
 
+        field = _normalize_field(field)
+
+        if not field:
+            continue
+
         question = FIELD_QUESTIONS.get(
             field
         )
 
-        if not question:
+        if question is None:
             question = (
-                f"Please provide information "
-                f"about: {field.replace('_', ' ')}."
+                "Please provide information about "
+                f"{field.replace('_', ' ')}."
             )
 
-        questions.append(
-            {
-                "field": field,
-                "question": question,
-            }
-        )
+        if question not in questions:
+            questions.append(question)
 
         if len(questions) >= max_questions:
             break
 
     return questions
-
-
-def print_questions(
-    evaluation: Dict[str, Any],
-) -> None:
-
-    questions = generate_questions(
-        evaluation
-    )
-
-    print()
-    print("=" * 70)
-    print("ADDITIONAL INFORMATION REQUIRED")
-    print("=" * 70)
-
-    if not questions:
-
-        print(
-            "No additional questions are required."
-        )
-
-        return
-
-    print()
-
-    for index, item in enumerate(
-        questions,
-        start=1,
-    ):
-
-        print(
-            f"{index}. "
-            f"{item['question']}"
-        )
-
-
-if __name__ == "__main__":
-
-    test_evaluation = {
-
-        "status":
-            "NEED_MORE_INFORMATION",
-
-        "rule_results": [
-
-            {
-                "field":
-                    "class_12_percentile",
-
-                "status":
-                    "PASS",
-            },
-
-            {
-                "field":
-                    "course_mode",
-
-                "status":
-                    "PASS",
-            },
-
-            {
-                "field":
-                    "course_type",
-
-                "status":
-                    "PASS",
-            },
-
-            {
-                "field":
-                    "institution_recognition",
-
-                "status":
-                    "UNKNOWN",
-            },
-
-            {
-                "field":
-                    "family_income_annual",
-
-                "status":
-                    "PASS",
-            },
-
-            {
-                "field":
-                    "other_scholarship_benefit",
-
-                "status":
-                    "UNKNOWN",
-            },
-        ],
-    }
-
-    print_questions(
-        test_evaluation
-    )

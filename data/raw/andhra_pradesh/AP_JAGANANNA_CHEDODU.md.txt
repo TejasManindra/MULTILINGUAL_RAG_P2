@@ -1,0 +1,819 @@
+# Jagananna Chedodu Scheme
+
+## 1. Basic Information
+
+Scheme ID:
+AP_JAGANANNA_CHEDODU
+
+Official Scheme Name:
+Jagananna Chedodu
+
+State:
+Andhra Pradesh
+
+Government:
+Government of Andhra Pradesh
+
+Department:
+Backward Classes Welfare Department
+
+Implementing Authority:
+Backward Classes Welfare Department /
+BC Welfare Corporation / District BC Welfare administration
+
+Category:
+Livelihood / Self-Employment / Traditional Occupations
+
+Subcategory:
+Financial Assistance to Traditional Service Occupations
+
+Target Occupations:
+- Rajakas / Washermen
+- Nayee Brahmins / Barbers
+- Tailors
+
+Scheme Type:
+Direct financial assistance
+
+Original Government Order:
+G.O.Ms.No.59, BCW (C) Department,
+dated 25.07.2019
+
+Original Benefit:
+₹10,000 per year
+
+Original Programme Period:
+Introduced during the previous Andhra Pradesh Government's
+Navaratnalu welfare framework.
+
+Current Status:
+HISTORICAL_CURRENT_SERVICE_TRACEABLE
+
+Current As Of:
+September 2026
+
+Important Status Note:
+Official Andhra Pradesh district BC Corporation pages continue to
+list Jagananna Chedodu and its historical scheme description.
+
+The National Government Services Portal also continues to expose
+Chedodu application-status services in 2026.
+
+However, no new 2025-26/2026 continuation Government Order was
+identified in the authoritative sources reviewed.
+
+Therefore the RAG must NOT state that a fresh 2026 payment is
+guaranteed.
+
+
+## 2. Scheme Overview
+
+Jagananna Chedodu was introduced by the Government of Andhra Pradesh
+to provide financial assistance to traditional service-occupation
+workers.
+
+The scheme covers:
+
+- Rajakas / washermen
+- Nayee Brahmins / barbers
+- Tailors
+
+The original Government Order sanctioned financial assistance of
+₹10,000 per year to eligible persons having shops and engaged in
+their respective traditional occupations.
+
+The objective was to provide economic assistance and support the
+livelihood/self-employment activities of these workers.
+
+The scheme was implemented through the Backward Classes Welfare
+administration and district-level BC Welfare machinery.
+
+The benefit was intended to support:
+
+- Purchase of tools
+- Equipment
+- Working requirements
+- Livelihood strengthening
+- Continuation of traditional occupations
+
+
+## 3. Target Beneficiaries
+
+The original scheme covers:
+
+### Rajakas
+
+Persons engaged in washing/laundry work.
+
+### Nayee Brahmins
+
+Persons engaged in barber/hair-cutting services.
+
+### Tailors
+
+Persons engaged in tailoring work.
+
+The official district BC Corporation description states that
+Rajakas, Nayee Brahmins and Tailors belonging to all communities
+were covered, subject to the applicable scheme conditions.
+
+Therefore the occupation is a core eligibility condition.
+
+The scheme is NOT a general-purpose financial assistance programme
+for all BC households.
+
+
+## 4. Eligibility Criteria
+
+### Occupation
+
+The applicant must belong to one of the covered traditional
+occupations:
+
+- Rajaka / washerman
+- Nayee Brahmin / barber
+- Tailor
+
+The applicant should be actively engaged in the relevant occupation.
+
+
+### Shop / Establishment
+
+The original Government Order description specifies eligible
+beneficiaries as persons having shops and living on the relevant
+profession.
+
+Therefore the applicant's livelihood activity/business establishment
+is an important eligibility factor.
+
+Do not assume that merely possessing the relevant caste/community
+certificate automatically qualifies a person.
+
+
+### Community / Caste
+
+The official district BC Corporation description states that
+Rajakas, Nayee Brahmins and Tailors belonging to all communities
+are covered.
+
+Therefore:
+
+Community restriction:
+No universal caste restriction stated in the current district
+scheme description for the three occupations.
+
+However, occupation must be established.
+
+
+### Residence
+
+The scheme is an Andhra Pradesh Government scheme.
+
+The beneficiary must be identified through the applicable Andhra
+Pradesh government/local beneficiary system.
+
+
+### Income
+
+The verified official district scheme description does not provide
+a current numerical income threshold.
+
+Therefore:
+
+Income limit:
+NOT_SPECIFIED in the verified primary material.
+
+
+### Age
+
+The verified primary scheme description does not establish a
+universal numerical age limit.
+
+Therefore:
+
+Age:
+NOT_SPECIFIED.
+
+
+### Education
+
+No education requirement identified.
+
+
+### Land
+
+No landholding requirement identified in the verified scheme
+description.
+
+
+### Government Employment
+
+The official district description reviewed does not provide a
+complete current government-employment exclusion table.
+
+Do not hard-code one unless supported by the applicable Government
+Order/year-specific implementation rules.
+
+
+## 5. Exclusions / Non-Eligibility
+
+The following should be treated as core reasons for non-eligibility:
+
+- Applicant is not engaged in a covered occupation.
+- Applicant cannot establish the relevant livelihood activity.
+- Applicant does not satisfy the applicable beneficiary/database
+  verification requirements.
+- Duplicate beneficiary records.
+- False or unsupported occupation information.
+
+### Do Not Automatically Exclude Based On
+
+The reviewed primary source does not establish universal current
+rules for:
+
+- Specific income ceiling
+- Landholding ceiling
+- Vehicle ownership
+- Electricity consumption
+- Property size
+- Age limit
+- Education level
+
+These must not be invented or imported from another AP welfare
+scheme.
+
+
+## 6. Benefits
+
+### Financial Assistance
+
+Original/officially documented benefit:
+
+₹10,000 per annum.
+
+The official BC Corporation pages describe the amount as:
+
+₹10,000 per year.
+
+The scheme was intended to provide livelihood assistance to:
+
+- Rajakas
+- Nayee Brahmins
+- Tailors
+
+### Intended Use
+
+The assistance is intended to support the beneficiary's livelihood
+and traditional occupation.
+
+Examples include:
+
+- Tools
+- Equipment
+- Shop/workplace requirements
+- Other occupation-related needs
+
+The benefit should be represented as financial assistance rather
+than a loan.
+
+
+### Total Benefit
+
+Historical programme descriptions indicate:
+
+₹10,000 per year
+
+with a five-year scheme framework.
+
+Potential cumulative historical amount:
+₹50,000 over five years.
+
+Important:
+Do not present ₹50,000 as a guaranteed current 2026 payment unless
+a current continuation order confirms it.
+
+
+## 7. Required Documents
+
+The current official district BC Corporation pages identify
+documents/information including:
+
+- Integrated Caste Certificate
+- Birth Certificate / X Class Marks Sheet
+- Voter ID
+
+Additional documents may be requested during beneficiary
+verification.
+
+The exact current document checklist should be treated as
+implementation-dependent.
+
+
+### Occupation Evidence
+
+Because the scheme is occupation-specific, the applicant may need
+to establish:
+
+- Tailoring activity
+- Barber activity
+- Laundry/washerman activity
+- Shop/business activity
+
+The exact verification mechanism should be taken from the current
+district/BC Welfare implementation instructions.
+
+
+## 8. Application Process
+
+Historical implementation involved beneficiary identification and
+verification through the Andhra Pradesh welfare administration.
+
+A typical workflow is:
+
+1. Applicant is identified under the applicable household/
+   beneficiary survey.
+2. Occupation is verified.
+3. Caste/community and identity records are checked.
+4. Local-level verification is conducted.
+5. Eligible/ineligible lists are prepared.
+6. Social-audit/reverification procedures are conducted where
+   applicable.
+7. Final beneficiary list is approved.
+8. Financial assistance is transferred through the government
+   payment mechanism.
+
+### Current Application Status
+
+The National Government Services Portal currently lists separate
+application-status services for:
+
+- Financial Assistance to Tailors
+- Financial Assistance to Nayee Brahmins
+- Financial Assistance to Rajakas
+
+under Jagananna Chedodu.
+
+This confirms that application-status infrastructure remains
+traceable in the government services ecosystem.
+
+It does NOT by itself establish that a new 2026 payment cycle is
+open.
+
+
+## 9. Important Dates
+
+Government Order:
+G.O.Ms.No.59, BCW (C) Department
+
+Government Order Date:
+25.07.2019
+
+Historical scheme implementation:
+From the 2019-20 welfare framework.
+
+Documented payments:
+2020-21 and subsequent years under the previous administration.
+
+Historical annual benefit:
+₹10,000.
+
+Current 2026 application window:
+NOT CONFIRMED.
+
+Current 2026 fresh-payment continuation:
+NOT CONFIRMED from a new authoritative Government Order.
+
+
+## 10. Selection / Verification / Approval
+
+### Beneficiary Identification
+
+Beneficiaries were identified through the Andhra Pradesh welfare
+beneficiary/database system.
+
+### Occupation Verification
+
+The administration verifies that the applicant is actually engaged
+in:
+
+- Washing/laundry
+- Barber services
+- Tailoring
+
+as applicable.
+
+### Document Verification
+
+Identity, caste/community and occupation-related information is
+verified.
+
+### Social Audit
+
+The broader Navasakam/welfare implementation framework used local
+verification and social-audit mechanisms for welfare beneficiary
+identification.
+
+### Final Approval
+
+The eligible list is approved through the applicable BC Welfare
+administrative process.
+
+### Payment
+
+The approved financial assistance is transferred through the
+government payment mechanism.
+
+
+## 11. Implementing Authority
+
+Government:
+Government of Andhra Pradesh
+
+Administrative Department:
+Backward Classes Welfare Department
+
+Implementation:
+BC Welfare Department / BC Welfare Corporation
+
+District implementation:
+District BC Welfare administration / BC Corporation
+
+Local verification:
+Relevant Village/Ward Secretariat and local administrative
+machinery where applicable.
+
+
+## 12. Related / Linked Government Programs
+
+### YSR Cheyutha
+
+YSR Cheyutha was a separate livelihood-support programme for
+eligible women from specified communities.
+
+Do not merge its age/community/benefit rules with Jagananna Chedodu.
+
+
+### Kapu Nestham
+
+Kapu Nestham is a separate livelihood-support scheme for eligible
+Kapu-community women.
+
+Do not merge its rules with Chedodu.
+
+
+### EBC Nestham
+
+EBC Nestham is a separate livelihood-support programme.
+
+Do not use its income/age rules for Chedodu.
+
+
+### Jagananna Thodu
+
+Jagananna Thodu is a separate working-capital support programme
+for street vendors, small traders and traditional-artisan
+businesses.
+
+It should not be merged with Chedodu.
+
+### BC Corporation Self-Employment Loans
+
+BC Corporation loan/subsidy programmes are separate from Chedodu's
+financial assistance.
+
+
+## 13. Official Websites and Portals
+
+### Andhra Pradesh BC Welfare / BC Corporation
+
+The official Andhra Pradesh district BC Corporation pages provide
+scheme information and district implementation details.
+
+Official district example:
+https://konaseema.ap.gov.in/bc-corporation/
+
+Another official district BC Corporation page:
+https://kakinada.ap.gov.in/departments/bc-corporation/
+
+
+### National Government Services Portal
+
+Government service/status listings:
+
+https://services.india.gov.in/
+
+The portal currently lists Jagananna Chedodu application-status
+services for:
+
+- Tailors
+- Nayee Brahmins
+- Rajakas
+
+
+### Village/Ward Secretariat
+
+Beneficiary verification and welfare-service delivery may be
+handled through the relevant Village/Ward Secretariat system.
+
+
+## 14. Official Source Documents
+
+### Source 1
+
+Government of Andhra Pradesh
+BC Welfare Department
+
+G.O.Ms.No.59,
+BCW (C) Department,
+dated 25.07.2019.
+
+This is the foundational Government Order for Jagananna Chedodu.
+
+Supported facts:
+
+- Scheme identity
+- Covered occupations
+- Financial assistance
+- ₹10,000 annual assistance
+- Intended livelihood purpose
+
+
+### Source 2
+
+Government of Andhra Pradesh
+Konaseema District – BC Corporation
+
+Current district government scheme page.
+
+Supported facts:
+
+- Jagananna Chedodu scheme description
+- Rajakas
+- Nayee Brahmins
+- Tailors
+- ₹10,000 annual assistance
+- Historical achievements
+- BC Corporation implementation
+
+
+### Source 3
+
+Government of Andhra Pradesh
+Kakinada District – BC Corporation
+
+Supported facts:
+
+- Scheme objective
+- G.O.Ms.No.59 reference
+- ₹10,000 annual assistance
+- Covered occupations
+- Document examples
+- Historical beneficiary achievements
+
+
+### Source 4
+
+Government of India
+National Government Services Portal
+
+Current 2026 service listings:
+
+- Financial Assistance to Tailors Application Status
+- Financial Assistance to Nayee Brahmins Application Status
+- Financial Assistance to Rajakas Application Status
+
+These demonstrate that government service/status infrastructure
+remains available.
+
+
+## 15. Current Status
+
+Status:
+HISTORICAL_CURRENT_SERVICE_TRACEABLE
+
+Current As Of:
+September 2026
+
+### Evidence of Historical Scheme
+
+Official AP district BC Corporation pages continue to describe
+Jagananna Chedodu and cite G.O.Ms.No.59 dated 25.07.2019.
+
+They also publish historical achievement data for 2020-21 and
+2021-22.
+
+
+### Evidence of Current Service Infrastructure
+
+The National Government Services Portal, updated in 2026, lists
+application-status services for Chedodu beneficiaries including:
+
+- Tailors
+- Nayee Brahmins
+- Rajakas
+
+### What Is NOT Established
+
+No new authoritative 2025-26/2026 Andhra Pradesh Government Order
+was found in the reviewed sources confirming:
+
+- A new 2026 beneficiary payment cycle
+- A new 2026 application window
+- A revised 2026 benefit amount
+- A new 2026 five-year continuation
+
+Therefore:
+
+Current benefit:
+NOT_CONFIRMED.
+
+Historical benefit:
+₹10,000/year.
+
+
+## 16. Verification Summary
+
+### VERIFIED_HISTORICAL
+
+- Jagananna Chedodu was established through G.O.Ms.No.59 dated
+  25.07.2019.
+- Covered occupations:
+  - Rajakas
+  - Nayee Brahmins
+  - Tailors
+- Financial assistance:
+  ₹10,000 per year.
+- Scheme objective:
+  livelihood/economic assistance.
+- Official district BC Corporation pages continue to document the
+  scheme and historical implementation.
+- Historical beneficiary payments are documented for 2020-21 and
+  2021-22.
+
+
+### CURRENT_SERVICE_TRACEABLE
+
+- Government service infrastructure continues to list Chedodu
+  application-status services in 2026.
+- Separate status services exist for Tailors, Nayee Brahmins and
+  Rajakas.
+
+
+### NOT_CONFIRMED_CURRENT
+
+- Fresh 2026 payment.
+- Fresh 2026 application window.
+- 2026 continuation order.
+- 2026 revised benefit amount.
+- Current five-year payment commitment.
+- Current universal income limit.
+- Current universal age limit.
+- Current universal land/vehicle/property exclusions.
+
+
+## 17. Notes and Limitations
+
+1. This scheme should not be marked simply ACTIVE_CURRENT without a
+   current continuation/payment order.
+
+2. The official AP district pages are still useful primary evidence
+   for the scheme's original rules.
+
+3. Current government service listings prove that Chedodu-related
+   status infrastructure remains available, but do not prove that a
+   new 2026 payment cycle is active.
+
+4. The historical benefit is ₹10,000 per year.
+
+5. The three occupation categories are central to eligibility.
+
+6. Do not make caste alone sufficient for eligibility.
+
+7. The beneficiary must be engaged in the relevant traditional
+   occupation.
+
+8. Do not import income/land/vehicle rules from another welfare
+   scheme.
+
+9. If a future AP Government Order renews Chedodu, create a new
+   version:
+
+   AP_JAGANANNA_CHEDODU_2026
+
+10. Preserve the 2019-2024 rules as historical rather than silently
+    replacing them.
+
+11. Application-status availability should not be interpreted as
+    proof of current financial sanction.
+
+12. The RAG should answer current queries with:
+    "Current 2026 continuation not verified"
+    unless a newer authoritative order/payment notification is
+    available.
+
+
+## 18. Structured Eligibility Data
+
+scheme_id:
+AP_JAGANANNA_CHEDODU
+
+current_status:
+HISTORICAL_CURRENT_SERVICE_TRACEABLE
+
+original_go:
+G.O.Ms.No.59, BCW (C), dated 25.07.2019
+
+beneficiary_categories:
+- Rajakas / Washermen
+- Nayee Brahmins / Barbers
+- Tailors
+
+occupation_required:
+YES
+
+shop_or_establishment:
+Required/identified in original scheme description.
+
+community_restriction:
+No universal caste restriction stated in verified district
+description; covered occupations are the key condition.
+
+age_min:
+NOT_SPECIFIED
+
+age_max:
+NOT_SPECIFIED
+
+income_limit:
+NOT_SPECIFIED
+
+land_requirement:
+NOT_SPECIFIED
+
+education_requirement:
+NONE_SPECIFIED
+
+government_employment:
+NOT_SPECIFIED_CURRENT
+
+benefit_historical:
+₹10,000/year
+
+historical_duration:
+5 years in the original scheme framework
+
+historical_total:
+₹50,000 over five years
+
+current_2026_benefit:
+NOT_CONFIRMED
+
+current_2026_application_window:
+NOT_CONFIRMED
+
+application_status_services:
+YES
+
+covered_occupation_1:
+Rajaka / Washerman
+
+covered_occupation_2:
+Nayee Brahmin / Barber
+
+covered_occupation_3:
+Tailor
+
+implementing_department:
+Backward Classes Welfare Department
+
+official_district_source:
+https://konaseema.ap.gov.in/bc-corporation/
+
+government_services_portal:
+https://services.india.gov.in/
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source | Status |
+|---|---|---|
+| Scheme name | AP BC Corporation | VERIFIED_HISTORICAL |
+| G.O.Ms.No.59 | AP BC Corporation | VERIFIED_HISTORICAL |
+| GO date 25.07.2019 | AP BC Corporation | VERIFIED_HISTORICAL |
+| Rajaka eligibility | AP BC Corporation | VERIFIED_HISTORICAL |
+| Nayee Brahmin eligibility | AP BC Corporation | VERIFIED_HISTORICAL |
+| Tailor eligibility | AP BC Corporation | VERIFIED_HISTORICAL |
+| Shop/occupation condition | AP BC Corporation | VERIFIED_HISTORICAL |
+| ₹10,000/year benefit | AP BC Corporation | VERIFIED_HISTORICAL |
+| Five-year framework | Original scheme framework | HISTORICAL |
+| Historical 2020-21 payments | AP BC Corporation | VERIFIED_HISTORICAL |
+| Historical 2021-22 payments | AP BC Corporation | VERIFIED_HISTORICAL |
+| Tailor application-status service | National Government Services Portal | CURRENT_SERVICE_TRACEABLE |
+| Nayee Brahmin application-status service | National Government Services Portal | CURRENT_SERVICE_TRACEABLE |
+| Rajaka application-status service | National Government Services Portal | CURRENT_SERVICE_TRACEABLE |
+| New 2026 continuation order | No authoritative source found | NOT_CONFIRMED |
+| New 2026 payment | No authoritative source found | NOT_CONFIRMED |
+| New 2026 application window | No authoritative source found | NOT_CONFIRMED |
+| Current revised benefit | No authoritative source found | NOT_CONFIRMED |
+| Current income threshold | No authoritative source found | NOT_SPECIFIED |
+| Current age threshold | No authoritative source found | NOT_SPECIFIED |

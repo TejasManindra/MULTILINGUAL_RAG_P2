@@ -1,0 +1,366 @@
+Scheme Status: ACTIVE_CURRENT
+
+# Dr. Sarvepalli Radhakrishnan Vidya Mitra School Kits
+
+## 1. Scheme Name
+
+**Dr. Sarvepalli Radhakrishnan Vidya Mitra Kit**
+
+Also referred to as:
+
+* **Sarvepalli Radhakrishnan Vidya Mitra**
+* **Vidya Mitra School Kits**
+* **Vidya Mitra Kit**
+
+---
+
+## 2. Scheme Status
+
+**CURRENT_STATUS:** ACTIVE_CURRENT
+**SOURCE_VERIFICATION_STATUS:** VERIFIED_CURRENT
+
+The Andhra Pradesh Department of School Education continues to list **Sarvepalli Radhakrishnan Vidya Mitra (School Kits Distribution)** as a current school-education initiative. The Tirupati District Government page lists it among the department's current key schemes. ([Tirupati District][1])
+
+The Markapuram District Government page specifically records that Vidya Mitra kits were provided to **all boys and girls during the 2025-26 academic year**. ([Markapuram][2])
+
+---
+
+## 3. Objective
+
+The objective of the scheme is to provide students with essential educational materials so that they can:
+
+* Attend school with the required learning materials
+* Reduce the financial burden on families
+* Access textbooks, notebooks and school-use materials
+* Participate in school education without material-related barriers.
+
+The Government of Andhra Pradesh describes the kit as a comprehensive learning kit intended to ensure that students can learn without difficulties. ([Markapuram][2])
+
+---
+
+## 4. Target Beneficiaries
+
+The documented beneficiaries are **students studying in Government Schools of Andhra Pradesh**.
+
+The AP School Education Department identifies Vidya Mitra as a school-kit distribution initiative. ([Tirupati District][1])
+
+The Markapuram District Government page states that the kits were provided to **all boys and girls** during the 2025-26 academic year. ([Markapuram][2])
+
+---
+
+## 5. Benefit Provided
+
+The scheme provides an **in-kind educational kit**, rather than a direct cash transfer.
+
+The 2025-26 kit documented by the Markapuram District Government included:
+
+* **1 school bag**
+* **Textbooks**
+* **Notebooks**
+* **1 dictionary**
+* **3 sets of uniforms**
+* **1 pair of shoes**
+* **2 pairs of socks**
+* **1 belt**
+
+([Markapuram][2])
+
+The West Godavari District Government page also records distribution of:
+
+* Textbooks
+* Notebooks
+* Uniforms
+* Shoes
+* Tie
+* Belt
+* School bags
+* Dictionaries
+
+with separate quantities for different classes. ([West Godavari District][3])
+
+---
+
+## 6. Eligibility Criteria
+
+### A. Student Status
+
+The beneficiary must be a **student enrolled in an eligible Government School**.
+
+The scheme is delivered through the School Education Department rather than through an individual income-based application.
+
+### B. Gender
+
+The scheme is available to:
+
+* Boys
+* Girls
+
+The Markapuram District Government explicitly states that the kits were supplied to **all boys and girls** for 2025-26. ([Markapuram][2])
+
+### C. Income
+
+No separate family-income ceiling was identified in the official sources reviewed for Vidya Mitra kits.
+
+Therefore, the RAG system should **not import income criteria from schemes such as Thalliki Vandanam or Jnanabhumi**.
+
+### D. Caste
+
+No caste-based eligibility restriction was identified in the official Vidya Mitra sources reviewed.
+
+### E. Age
+
+No independent age criterion was identified.
+
+Eligibility is primarily linked to **student enrolment in the covered school system**.
+
+---
+
+## 7. Class / School Coverage
+
+Official district documentation records kit components for students across school classes.
+
+West Godavari Government documentation records:
+
+* Textbooks for **Classes 1–10**
+* Notebooks for different class groups
+* Uniforms for **Classes 1–10**
+* School bags for **Classes 1–10**
+* Shoes and socks for **Classes 1–10**
+* Additional textbook/notebook/bag provisions for **Classes 11–12**. ([West Godavari District][3])
+
+However, the exact class coverage and kit composition can vary by academic year and government procurement instructions.
+
+Therefore, the RAG record should treat **academic-year-specific kit composition as versioned data**.
+
+---
+
+## 8. Required Documents
+
+No individual beneficiary application document checklist was established from the official sources reviewed.
+
+Because the scheme is school-based, beneficiary identification is associated with **student enrolment and school records**.
+
+The RAG system should **not require Aadhaar, caste certificate, income certificate, land records or vehicle information** for Vidya Mitra unless a specific implementation notification establishes such a requirement.
+
+---
+
+## 9. Application / Delivery Mechanism
+
+Vidya Mitra is primarily a **school-level distribution scheme**, rather than an individual cash-benefit application scheme.
+
+The School Education Department coordinates procurement and distribution of educational materials through the school system.
+
+The West Godavari Government page documents the distribution quantities for various kit components and classes, demonstrating the school-level supply mechanism. ([West Godavari District][3])
+
+Therefore:
+
+> A student should not be treated as needing to submit an individual welfare application in the same way as a cash-transfer scheme.
+
+---
+
+## 10. Implementing Department
+
+The implementing department is the:
+
+**Department of School Education, Government of Andhra Pradesh.**
+
+The Tirupati District Government's School Education page identifies the Department of School Education as responsible for implementation of school-education programmes and lists **Sarvepalli Radhakrishnan Vidya Mitra (School Kits Distribution)** among its key initiatives. ([Tirupati District][1])
+
+---
+
+## 11. Verification / Selection Conditions
+
+The deterministic eligibility engine should primarily verify:
+
+```text
+student_enrolled
+AND covered_school_management
+AND applicable_academic_year
+```
+
+The system should then determine the appropriate kit based on:
+
+```text
+academic_year
++
+class
++
+school_type
++
+current_distribution_rules
+```
+
+The LLM should **not independently decide eligibility** based on income, caste, land, vehicle or property conditions.
+
+---
+
+## 12. Current Implementation
+
+The Markapuram District Government's current education page states that for the **2025-26 academic year**, Vidya Mitra kits were provided to all boys and girls covered by the programme. ([Markapuram][2])
+
+The kit included:
+
+* Bag
+* Textbooks
+* Notebooks
+* Dictionary
+* Three sets of uniforms
+* Shoes
+* Two pairs of socks
+* Belt. ([Markapuram][2])
+
+The West Godavari District Government also documents substantial distribution of textbooks, notebooks, uniforms, bags, shoes, socks, dictionaries and other kit components. ([West Godavari District][3])
+
+---
+
+## 13. Current-Status Interpretation
+
+Unlike cash-transfer schemes, Vidya Mitra is an **in-kind educational support programme**.
+
+The official AP School Education Department continues to list it as a current initiative. ([Tirupati District][1])
+
+The 2025-26 implementation is explicitly documented by the Markapuram District Government. ([Markapuram][2])
+
+Therefore:
+
+> **ACTIVE_CURRENT** is appropriate for the scheme record.
+
+However, the **exact kit contents should be stored by academic year**, because procurement and distribution components can change.
+
+For example, the 2025-26 documented kit contains a dictionary, three uniform sets, shoes, socks and belt, while other district documentation records additional class-specific components. ([Markapuram][2])
+
+---
+
+## 14. Important Scheme Distinction
+
+Do not confuse Vidya Mitra with:
+
+* **Thalliki Vandanam** — direct financial assistance to mothers/guardians
+* **Jnanabhumi Post-Matric Scholarships** — post-matric financial support
+* **Dokka Seethamma Madhyana Badi Bhojanam** — school meal programme
+* **Mana Badi Mana Bhavishyathu** — school infrastructure programme
+* **PM POSHAN** — centrally supported school meal programme.
+
+Vidya Mitra is specifically an **educational-material/school-kit distribution programme**.
+
+---
+
+## 15. RAG Retrieval Keywords
+
+```text
+Dr Sarvepalli Radhakrishnan Vidya Mitra
+Sarvepalli Radhakrishnan Vidya Mitra
+Vidya Mitra Kit
+Vidya Mitra school kit
+AP school kits
+Andhra Pradesh school kit
+student school bag
+free textbooks Andhra Pradesh
+free notebooks Andhra Pradesh
+school uniforms Andhra Pradesh
+free shoes students AP
+Vidya Mitra eligibility
+Vidya Mitra beneficiaries
+Vidya Mitra 2025-26
+School Education Department AP
+AP government school kits
+```
+
+---
+
+## 16. Suggested Metadata
+
+```yaml
+scheme_name: Dr. Sarvepalli Radhakrishnan Vidya Mitra
+alternate_name:
+  - Sarvepalli Radhakrishnan Vidya Mitra
+  - Vidya Mitra Kit
+  - Vidya Mitra School Kits
+state: Andhra Pradesh
+department: Department of School Education
+benefit_type: In-Kind
+beneficiary_category:
+  - School Students
+target_school_type:
+  - Government Schools
+gender:
+  - Male
+  - Female
+application_type: School-Based Distribution
+cash_benefit: false
+academic_year_specific: true
+```
+
+---
+
+## 17. Source References
+
+### Primary Government Sources
+
+* **Tirupati District, Government of Andhra Pradesh — School Education:** identifies Sarvepalli Radhakrishnan Vidya Mitra as a current School Education Department initiative. ([Tirupati District][1])
+* **Markapuram District, Government of Andhra Pradesh — Education:** documents the 2025-26 Vidya Mitra kit and states that kits were provided to all boys and girls. ([Markapuram][2])
+* **West Godavari District, Government of Andhra Pradesh — School Education Department:** documents Vidya Mitra kit components and class-wise distribution data. ([West Godavari District][3])
+
+---
+
+## 18. RAG Readiness
+
+```text
+RAG_STATUS:
+READY
+
+ELIGIBILITY_ENGINE_STATUS:
+READY_WITH_ACADEMIC_YEAR_AND_SCHOOL_DATA_DEPENDENCY
+
+CURRENT_STATUS:
+ACTIVE_CURRENT
+
+SOURCE_VERIFICATION_STATUS:
+VERIFIED_CURRENT
+```
+
+### Eligibility Engine
+
+The deterministic engine can safely evaluate:
+
+```text
+student_enrolled
+AND eligible_school_type
+AND applicable_academic_year
+```
+
+Then:
+
+```text
+determine_kit_by_class_and_academic_year()
+```
+
+The engine should **not evaluate unrelated socioeconomic conditions**.
+
+---
+
+## 19. Final RAG Classification
+
+**Dr. Sarvepalli Radhakrishnan Vidya Mitra should be retained in the AP RAG dataset as an active school-education benefit providing educational kits to eligible students through the school system.**
+
+| Field                        | Value                                                               |
+| ---------------------------- | ------------------------------------------------------------------- |
+| **Scheme**                   | Dr. Sarvepalli Radhakrishnan Vidya Mitra                            |
+| **State**                    | Andhra Pradesh                                                      |
+| **Department**               | School Education                                                    |
+| **Target User**              | Students in covered Government Schools                              |
+| **Benefit Type**             | In-kind educational kit                                             |
+| **Cash Benefit**             | No                                                                  |
+| **2025-26 Status**           | **Implemented**                                                     |
+| **Documented Kit**           | Bag, textbooks, notebooks, dictionary, uniforms, shoes, socks, belt |
+| **Eligibility Engine**       | **READY with school/enrolment dependency**                          |
+| **RAG**                      | **READY**                                                           |
+| **Current Status**           | **ACTIVE_CURRENT**                                                  |
+| **Academic-Year Versioning** | **Required**                                                        |
+| **Overall Record**           | **READY**                                                           |
+
+**Key RAG rule:** Do not treat Vidya Mitra as an income-based welfare scheme. The primary eligibility signal is **student enrolment in the covered school system**, and the **kit contents should be versioned by academic year**. ([Tirupati District][1])
+
+[1]: https://tirupati.ap.gov.in/departments/education/?utm_source=chatgpt.com "School Education | TIRUPATI DISTRICT, Government of Andhra Pradesh | India"
+[2]: https://markapuram.ap.gov.in/education/?utm_source=chatgpt.com "Education | Markapuram District, Andhra Pradesh | India"
+[3]: https://westgodavari.ap.gov.in/schooleducation/?utm_source=chatgpt.com "School Education Department | West Godavari District, Government of Andhra Pradesh | India"

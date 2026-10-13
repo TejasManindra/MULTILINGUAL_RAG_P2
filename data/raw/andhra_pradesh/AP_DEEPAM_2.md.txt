@@ -1,0 +1,746 @@
+# Deepam 2.0 Scheme
+
+## 1. Basic Information
+
+Scheme ID: AP_DEEPAM_2
+
+Official Scheme Name: Deepam 2.0
+
+State: Andhra Pradesh
+
+Government: Government of Andhra Pradesh
+
+Department:
+Civil Supplies Department
+
+Implementing Authority:
+Civil Supplies Department, Government of Andhra Pradesh
+
+Implementing Network:
+LPG distributors / Oil Marketing Companies in coordination with
+the Civil Supplies Department
+
+Category:
+Women / Household Welfare / LPG Subsidy
+
+Subcategory:
+Free LPG Refills
+
+Scheme Status:
+ACTIVE_CURRENT
+
+Launch Date:
+31 October 2024
+
+Implementation Start:
+01 November 2024
+
+Current As Of:
+September 2026
+
+Scheme Type:
+In-kind household benefit through LPG-cylinder subsidy/reimbursement
+
+Important:
+Deepam 2.0 should not be confused with the earlier Deepam LPG
+connection scheme.
+
+
+## 2. Scheme Overview
+
+Deepam 2.0 is an Andhra Pradesh Government scheme under which
+eligible households receive three LPG cylinder refills free of cost
+per year.
+
+The scheme was launched in October 2024 and implementation began
+from 01 November 2024.
+
+The Civil Supplies Department implements the scheme through the
+existing LPG distribution network.
+
+Current Andhra Pradesh government district information states that
+three LPG refills are provided free of cost to LPG consumers who
+have Rice Cards.
+
+The scheme is therefore linked to:
+
+- An active LPG connection
+- A valid Rice Card
+- Aadhaar-linked/validated beneficiary information
+- LPG, Rice Card and Aadhaar data validation
+
+The benefit is delivered through the LPG booking and reimbursement/
+subsidy mechanism rather than as an unrestricted cash transfer.
+
+
+## 3. Target Beneficiaries
+
+Primary beneficiary:
+
+Eligible households/consumers in Andhra Pradesh who:
+
+- Have a valid Rice Card
+- Have an active LPG connection
+- Satisfy the required Aadhaar/data-validation conditions
+- Have their LPG connection and household information successfully
+  validated in the government system
+
+The scheme is household/consumer based.
+
+The currently verified government material does not establish a
+separate universal age requirement for the beneficiary.
+
+The scheme should therefore not be encoded as an age-based welfare
+scheme.
+
+
+## 4. Eligibility Criteria
+
+### Rice Card
+
+The beneficiary must have a valid Rice Card.
+
+Current Andhra Pradesh district Civil Supplies information explicitly
+states that Deepam-2 is implemented for LPG consumers who have Rice
+Cards.
+
+
+### LPG Connection
+
+The beneficiary must have an active LPG connection in Andhra Pradesh.
+
+The LPG connection must be successfully validated against the
+government beneficiary database.
+
+
+### Aadhaar
+
+Aadhaar information is part of the beneficiary validation process.
+
+The LPG connection, Rice Card and Aadhaar information are matched/
+validated with relevant government databases.
+
+Do not represent Aadhaar merely as an optional supporting document
+when describing the beneficiary-validation mechanism.
+
+
+### Residence
+
+The verified implementation material establishes the beneficiary
+through Andhra Pradesh's Rice Card and LPG databases.
+
+A separate standalone domicile-age-income test was not identified
+in the verified current scheme material.
+
+Therefore:
+
+Residence:
+Andhra Pradesh beneficiary/database eligibility is required;
+no separate numerical domicile criterion identified.
+
+
+### Income
+
+No separate numerical household-income threshold was identified in
+the verified current Deepam-2 implementation material.
+
+Therefore:
+
+Income limit:
+NOT SPECIFIED.
+
+
+### Occupation
+
+No occupation requirement was identified.
+
+
+### Education
+
+No education requirement was identified.
+
+
+### Land
+
+No landholding requirement was identified.
+
+
+### Social Category
+
+No caste-specific eligibility condition was identified.
+
+Eligibility is primarily linked to Rice Card, LPG connection and
+database validation.
+
+
+### Family Requirement
+
+The benefit is administered at the household/eligible LPG-consumer
+level.
+
+The current state survey and government implementation material
+describe the benefit as three LPG cylinders per beneficiary family
+per year.
+
+
+## 5. Exclusions / Non-Eligibility
+
+The following conditions can prevent a beneficiary from receiving the
+Deepam-2 benefit:
+
+- No valid Rice Card
+- No active/eligible LPG connection
+- LPG connection not successfully validated
+- Rice Card information not successfully validated
+- Aadhaar/data mismatch preventing beneficiary validation
+
+### Important
+
+Do not add the following as Deepam-2 exclusions unless supported by
+a specific current Government Order or implementation guideline:
+
+- Specific annual household income ceiling
+- Land ceiling
+- Vehicle ownership ceiling
+- Electricity consumption ceiling
+- Property-size ceiling
+- Employment in government service
+- Caste exclusion
+
+These conditions are used in some other Andhra Pradesh welfare
+schemes but were not established as universal Deepam-2 eligibility
+rules in the verified material.
+
+
+## 6. Benefits
+
+### Primary Benefit
+
+Three free LPG cylinder refills per eligible beneficiary family
+per year.
+
+### Annual Frequency
+
+Maximum benefit:
+
+3 LPG refills per year.
+
+### Refill Schedule
+
+From FY 2025-26 onward, the scheme operates on three four-month
+blocks:
+
+Block I:
+April – July
+
+Block II:
+August – November
+
+Block III:
+December – March
+
+One eligible cylinder is allocated per block.
+
+This means the normal annual structure is:
+
+- 1 cylinder during April–July
+- 1 cylinder during August–November
+- 1 cylinder during December–March
+
+### Initial 2024-25 Provision
+
+For the initial implementation year, the first cylinder could be
+booked during the extended period from 29 October 2024 through
+31 March 2025.
+
+This initial booking window should not be confused with the normal
+four-month block schedule used from FY 2025-26 onward.
+
+
+### Benefit Delivery
+
+The beneficiary books the LPG cylinder through the normal LPG
+distribution system.
+
+After delivery, the eligible subsidy/reimbursement is processed
+through the government mechanism.
+
+Implementation material states that the subsidy amount is credited
+to the beneficiary's bank account after delivery.
+
+
+## 7. Required Documents / Data
+
+Required beneficiary data includes:
+
+- Rice Card
+- Active LPG connection
+- Aadhaar number/details
+- Bank account details for subsidy credit
+
+### Data Validation
+
+The following information is validated:
+
+LPG connection
++
+Rice Card
++
+Aadhaar
++
+Government database records
+
+The exact acceptable documentary format can depend on the LPG
+distributor and Civil Supplies implementation system.
+
+
+## 8. Application / Benefit Claim Process
+
+Deepam 2.0 is primarily an entitlement/benefit-delivery scheme
+rather than a conventional online welfare application.
+
+### Normal Process
+
+1. Beneficiary has a valid Rice Card.
+2. Beneficiary has an active LPG connection.
+3. LPG, Rice Card and Aadhaar information are validated.
+4. Beneficiary books the eligible LPG cylinder.
+5. LPG cylinder is delivered.
+6. Eligible subsidy/reimbursement is processed.
+7. Subsidy is credited to the beneficiary's bank account.
+
+### KYC
+
+KYC/data validation is important for beneficiaries whose LPG,
+Aadhaar and Rice Card records are not already successfully matched.
+
+Gas delivery personnel and local administration may facilitate
+KYC/data correction activities.
+
+### Grievance / Support
+
+Government implementation material has identified the Civil Supplies
+grievance mechanism and toll-free number 1967 for beneficiary
+queries/complaints.
+
+Beneficiaries may also approach the relevant local Secretariat /
+Civil Supplies office where applicable.
+
+
+## 9. Important Dates
+
+Scheme launch:
+31 October 2024
+
+Implementation:
+01 November 2024
+
+Initial booking period:
+29 October 2024 – 31 March 2025
+
+Normal annual schedule from FY 2025-26:
+
+Block I:
+April – July
+
+Block II:
+August – November
+
+Block III:
+December – March
+
+Benefit:
+One eligible LPG refill per block, up to three per year.
+
+Current status:
+Active/current.
+
+No permanent scheme closing date was identified in the verified
+current material.
+
+
+## 10. Selection / Verification / Approval
+
+Deepam 2.0 does not operate primarily through a competitive
+beneficiary-selection process.
+
+Beneficiary eligibility is established through database validation.
+
+### Core Verification
+
+The system verifies:
+
+1. Rice Card
+2. LPG connection
+3. Aadhaar
+4. Matching beneficiary records
+
+### Operational Flow
+
+Civil Supplies Department
+        ↓
+Rice Card database
+        +
+LPG database
+        +
+Aadhaar validation
+        ↓
+Eligible beneficiary identification
+        ↓
+LPG booking
+        ↓
+Cylinder delivery
+        ↓
+Subsidy/reimbursement processing
+        ↓
+Bank-account credit
+
+
+## 11. Implementing Authority
+
+Government:
+Government of Andhra Pradesh
+
+Department:
+Civil Supplies Department
+
+Operational partners:
+- LPG Oil Marketing Companies
+- LPG distributors
+- District Civil Supplies administration
+- Village/Ward Secretariat / relevant local government machinery
+
+
+## 12. Related / Linked Government Programs
+
+### Earlier Deepam Scheme
+
+The original Deepam scheme provided LPG connections to eligible
+BPL women/households.
+
+Deepam 2.0 is a separate later programme providing recurring free
+LPG refills.
+
+Do not merge the two schemes into one RAG record.
+
+
+### PM Ujjwala Yojana
+
+PM Ujjwala Yojana is a Government of India LPG-connection scheme.
+
+It is separate from Deepam 2.0.
+
+A beneficiary may have an LPG connection through a central LPG
+programme while state Deepam-2 eligibility depends on the applicable
+Andhra Pradesh eligibility/validation rules.
+
+Do not automatically treat PMUY eligibility as identical to
+Deepam-2 eligibility.
+
+
+### Public Distribution System / Rice Card
+
+Rice Card eligibility is an important input to Deepam-2 beneficiary
+identification.
+
+The PDS/Rice Card system therefore acts as a linked government
+database.
+
+
+## 13. Official Websites and Portals
+
+### Andhra Pradesh Civil Supplies
+
+Official Department:
+Civil Supplies Department, Government of Andhra Pradesh
+
+Official departmental portal:
+http://www.apcivilsupplies.gov.in/apcivil/
+
+### EPDS Andhra Pradesh
+
+Rice Card / PDS database:
+http://epdsap.ap.gov.in/epdsAP/epds
+
+### ePOS Andhra Pradesh
+
+Public Distribution System / FPS system:
+http://epos.ap.gov.in/ePos/
+
+### Deepam Service
+
+The AP Civil Supplies implementation ecosystem also references:
+
+http://epos.ap.gov.in/Deepam/
+
+### MeeSeva
+
+Civil Supplies services are available through the Andhra Pradesh
+MeeSeva ecosystem.
+
+Important:
+Use current government portals rather than third-party scheme
+websites for beneficiary verification.
+
+
+## 14. Official Source Documents
+
+### Source 1
+
+Andhra Pradesh District Administration /
+Civil Supplies Department
+
+Current district implementation page:
+
+West Godavari District – Civil Supplies
+
+The page states that:
+
+- Deepam-2 is being implemented by Civil Supplies.
+- Three LPG refills are distributed free of cost.
+- Eligibility is linked to LPG consumers having Rice Cards.
+- The scheme was inaugurated on 01.11.2024.
+
+Source:
+Government of Andhra Pradesh district administration.
+
+
+### Source 2
+
+Andhra Pradesh Socio-Economic Survey 2025-26
+
+Deepam-2 current implementation data records:
+
+- Three free LPG cylinders per year.
+- ₹1,554.06 crore subsidy credited between
+  01 April 2025 and 31 December 2025.
+- 1,84,79,456 beneficiaries received the subsidy during that period.
+
+This is useful current evidence that the scheme continued into
+FY 2025-26.
+
+
+### Source 3
+
+Andhra Pradesh District Civil Supplies implementation material
+
+Deepam-2 implementation criteria include:
+
+- Active LPG connection
+- Aadhaar
+- Rice Card
+- Validation/matching of LPG, Rice Card and Aadhaar data
+
+The same implementation material specifies the four-month
+distribution blocks.
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Evidence:
+
+1. Current Andhra Pradesh district Civil Supplies pages continue to
+   describe Deepam-2 implementation.
+2. The West Godavari government page states that three LPG refills
+   are being distributed free of cost to LPG consumers with Rice
+   Cards. :contentReference[oaicite:2]{index=2}
+3. Andhra Pradesh's 2025-26 survey material records subsidy payments
+   during April–December 2025 for the three-cylinder programme.
+   :contentReference[oaicite:3]{index=3}
+4. The current Civil Supplies service listings continue to include
+   "DEEPAM GAS CONNECTION" and Deepam-related services. :contentReference[oaicite:4]{index=4}
+
+Current benefit:
+3 free LPG refills per eligible beneficiary family per year.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- Deepam 2.0 is an Andhra Pradesh Government scheme.
+- It is implemented through the Civil Supplies Department.
+- The scheme was launched on 31 October 2024.
+- Implementation began on 01 November 2024.
+- Eligible beneficiaries receive three free LPG refills per year.
+- Rice Card is a core eligibility condition.
+- An active LPG connection is required.
+- Aadhaar/data validation forms part of eligibility verification.
+- LPG, Rice Card and Aadhaar data are matched/validated.
+- From FY 2025-26, the three annual cylinders are structured across
+  three four-month blocks.
+- The scheme continued into FY 2025-26.
+- Current AP government material records substantial subsidy
+  disbursement under Deepam-2 during April–December 2025.
+
+
+### NOT SPECIFIED / DO NOT HARD-CODE
+
+- Universal numerical household-income ceiling
+- Universal land ceiling
+- Universal vehicle ownership exclusion
+- Universal electricity-consumption exclusion
+- Universal property-size exclusion
+- Universal government-employment exclusion
+- Universal caste restriction
+- Universal age limit
+- Universal education requirement
+- Universal occupation requirement
+- Fixed permanent closing date
+
+
+## 17. Notes and Limitations
+
+1. Deepam 2.0 should be modelled as an LPG benefit scheme rather
+   than a generic cash-transfer scheme.
+
+2. The core benefit is three LPG refills per year.
+
+3. The benefit is delivered through the LPG booking/distribution
+   ecosystem and government subsidy/reimbursement mechanism.
+
+4. Rice Card status is a key eligibility input.
+
+5. Active LPG connection is a key eligibility input.
+
+6. Aadhaar and cross-database validation are important to the
+   beneficiary-verification process.
+
+7. The initial 2024-25 booking window is historical and should not
+   be used as the current annual deadline.
+
+8. The April–July, August–November and December–March blocks apply
+   to the regular annual structure from FY 2025-26.
+
+9. Do not copy eligibility conditions from other Andhra Pradesh
+   welfare schemes into Deepam 2.0.
+
+10. Do not state that all women automatically qualify.
+
+11. Do not state that every LPG consumer automatically qualifies.
+
+12. Do not treat the earlier Deepam LPG-connection scheme as the
+   same scheme.
+
+13. PM Ujjwala Yojana is a separate Central Government programme.
+
+14. Current beneficiary eligibility should be determined from the
+   live Civil Supplies/LPG/Rice Card validation systems.
+
+
+## 18. Structured Eligibility Data
+
+scheme_id:
+AP_DEEPAM_2
+
+current_status:
+ACTIVE_CURRENT
+
+beneficiary_type:
+Eligible household / LPG consumer
+
+gender:
+No universal gender restriction established in current
+Deepam-2 implementation material.
+
+age_min:
+Not specified.
+
+age_max:
+Not specified.
+
+residence:
+Andhra Pradesh government beneficiary/database eligibility.
+
+income_limit:
+NOT_SPECIFIED.
+
+occupation:
+No requirement specified.
+
+education:
+No requirement specified.
+
+land_requirement:
+None specified.
+
+social_category:
+No universal caste restriction specified.
+
+rice_card_required:
+YES
+
+active_lpg_connection_required:
+YES
+
+aadhaar_validation_required:
+YES
+
+database_validation_required:
+YES
+
+benefit:
+3 free LPG refills per year.
+
+benefit_frequency:
+One eligible cylinder per four-month block.
+
+annual_blocks:
+1. April–July
+2. August–November
+3. December–March
+
+cash_benefit:
+No direct unconditional cash benefit.
+
+delivery_mechanism:
+LPG booking + delivery + government subsidy/reimbursement.
+
+application_method:
+Existing eligible LPG/Rice Card beneficiary identification and
+validation; booking through LPG distributor.
+
+grievance:
+Civil Supplies / relevant local administration / toll-free 1967.
+
+official_department:
+Civil Supplies Department,
+Government of Andhra Pradesh.
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source | Section / Evidence | Status |
+|---|---|---|---|
+| Scheme name | AP Government Civil Supplies material | Deepam-2 implementation | VERIFIED_CURRENT |
+| Launch date | AP Government / district implementation material | Deepam-2 launch | VERIFIED_CURRENT |
+| Implementation from 01.11.2024 | AP Government district material | Deepam-2 | VERIFIED_CURRENT |
+| Three free LPG refills annually | AP Government district Civil Supplies | Deepam-2 implementation | VERIFIED_CURRENT |
+| Rice Card requirement | AP Government district Civil Supplies | Deepam-2 eligibility | VERIFIED_CURRENT |
+| Active LPG connection | AP Civil Supplies implementation material | Eligibility criteria | VERIFIED_CURRENT |
+| Aadhaar requirement/validation | AP Civil Supplies implementation material | Eligibility criteria | VERIFIED_CURRENT |
+| LPG/Rice Card/Aadhaar matching | AP Civil Supplies implementation material | Validation | VERIFIED_CURRENT |
+| One cylinder per four-month block | AP implementation material | Distribution schedule | VERIFIED_CURRENT |
+| April–July block | AP implementation material | Distribution schedule | VERIFIED_CURRENT |
+| August–November block | AP implementation material | Distribution schedule | VERIFIED_CURRENT |
+| December–March block | AP implementation material | Distribution schedule | VERIFIED_CURRENT |
+| Initial 2024-25 booking period | AP implementation material | Initial rollout | HISTORICAL |
+| Subsidy credited after delivery | AP implementation material | Benefit mechanism | VERIFIED |
+| Current continuation | AP Government district Civil Supplies | Current implementation | VERIFIED_CURRENT |
+| ₹1,554.06 crore subsidy Apr-Dec 2025 | AP Socio-Economic Survey 2025-26 material | Deepam-2 | VERIFIED_CURRENT |
+| 1,84,79,456 beneficiaries Apr-Dec 2025 | AP Socio-Economic Survey 2025-26 material | Deepam-2 | VERIFIED_CURRENT |
+| Income ceiling | No verified current primary source | — | NOT_SPECIFIED |
+| Land ceiling | No verified current primary source | — | NOT_SPECIFIED |
+| Vehicle ceiling | No verified current primary source | — | NOT_SPECIFIED |
+| Electricity ceiling | No verified current primary source | — | NOT_SPECIFIED |
+| Property-size ceiling | No verified current primary source | — | NOT_SPECIFIED |
+| Caste restriction | No verified current primary source | — | NOT_SPECIFIED |
+| Education requirement | No verified current primary source | — | NOT_SPECIFIED |
+| Occupation requirement | No verified current primary source | — | NOT_SPECIFIED |
+| Age requirement | No verified current primary source | — | NOT_SPECIFIED |

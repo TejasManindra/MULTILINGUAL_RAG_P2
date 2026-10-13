@@ -1,0 +1,422 @@
+Scheme Status: PROPOSED_UNDER_REVIEW
+
+# Aadabidda Nidhi
+
+## 1. Scheme Name
+
+**Aadabidda Nidhi**
+
+Also referred to as:
+
+* **Aadabidda Nidhi Scheme**
+* **Aadabidda Nidhi – Women’s Welfare Fund**
+
+---
+
+## 2. Scheme Status
+
+**CURRENT_STATUS:** PROPOSED / UNDER REVIEW
+**SOURCE_VERIFICATION_STATUS:** VERIFIED_PROPOSED_SCHEME — IMPLEMENTATION NOT CONFIRMED
+
+Aadabidda Nidhi was announced as a proposed Andhra Pradesh women-welfare scheme with a promised benefit of **₹1,500 per month** for eligible women. However, the available 2026 reporting indicates that the scheme was still **under review and its implementation guidelines had not been finalized**. ([dailypioneer.com](https://www.dailypioneer.com/uploads/2025/epaper/september/vijayawada-english-edition-2025-09-27.pdf?utm_source=chatgpt.com))
+
+The Government has therefore **not provided sufficient official evidence to classify it as an active 2026 beneficiary scheme**.
+
+---
+
+## 3. Objective
+
+The proposed objective of Aadabidda Nidhi is to provide **regular financial assistance to eligible women in Andhra Pradesh** and support women's economic security and financial independence.
+
+The scheme was included among the welfare commitments announced for women during the 2024 Andhra Pradesh election period. The documented proposed benefit was **₹1,500 per month**. ([dailypioneer.com](https://www.dailypioneer.com/uploads/2025/epaper/september/vijayawada-english-edition-2025-09-27.pdf?utm_source=chatgpt.com))
+
+---
+
+## 4. Target Beneficiaries
+
+The publicly documented proposal identifies:
+
+* **Women residing in Andhra Pradesh**
+* Proposed age range: **18–59 years**
+
+The ₹1,500/month benefit and 18–59 age range are repeatedly reported in available sources describing the proposal. ([orfonline.org](https://www.orfonline.org/research/cash-transfers-as-an-instrument-for-poverty-alleviation-and-womens-empowerment-in-india?utm_source=chatgpt.com))
+
+However:
+
+> **A final Government of Andhra Pradesh eligibility notification was not located confirming the complete beneficiary definition.**
+
+Therefore, the RAG system must treat the age/category information as **proposed**, not as a deterministic current eligibility rule.
+
+---
+
+## 5. Benefit Proposed
+
+The documented proposed benefit is:
+
+* **₹1,500 per month**
+* **₹18,000 per year**
+
+The monthly amount was part of the publicly announced proposal for women aged 18–59. ([orfonline.org](https://www.orfonline.org/research/cash-transfers-as-an-instrument-for-poverty-alleviation-and-womens-empowerment-in-india?utm_source=chatgpt.com))
+
+### Important
+
+This should be stored as:
+
+```text
+PROPOSED_BENEFIT = ₹1,500/month
+```
+
+and **not** as:
+
+```text
+CURRENT_DISBURSEMENT = ₹1,500/month
+```
+
+because implementation was not confirmed.
+
+---
+
+## 6. Eligibility Criteria
+
+### A. Gender
+
+The proposal is intended for **women**.
+
+### B. Age
+
+The publicly reported proposed age range is:
+
+* **18 to 59 years**
+
+This has not been confirmed through a final scheme-specific Government Order. ([orfonline.org](https://www.orfonline.org/research/cash-transfers-as-an-instrument-for-poverty-alleviation-and-womens-empowerment-in-india?utm_source=chatgpt.com))
+
+### C. Residence
+
+The scheme has been described as an Andhra Pradesh women-welfare programme.
+
+A final official residency definition was not located.
+
+### D. Economic Eligibility
+
+Various secondary sources describe possible income/EWS and exclusion conditions, but these were **not confirmed through a final official Aadabidda Nidhi eligibility notification**.
+
+Therefore, the following should **not be hard-coded**:
+
+* Exact income ceiling
+* BPL/EWS definition
+* Land ceiling
+* Vehicle restriction
+* Electricity limit
+* Property limit
+* Government employee exclusion
+* Pensioner exclusion
+* Income-tax exclusion
+
+unless a final official Government Order establishes them.
+
+---
+
+## 7. Family / Beneficiary Definition
+
+A final official definition of:
+
+* Family
+* Household
+* Individual beneficiary
+* One-beneficiary-per-family rule
+
+was not established from the sources reviewed.
+
+Therefore:
+
+```text
+FAMILY_DEFINITION = NOT_VERIFIED
+```
+
+should be maintained in the RAG metadata.
+
+---
+
+## 8. Required Documents
+
+No final official document checklist was identified.
+
+Secondary sources commonly mention documents such as:
+
+* Aadhaar
+* Ration card
+* Bank account
+* Mobile number
+* Income certificate
+
+but these should **not be treated as mandatory official documents** until the Government publishes the scheme guidelines.
+
+---
+
+## 9. Application / Delivery Mechanism
+
+A final official application procedure has **not been established**.
+
+Possible references to:
+
+* Online application
+* Grama/Ward Sachivalayam application
+* Household mapping
+* Aadhaar-bank linking
+* NPCI mapping
+
+should not be presented as confirmed Aadabidda Nidhi procedures without a government notification.
+
+### Current RAG Rule
+
+```text
+APPLICATION_STATUS:
+NOT_OPEN / NOT_VERIFIED
+```
+
+---
+
+## 10. Implementing Department
+
+A final implementing department was not conclusively established through a scheme-specific Government Order.
+
+Some secondary sources identify the **Women & Child Welfare Department**, but this should remain **unverified** until confirmed by an official scheme notification.
+
+Therefore:
+
+```text
+IMPLEMENTING_DEPARTMENT:
+NOT_FINALIZED / NOT_VERIFIED
+```
+
+---
+
+## 11. Verification / Selection Conditions
+
+Because the scheme's final guidelines have not been established, the eligibility engine **must not make a definitive eligibility decision**.
+
+The system may collect proposed attributes such as:
+
+```text
+gender
+age
+residence
+economic_status
+household_details
+```
+
+but must return:
+
+```text
+SCHEME_IMPLEMENTATION_NOT_CONFIRMED
+```
+
+rather than:
+
+```text
+ELIGIBLE
+```
+
+or
+
+```text
+NOT_ELIGIBLE
+```
+
+---
+
+## 12. Current Implementation Status
+
+The most important finding for the RAG database is that **Aadabidda Nidhi should not currently be treated like Thalliki Vandanam, Deepam 2.0 or NTR Bharosa**.
+
+In September 2025, the reported Legislative Council discussion stated that:
+
+* The scheme was **under review**
+* Estimates were being prepared
+* **Procedural guidelines had not yet been finalized**. ([dailypioneer.com](https://www.dailypioneer.com/uploads/2025/epaper/september/vijayawada-english-edition-2025-09-27.pdf?utm_source=chatgpt.com))
+
+February 2026 reporting likewise described the scheme as still being examined, with no confirmed launch date. ([aimindia.in](https://aimindia.in/aadabidda-nidhi-scheme-ap-women/?utm_source=chatgpt.com))
+
+Therefore, the RAG record must preserve the distinction between:
+
+**announced/proposed scheme**
+
+and
+
+**implemented welfare scheme**.
+
+---
+
+## 13. Current-Status Interpretation
+
+### What is verified
+
+The following elements are documented as the proposed scheme:
+
+* Name: Aadabidda Nidhi
+* Target: Women
+* Proposed age: 18–59
+* Proposed assistance: ₹1,500/month
+* Proposed annual value: ₹18,000
+
+([orfonline.org](https://www.orfonline.org/research/cash-transfers-as-an-instrument-for-poverty-alleviation-and-womens-empowerment-in-india?utm_source=chatgpt.com))
+
+### What is NOT verified
+
+The following remain unconfirmed:
+
+* Final eligibility rules
+* Final income criteria
+* Final land criteria
+* Final vehicle criteria
+* Final property criteria
+* Final application procedure
+* Final beneficiary identification process
+* Final payment start date
+* Actual 2026 disbursement
+* Final implementing department
+* Final Government Order/guidelines.
+
+### Important RAG interpretation
+
+> **Aadabidda Nidhi is a proposed/under-review scheme, not a confirmed active 2026 payment scheme.**
+
+---
+
+## 14. Important Scheme Distinction
+
+Do not confuse Aadabidda Nidhi with:
+
+* **NTR Bharosa Pension Scheme**
+* **Thalliki Vandanam**
+* **Kapu Nestham**
+* **EBC Nestham**
+* **YSR Cheyutha**
+* **Stree Shakti**
+
+In particular, Aadabidda Nidhi should **not inherit eligibility rules from Kapu Nestham or EBC Nestham** simply because all are women-oriented welfare programmes.
+
+---
+
+## 15. RAG Retrieval Keywords
+
+```text
+Aadabidda Nidhi
+Aadabidda Nidhi Scheme
+Aadabidda Nidhi Andhra Pradesh
+Aadabidda Nidhi women scheme
+Aadabidda Nidhi ₹1500
+Aadabidda Nidhi 1500 monthly
+Aadabidda Nidhi 18000 annual
+Aadabidda Nidhi eligibility
+Aadabidda Nidhi age
+Aadabidda Nidhi women welfare
+AP women 1500 scheme
+Andhra Pradesh women financial assistance
+Aadabidda Nidhi application
+Aadabidda Nidhi guidelines
+Aadabidda Nidhi launch
+```
+
+---
+
+## 16. Suggested Metadata
+
+```yaml
+scheme_name: Aadabidda Nidhi
+alternate_name:
+  - Aadabidda Nidhi Scheme
+  - Aadabidda Nidhi Women Welfare Fund
+state: Andhra Pradesh
+
+scheme_type:
+  - Proposed Welfare Scheme
+  - Women Welfare
+
+target_gender: Female
+proposed_age_min: 18
+proposed_age_max: 59
+
+proposed_benefit_amount: 1500
+proposed_benefit_frequency: Monthly
+proposed_annual_benefit: 18000
+
+implementation_status: Under Review
+official_application_open: false
+final_guidelines_verified: false
+current_payment_verified: false
+```
+
+---
+
+## 17. Source References
+
+### Government / Officially Relevant Sources
+
+* **Government of India, Ministry of Statistics & Programme Implementation — National Household Income Survey 2026:** Aadabidda Nidhi is included in the survey's list of state schemes, confirming that the scheme is being treated as a named state welfare programme for statistical purposes. ([mospi.gov.in](https://mospi.gov.in/sites/default/files/announcements/Pre-Testing_Report_ScheduleNHIS-2026.pdf?download=1&utm_source=chatgpt.com))
+
+### Current Status Reporting
+
+* **September 2025 Legislative Council reporting:** implementation was described as under review, with guidelines still to be finalized. ([dailypioneer.com](https://www.dailypioneer.com/uploads/2025/epaper/september/vijayawada-english-edition-2025-09-27.pdf?utm_source=chatgpt.com))
+* **February 2026 reporting:** the scheme was still described as under examination, without a confirmed launch date. ([aimindia.in](https://aimindia.in/aadabidda-nidhi-scheme-ap-women/?utm_source=chatgpt.com))
+* **ORF research:** lists Aadabidda Nidhi as a scheme **to be launched**, with proposed ₹1,500/month assistance. ([orfonline.org](https://www.orfonline.org/research/cash-transfers-as-an-instrument-for-poverty-alleviation-and-womens-empowerment-in-india?utm_source=chatgpt.com))
+
+---
+
+## 18. RAG Readiness
+
+```text
+RAG_STATUS:
+READY_AS_PROPOSED_SCHEME_RECORD
+
+ELIGIBILITY_ENGINE_STATUS:
+DISABLED_PENDING_FINAL_GUIDELINES
+
+CURRENT_STATUS:
+PROPOSED / UNDER_REVIEW
+
+SOURCE_VERIFICATION_STATUS:
+VERIFIED_PROPOSED_SCHEME
+IMPLEMENTATION_NOT_CONFIRMED
+```
+
+### Eligibility Engine
+
+**Do NOT enable deterministic eligibility yet.**
+
+Instead:
+
+```text
+IF user asks about Aadabidda Nidhi
+    THEN retrieve proposed scheme information
+    AND clearly state implementation status
+    AND do not issue ELIGIBLE / NOT_ELIGIBLE
+    UNLESS final government guidelines are available
+```
+
+---
+
+## 19. Final RAG Classification
+
+**Aadabidda Nidhi should be retained in the AP RAG dataset, but classified as a proposed/under-review scheme rather than an active beneficiary scheme.**
+
+| Field                       | Value                         |
+| --------------------------- | ----------------------------- |
+| **Scheme**                  | Aadabidda Nidhi               |
+| **State**                   | Andhra Pradesh                |
+| **Target User**             | Women                         |
+| **Proposed Age**            | 18–59                         |
+| **Proposed Benefit**        | ₹1,500/month                  |
+| **Proposed Annual Benefit** | ₹18,000                       |
+| **Final Eligibility Rules** | **Not verified**              |
+| **Application Process**     | **Not verified**              |
+| **Payment Start**           | **Not confirmed**             |
+| **2026 Active Payment**     | **Not confirmed**             |
+| **Eligibility Engine**      | **DISABLED**                  |
+| **RAG**                     | **READY_AS_PROPOSED_RECORD**  |
+| **Current Status**          | **PROPOSED / UNDER REVIEW**   |
+| **Overall Record**          | **READY_WITH_STATUS_WARNING** |
+
+**Key RAG rule:** If a user asks *“Am I eligible for Aadabidda Nidhi?”*, the system should **not calculate eligibility from the commonly circulated 18–59/₹1,500 rules**. It should explain that the scheme has been proposed and that final implementation guidelines have not been verified. ([dailypioneer.com][1])
+
+[1]: https://www.dailypioneer.com/uploads/2025/epaper/september/vijayawada-english-edition-2025-09-27.pdf?utm_source=chatgpt.com "The Pioneer"

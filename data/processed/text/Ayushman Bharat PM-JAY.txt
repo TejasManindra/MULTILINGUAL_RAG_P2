@@ -1,0 +1,2989 @@
+--- PAGE 1 ---
+National Health Benefit
+ Package 2.2
+
+ User Guidelines
+
+ National Health Authority
+
+ Version: November 2021
+
+Note: State specific modifications in the NHA published guidelines may be expected
+ Foreword
+
+--- PAGE 2 ---
+92 national ny
+ja) h . nrat
+«ee aUbhoriby “Sana
+Pe area uve = 338
+mM), Government of India
+” by J National Health Authority
+nai
+Dr. R.S. Sharma =
+Chief Executive Officer
+23.11.2021
+Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is the
+flagship scheme of the Government of India and the world's largest health
+assurance scheme that provides a cover of up to 5 lakh per family per year,
+for secondary and tertiary care hospitalization to over 10.74 crore vulnerable
+entitled families (approximately 50 crore beneficiaries). PM-JAY provides
+cashless and paperless access to over 1,670 health benefit packages across a
+network of over 25,000 empaneiled hospitals and health care providers in the
+country.
+The National Health Authority (NHA) has developed this manual for guidance
+of Empanelled Hospital Care Providers (EHCPs), Naticnal Hospital Care
+Providers (NHCPs), State Health Agencies (SHAs), and teams doing pre-
+authorization and claim processing for treatment of beneficiaries of AB PM-
+JAY. It will also serve as a guidance tool for EHCPs to book the right package
+as per the medical necessity of the beneficiaries, and for state medical audit
+committees for policies on payment as per inclusion / exclusion criteria of
+Health Benefit Packages (HBP).
+I am grateful to the medical cell experts of the NHA, the SHAs, members of
+the technical medical committee, members of the Health Policy & Quality
+Assurance (HP&QA) division, and all the stakeholders who were engaged in
+the consultation process and provided valuable suggestions in defining the
+Health Benefit Packages (HBP 2.2) under the AB PM-JAY scheme. We intend
+to continuously innovate and enhance the design of the scheme based on our
+experiences in its implementation.
+. Ram Sewak Sharma
+Chief Executive Officer,
+National Health Authority,
+Ministry of Health & Family Welfare
+NN EEE
+3rd, 7th & 9th Floor, Tower, Jaevan Bharati Bullding, Connaught Place, New Delhi-110001
+Tel.; 011-2346 8908, 011-2346 8915 E-mail : rssharma3@gmail.com Website: www_pmijay.gov.in
+Page 1 of 64
+
+--- PAGE 3 ---
+Disclaimer: The key objective of this user guideline document of National Health Authority (NHA) is
+to give an overview of the national health benefit package available under AB PM-JAY. This manual
+has been prepared for guidance of EHCPs, NHCPs, State Health Agencies (SHAs), pre-authorization
+and claims processing teams for processing treatment of beneficiaries. It will also serve as
+aguidancetoolforEHCPsands t a t e medicalaudit committees for policies on payment as per
+inclusion/exclusion criteria of
+HBP.Inthatrespect,EHCPsandphysiciansmayrefertootherrelevantmaterialaspertheextantprofessionaln
+orms.Thecontentofthedocumentmaybereproduced/citedwithdueacknowledgmentoftheoriginalpublicati
+on,ABPM-JAYandNHA.
+
+Cite as: “Dr. Vipul Aggarwal, Dr. AjaiAgarwal, Kanishak Gautam.Documentation of National Health
+Benefit Package User Guidelines Version November 2021, Ayushman BharatPradhan
+MantriJanArogya Yojana (AB PM-JAY), National Health Authority. Accessibleat:
+https://pmjay.gov.in/resources/documents”
+
+Acknowledgements:Special thanks to Dr. R.S. Sharma, CEO, NHA; Dr.Indu Bhushan, Former CEO,
+NHA; Dr. PraveenGedam,AdditionalCEO,NHA, fortheiroverallstrategicguidanceandfacilitating the process.
+We acknowledge with gratitude the contribution and support provided by Dr. Balram Bhargava,Secretary,
+Department of Health Research (DHR), Ministry of Health & Family Welfare, Government of India and
+DirectorGeneral,IndianCouncilofMedicalResearch(ICMR)andDr.CSPramesh,Director,TataMemorialHospita
+l(TMH),Convener,NationalCancerGrid(NCG),allNHAcolleagues;TheWorldBankTeam(Ms.
+SheenaChhabraandM r . OwenSmith);fortheirfeedbackandsuggestions.
+
+Key contributors to the development and integration of the guidelines include; Dr. Vipul Aggarwal,
+Deputy CEO, NHA; Dr. Ajai Agarwal, Director (HP&QA),NHA; Mr. Kanishak Gautam, Consultant
+(HP&QA),Dr. Nishu Sharma, Consultant (HP&QA),Mr. Varun Telang, Consultant (HP&QA), other
+team members from NHA: Dr. Rimy Khurana, Dy. Principal Consultant (NHA); IT team, and
+supportedby experts from Tata Memorial Hospital/National Cancer Grid, Department of Health
+Research-Indian Council ofMedical Research (DHR-ICMR), Expert group committees on various
+medical/ surgicalspecialties, experts of the Medical Cell (NHA), Monitoring &Research (M&R)
+team, Information, Education & Communication (IEC) team
+atNHA.SpecialthankstotheStateHealthAgencies(SHAs)andtheirteamsforcontinuedsupport.
+
+ Page 2 of 64
+
+--- PAGE 4 ---
+Contents
+
+SECTION 1. HEALTH BENEFIT PACKAGES IN AB PM-JAY ........................................................................................... 5
+1.1 OBJECTIVES OF THE SCHEME ............................................................................................................................... 5
+1.2 HEALTH BENEFIT PACKAGE (HBP) ...................................................................................................................... 5
+1.3 PACKAGE RATES ................................................................................................................................................ 5
+1.4 PAYMENT IN SPECIAL CASES DURING HOSPITAL ADMISSION ................................................................................... 8
+1.4.1 PATIENT LEAVE / DISCHARGE AGAINST MEDICAL ADVICE (LAMA/DAMA) ................................................... 9
+1.4.2 PATIENT DIES IN THE HOSPITAL .................................................................................................................... 9
+1.4.3 PATIENT REFERRED TO ANOTHER HOSPITAL ............................................................................................... 10
+1.5 UNSPECIFIED PACKAGES ................................................................................................................................... 12
+1.5.1 USING AN UNSPECIFIED PACKAGE .............................................................................................................. 12
+1.5.2 UNSPECIFIED PACKAGE ABOVE ₹ 1 LAKH ................................................................................................... 14
+2.1 INTRODUCTION .................................................................................................................................................. 16
+2.2 SALIENT FEATURES ........................................................................................................................................... 16
+2.2.1 PACKAGES & PROCEDURES ...................................................................................................................... 16
+2.2.2 STRATIFICATION ....................................................................................................................................... 17
+2.2.3 STRATIFICATION IN MEDICAL PACKAGES ................................................................................................... 17
+2.2.4 CROSS SPECIALTY PACKAGES .................................................................................................................. 18
+2.2.5 ADD-ON PACKAGES .................................................................................................................................. 18
+2.2.6 STAND ALONE PACKAGES ......................................................................................................................... 19
+2.2.7 SPLITTING OF COST OF IMPLANTS / HIGH END CONSUMABLES .................................................................... 19
+2.2.8 STEP PAYMENT OF STAGED PROCEDURES .................................................................................................. 19
+2.2.9 FOLLOW UP PROCEDURES ......................................................................................................................... 20
+2.2.10 ABUSE PRONE PACKAGES ........................................................................................................................ 20
+2.2.11 STANDARDIZED NOMENCLATURE OF PROCEDURES ..................................................................................... 20
+2.3 KEY DIFFERENCES - HBP 2.0 & HBP 2.2 ........................................................................................................... 21
+SECTION 3. KEY FEATURES BY SPECIALTY ................................................................................................................ 22
+3.1 BURNS MANAGEMENT ....................................................................................................................................... 22
+3.2 CARDIOLOGY .................................................................................................................................................... 23
+3.3 CARDIO-THORACIC & VASCULAR SURGERY ........................................................................................................ 24
+3.4 EMERGENCY ROOM PACKAGES ......................................................................................................................... 24
+3.5 GENERAL MEDICINE .......................................................................................................................................... 24
+3.6 GENERAL SURGERY .......................................................................................................................................... 25
+3.7 INFECTIOUS DISEASES ....................................................................................................................................... 25
+3.8 INTERVENTIONAL NEURORADIOLOGY .................................................................................................................. 25
+3.9 MEDICAL ONCOLOGY ........................................................................................................................................ 26
+3.10 MENTAL DISORDERS PACKAGE ................................................................................................................. 26
+3.11 NEONATAL CARE PACKAGE ...................................................................................................................... 27
+3.12 NEUROSURGERY ....................................................................................................................................... 28
+3.13 OBSTETRICS & GYNECOLOGY ................................................................................................................... 28
+
+ Page 3 of 64
+
+--- PAGE 5 ---
+3.14 OPHTHALMOLOGY .................................................................................................................................... 28
+3.15 ORAL & MAXILLOFACIAL SURGERY ........................................................................................................... 29
+3.17 ORTHOPEDICS .......................................................................................................................................... 29
+3.18 OTORHINOLARYNGOLOGY (ENT) ............................................................................................................... 29
+3.19 PEDIATRIC MEDICAL MANAGEMENT ........................................................................................................... 30
+3.20 PEDIATRIC SURGERY ................................................................................................................................ 30
+3.21 PLASTIC & RECONSTRUCTIVE SURGERY .................................................................................................... 30
+3.22 POLYTRAUMA ........................................................................................................................................... 31
+3.23 RADIATION ONCOLOGY (19) ...................................................................................................................... 31
+3.24 SURGICAL ONCOLOGY .............................................................................................................................. 32
+3.25 UROLOGY ................................................................................................................................................. 32
+SECTION 4. USING THE HBP 2.2 ............................................................................................................................... 34
+4.1 PACKAGE SELECTION ........................................................................................................................................ 34
+4.2 RAISING A PRE-AUTH ........................................................................................................................................ 34
+4.3 PROCESS FOR RAISING A PRE-AUTH .................................................................................................................. 36
+4.4 APPROVING A PRE-AUTH .................................................................................................................................... 43
+SECTION 5. FREQUENTLY ASKED QUESTIONS ........................................................................................................... 45
+ABBREVIATIONS USED ............................................................................................................................................. 54
+ANNEXURE 1 – EXCLUSIONS TO THE POLICY ............................................................................................................. 54
+
+ Page 4 of 64
+
+--- PAGE 6 ---
+Section 1. Health Benefit Package under AB PM-JAY
+
+1.1 Objectives of the Scheme
+
+AB-PMJAY aims to reduce catastrophic health expenditure, improve access to quality health care, reduce
+
+unmet needs and reduce out of pocket healthcare expenditures of poor and vulnerable families falling
+
+under the deprivation criteria of D1, D2, D3, D4, D5 and D7, Automatically Included category and broadly
+
+11 defined occupational un-organised workers (in Urban Sector) of the Socio-Economic Caste Census
+
+(SECC) database of the State/ UT along with the estimated existing RSBY Beneficiary Families not
+
+figuring in the SECC Database. These eligible AB-PMJAY beneficiary families will be provided coverage
+
+for secondary, tertiary and day care procedures (as applicable) for treatment of diseases and medical
+
+conditions through a network of Empaneled Health Care Providers (EHCP).
+
+1.2 Health Benefit Package (HBP)
+
+The benefits within this Scheme under the basic risk cover are to be provided on a cashless basis to the
+
+AB PM-JAY Beneficiaries up to the limit of their annual coverage and includes:
+
+ • Hospitalization expense
+
+ • Day care treatment (as applicable)
+
+ • Follow-up care
+
+ • Pre and post hospitalization expense
+
+ • Newborn child / children
+
+The details of benefit packages are furnished in Annexure 2: ‘Packages and Rates’ and exclusions are
+
+furnished in Annexure 1.
+
+For availing select treatment in any empaneled hospitals, pre-authorization is required to be taken for
+
+defined cases.Except for exclusions listed in Annexure 2, treatment / procedures will also be allowed, in
+
+addition to the procedures listed in Schedule 3, of up to a limit of ₹ 1,00,000 to any AB-PMJAY
+
+Beneficiary (called ‘Unspecified Procedure’) within the overall limit of ₹ 5,00,000. Operations pertaining to
+
+Unspecified Procedure are to be governed as per Unspecified Packages Guidelines provided under
+
+section 1.7 of the document.
+
+1.3 Package Rates
+
+Insurer shall reimburse claims of EHCPs based on package rates determined as follows:
+
+ Page 5 of 64
+
+--- PAGE 7 ---
+• If package rate for a medical treatment or surgical procedure requiring hospitalization or Daycare
+
+ treatment (as applicable) is fixed in the HBP, then the package rate so fixed shall apply for the policy
+
+ cover period.
+
+• If package rate for a surgical procedure requiring hospitalization or Daycare treatment (as
+
+ applicable) is not listed in the HBP, then the Insurer may pre-authorise an appropriate amount based
+
+ on rates for similar procedures defined in the list, or based on other applicable national or state
+
+ health insurance schemes such as CGHS. In case of medical care, the rate will be calculated on per
+
+ day basis as specified in the package list except for special inputs like High end radiological
+
+ diagnostic and High-end histopathology (Biopsies) and advanced serology investigations packages
+
+ or some other special inputs existing in the HBP (or are released by NHA in future) which can be
+
+ clubbed with medical packages.
+
+• AB PM-JAY is a cashless scheme, where no beneficiary should be made to pay for availing
+
+ treatment in any EHCP. However, upon exhaustion of the wallet, or if the treatment cost exceeds the
+
+ benefit coverage amount available with the beneficiary families then the liability for such remaining
+
+ treatment cost as per the package rates defined in the HBP list will not be of the insurer. Beneficiary
+
+ and SHA (through ISA/TPA) will need to be clearly communicated in advance about the additional
+
+ payment at the start of such treatment.
+
+• In case a beneficiary is required to undertake multiple surgical procedures in one OT session, the
+
+ procedure with highest rate shall be considered as the primary package and reimbursed at 100%,
+
+ thereupon the 2nd surgical procedure shall be reimbursed at 50% of package rate, 3rd and
+
+ subsequent surgical procedures shall be reimbursed at 25% of the package rate.
+
+• Surgical and medical packages will not be allowed to be availed at the same time (Except for Add-on
+
+ procedures as defined in the HBP and configured in NTMS). In exceptional circumstances, hospital
+
+ may raise a request for such pre-authorization which will be decided by SHA with the help of
+
+ concerned medical specialist.
+
+• Certain packages as mentioned in the HBP master will only be reserved for Public EHCPs as
+
+ decided by NHA. SHAs may permit availing these packages in private EHCPs only after a referral
+
+ from a public EHCP is made. Some modifications (in not more than 10% of total number of
+
+ packages) may be done by SHA in this regard.
+
+• Incentivization will be provided to certain hospitals which will be over and above the rates defined in
+
+ the HBP.
+
+ Page 6 of 64
+
+--- PAGE 8 ---
+For the purpose ofhospitalization expenses as package rates shall include all the costs associated with
+
+the treatment, amongst other things:
+
+• Registration charges
+
+• Bed charges
+
+• Nursing and boarding charges
+
+• Surgeons, anesthetists, medical practitioner, consultant’s fees etc.
+
+• Anesthesia, blood transfusion, oxygen, O.T. charges, cost of surgical appliances etc.
+
+• Medicines and drugs
+
+• Cost of prosthetic devices, implants etc.
+
+• Pathology and radiology tests: Medical procedures include basic radiological imaging and diagnostic
+
+ tests such as X-ray, USG, hematology, pathology etc. However, high end radiological diagnostic and
+
+ high-end histopathology (biopsies) and advanced serology investigations packages can be booked
+
+ as a separate ‘Add-on procedure’, if required. Surgical packages are all inclusive and do not permit
+
+ addition of other diagnostic packages.
+
+• Food to patient
+
+• Pre and post hospitalization expenses: Expenses incurred for consultation, diagnostic tests and
+
+ medicines prior to admission of the patient in the same hospital and cost of diagnostic tests and
+
+ medicines up to 15 days after discharge from the hospital for the same ailment / surgery.
+
+• Any other expenses related to the treatment of the patient in the hospital.
+
+For the purpose of Daycare treatment expenses shall include, amongst other things:
+
+• Registration charges
+
+• Surgeons, anesthetists, medical practitioners, consultants’ fees, etc.
+
+• Anesthesia, blood transfusion, oxygen, operation theatre charges, cost of surgical appliances, etc.
+
+• Medicines and drugs
+
+• Cost of prosthetic devices, implants, organs, etc.
+
+• Pathology and radiology tests: Medical procedures include basic radiological imaging and diagnostic
+
+ tests such as X-ray, USG, hematology, pathology etc. However, high end radiological diagnostic and
+
+ high-end histopathology (Biopsies) and advanced serology investigations packages can be booked
+
+ as a separate add-on procedure if required. Surgical packages are all inclusive and do not permit
+
+ addition of other diagnostic packages.
+
+ Page 7 of 64
+
+--- PAGE 9 ---
+• Pre and post hospitalization expenses: Expenses incurred for consultation, diagnostic tests and
+
+ medicines prior to admission of the patient in the same hospital and cost of diagnostic tests and
+
+ medicines up to 15 days after discharge from the hospital for the same ailment / surgery.
+
+• Any other expenses related to Daycare treatment provided to the beneficiary by an EHCP.
+
+If NHA finds a treatment being booked under unspecified surgical procedure repeatedly, or some
+
+treatment is required to be included within the national HBP, to address a pressing health problem which
+
+is or have become widely prevalent, then NHA may add such treatment(s) under national HBP.
+
+The benefits under the ABPM-JAY cover shall, subject to the available ABPM-JAY sum Insured, be
+
+available to the beneficiary on a cashless and paperless basis at any EHCP.
+
+1.4 Payment in special cases during hospital admission
+
+Once a patient is admitted under Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PM-JAY) in an
+
+EHCP, in normal course the patient will be discharged by the hospital after completing the treatment.
+
+Hence in majority of cases, the payment to the hospital will be done based on the package booked and
+
+rates prescribed for that package.
+
+However, in some cases, this may not happen due to various reasons e.g. patient may leave against
+
+medical advice, patient may die within the hospital or patient may need to be referred to another hospital.
+
+In these special cases clarity needs to be provided to both hospitals and the payers (State Health
+
+Agency/ Insurance Company) regarding payments to the hospitals.These guidelines provide details of
+
+payments to be done in these special cases.
+
+The basic principles to be followed in implementation of these guidelines are as follows
+
+• The hospital will be paid partial amount only if the hospital provides information about deviation from
+
+ normal course to the respective SHA / ISA / Insurer through the IT platform as soon as possible but
+
+ not later than 24 hours of the deviation. The time limit may be relaxed to 72 hours for public hospitals
+
+• Additionally, in each of these cases payment will be done only after a successful audit by the SHA /
+
+ Insurer.
+
+• The audit process shall be completed by the SHA/ Insurer within 15 days of receiving the information
+
+ from the hospital.
+
+• It is expected that these deviations would not amount to more than 5% in a particular hospital
+
+ Page 8 of 64
+
+--- PAGE 10 ---
+1.4.1 Patient Leave / Discharge Against Medical Advice (LAMA/DAMA)
+Leave Against Medical Advice (LAMA), also called Discharge Against Medical Advice (DAMA), is an act
+
+whereby a patient takes his/her discharge contrary to the recommendation or will of the attending
+
+physician. This can happen due to various reasons related to the beneficiary or the hospital. After the
+
+audit, the payment to the hospital will be done as per the following:
+
+A. Surgical Cases – Patient has been admitted for a surgical package where a fixed package rate is to
+
+ be paid.
+
+• LAMA/DAMA before surgery –The claim amount would be calculated in line with the existing medical
+
+ packages according to Length of Stay (LoS) and bed category of the patient. Payment for 100% of
+
+ the daily package rate for the full number of days when patient was admitted will be paid. Required
+
+ documentation (clinical notes) for each full day will need to be submitted for payment to be
+
+ considered. This will be applicable in all cases irrespective of the fact whether pre-operative
+
+ investigations have been done or not.
+
+• LAMA/ DAMA after surgery –Payment for 75% of the package rate will be done to the hospital by the
+
+ SHA/ Insurer in this case. Daily case sheets and OT notes will need to be submitted by the hospital
+
+ for auditing purposes to qualify for payment.
+
+B. Medical Cases –Payment for 100% of the daily package rate for the full number of days for which the
+
+ patient was admitted will be paid as per the category of ward. Required documentation (clinical notes)
+
+ for each full day will need to be submitted for payment to be considered.
+
+1.4.2 Patient dies in the EHCP
+If the patient dies in the EHCP during treatment before discharge, after the audit, payment to the EHCP
+
+will be made as follows:
+
+A. Surgical Cases:
+
+• Death before surgery – The claim amount would be calculated in line with the existing medical
+
+ packages according to Length of Stay (LoS) and bed category of the patient. Payment for 100% of
+
+ the daily package rate for the full number of days when patient was admitted will be paid. Required
+
+ documentation (clinical notes) for each full day will need to be submitted for payment to be
+
+ considered. This will be applicable in all cases irrespective of the fact whether pre-operative
+
+ investigations have been done or not.
+
+ Page 9 of 64
+
+--- PAGE 11 ---
+• Death on the table during surgery – If the patient dies during the surgery then 75% of the booked
+
+ package rate will be paid. Daily case sheets and OT notes will need to be submitted by the hospital
+
+ for auditing purposes to qualify for payment.
+
+• Death after surgery – If the patient dies after the surgery, irrespective of the duration of the post-
+
+ operative stay, then 100% of package rate will be paid to the hospital after detailed medical audit.
+
+B. Medical Cases – Payment for 100% of the daily package rate for the full number of days for which
+
+ the patient was admitted will be paid as per the category of ward. Required documentation (clinical
+
+ notes) for each full day will need to be submitted for payment to be considered.
+
+1.4.3 Patient referred to another EHCP
+It is important to note that an EHCP should refer the patients only to another EHCP and only in
+
+exceptional circumstances referral to non-empanelled hospital shall be done. Strong justification will need
+
+to be provided by the hospital for referring the patient to a non-empanelled hospital.
+
+As per PM-JAY policy, treatment package includes complications arising out of surgery. However, in
+
+exceptional cases and on prior intimation to approver (PPD/ CPD), referral can be made from one EHCP
+
+to another and therein qualify for partial payment. The following scenarios shall be applicable for partial
+
+payment:
+• Referred to an empanelled hospital
+ • Surgical Cases
+
+ i. Referral before PAC and surgery – In case a patient is referred to another empanelled
+
+ healthcare provider, the claim amount would be calculated in line with the existing
+
+ medical packages according to Length of Stay (LoS) and bed category of the patient to
+
+ the referring hospital. Payment for 100% of the daily package rate for the full number
+
+ of days when patient was admitted will be paid. Required documentation (clinical
+
+ notes) for each full day will need to be submitted for payment to be considered. The
+
+ hospital (empanelled) that receives the referred patient will be eligible for 100% of the
+
+ package rate of the surgery booked by the hospital.
+
+ ii. Referral after PAC but before surgery in case surgery is abandoned & patient is
+
+ transferred – In this case, the hospital that has referred the patient will be paid 15% of
+
+ the package amount for the surgical package booked by the hospital. The hospital that
+
+ has received the referred patient will be provided 85% of the package rate of the
+
+ Page 10 of 64
+
+--- PAGE 12 ---
+surgery selected in the hospital. The receiving hospital will need to take pre-
+
+ authorization before booking the package.
+
+ iii. Referral after the surgery for complication management – If a patient is referred after
+
+ surgery has been performed, but further complications arise, then the referring hospital
+
+ would be paid 75% of the total package rate. The hospital that receives the referred
+
+ patient would be eligible for 100% of the package rate of the new surgery selected (if a
+
+ surgical package is booked), or in line with the existing medical packages according to
+
+ Length of Stay (LoS) and bed category of the patient (if a medical package is booked),
+
+ depending on the patient. This surgery in the second hospital will need to be
+
+ mandatorily pre-authorised.
+
+• Medical Cases – Payment for 100% of the daily package rate for the full number of days for which
+
+ the patient was admitted will be paid to the referring hospital as per the category of ward. Required
+
+ documentation (clinical notes) for each full day will need to be submitted for payment to be
+
+ considered. The hospital that receives the referred patient would be eligible for 100% of the package
+
+ rate of the surgery selected (if a surgical package is booked), or in line with the existing medical
+
+ packages according to Length of Stay (LoS) and bed category of the patient (if a medical package is
+
+ booked), depending on the patient.
+
+• Referred to non-empanelled hospital (in exceptional cases)
+
+• If any referral is done to a non-empanelled hospital, then no payment will be done to any non-
+
+ empanelled hospital.
+
+Note: In no other cases partial payment will be done to empanelled hospitals.
+
+ Clause Previous NHA Policy Revised Policy
+
+ Payment as per length of stay and
+ LAMA before surgery No payment ward category
+
+ Payment as per length of stay and
+ LAMA after investigations No current policy ward category
+
+ 75% of total package amount LAMA after surgery 75% of total package amount
+
+ Death before Surgery No payment Payment as per length of stay and
+
+ Page 11 of 64
+
+--- PAGE 13 ---
+ward category
+
+ As per LOS prior to incision | 75% of
+ Death on table 75% of total package amount package price post incision
+
+ No change to existing clause Death after surgery 100% of package amount
+
+ Payment as per length of stay and
+ Referral before surgery No payment ward category
+
+ No fixed percentage for referring 15% of package price to referring
+ Referral after PAC Referred hospital may raise a new EHCP | 85% to referred EHCP
+ pre-auth
+
+ 75% of total package amount to 75% of total package amount to
+ referring hospital referring hospital
+ Referral after surgery Referred hospital may raise a new Referred hospital may raise a new
+ pre-auth pre-auth
+
+ Payment as per length of stay and Postponed / cancelled surgery
+ No payment ward category cases
+
+ In case of unforeseen eventsor pandemic situations,if scheduled surgeries may be postponed and
+
+ the patient may be discharged without surgery, in those scenarios, claims may be processedas per
+
+ partial payment policy i.e. payment as per length of stay and ward category.
+
+ *This is primarily applicable for NHCPs and public hospitals and for private hospitals, concurrence
+
+ may be sought from NAFU.
+
+1.5 Unspecified surgical packages
+
+To ensure that PM-JAY beneficiaries are not denied care, for treatments/procedures that do not feature
+
+in the listed interventions, there is an exclusive provision that has been enabled in the TMS (transaction
+
+management system) for blocking such treatments, subject to satisfying certain defined criteria (as
+
+mentioned)
+
+1.5.1 Using an unspecified package
+Criteria for treatments that can be availed under unspecified
+
+• Only for surgical treatments
+
+ Page 12 of 64
+
+--- PAGE 14 ---
+• Compulsory pre-authorization is in-built while selecting this code for blocking treatments.
+
+• Cannot be raised under multiple package selection. Not applicable for medical management cases.
+
+• Government reserved packages cannot be availed by private hospitals under this code. PPD/ CPD
+
+ may reject such claims on these grounds. In addition, SHA may circulate Government reserved
+
+ packages to all hospitals. Further, States need to establish suitable mechanisms to refer such cases
+
+ to the public system – as a means to avoid denial of care.
+
+• Cannot be booked for removal of implants, which were inserted under the same policy. Exceptions
+
+ where removal of implants is not covered under any other package, to be approved by State Health
+
+ Agencies or National Health Authority.
+
+• In the event of portability, the home state approval team may either reject if a Government reserved
+
+ package of the home state is selected by a private hospital in the treating state or consider on
+
+ grounds of ‘emergency’.
+
+• Aesthetic treatments of any nature cannot be availed under this code or as such under any other
+
+ listed codes under PM-JAY. Only medically necessary with functional purpose/ indications can be
+
+ covered. The procedure should result in improving/restoring bodily function or to correct significant
+
+ deformity resulting from accidental injury, trauma or to address congenital anomalies that have
+
+ resulted in significant functional impairment.
+
+• Individual drugs or diagnostics cannot be availed under this code. Only LISTED drugs and
+
+ diagnostics with fixed price schedules, listed under the drop down of respective specialties, are
+
+ included for blocking treatments.
+
+• None of the treatments that fall under the exclusion list of PM-JAY can be availed viz. individual
+
+ diagnostics for evaluation, out-patient care, drug rehabilitation, cosmetic/ aesthetic treatments,
+
+ vaccination, hormone replacement therapy for sex change or any treatment related to sex change,
+
+ any dental treatment or surgery which is corrective, cosmetic or of aesthetic procedure, filling of
+
+ cavity, root canal including wear and tear etc. unless arising from disease or injury and which
+
+ requires hospitalization for treatment etc.
+
+• However, for life threatening cases e.g. of suicide attempt or accident due to excess consumption of
+
+ alcohol, treatment shall be provided by the hospital till the patient’s condition stabilizes.
+
+• In case the State/UT is getting multiple requests for the same unspecified package from multiple
+
+ hospitals or for multiple patients, then the same should be taken up with the Medical Committee for
+
+ inclusion in the package master for that State/UT within a defined time frame as per the State/UT.
+
+ Page 13 of 64
+
+--- PAGE 15 ---
+• The same should also be shared with NHA for consideration to include such packages in national
+
+ package master
+
+For deciding on the approval amount, the PPD may consider the rate of closest match of the requested
+
+surgery, in listed PM-JAY packages. It should be noted that the amount approved by the PPD would be
+
+sacrosanct, to be communicated to the hospital, and the CPD would not be able to deduct any amount or
+
+approve partial payment for that claim.
+
+1.5.2 Unspecified package above ₹ 1 Lakh
+For any SHA to utilize the unspecified package above ₹1 lakh, it is to be ensured that the same is
+
+approved only in (a) exceptional circumstances and / or (b) for life saving conditions. Process to be
+
+followed:
+
+• EHCPs / NHCPs may move the request for approval of unspecified surgical packages beyond Rs.
+
+ 1,00,000/- on the ticketing system.
+
+• The request will be reviewed on the same platform by the respective SHA, record their inputs /
+
+ recommendations and forward it to HP & QA division of NHA for consideration.
+
+• HP & QA division may provide its feedback on the request and forward the ticket to Finance division.
+
+• Based on inputs from HP & QA and Finance division, a decision for approval / rejection may be
+
+ taken at the level of Dy. CEO, NHA
+
+• Once approved / rejected, the ticket is shared with IT team for backend change in TMS.
+
+ Ticketing system is already approved for Unspecified surgical packages. Through this
+
+ process,EHCPs /NHCPs will get approval within 48 hours.
+
+ Flowchart of approval process:
+
+ Page 14 of 64
+
+--- PAGE 16 ---
+iar (ae
+«= aubhoriby a
+
+--- PAGE 17 ---
+Section 2. National Health Benefit Package
+
+2.1 Introduction
+Review and rationalization of nationalHBP is an ongoing process. In continuation to this process,
+
+following activities areundertaken regularly:
+
+• Analysis of unspecified surgical packages booked across the country
+
+• Gather feedback from medical experts
+
+• Request from multiple stakeholders for inclusion of various treatments / packages
+
+2.2 Salient Features
+The latest update in the national HBP is termed ‘HBP 2.2’, it introduces some new procedures which are
+
+expected to improve access to care:
+
+• Organ & Tissue Transplant consisting of procedures for renal transplant & corneal transplant
+
+• Inclusion of procedures like ERCP, PTBD
+
+• Inclusion of conservative management procedures for neurosurgery and spine.
+
+2.2.1 Packages & Procedures
+Concept ofintroducing packages and procedures as two separate entities, was introduced in HBP 2.0.
+
+Some of the packages are actually a group of procedures. A package is split into procedures that help
+
+better specify the approach / treatment modality / etiology / complication of the package, among other
+
+criteria. Capturing of procedures in place of packages is expected to improve the granularity of the
+
+analyses that can be performed on the utilization data of the scheme.
+
+For example, a package of ‘Lap/Open Cholecystectomy with / without Exploration of CBD’ is split into four
+
+independent and specific procedures to be booked for a patient
+
+ i. Lap cholecystectomy with exploration of CBD
+
+ ii. Lap cholecystectomy without exploration of CBD
+
+ iii. Open cholecystectomy with exploration of CBD
+
+ iv. Open cholecystectomy without exploration of CBD
+
+Significancefor the user: The list of packages are reference fields for the end user to select a procedure
+
+to be performed. The final selection would be at procedure level only. When searching for a procedure to
+
+be performed, the TMS would sort through both the list of packages, and procedures to present the user
+
+with the best match that should facilitate procedure selection and minimize chances of ambiguity.
+
+ Page 16 of 64
+
+--- PAGE 18 ---
+2.2.2 Stratification
+Stratification has been introduced to further drill down into procedures based on criteria such as type of
+
+anesthesia, bed category on admission, surgical technique etc. Stratification enables price differentiation
+
+of the procedure to better accommodate the nuances of the procedure performed and improve the
+
+associated payment.
+
+For example, the procedure of ‘Incision and Drainage of Abscess’ is split into two stratified packages with
+
+a price differential of ₹ 5,000 between them.
+
+ i. Incision and Drainage of Abscess under Local Anaesthesia
+
+ ii. Incision and Drainage of Abscess under General Anaesthesia
+
+Significance for the user: While total price calculation would remain at the back end of the TMS, the
+
+end user may be required to feed in certain details of the procedure that would otherwise have been
+
+assumed. For example, following selection of the procedure to be performed, the TMS may ask for
+
+details such as the type of anesthesia anticipated. There may also be certain criteria that the TMS would
+
+pick up automatically from patient details to distinguish between requirement of a pediatric / adult
+
+procedure, but these back-end assumptions may be further vetoed by the treating physician based on his
+
+clinical judgment. However, such overridden assumptions may trigger a medical audit, and it is
+
+recommended that a strong paper trail be maintained to justify such cases.
+
+2.2.3 Stratification in Medical Packages
+All Medical packages in HBP 2.1 are featured as stratified packages based on the bed category of patient
+
+admission. The bed category for admission and will need to be chosen at the time of selecting a
+
+diagnosis.
+
+The price of medical packages will continue to be calculated on the basis of the bed category, multiplied
+
+by the number of bed days for the patient.The per day price for bed categories will be as follows:
+
+ i. ₹ 1,800 for Routine Ward
+
+ ii. ₹ 2,700 for High Dependency unit
+
+ iii. ₹ 3,600 for Intensive care not requiring ventilator support
+
+ iv. ₹ 4,500 for Intensive care requiring ventilator support
+
+Significance for the user: There is no significant change at the user end on account of this feature of
+
+the HBP 2.0, HBP 2.1 &HBP 2.2. The TMS will continue to calculate the final price of the medical
+
+package at the back end based on patient bed category and number of days’ stay.
+
+ Page 17 of 64
+
+--- PAGE 19 ---
+2.2.4 Cross Specialty Packages
+These are packages that fall under more than one specialty and would now feature under all relevant
+
+specialties without duplication of the unique package code and maintaining a uniform price for the same
+
+procedure across all specialties. This classification of packages as cross specialty packages at the same
+
+price is expected to minimize upcoding of the same package by billing it in a different specialty.
+
+For example, the package of ‘Temporary pacemaker implantation’ is a cross specialty package between
+
+Cardiology and CTVS and will feature in both their package lists.
+
+Significance for the user: It is hoped that aberrations such as duplication of packages across
+
+specialties, price differential in the same package across specialties, and repetitions or ambiguities in
+
+package names have been removed. While number of packages have been reduced in HBP 2.0, the
+
+number of treatment areas have been increased. The user would now have to go through a shorter list of
+
+packages to seek out the desired procedure. The cross-specialty feature will also permit certain
+
+packages to be available across specialties without unnecessarily adding on to the number of packages.
+
+For example, the procedure of ‘Tracheostomy / Tracheotomy’ will now be available to all specialties at a
+
+fixed rate of ₹ 6,000 irrespective of the specialty for which the hospital has been empaneled, and
+
+independent of the specialist performing the procedure. However, it is reiterated here for the benefit of all
+
+hospitals and care providers that ability of booking a procedure does not automatically privilege the
+
+hospital to perform a procedure that it is not otherwise able, equipped, or authorized to perform.
+
+2.2.5 Add-on Packages
+Certain packages / procedures have been defined as add-on procedures riding on another procedure.
+
+These add-on procedures may be booked in conjunction with another procedure without losing the
+
+sanctity / price of the procedure. These procedures, although booked as enhancements in the TMS, will
+
+not be charged at 75% of their original value.
+
+For example, the package of ‘NPWT (Negative Pressure Wound Therapy)’ in Plastic Surgery is an add-
+
+on package for ₹ 2,000. Booking of this package as enhancement of another plastic surgery procedure
+
+would not reduce the cost of the procedure to 75%. Similarly, ‘High end histopathology (Biopsies) and
+
+advanced serology investigations’ is an add-on package for Medical management that can be added to
+
+any current medical package.
+
+Significance for the user: There is no significant change at the user end on account of this feature of
+
+the HBP 2.0. The TMS will continue to calculate the final price of the package / packages at the back end
+
+with additional considerations based on this new criterion.
+
+ Page 18 of 64
+
+--- PAGE 20 ---
+2.2.6 Stand Alone packages
+Certain procedures have been included in the HBP 2.0 which were consciously left out in the previous
+
+version due to their potential of abuse. Similarly, a few procedures were noticed to be abused through the
+
+last year of implementation of the scheme. Such procedures were re-introduced in HBP 2.0 with caution.
+
+One of the many steps taken by the NHA in this direction, is introduction of clearly defined Stand-alone
+
+packages which may not be claimed as enhancements to other existing / unspecified surgical packages.
+
+This has been done primarily to reduce the incidence of abuse of the packages yet keeping them
+
+available for use.
+
+For example, the package of ‘Laparoscopic adhesiolysis’ in OBG is now a standalone package and may
+
+not be booked in combination with other packages.
+
+Significance for the user: Packages that have been earmarked as stand-alone packages will not be
+
+available to the user as enhancements to an existing / unspecified package. Such packages would be
+
+clearly marked in the TMS as ‘stand-alone package’.
+
+2.2.7 Splitting of cost of Implants / High End Consumables
+The cost of implants and high-end consumables has been independently considered for calculation of the
+
+package rate at the back end. This enables the system to vary the price of the procedure based on the
+
+quality / number / type of implant required in the performance of the procedure.
+
+For example, package price of a ‘Balloon Pulmonary Valvotomy’ in Cardiology would vary depending on
+
+the use of a pediatric / adult cardiac balloon. Price of plates / screws in orthopedics would also be
+
+calculated at the back end based on the number of implants used.
+
+Significance for the user: There is no significant change at the user end on account of this feature of
+
+the HBP 2.1. However, there are significant advantages of such a splitting in the long run. Variance in the
+
+cost of implant will now be easily incorporated in the final calculation of the package price. Pricing will
+
+also become variable based on the number of screws / plates used in the surgery. It also adds flexibility
+
+for addition of different types of implants as the scheme matures. However, all the above would not
+
+feature in the TMS yet. The TMS will continue to calculate the final price of the package / packages at the
+
+back end with additional considerations based on this new criterion.
+
+2.2.8 Step payment of staged procedures
+Packages that require multiple stages for complete administration of therapy, with long gaps in
+
+betweenhave been split into stages with independent payment of each stage. This is expected to
+
+ Page 19 of 64
+
+--- PAGE 21 ---
+facilitate payment to a treating hospital, if the patient decides to continue / follow up on his / her treatment
+
+at a different facility.
+
+For example, ‘Hypospadias repair - Two or more stages’ in Urology will now be paid on each, or either of
+
+the following stages:
+
+ i. First stage
+
+ ii. Intermediate stage
+
+ iii. Final stage
+
+Significance for the user: For all staged procedures, the TMS may require the treating physician to
+
+specify the stage of surgery he / she is anticipating performing at the time of booking of the package.
+
+2.2.9 Follow up procedures
+Packages for follow up have been included in HBP 2.0 for a few select procedures. This enables the
+
+hospital / caregiver to maintain a continuum of care to the patient for a period extending beyond the 15
+
+days that he / she is entitled to through the original AB PM-JAY package. This would also enable the
+
+patient to seek follow up care for a procedure out of the center that performed the original procedure.
+
+For example, a follow up procedure for ‘Stoma Management, follow up of Colostomy’ has been
+
+introduced in the HBP 2.0 for all patients who need such care.
+
+Significance for the user: A follow up procedure may be booked by the treating hospital / caregiver with
+
+clear documentation supporting the need for the package. The documentation would include proof of the
+
+original procedure performed, and activities undertaken as part of the follow up care of the patient. While
+
+the NHA remains cautious of the abuse prone nature of such a package, utilization of such a package
+
+would be closely monitored to justify keeping it in the subsequent modifications of the HBP
+
+2.2.10 Abuse Prone Packages
+With the experience of implementing AB PM-JAY through the past year, the NHA has been able to
+
+identify certain packages that are prone to abuse and require closer monitoring. Such a list of packages
+
+has been identified in the TMS and a conscious attempt has been made to keep the price of abuse prone
+
+packages at the minimum level to minimize incentives for abuse. Booking of these packages also creates
+
+an alert atthe National Anti-Fraud Unit (NAFU) at the NHA and may trigger an investigation. The list of
+
+these abuse prone packages is held as confidential at the time of publishing of this manual.
+
+2.2.11 Standardized nomenclature of procedures
+A conscious attempt has been made to standardize the nomenclature and definitions of packages. NHA
+
+in collaboration with World Health Organization (WHO), has initiated the process of aligning HBP 2.0 with
+
+ Page 20 of 64
+
+--- PAGE 22 ---
+International Classification of Health Interventions (ICHI) and International Classification of Diseases
+
+(ICD) coding of the WHO. When completed, India may become the first country to use ICHI in its HBP
+
+list.
+
+The ICHI is being developed to provide a common tool for reporting and analyzing health interventions
+
+for statistical purposes. ICHI covers interventions carried out by a broad range of providers across the full
+
+scope of health systems and includes interventions on: diagnostic, medical, surgical, mental health,
+
+primary care, allied health, functioning support, rehabilitation, traditional medicine and public health.
+
+Refer to (https://mitel.dimi.uniud.it/ichi/) for the search engine.
+
+2.3 Key highlights – HBP 2.0,HBP 2.1 & HBP 2.2
+
+ Criteria HBP 2.0 HBP 2.1 HBP 2.2
+
+ Number of packages 874 920 920
+
+ Number of procedures 1,592 1,669 1,670
+
+ Specialty 25 26 26
+
+ Additional procedures NA 77 76
+
+ Page 21 of 64
+
+--- PAGE 23 ---
+Section 3. Key features by Specialty
+The final picture of HBP 2.2is as follows:
+
+ HBP 2.2
+ S. No. Specialty
+ Code Packages Procedures
+ 1 Burns Management BM 6 20
+ 2 Cardiology MC 21 27
+ 3 Cardio-thoracic & Vascular surgery SV 35 129
+ 4 Emergency Room Packages ER 3 4
+ 5 General Medicine MG 81 106
+ 6 General Surgery SG 105 159
+ 7 Infectious Diseases ID 3 4
+ 8 Interventional Neuroradiology IN 10 15
+ 9 Medical Oncology MO 72 264
+ 10 Mental Disorders Packages MM 10 10
+ 11 Neo-natal care Packages MN 10 10
+ 12 Neurosurgery SN 63 96
+ 13 Obstetrics & Gynecology SO 60 79
+ 14 Ophthalmology SE 41 55
+ 15 Oral and Maxillofacial Surgery SM 14 19
+ 16 Orthopedics SB 73 134
+ 17 Organ & Tissue Transplant OT 1 6
+ 18 Otorhinolaryngology SL 35 79
+ 19 Pediatric Medical management MP 48 67
+ 20 Pediatric surgery SS 19 35
+ 21 Plastic & reconstructive Surgery SP 8 12
+ 22 Polytrauma ST 10 23
+ 23 Radiation Oncology MR 14 46
+ 24 Surgical Oncology SC 81 125
+ 25 Urology SU 97 148
+ 26 Unspecified Surgical US 1 1
+ Total 919 1670
+3.1 Burns Management
+ • Total number of packages: 6
+
+ • Total number of procedures: 20
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Specific Pre and Post-op Investigations such as clinical photograph
+
+ and diagram with Rule of 9 / L & B Chart for extent of burns at the time of admission and follow
+
+ up clinical photographs on days 5, 10, 15, 20 as per requirements on the basis of
+
+ preauthorization would need to be submitted during claims.
+
+ • Admission Criteria to be followed for selecting packages for burn injured patients
+
+ Page 22 of 64
+
+--- PAGE 24 ---
+a. Secondand third-degree burns greater than 10% of the total body surface area in patients
+
+ under 10 or over 60 years of age
+
+ b. Secondand third-degree burns greater than 20% of the total body surface area in other age
+
+ groups
+
+ c. Significant burns of face, hands, feet, genitalia, or perineum and those that involve skin
+
+ overlying major joints
+
+ d. Third-degree burns greater than 5% of the total body surface area in any age group
+
+ e. Inhalation injury
+
+ f. Significant electric injury including lightning injury
+
+ g. Significant chemical injury
+
+ h. Burns with significant pre-existing medical disorders that could complicate management,
+
+ prolong recovery, or affect mortality (e.g. diabetes mellitus, cardiopulmonary disease)
+
+ i. Burns with significant concomitant trauma
+
+ j. Burn injury in patients who will require special social and emotional or long-term rehabilitative
+
+ support, including cases of suspected child abuse and neglect.
+
+3.2 Cardiology
+
+ • Total number of packages: 21
+
+ • Total number of procedures: 27
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Specific Pre and Post-op Investigations such as ECHO, ECG, pre /
+
+ post-op X-ray, label / carton of stents used, pre and post-op blood tests (USG, clotting time,
+
+ prothrombin time, international normalized ratio, Hb, Serum Creatinine), angioplasty stills
+
+ showing stents & post stent flow, CAG report showing blocks (pre) and balloon and stills showing
+
+ flow (post) etc. will need to be submitted/ uploaded for pre-authorization/ claims settlement
+
+ purposes. The costs for such investigations will form part of the approved package cost.
+
+ • It is prescribed as standard practice to use medicated stents (approved by FDA/DCGI) where
+
+ necessary
+
+ • The carton / sticker detailing the stent particulars needs to be submitted as part of claims filing by
+
+ providers
+
+ Page 23 of 64
+
+--- PAGE 25 ---
+• It is advised to perform cardiac catheterization as part of the treatment package for congenital
+
+ heart defects
+
+3.3 Cardio-thoracic & Vascular Surgery
+
+ • Total number of packages: 35
+
+ • Total number of procedures: 129
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Specific Pre and Post-op Investigations such as ECHO, ECG, post-
+
+ op scar photo, clinical photos of graft / filter / balloon & post flow, Angiography / CT / MRI /
+
+ Doppler / CT angiogram reports etc. will need to be submitted / uploaded for pre-authorization /
+
+ claims settlement purposes
+
+ • It is advised to perform cardiac catheterization as part of the treatment package for congenital
+
+ heart defects
+
+3.4 Emergency Room Packages
+
+ • Total number of packages: 3
+
+ • Total number of procedures: 4
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Nil
+
+ • Paper trail is to be maintained by the hospital treating the patient to be submitted during closure
+
+ of claim
+
+ • In case hospitalization of more than 12 hours is required, the patient will be admitted and treated
+
+ accordingly in the related specialty
+
+ • For the package Animal bites (Excluding Snake Bite) (ER003A), payment to be made after the
+
+ completion of 5th dose
+
+3.5 General Medicine
+
+ • Total number of packages: 81
+
+ • Total number of procedures: 106
+
+ • Pre-authorization: Mandatory for all packages for progressive extension of treatment/ hospital
+
+ stay
+
+ Page 24 of 64
+
+--- PAGE 26 ---
+• Pre-authorization remarks: Prior approval must be taken for all medical conditions/ packages
+
+ under this domain for progressive extension of therapeutic treatments (i.e. for extending stay at
+
+ 1,5,10 days stay and beyond)
+
+ • Separate package for high end radiologic diagnostic (CT, MRI, Imaging including nuclear
+
+ imaging,) relevant to the illness only (no standalone diagnostics allowed) - subject to pre-
+
+ authorization with a cap of Rs 5000 per family per annum within overall sum insured
+
+ • Separate package for high end histopathology (Biopsies) and advanced serology investigations
+
+ relevant to the illness only (no standalone diagnostics allowed) - after pre-authorization with a
+
+ cap of Rs 5000 per family per annum within overall sum insured
+
+ • Blood or Blood components transfusion if required, payable separately subject to pre-
+
+ authorization. Blood can be procured only through licensed blood banks as per National Blood
+
+ Transfusion Council Guidelines
+
+ • All clinical test reports, diagnosis, TPR charting, case sheet / clinical notes and discharge
+
+ summary need to be submitted for extension of packages and during claims submission
+
+3.6 General Surgery
+
+ • Total number of packages: 105
+
+ • Total number of procedures: 159
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Nil
+
+ • Spinal / other regional anesthesiaare included under General Anesthesia and need to be claimed
+
+ accordingly
+
+3.7 Infectious Diseases
+
+ • Total number of packages: 3
+
+ • Total number of procedures: 4
+
+ Treatment and testing to be conducted as per the latest protocol from ICMR or State government&
+
+ Recently added MIS-C packages under HBP 2.2
+
+3.8 Interventional Neuroradiology
+
+ • Total number of packages: 10
+
+ Page 25 of 64
+
+--- PAGE 27 ---
+• Total number of procedures: 15
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Specific Pre and Post-op Investigations such as pre/ post-op X-ray,
+
+ CT/ ultrasound report, pre and post-op blood tests, post op clinical photographs with scar etc. will
+
+ need to be submitted/ uploaded for pre-authorization/ claims settlement purposes. The costs for
+
+ such investigations will form part of the approved package cost.
+
+3.9 Medical Oncology
+
+ • Total number of packages: 72
+
+ • Total number of procedures: 264
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Prior approval must be taken for all treatments/ malignancies
+
+ • The type and duration of treatment is different for all cancers. It is very important to complete the
+
+ entire treatment which may in some cases last longer than a year. Relapse/recurrence may
+
+ sometimes occur
+
+ • Cancer care treatments are advised to go through a clinical treatment approval process before
+
+ initiating the best suitable treatment. A clinical treatment approval process is mandated for
+
+ cancer care, since it involves a multi-modal approach covering surgical, chemotherapy and
+
+ radiation treatments and appropriate supportive care that could assess to determine the best
+
+ course of patient management for such conditions
+
+ • There should be pre-authorization at each step for cancer care
+
+ • It is advised that decision regarding appropriate patient care for cancer care treatments would
+
+ need to be taken by a multidisciplinary tumor board (if available within the treating hospital or if
+
+ not then it could be sent to the nearest regional cancer center (RCC) for approval) that should
+
+ include a highly trained team of Surgical, Radiation and Medical Oncologist in order to ensure
+
+ the most appropriate treatment for the patient. A detailed Oncology Treatment Plan could prove
+
+ to be very vital, such as implications on the financial cover and to avoid unnecessary treatments
+
+3.10 Mental Disorders Package
+
+ • Total number of packages: 10
+
+ • Total number of procedures: 10
+
+ Page 26 of 64
+
+--- PAGE 28 ---
+• Pre-authorization: Mandatory for all packages for progressive extension of treatment/ hospital
+
+ stay
+
+ • Pre-authorization remarks: Prior approval must be taken for all mental health conditions/
+
+ packages under this domain for progressive extension of therapeutic treatments
+
+ • Procedures can be done only in public sector hospital with specialty available
+
+ • All clinical test reports, diagnosis, Mental Status Examination (MSE), case sheet / clinical notes
+
+ and discharge summary need to be submitted for extension of packages and during claims
+
+ submission
+
+3.11 Neonatal Care Package
+
+ • Total number of packages: 10
+
+ • Total number of procedures: 10
+
+ • Pre-authorization: Mandatory for all packages for progressive extension of treatment/ hospital
+
+ stay / shifting across packages
+
+ • Pre-authorization remarks: Prior approval must be taken for progressive extension of therapeutic
+
+ treatments (i.e. for extending stay beyond the prescribed limit/ in cases which might need shifting
+
+ of packages based on clinical vitals and need - then the previously blocked package needs to be
+
+ unblocked and the total amount of new package needs to be considered to be debited).
+
+ • All clinical test reports, diagnosis, TPR charting, case sheet / clinical notes and discharge
+
+ summary need to be submitted for extension of packages and during claims submission.
+
+ • Packages would include neonates up to age of 28 days after birth
+
+ • All the packages are inclusive of everything including drugs, diagnostics, consultations,
+
+ procedures, treatment modalities that the baby would require for its management
+
+ • In case a baby in a lower cost package develops a complication requiring higher level of care,
+
+ the baby should be moved for higher cost package
+
+ • For procedures MN002A, MN003A, MN004A and MN005A, mother's stay and food in the
+
+ hospital [postnatal ward / special ward for such mothers] for breastfeeding, family centered care
+
+ and KMC (Kangaroo Mother Care) is mandatory
+
+ • For procedures MN002A, MN003A, MN004A and MN005A mothers should be allotted KMC bed
+
+ when the newborn is eligible for Kangaroo mother care. The cost of bare bed and food to the
+
+ Page 27 of 64
+
+--- PAGE 29 ---
+mother is included. If the mother requires treatment for her own illnesses, it would be covered
+
+ under the mother's packages
+
+ • It is mandatory to ensure that the neonate receives vaccination as per National Immunization
+
+ Schedule before discharge
+
+3.12 Neurosurgery
+
+ • Total number of packages: 63
+
+ • Total number of procedures: 96
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Specific Pre-op and Post-op Investigations such as pre/ post-op X-
+
+ ray, neuro-diagnostic studies, post-operative clinical photographs showing scars etc. will need to
+
+ be submitted/ uploaded for pre-authorization/ claims settlement purposes. The costs for such
+
+ investigations will form part of the approved package cost.
+
+3.13 Obstetrics & Gynecology
+
+ • Total number of packages: 60
+
+ • Total number of procedures: 79
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Prior approval must be taken for all elective Surgeries/Procedures.
+
+ Although the following packages, namely C-Section, High Risk Delivery, Hysterectomy are
+
+ primarily for government facilities, they are open to the private hospitals upon referral by
+
+ government hospitals/Doctors.
+
+ • Packages will include drugs, diagnostics, consultations, procedures, stay and food for patient.
+
+ Medical conditions during pregnancy such at Hypertension, Diabetes etc. are to be treated as
+
+ per medical packages
+
+3.14 Ophthalmology
+
+ • Total number of packages: 41
+
+ • Total number of procedures: 55
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Nil
+
+ Page 28 of 64
+
+--- PAGE 30 ---
+• Following cataract surgery that implants an IOL, it is prescribed to mention/ attach the barcode
+
+ no. on the lens used during claims submission by the provider as means to provide information
+
+ on expiration dates and details from manufacturers for increased quality and safety
+
+3.15 Oral & Maxillofacial Surgery
+
+ • Total number of packages: 14
+
+ • Total number of procedures: 19
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Nil
+
+ 3.16 Organ and Tissue Transplant
+
+ • Total number of packages: 01
+
+ • Total number of procedures: 06
+
+ • Pre-authorization: Mandatory for all packages
+
+ Pre-authorization remarks: NOTTO ID of the recipient and / donor, donor work-up summary
+
+ sheet, recipient work-up summary sheet, cross-match report with donor and recipient photo-ID
+
+ proof, admission notes, undertaking signed by donor (in living donor transplant), hospital
+
+ authorization letter on recipient
+
+3.17 Orthopedics
+
+ • Total number of packages: 73
+
+ • Total number of procedures: 134
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Prior approval must be taken for all replacement surgeries and others
+
+ as indicated
+
+3.18 Otorhinolaryngology (ENT)
+
+ • Total number of packages: 35
+
+ • Total number of procedures: 79
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Nil
+
+ Page 29 of 64
+
+--- PAGE 31 ---
+3.19 Pediatric Medical Management
+
+ • Total number of packages: 48
+
+ • Total number of procedures: 67
+
+ • Pre-authorization: Mandatory for all packages for progressive extension of treatment/ hospital
+
+ stay
+
+ • Pre-authorization remarks: Prior approval must be taken for all medical conditions/ packages
+
+ under this domain for progressive extension of therapeutic treatments (i.e. for extending stay at
+
+ 1,5,10 days stay and beyond)
+
+ • All clinical test reports, diagnosis, TPR charting, case sheet/ clinical notes and discharge
+
+ summary need to be submitted for extension of packages and during claims submission
+
+ • Separate package for high end radiological diagnostic (CT, MRI, Imaging including nuclear
+
+ imaging,) relevant to the illness only (no standalone diagnostics allowed) - subject to pre-
+
+ authorization with a cap of Rs 5000 per family per annum within overall sum insured.
+
+ • Separate package for high end histopathology (Biopsies) and advanced serology investigations
+
+ relevant to the illness only after preauthorization with a cap of Rs 5000 per family per annum
+
+ within overall sum insured.
+
+ • Blood or Blood components transfusion if required, payable separately subject to pre-
+
+ authorization. Blood can be procured only through licensed blood banks as per National Blood
+
+ Transfusion Council Guidelines.
+
+ • If a medical condition requiring hospitalization has not been envisaged under this list, then a pre-
+
+ authorization can be sought as “Unspecified Medical”
+
+3.20 Pediatric Surgery
+
+ • Total number of packages: 19
+
+ • Total number of procedures: 35
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Nil
+
+3.21 Plastic & Reconstructive Surgery
+
+ • Total number of packages: 8
+
+ • Total number of procedures: 12
+
+ Page 30 of 64
+
+--- PAGE 32 ---
+• Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Specific Pre-op and Post-op Investigations such as clinical and/or
+
+ relevant imaging photographs of the patient are essential.
+
+ • In case of emergency/lifesaving/ limb saving operative procedures, preauthorization may not be
+
+ required. However, formal intimation should be done within 24 hours of admission.
+
+3.22 Polytrauma
+
+ • Total number of packages: 10
+
+ • Total number of procedures: 21
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Specific Pre-op and Post-op Investigations such as pre/ post-op X-
+
+ ray, CT report, post-op scar photo, electro-diagnostic studies etc. will need to be submitted/
+
+ uploaded for pre-authorization/ claims settlement purposes. The costs for such investigations will
+
+ form part of the approved package cost.
+
+ • The minimum length of hospital stay admissible for polytrauma cases would be on a case-by-
+
+ case depending on the nature, type, and vitals (for e.g. coagulation parameters). However
+
+ weekly submission of clinico-radiological vitals is desired.
+
+3.23 Radiation Oncology (19)
+
+ • Total number of packages: 14
+
+ • Total number of procedures: 46
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Prior approval must be taken for all treatments/ malignancies
+
+ • The type and duration of treatment is different for all cancers. It is very important to complete the
+
+ entire treatment which may in some cases last longer than a year. Relapse/recurrence may
+
+ sometimes occur
+
+ • Cancer care treatments are advised to go through a clinical treatment approval process before
+
+ initiating the best suitable treatment. A clinical treatment approval process is mandated for
+
+ cancer care, since it involves a multi-modal approach covering surgical, chemotherapy and
+
+ radiation treatments and appropriate supportive care that could assess to determine the best
+
+ course of patient management for such conditions
+
+ • There should be pre-authorization at each step for cancer care
+ Page 31 of 64
+
+--- PAGE 33 ---
+• It is advised that decision regarding appropriate patient care for cancer care treatments would
+
+ need to be taken by a multidisciplinary tumor board (if available within the treating hospital or if
+
+ not then it could be sent to the nearest regional cancer center (RCC) for approval) that should
+
+ include a highly trained team of Surgical, Radiation and Medical Oncologist in order to ensure
+
+ the most appropriate treatment for the patient. A detailed Oncology Treatment Plan could prove
+
+ to be very vital, such as implications on the financial cover and to avoid unnecessary treatments
+
+3.24 Surgical Oncology
+
+ • Total number of packages: 81
+
+ • Total number of procedures: 125
+
+ • Pre-authorization: Mandatory for all packages
+
+ • Pre-authorization remarks: Prior approval must be taken for all treatments/ malignancies
+
+ • The type and duration of treatment is different for all cancers. It is very important to complete the
+
+ entire treatment which may in some cases last longer than a year. Relapse/recurrence may
+
+ sometimes occur
+
+ • Cancer care treatments are advised to go through a clinical treatment approval process before
+
+ initiating the best suitable treatment. A clinical treatment approval process is mandated for
+
+ cancer care, since it involves a multi-modal approach covering surgical, chemotherapy and
+
+ radiation treatments and appropriate supportive care that could assess to determine the best
+
+ course of patient management for such conditions
+
+ • There should be pre-authorization at each step for cancer care
+
+ • It is advised that decision regarding appropriate patient care for cancer care treatments would
+
+ need to be taken by a multidisciplinary tumor board (if available within the treating hospital or if
+
+ not then it could be sent to the nearest regional cancer center (RCC) for approval) that should
+
+ include a highly trained team of Surgical, Radiation and Medical Oncologist in order to ensure
+
+ the most appropriate treatment for the patient. A detailed Oncology Treatment Plan could prove
+
+ to be very vital, such as implications on the financial cover and to avoid unnecessary treatments
+
+3.25 Urology
+
+ • Total number of packages: 97
+
+ • Total number of procedures: 148
+
+ Page 32 of 64
+
+--- PAGE 34 ---
+• Pre-authorization: Mandatory for all packages
+
+• Pre-authorization remarks: Prior approval must be taken for surgeries requiring use of Deflux
+
+ injection, Botox Injection, inflatable penile prosthesis, urinary sphincter, and metallic stents
+
+• It is mandated to get approval for all non-surgical conditions (involving evaluation/ investigation/
+
+ therapeutic management / follow-up visits) as indicated
+
+• For any procedure whose charges are Rs. 15,000 or higher, extra costs (in the sense other
+
+ packages) cannot be clubbed / claimed from the following: cystoscopy, ureteric catheterization,
+
+ retrograde pyelogram, DJ stenting, nephrostomy – as they would form part of such packages
+
+ costing Rs. 15,000 or higher as per the need and donor with details of the surgery.
+
+ Page 33 of 64
+
+--- PAGE 35 ---
+Section 4. Using the HBP 2.2
+
+4.1 Package selection
+
+ i. The operator will check for the specialty for which the hospital is empanelled. Hospitals will only
+
+ be allowed to view and apply treatment package for the specialty for which they are empanelled.
+
+ ii. Based on diagnosis provided by doctor, operator should be able to block Surgical or Non-
+
+ Surgical benefit package(s) using the Transaction Management IT system (TMS)
+
+ iii. Both surgical and non-surgical packages cannot be blocked together, only either of the type can
+
+ be blocked.
+
+ iv. As per the package list, the mandatory diagnostics/documents will need to be uploaded along
+
+ with blocking of packages.
+
+ v. In case of multiple surgeries in the same admission, the operator can block more than one
+
+ package for the beneficiary. In case the AB PM-JAY Beneficiary is required to undertake
+
+ multiple surgical treatment, then the highest package rate shall be taken at 100%, thereupon the
+
+ second treatment package shall be taken as 50% of package rate and the third treatment
+
+ package shall be at 25% of the package rate. (Unless otherwise defined)
+
+ vi. Certain packages will only be reserved for Public EHCPs as decided by the SHA. They can be
+
+ availed in Private EHCPs only after a referral from a Public EHCP is made.
+
+ vii. Packages as indicated may have differential pricing for NABH and Non-NABH, for Hospitals
+
+ running PG/ DNB Course, for rural and urban EHCPs and for EHCPs in aspirational districts as
+
+ identified by NITI Aayog.
+
+ viii. If a registered mobile number of beneficiary family is available, an SMS alert will be sent to the
+
+ beneficiary notifying him of the packages blocked for him.
+
+ ix. At the same time, a printable registration slip needs to be generated and handed over to the
+
+ patient or patient’s attendant.
+
+ x. If for any reason treatment is not availed for any package, the operator can unblock the package
+
+ before discharge from hospital.
+
+4.2 Raising a Pre-Auth
+
+Guidelines
+ Page 34 of 64
+
+--- PAGE 36 ---
+i. Packages are defined which require pre-authorization from the insurance company / trust before
+
+ they can be administered. In case any inpatient treatment is not available in the packages
+
+ defined, then hospital will be able to provide that treatment to the beneficiary only after the same
+
+ gets approved by the Insurance company/ trust and will be reflected as unspecified package.
+
+ Under both scenarios, the operator would be able to initiate a request to the insurance
+
+ company/trust for pre-authorization using the web application.
+
+ ii. The hospital operator will send all documents required for pre-authorization to the insurance
+
+ company/trust using the Centralized TMS / States transaction management application.
+
+ iii. The documents needed may vary from package to package and hence a master list of all
+
+ documents required for all packages is available on the server.
+
+ iv. The request as well as approval of the form will be done using the AB PMJAY TMS system or
+
+ using API exposed by AB PM-JAY (Only one option can be adopted by the insurance Co.) or
+
+ using State’s own IT system (if adopted by the State).
+
+ v. In case of no or limited connectivity, the filled form can also be sent to the insurance company/
+
+ trust either through fax/ email. However, once internet connectivity is established, the form
+
+ should also be submitted using online system as described above.
+
+ vi. The insurance company/ trust will have to approve or reject the request latest by 6 hours. If the
+
+ insurance company/ trust fails to do so, the request will be considered deemed to be approved
+
+ after 6 hours by default.
+
+ vii. In case of an emergency or delay in getting the response for pre-authorization request due to
+
+ technical issues, provision will be there to get the pre-authorization code over the phone from
+
+ Insurance Company/ Trust or the call centre setup by Insurance Company/ Trust. The
+
+ documents required for the processing, may be sent using the transaction system within
+
+ stipulated time.
+
+viii. In case of emergency, insurance company/ trust will provide the pre-authorization code
+
+ generated through the algorithm/ utility provided by MoHFW/NHA-NIC.
+
+ ix. Pre-authorization code provided by the Insurer/ Trust will be entered by the operator and will be
+
+ verified by the system.
+
+ x. If pre-authorization request is rejected, Insurance Company / Trust will provide the reasons for
+
+ rejection. Rejection details will be captured and stored in the transaction database.
+
+ xi. If the beneficiary or the hospital are not satisfied by the rejection reason, they can appeal through
+
+ grievance system.
+ Page 35 of 64
+
+--- PAGE 37 ---
+4.3 Process for raising a Pre-Auth
+
+The following steps need to be followed for selecting a package / procedure in the TMS
+
+Step 1 - Select a specialty
+
+A specialty may be selected from the dropdown menu available. All procedures are mapped to their
+
+respective specialties, so in case the user is not sure of the specialty to be chosen, she / he may proceed
+
+to procedure selection and the specialty would be chosen automatically. However, in case a procedure is
+
+mapped to more than one specialty, the specialty will need to be selected from the options shortlisted in
+
+the dropdown menu based on the procedure selected.
+
+ Fig: Selecting a specialty
+
+Step 2 - Select a procedure
+
+A package / procedure may be selected from the dropdown menu available. The selection dropdown
+
+narrows the choices available as the user begins typing in his / her choice. Procedures may be selected
+
+through any of the following three options
+
+ i. By typing in the procedure name
+
+ ii. By typing in the HBP 2.0 procedure code
+
+ iii. By typing in the HBP 2.2 procedure code
+
+Upon selection of a procedure, check the column on procedure price alongside the procedure selected.
+
+That column would prompt the user on the next step. If the column displays a procedure price, the
+
+process of selecting that procedure is complete. On the other hand, the section may prompt the user to
+
+proceed to selection of a stratification or and implant.
+
+ Page 36 of 64
+
+--- PAGE 38 ---
+The system also requires the user to mandatorily fill in details of the primary clinician associated with the
+
+patient. The clinician’s name, registration number, qualifications and phone number would auto populate
+
+from the Hospital Empanelment Module, if available there. Else, they would need to be filled in here.
+
+The system also highlights the mandatory documents associated with the procedure that the user would
+
+need to upload before raising a pre-auth. The user would be required to select the list of mandatory
+
+documents as an acknowledgment to the same and proceed to add procedure.
+
+Please note – the following steps of selection of stratification, and selection of implant are procedure
+
+dependent and one, or both may not be required for all procedures to be selected.
+
+ Fig: Selecting a procedure
+
+ Fig: Mandatory details of the treating clinician
+
+Step 3 - Select a stratification
+
+The stratification icon alongside the selected procedure gets enabled whenever there is an associated
+
+stratification with the selected procedure. Upon selection of the stratification icon, the user would be
+
+ Page 37 of 64
+
+--- PAGE 39 ---
+prompted to select the stratification detail to be used. Options would be available based on the levels of
+
+stratifications available for the selected procedure.
+
+Upon selection of a stratification detail, the user would then need to select a stratification option from the
+
+choices available in the dropdown for that stratification. Most procedures have a single level of
+
+stratification and the stratification detail would be auto selected. In case multiple stratifications are
+
+available for the chosen procedure, the user would need to select each one individually and fill in details
+
+for each.
+
+Upon successfully selecting a stratification, the system would return the user to the original procedure
+
+selection screen. Upon returning to the screen, the user is advised to check the column on procedure
+
+price alongside the procedure selected. That column would prompt the user on the next step. If the
+
+column displays a procedure price, the process of selecting that procedure is complete. On the other
+
+hand, the section may prompt the user to proceed to selection of an implant.
+
+ Fig: Prompts for selecting an implant / stratification
+
+ Page 38 of 64
+
+--- PAGE 40 ---
+Fig: Add stratification
+
+ Fig: Select stratification option
+
+Step 4 - Select an implant
+
+The select implant icon alongside the selected procedure gets enabled whenever there is an associated
+
+implant with the selected procedure. The user would need to select the implant name from the dropdown
+
+available. Upon selecting the implant, the user would also need to specify the number of implants that the
+
+user required a pre-auth approval on.
+
+In case of multiple types of anticipated implants, the user may select each implant individually and add
+
+the numbers against each. The option of multiple implants is available in select procedures and there
+
+may be conditions where the system would not accept the selection of multiple implants for the given
+
+procedure. Please note that this is by design and multiple implant types are not permitted in this case.
+
+Upon successfully selecting the implant / implants, the system would return the user to the original
+
+procedure selection screen. Upon returning to the screen, the user is advised to check the column on
+
+ Page 39 of 64
+
+--- PAGE 41 ---
+procedure price alongside the procedure selected. That column would prompt the user on the next step.
+
+If the column displays a procedure price, the process of selecting that procedure is complete.
+
+ Fig: Select implant
+
+ Fig: Select Quantity
+
+ Fig: Procedure added successfully
+
+Step 5 – Upload mandatory documents
+
+ Page 40 of 64
+
+--- PAGE 42 ---
+Every procedure requires a set of mandatory documents to be uploaded at the time of submission of a
+
+pre-auth request.
+
+Step 6 – Submit pre-auth request
+
+Every procedure requires a set of mandatory documents to be uploaded at the time of submission of a
+
+pre-auth request.
+
+Illustrative
+
+ Page 41 of 64
+
+--- PAGE 43 ---
+iar (ae
+«= aubhoriby a
+
+--- PAGE 44 ---
+4.4 Approving a pre-auth
+
+In addition to the activities listed in Claim Adjudication Manual (February 2019)
+
+(https://www.pmjay.gov.in/documents), on account of the HBP 2.0 / 2.1, the Pre-Auth Processing Doctor
+
+(PPD) at the TPA / ISA would additionally need to check the following before approving a pre-auth.
+
+ i. Conformation of the selected procedure to the patient condition - Since the HBP 2.0 was
+
+ significantly more granular than the previous version, the detail of the procedure selected will
+
+ need to be validated by the patient condition. Packages such as fevers, animal bites, congenital
+
+ heart diseases etc. have been split into multiple procedures that fall within the same package, but
+
+ have significant differences in terms of management, skill and therefore, cost. This needs to be
+
+ looked into and considered closely before approving a pre-auth for the procedure.
+
+ ii. Selected implant / high end consumable in conformity with the age / gender / condition of the
+
+ patient - Certain implants in the HBP 2.0 were distinguished based on the age of the patient.
+
+ Paediatric implants / devices are recommended for patients less than or equal to 14 years of age,
+
+ while adult devices are to be used beyond that age. Once more, keeping the cost implication in
+
+ mind, it will need to be verified whether the implant / device in in conformation with the age of the
+
+ patient. Similarly, some implants are gender specific, and some consumables are required only in
+
+ select patients. Number of screws, plates and other implants are also variable in HBP 2.0 and
+
+ their anticipated numbers for a surgery will need to be verified before approving a patient pre-
+
+ auth.
+
+ iii. Selected stratification in lines with the age / gender / condition of the patient - Every stratification
+
+ of the procedure selected is backed up with a cost implication that needs to be closely considered
+
+ at the time of approving a pre-authorization. Performing a procedure under LA / GA, Unilateral /
+
+ Bilateral performance of a procedure, approach to be used are some examples of stratifications
+
+ that will need to be closely looked into, and justified, owing to the price differential involved.
+
+ iv. Non-Surgical procedures - Medical care packages have been introduced in certain specialties to
+
+ allow for continuity of care for the patient. Monitoring of the justification of booking such
+
+ procedures will now add as an additional responsibility of the PPD.
+
+ v. Follow up procedures - In HBP 2.0, HBP 2.1& HBP 2.2 follow up procedures can be blocked for
+
+ certain packages but will need to be supported by documentary evidence that the parent
+
+ procedure has been performed, even if done outside of the hospitals empanelled under AB PM-
+
+ JAY.
+ Page 43 of 64
+
+--- PAGE 45 ---
+vi. Diagnostic procedures -Certain diagnostic procedures have been included under AB PM-JAY
+
+ based on user demand, and on the judgment of the expert committees. Such procedures have
+
+ been highlighted in HBP 2.0, HBP 2.1 & HBP 2.2 as abuse prone procedures and will be closely
+
+ monitored by the National & State Fraudmonitoring teams. The PPD is advised to maintain a
+
+ close vigil on blocking of these packages.
+
+ Page 44 of 64
+
+--- PAGE 46 ---
+Section 5. Frequently Asked Questions
+
+ 1. What is the rationaleof HBP 2.1?
+
+ a. Non availability of certain procedures, lead to repeated booking under Unspecified Surgical
+
+ Package
+
+ b. Packages listed exclusively under multiple SHAs as state specific packages
+
+ c. New packages requested by SHAs, medical experts & other stakeholders
+
+ 2. What is the total package count of HBP 2.1?
+
+ A. HBP 2.1 has 918 packages split into 1669 procedures. Difference from HBP 2.0 is inclusion of Organ
+
+ & Tissue transplant (OT) as new specialty with additional 6 procedures.
+
+ 3. How many specialties are covered in HBP 2.1?
+
+ A. HBP 2.1 covers 25 specialties (including ‘Organ & Tissue transplant). All specialties from HBP
+
+ 2.0 have been retained.
+
+ 4. Have prices been reduced for some procedures in HBP 2.1?
+
+ A. Prices are same as in HBP 2.0.
+
+ 5. Will the unspecified package still be available in HBP 2.1?
+
+ A. Yes. While it has been the aim of package revision to include most used treatment modalities within
+
+ HBP 2.1, some state specific, or uncommon conditions may still have been overlooked. So, while it
+
+ is expected that booking of procedures under the unspecified category would be reduced, the
+
+ category has still been maintained in new revised package list.
+
+ 6. In case of patients diagnosed with Osteosarcoma, treatment booked under Procedure: CT for
+
+ Osteogenic Sarcoma(code:MO010C), the maximum number of chemotherapy cycles allowed
+
+ are 4 on TMS. Are the number of cycles exceeded in HBP 2.1?
+
+ A. No, the cycles not exceeded in HBP 2.1. As per the NCG, standard regimen is 4 cycles.
+
+ 7. What should be the minimum duration between the chemotherapy cycles?
+
+ A. Cycle interval is counted considering the first day of first cycle as Day-1. The minimum duration
+
+ between cycles is based on the regimen.
+
+ Page 45 of 64
+
+--- PAGE 47 ---
+For e.g. If patient has received R-CHOP- (Rituximab 375mg/m2+Cyclophosphamide 750
+
+ mg/m2+Vincristine 1.4 mg/m2, on Day1+Etoposide 65mg/m2 Day 1 to 3+Prednisolone 100 mg
+
+ Day 1-5),Total 6 cycles, repeat 21 days (Procedure name: CT for B - Cell NHL - High
+
+ Grade(Except Burkitt's & PCNSL), Procedure code:MO029A)
+ • If the 1st cycle is given on 31.12.2020, then 2nd cycle should have been given on
+
+ 21.01.2021.
+ • Reducing gap is not advisable as these are based on the prior data on these regimens.
+
+ However, if this is the technical issue due to which hospitals are not able to get the
+
+ package approval, you can reduce it by one day as acceptable period. (so instead of
+
+ 21.01.2021 in the above scenario- approval can be given on 20.01.2021)
+
+8. Whether organ transplant provided to beneficiaries under AB PM JAY?
+
+ A. Yes, Organ and Tissue transplant is added as new package under HBP 2.1 which includes
+
+ renal transplant and corneal transplant packages.
+
+9. What was the need of HBP 2.0?
+
+A. Packages were rationalized against the following aberrations found in the original HBP
+
+ a. Package rates offered for many packages were inadequate to cover the cost of procedures
+
+ b. Duplication of packages was observed both within a single specialty and across specialties
+
+ c. The terminology used for the nomenclature of packages was inconsistent
+
+ d. Few of the procedures were overlapping with the ongoing National Health Programs
+
+ e. Some of the high-end procedures / investigations / drugs are not covered in HBP 1.0
+
+ f. Due to the non-availability of certain treatments, a lot of procedures were being booked under
+
+ Unspecified packages
+
+10. What is the total package count of HBP 2.0?
+
+B. HBP 2.0 has 874 packages split into 1592 procedures. By the new nomenclature, many packages
+
+ are a group of procedures split primarily based on surgical approach or different types of treatment
+
+ modalities available for a similar type of treatment. Through the first year of implementation of AB
+
+ PM-JAY, it was felt that frequency of utilization of individual procedures is required for analysis.
+
+ Hence, there was a need to capture the different procedures covered under single package
+
+ separately and thus the concept was introduced.
+
+ Page 46 of 64
+
+--- PAGE 48 ---
+11. How many specialties are covered in HBP 2.0?
+
+A. HBP 2.0 covers 25 specialties (including ‘Unspecified’). All specialties from HBP 1.0 have been
+
+ retained except for Paediatric Cancer that has been discontinued. All procedures of paediatric
+
+ cancers have been split into medical / surgical oncology.
+
+12. The specialty of pediatric cancer has been discontinued. How will these patients be treated?
+
+A. All the procedures of Paediatric cancer have been included under the other three specialties of
+
+ oncology viz. Surgical, Medical & Radiation Oncology. Hence Paediatric cancer specialty may not be
+
+ visible under specialty list, but all the paediatric cancers are adequately covered.
+
+13. Have prices been reduced / increased for some procedures in HBP 2.0?
+
+A. Prices have been reduced for 57 and increased for 270 procedures in HBP 2.0 as compared to HBP
+
+ 1.0.
+
+14. With 554 discontinued packages, has the treatment coverage reduced in AB PM-JAY?
+
+A. No. The National Health Authority, through revision of packages made a conscious effort to ensure
+
+ that no therapeutic area, initially covered within AB PM-JAY is not left uncovered in HBP 2.0. The
+
+ discontinued packages have been redistributed into other multiple procedures that are included in
+
+ PM-JAY.
+
+15. Will the unspecified package still be available in HBP 2.1?
+
+ A. Yes. While it has been the aim of package revision to include most commonly used treatment
+
+ modalities within HBP 2.1, some state specific, or uncommon conditions may still have been
+
+ overlooked. So, while it is expected that booking of procedures under the unspecified category
+
+ would be reduced, the category has still been maintained in new revised package list.
+
+16. Is Cataract still available under AB PM-JAY
+
+A. Yes, it is available
+
+17. What was the rationale for adopting new packages in HBP 2.0?
+
+A. 237 new packages have been introduced in HBP 2.0. The following packages were introduced as
+
+ new packages
+ Page 47 of 64
+
+--- PAGE 49 ---
+a. Packages that were booked frequently as unspecified packages
+
+ b. Therapeutic areas that were earlier not covered
+
+ c. Follow up packages
+
+ d. Packages recommended by the expert groups
+
+18. What is the new concept of Packages and Procedures?
+
+A. By the new nomenclature, many packages are a group of procedures split primarily based on
+
+ surgical approach or different types of treatment modalities available for a similar type of treatment.
+
+ Through the first year of implementation of AB PM-JAY, it was felt that frequency of utilization of
+
+ individual procedures is required for analysis. Hence, there was a need to capture the different
+
+ procedures covered under single package separately and thus the concept was introduced.
+
+19. Can the same package be booked under multiple specialties?
+
+A. There are many procedures which fall under the purview of more than one specialty. In HBP 1.0, the
+
+ practice was to repeat the same package under every concerned specialty with individual package
+
+ codes and independent terminology, resulting in unnecessary repetition / duplication. Now such
+
+ procedures have been consolidated under a single specialty and marked as ‘Cross specialty
+
+ procedures’, so that they can be used by other relevant specialties as well.
+
+20. What is stratification of procedures?
+
+A. In HBP 2.0, certain procedures have been identified that involve different treatment modalities for
+
+ same or similar procedures e.g. type of anaesthesia, surgical approach, unilateral / bilateral,
+
+ aetiology etc. Although the difference appears minor between the multiple stratifications of a
+
+ procedure, there is a clear financial impact of the same. Such procedures have been classified as
+
+ stratified procedures wherein an additional layer of stratification has been added to account for
+
+ additional effort / cost.
+
+21. Are implants / High end consumables included in surgical packages?
+
+A. Yes, the price of both these entities, wherever used, are included in the final procedure price. In
+
+ many packages, the final total cost (including procedure and implant / consumable) is given. In other
+
+ packages, costs of procedure and implant / consumable is given separately. In such cases, these
+
+ two costs are entered in the system already and reflected in the form of a final cost in the
+ Page 48 of 64
+
+--- PAGE 50 ---
+Transaction Management System (TMS). Thus, it is possible that for the same package, different
+
+ rates may be seen for certain procedures based on the type of implant / consumable selected in
+
+ such cases. (Also refer to answers for Q. 22 to 25)
+
+22. Can more than one implant be booked for a procedure?
+
+A. HBP 2.0 provisions for use of multiple implants within a procedure and independently accounts for
+
+ the price of each implant used. However, for most procedures, there is a cap on the maximum
+
+ number of implants that will be reimbursed in a procedure.
+
+23. Will the hospitals be getting reimbursed separately for the implants?
+
+A. No. Price of implant will be included in the price of the selected procedure. The price of the implant
+
+ will be added to the procedure price at the back end by the TMS and will be reflected in the final
+
+ reimbursement. Some procedures may require details of the number / type of implant used from a
+
+ selection dropdown to calculate the total price of implants used.
+
+24. What is Static & Dynamic pricing of procedures?
+
+A. A concept of static and dynamic pricing has been introduced in HBP 2.0 to account for variations in
+
+ prices that are now possible in HBP 2.0 based on number / types of implants used. Procedures with
+
+ no implants, or pre-defined included implants will follow a static price with no variations. On the other
+
+ hand, in case of procedures where multiple implants are permitted, or in case there is an available
+
+ choice in type of implant, the TMS would prompt for details of the number / type of implant used from
+
+ a selection dropdown to calculate the total price of implants used.
+
+25. How is the final procedure rate calculated in the TMS?
+
+A. For final calculation of procedure rate, Final Procedure Price = Procedure price + Stratification rate
+
+ (if any) + Incentive (if applicable) + Implant(s) rate (if any).
+
+26. Is there any change in the incentives offered on the package rates under AB PM-JAY?
+
+A. There is no change in the NHA policy for incentives. However, the percentage of incentive will no
+
+ longer be applicable to the price of the implant. Incentive will only be calculated on the procedure
+
+ rate. Indicative incentive mechanisms are as below, (this is a voluntary exercise at the States’
+
+ discretion, with prior intimation to the NHA).
+ Page 49 of 64
+
+--- PAGE 51 ---
+Incentive
+ S. No. Criteria (Over and above base
+ procedure rate)
+ 1 Entry level NABH 10%
+ 2 Full NABH accreditation 15%
+ 3 Situated in Delhi or some other Metro 10%
+ 4 Aspirational district 10%
+ 5 Running PG / DNB course in the empanelled specialty 10%
+
+ These percentage incentives are added by compounding rather than in simple way. Thus, for a
+
+ package costing Rs. 10,000 otherwise, the payment made for a hospital with full NABH accreditation
+
+ in an aspirational district will be ₹10,000 x 1.15 x 1.10 = ₹12,650. It will not be calculated as ₹10,000
+
+ x 1.25 = ₹12,500
+
+27. What are the Aspirational districts?
+
+A. 117 Aspirational districts have been identified by NITI Aayog based upon composite indicators
+
+ from Health & Nutrition, Education, Agriculture & Water Resources, Financial Inclusion and Skill
+
+ Development and Basic Infrastructure which have an impact on Human Development Index.
+
+28. What are the Metros?
+
+A. The Metros include Delhi (UA) (including Faridabad, Ghaziabad, NOIDA and Gurugram), Greater
+
+ Mumbai (UA), Kolkata (UA), Chennai (UA), Bangalore / Bengaluru (UA), Ahmedabad (UA),
+
+ Hyderabad (UA) and Pune (UA).
+
+ [Cities classified as “X” in Ministry of Finance’s OM No. 2/5/2014-E.II(B) dated 21.07.2015]
+
+29. What is an Add-on Procedure?
+
+A. Certain packages which can be booked with a primary package at a 100% reimbursement contrary
+
+ to the existing principle of 50% reimbursement of the second package. These packages are defined
+
+ as Add-on Packages.
+
+30. What are Stand-Alone Procedures?
+
+A. For Fraud prevention and control, some packages have been identified that cannot be booked in
+
+ combination with any other package / procedure. These are termed as stand-alone packages in the
+
+ HBP 2.0
+
+ Page 50 of 64
+
+--- PAGE 52 ---
+31. What are Sequential Procedures?
+
+A. Some procedures in HBP 2.0 have been identified to follow a logical sequence in patient
+
+ management. Any break in the sequence would trigger an investigation at the NHA who may seek
+
+ justification for the same.
+
+32. Is there a provision for Follow-Up procedures?
+
+A. Procedures have been identified that require prolonged follow ups beyond the limit of 15 days as
+
+ included in the coverage of the scheme. These follow ups may need medical intervention with
+
+ utilization of consumables and consultations with the treating doctor. These have been sorted as
+
+ follow up packages and are aligned to their specific primary packages. In addition, these packages
+
+ can only be booked only upon submission of satisfactory documentary proof that the primary
+
+ procedure was conducted on the patient, whether within or outside of the purview of AB PM-JAY.
+
+33. Are there defined Day Care procedures in HBP 2.0 and HBP 2.1?
+
+A. All standard HBP guidelines are applicable across all packages in HBP 2.0 and HBP 2.1. There is no
+
+ relaxation in protocols for any procedures that are booked on Day Care or Inpatient basis / in Public
+
+ or Private Hospitals / in Elective or Emergency conditions.
+
+34. Have any Fraud control measures been built into the procedures of HBP 2.0 and HBP 2.1?
+
+A. Many Anti-Fraud measures have been built into the procedures of HBP 2.0. A few of them are as
+
+ under
+
+ a. Procedures within HBP 2.0 have been identified to be fraud prone and would be under scrutiny
+
+ by the National Anti-Fraud unit (NAFU) at the NHA. Utilization of these packages may trigger
+
+ show-cause response from the NHA.
+
+ b. Prices of some procedures have been consciously kept at a bare minimum to avoid temptation of
+
+ hospitals to abuse the same.
+
+ c. In cases where the patient undergoes multiple rounds of treatment, the minimum interval
+
+ between two consecutive treatment interventions has been configured in the IT system,
+
+ wherever applicable e.g. Appendicectomy, Hysterectomy, Cataract etc.
+
+ d. The maximum number of times a procedure can be booked for an individual patient has been
+
+ integrated in the IT system, wherever applicable
+ Page 51 of 64
+
+--- PAGE 53 ---
+e. Implants / High End Consumables usage has been defined at the procedure level where both the
+
+ type of Implants / High End Consumables and their maximum permissible limit of usage has
+
+ been detailed out
+
+35. Is there a standardized nomenclature of procedures in HBP 2.0?
+
+A. In collaboration with World Health Organization (WHO), the NHA has initiated the process of aligning
+
+ HBP 2.0 with International Classification of Health Interventions (ICHI) and International
+
+ Classification of Diseases (ICD) coding of the WHO.
+
+36. Are there any guidelines with respect to reservation of packages for Public Hospitals?
+
+A. It is the discretion of the States to reserve packages for public hospitals based on their local
+
+ conditions and infrastructure availability. However, as with HBP 1.0, certain procedures such as
+
+ Hysterectomy, High Risk Delivery and Mental health packages have been recommended by the
+
+ National Health Authority to be reserved for Public Hospitals. The same will continue to be reserved
+
+ for Public Hospitals for HBP 2.0 and HBP 2.1
+
+37. Can states still add state specific packages to supplement HBP 2.1?
+
+A. Yes. States are still at liberty to add state specific packages. However, prior approval from the NHA
+
+ is mandatory that would ensure that the requested packages do not fall in the exclusion criteria of
+
+ the scheme, or that the packages do not prior exist in the national master. Although, as per the
+
+ rationale of HBP 2.1 many state specific packages are already included in national master
+
+38. What is the process for States to add their own state specific packages to supplement HBP
+
+ 2.0 and HBP 2.1?
+
+A. In collaboration with World Health Organization (WHO), the NHA has initiated the process of aligning
+
+ HBP 2.0 and HBP 2.1 with International Classification of Health Interventions (ICHI) and
+
+ International Classification of Diseases (ICD) coding of the WHO. The same mapping will need to be
+
+ adopted by the states before submitting their proposed list to the NHA for approval. The NHA would
+
+ scan the list to cull out any duplicate procedures with the National list, as well as procedures that fall
+ Page 52 of 64
+
+--- PAGE 54 ---
+within the exception criteria of the scheme. States will also be required to send in their proposal with
+
+ a reasonable justification for inclusion of their packages to the satisfaction of the NHA medical panel.
+
+39. Do States have the flexibility to alter package rates?
+
+A. Package / Procedure rates recommended by the NHA in HBP 2.0/HBP 2.1 have been arrived to
+
+ through a scientific and rigorous process of costing exercises and committee recommendations.
+
+ However, it is also accepted that costs and prices of services may vary between states. To account
+
+ for the same, the states have the flexibility of increase the recommended rates anywhere within 10%
+
+ for their specific state / UT. However, the states have the liberty to reduce the rates to any limits
+
+ owing to conditions specific to their state.
+
+40. What is the Minimum Document Protocol for HBP 2.0/HBP 2.1?
+
+A. A set of mandatory documents have been defined for each package / procedure within the HBP
+
+ 2.0/HBP 2.1. These documents would need to be mandatorily uploaded at the time of raising a pre-
+
+ auth, or for raising a claim. These documents comprise the MDP / ‘Minimum document Protocol’ for
+
+ HBP 2.0/HBP 2.1. These are available in the Transaction management System
+
+41. Is there a defined Average Length of Stay (ALOS) for procedures booked under HBP 2.0/HBP
+
+ 2.1?
+
+A. No. There is no minimum / maximum length of stay defined for any procedure under HBP 2.0/HBP
+
+ 2.1. Any defined ALOS published for patient care under HBP 2.0/HBP 2.1 is purely indicative and is
+
+ not expected to be restrictive to patient care in any way.
+
+42. How do States prepare for HBP 2.1? Are there any IT related expectations?
+
+A. For all states using the NHA TMS, the transition to HBP 2.1 would be automated from the back end
+
+ and would require no preparations at the State level. For states using their own Transaction
+
+ Management Systems, there would be preparations required that would be facilitated by the IT
+
+ teams at NHA. Beyond IT, the States would be expected to facilitate and ensure trainings of all
+
+ stakeholders involved as the system transitions to the newer version.
+
+ Page 53 of 64
+
+--- PAGE 55 ---
+Abbreviations Used
+
+AB PM-JAY Ayushman Bharat Pradhan Mantri Jan Arogya Yojana
+
+HBP Health Benefit Packages
+
+NHA National Health Authority
+
+SHA State Health Agency
+
+ISA Implementation Support Agency
+
+TMS Transaction Management System
+
+OBG Obstetrics & Gynecology
+
+ENT Ear, Nose & Throat Specialty (Otorhinolaryngology)
+
+CTVS Cardio Thoracic & Vascular Surgery
+
+WHO World Health Organization
+
+ICHI International Classification of Health Interventions
+
+ICD International Classification of Diseases
+
+PPD Pre-Auth Processing Doctor
+
+CPD Claim Processing Doctor
+
+DHR Department of Health Research
+
+ICMR Indian Council of Medical Research
+
+Lap Laparoscopic
+
+CBD Common Bile Duct
+
+LAMA Leave Against Medical Advice
+
+DAMA Discharge Against Medical Advice
+
+Annexure 1 – Exclusions to the Policy
+
+Ayushman Bharat PM-JAY shall not be liable to make any payment under this policy in respect of any
+
+expenses whatsoever incurred by any Insured Person in connection with or in respect of:
+
+ Page 54 of 64
+
+--- PAGE 56 ---
+• Condition that does not require hospitalization and can be treated under Outpatient Care
+• Except those expenses covered under pre and post hospitalisation expenses, further expenses
+
+ incurred at Hospital or Nursing Home primarily for evaluation / diagnostic purposes only during the
+
+ hospitalized period and expenses on vitamins and tonics etc unless forming part of treatment for
+
+ injury or disease as certified by the attending physician.
+• Any dental treatment or surgery which is corrective, prosthetic, cosmetic procedure, filling of tooth
+
+ cavity, root canal including wear and tear of teeth, periodontal diseases, dental implants etc. are
+
+ excluded. Exception to the above would be treatment needs arising from trauma / injury, neoplasia
+
+ / tumour / cyst requiring hospitalisation for bone treatment.
+• Any assisted reproductive techniques, or infertility related procedures, unless featuring in the
+
+ National Health Benefit Package list.
+• Vaccination and immunization
+• Surgeries related to ageing face & body, laser procedures for tattoo removals, augmentation
+
+ surgeries and other purely cosmetic procedures such as fat grafting, neck lift, aesthetic rhinoplasty
+
+ etc.
+• Circumcision for children less than 2 years of age shall be excluded (unless necessary for
+
+ treatment of a disease not excluded hereunder or as may be necessitated due to any accident)
+• Persistent Vegetative State: a condition in which a medical patient is completely unresponsive to
+
+ psychological and physical stimuli and displays no sign of higher brain function, being kept alive
+
+ only by medical intervention.
+
+ ANNEXURE – I
+
+ Page 55 of 64
+
+--- PAGE 57 ---
+. een
+¢2¢ national ive
+i health os
+f\/ 37) +] 6 Pus
+~« auGhoriby
+-NHA
+2027462/2021/HNQA No, $-12015/08/2019-NHA(HN&QA)
+Government of India
+National Health Authority
+OFFICE MEMORANDUM
+Subject: Roll - out of the feature of multiple booking of a single procedure in TMS,
+Certain procedures, owing to their nature of treatment, are Fequired to be booked more than once for a patient ina single
+pre — authorization, HN & QA has shortlisted such procedures which should be allowed to be booked more than once
+ina single pre — authorization. A list of total 138 procedures so identified is placed at Annexure - 1,
+The suggestive payment mechanism for such procedures shall follow the existing methodology of booking more than
+one surgical procedure:
+* 100% for the first procedure (100% Implant cost, if used)
+* 50% for the second procedure (100% Implant cost, if used)
++ 25% for the third procedure and thereafter (100% Implant cost, if used)
+The feature of multiple booking of procedures has been tested and is ready for roll-out. SHAs may communicate a
+Suitable date to make It live in thelr production environment,
+Kindly coordinate & communicate the same to EHCPs,
+Dated; 06.01.2020 qt i \ i
+(Dr. Ajai Aggarwal)
+Director, HN&QA
+Page 56 of 64
+
+--- PAGE 58 ---
+flo, 1 ot ay,
+92 national sie)
+i, Nealth <=!
+wy 1 ‘Ayushman Bharat
+wat uthority Pu-se
+ANNEXURE - II
+1756341/2020/HNQA-NHA
+No. S-12015/20/2020-NHA(HN&QA)
+Government of India
+National Health Authority
+OFFICE MEMORANDUM
+Sub: Testing and treatment for COVID-19 under Ayushman Bharat
+Pradhan Mantri Jan Aarogya Yojna.
+With reference to the OM of even number dated 4" April 2020, it is further
+clarified that.
+1. For testing, payment shall be made in the following circumstances:
+a. Public hospitals having tie up with private labs.
+b. Private hospitals doing testing
+Note: No payment shall be made to public hospitals utilising their own or other
+public testing facility
+2. For treatment, payment shall be made to both public and private hospitals at
+the rate decided by the respective state government.
+It may also be noted that the payment for PM-JAY beneficiaries shall be made
+by the National Health Authority as per the current mechanism of sharing the
+financial burden.
+Mu i . 2020
+Dated: April 8, 2020 (Dt Arun Gupta) 2°
+Executive Director
+HN&QA
+Page 57 of 64
+
+--- PAGE 59 ---
+Jan,
+(2? national ive
+bs Health . ‘
+(/ € re) . ‘Ayushman Bharat
+wat uthority Pu-se
+ANNEXURE - Ill
+64
+2021109/2021/HNQA-NHA No, $-12018/31/2020-NHA(HN&QA)
+Government of India
+National Health Authority
+OFFICE MEMORANDUM
+Subject: Roll out of Health Benefit Package 2.1
+After the implementation of HBP 2.0 in 19 States /UTs, NHA undertook the activity to further rationalize national
+health benefit package master to address the existing gaps. The rationalization was primarily based on feedback
+received from states in the form of state specific packages, experts from the medical cell of NHA and a few other
+sources. A deep dive analysis was also undertaken of the procedures booked under Unspecified surgical package
+across all states / UTs implementing HBP 2.0. The recommendations made by the medical cell were put up to the
+Governing Board of NHA for consideration and were approved to be rolled out as HBP 2.1.
+HBP 2.1 comprises of a total of 63 packages contai ning 94 procedures (including cross - specialty procedures)
+which will be added to the existing HBP for each state implementing HBP 2.0 and will be rolled out as HBP 2.1 with
+effect from 1% January 2021. The details of package(s) / procedures(s) with the Costing is provided as Annex ~ 1. List
+of procedures where rates are mentioned as zero in attached draft OM will be given as per day bed rates criteria.
+Before the roll — out of HBP 2.1, feedback from SHAs is sought latest by 8 January 2021 for any state specific
+Modifications in terms of package price, auto - approval or public reservation after which the roll - out shall be made as
+per the package configuration made by the medical cell of NHA.
+Kindly coordinate & communicate the same to EHCPs. J
+Dated: 1.1.2021 ‘ \\
+(Dr. Ajai sr
+Director, HN&QA
+ANNEXURE - IV
+Page 58 of 64
+
+--- PAGE 60 ---
+mn . Jan
+@ pational ory
+«wm @uGhoriby ae
+$-12015/78/2020-NHA(HN&QA)
+Government of India
+National Health Authority
+Office Memorandum
+Reference:OM of even no. dated 12April 2021 regarding release of22™set of 27 Standard Treatment
+Guidelinesfor PMJAY packages.
+The 23"set of 11 Oncology STGs is scheduled for release in the NHA IT
+platform within the Transaction Management System (TMS) on 4" June2021. Alist of
+these 11STGs is enclosed. TheSTG documents, IT user manual and orientation presentation
+are available for reference athttps://pmjay.gov.in/standard_treatment_guidelines. Any queries
+related to PMJAY STGs may be sent to stg.hnga@nha.gov.in.
+The States are requested to kindly inform their teams, SHAs, EHCPs, ISAs/ TPAsfor
+a wider circulation of the STGs/ Guidance documents and its implementation.
+Encl.; As above. elite
+Dated:31.05.2021 a\
+4
+si -
+Director
+‘St, arora SrWaTet/Dr. AJAI AGARWAL
+To mo peer ealey ek —
+‘earreg srfirereet /National Health Authority
+1. CEOs (All SHAs) wit SS
+2. NHCPs
+Copy
+1. Addl. CEO, NHA ‘
+2. Dy. CEO, NHA :
+3. NHA (HN&QA, State co-ordination, NAFU, Operations, IT, Capacity building)
+Page 59 of 64
+
+--- PAGE 61 ---
+AB + Jan
+4 nabional ny
+aera wat uG ority Pu-s
+ANNEXURE -V
+; No. S-12015/16/2020-NHA(HNQA)
+Government of India
+National Health Authority _-
+9th Floor, Tower-1, Jeevan Bharti Building
+Connaught place, New Delhi
+FFICE
+Subject: Relaxation in mandatory document protocol for public hospitals providing care under AB PM-
+JAY
+OM Ref No. S-12015/16/2020-NHA (HNQA) dated 09,06.2020 was issued by NHA regarding
+relaxation of few mandatory documents for Public EHCPs as per Standard treatment guidelines.
+2. National Health Authority while analysing STG dashboard and during discussion with
+SHAs has observed non — compliance in relaxation of mandatory document protocol for public
+hospitals by adjudicating agencies, this leads to inadvertent delays in submission of pre-authorization,
+claim submission and processing.
+3. SHAs may kindly issue necessary instructions / guidelines to respective ICs / ISAs
+regarding relaxation in mandatory document protocol for public hospitals, which includes:
+I. — Pre-authorization request
+a. Admission / clinical notes
+II. Claim submission;
+a. Operative / procedure notes
+b. Post-operative investigations if any
+c. Discharge Summary
+An action taken report may kindly be shared with Nationa! Health authority by 30" June 2021.
+Date: 14.06.2021 de ot 1Al6
+Pe pelea
+Page 60 of 64
+
+--- PAGE 62 ---
+{@% national ny
+aera wat uthority are
+ANNEXURE -VI
+$-12015/122/2021/NHA(HPQA)
+Government of India.
+Ministry of Health and Family Welfare
+National Health Authority
+3", 7 & 9" Floors, Jeevan Bharti Building, Tower 1
+Connaught Place, New Delhi — 110001
+OFFICE MEMORANDUM
+Subject: Inclusion of 5% Incentive on Base Package Rates for AB PMJAY Bronze
+Certified empaneled hospitals
+NHA has released AB PMJAY quality certification along with Quality Council of India
+in 2018. NHA has already issued guidelines on quality-based incentive of 10% for
+attaining NABH entry level accreditation and 15% incentive for attaining NABH full
+accreditation to empaneled healthCare providers (EHCPs).
+The Governing Board of National Health Authority has now approved the grant of an
+incentive of 5% to be granted to EHCPs for attaining AB PM-JAY Bronze Quality
+Certification. This will ensure that non-accredited hospitals (NABH) empaneled under
+AB-PMJAY will get quality certification for better service provision to beneficiaries.
+This is issued with the approval of Competent Authority.
+All SHAs are to implement the same in their respective States/UTs
+Dated: 14/06/2021 A ofl 1 t_
+atc rs WA Tolot souicinciecen’
+Naterrer Heath 9 UTH BE Se
+eae, Government of india
+alia od Teeeh New Dein
+To,
+1. CEO, SHA all States/ UTs
+Copy to:
+1. Principal Secretary (Health) of all State/UT
+2. Secretary General, Quality Council of India
+Page 61 of 64
+
+--- PAGE 63 ---
+Jan,
+vB 7 | = “o,
+(2 nationa {met
+a & 2
+i Health
+Act . ‘sna tet
+7 'M-3BS
+«wee €Ubhoriby
+ANNEXURE -VII
+2286347/2021/HNQA-NHA No. S-12015/62/2020-NHA(HN&QA)
+Government of India
+National Health Authority
+OFFICE MEMORANDUM
+Subject: Revisions in the national health benefit package master
+AS per approval of the Goveming Board of National Health Asuthority, the rates of all medical management packages
+are being revised for an initial period of 06 months from 16" August 2021 to 16" February 2022 as per Annexure — 1
+In addition to medical management Packages, rates for surgical packages currently available under National Health
+Benefit Package Master that may be utilized for management of mucormycosis have also been revised and are placed in
+Annexure — 2
+SHAs who have defined their COVID-19 treatment package rates with per day premium rate over and above existing
+bed charges may continue with existing rates, if the revised Package rates are below the total amount with existing premium
+to ensure long term viability of Packages and to take care of regional variations in Pricing.
+A package for medical management of post COVID-19 complications will be added under ‘Infectious Diseases’
+Specialty by the name of “Treatment of systemic fungal infections”. This Package will follow the same Pricing structure as
+the revised medical management packages.
+Inciusion of an ‘Add-on’ package for high end drugs for management of COVID-19 and its complications has aiso
+been approved by the Governing Board of National Health Authority. High end drugs may now be booked over and above
+the package as per the price notified by the concerned state governments from time to time.
+SHAs will continue to be given flexibility in adoption of the Proposed revisions for the SHAs where NHA shares the
+cost of treatment with the SHAs. The implementation of revised packages in such State/ UTs shall be done only after
+receiving concurrence from the concerned State / UT.
+it may be noted that NHA's share in all the above cases will be capped as a percentage on the Pro rata cost of Rs.
+1,052/- per beneficiary family as per the arrangement with concerned State/ UT. Any expenditure over and above this shall
+have to be borne by concerned State/ UT.
+Following this, all of the above revisions in the National Health Benefit Package Master will be rolled out across all
+SHAs. Any state-specific modifications required may be communicated by SHAs to NHA before 13” August 2021 positivety.
+This issues with the approval of the competent authonity.
+Dated: 09.08.2021 —AA
+! (
+st rst fare ot i Ir
+Sree an Mace Jn
+Serna eae ee oath tO
+ee Ren iNew Own
+ANNEXURE -VIII
+Page 62 of 64
+
+--- PAGE 64 ---
+Jan,
+ee %,
+(-¢ nabiona ite
+S-12015/133/2021/NHAKHPQA)
+Government of India
+National Heaith Authority
+OFFICE MEMORANDUM
+Subject Implementation of modified national health benefit package master
+National Heaith Authority (NHA) has made three revisions to its national health benefit package
+master till date. The highlights of release of health benefit package masters is as below:
+Change in rates of
+HBP version numer emohageat eho ickages/
+procedures soe hisc
+Ni 4
+scheduled,
+National Health Authority is constantly working on the feedback received from stakeholders for
+rationalization of health benefit package master Overthe Past three years, new packages have been added
+to cover more disease conditions and changes have been made in the Package rates (Annexure — 1).
+These changes are necessitated to ensure effective implementation of the scheme and will be made in
+Transaction Management System (TMS) to ensure that there are no challenges in portability
+State Health Agencies (SHAs) currently implementing any of the previous versions of HBP shall
+now have the option to accept and implement only the latest version of Health Benefit Packages (HBP 2.2)
+SHAs implementing the scheme in trust mode may adopt this change latest by 31% October 2021. NHA’s
+IT system will migrate totally to revised HBPs on 31% October 2021. However, SHAs implementing the
+scheme in insurance mode may adopt the changes as soon as possible, and in any case before
+30" November 2021, In case SHAs are unable to make changes due to the contract with insurance
+company. SHAs may make the Payment to EHCPs by filling in for the Positive or negative difference in
+payment. SHAs implementing in hybrid/ mixed mode may consider suitable mix of the two approaches
+mentioned above.
+Fd
+sabe
+Ls oI, aS
+ara ar r
+wt. Pree orHPBOA sae
+Al -
+soregearey ere rereret a ‘den Arogye Yop
+Auten oo er Naber Heath Au)
+aR ezmre /Covnmment of india
+wig ftect /New ein!
+of 64

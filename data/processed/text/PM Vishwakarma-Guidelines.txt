@@ -1,0 +1,2408 @@
+--- PAGE 1 ---
+GOVERNMENT OF INDIA
+ MINISTRY OF MICRO, SMALL & MEDIUM ENTERPRISES
+
+ PM Vishwakarma
+Guidelines for Implementation
+
+--- PAGE 2 ---
+[BLANK PAGE]
+
+--- PAGE 3 ---
+Peat ae Sreitesriseiei::
+Traditionally, crores of 'Vishwakarmas' who create something or the
+other by working hard with their hands, tools and equipment are the
+builders of this country. We have a huge list of countless people like
+the blacksmiths, goldsmiths, potters, carpenters, sculptors,
+artisans, masons etc. PM Vishwakarma will bring a sea of changes
+in the lives of crores of Vishwakarmas.
+
+- Narendra Modi, Hon'ble Prime Minister
+
+--- PAGE 4 ---
+1. Introduction 07
+2. Objective, Approach and Coverage 08
+2.1 Objective 08
+é 2.2 Approach 08
+; 2.3 Coverage of Trades 09
+: 3. Benefits under PM Vishwakarma 15
+4 = 3.1. PM Vishwakarma Certificate and ID Card 15
+‘il —— . :
+: ————— — 3.2 Skill Upgradation 15
+——————— 3.21 Skill Verification and Basic Skill Training 16
+2 YS — ; 3.2.2 Advanced Skill Training 17
+wes j | f 3.2.3 Training Stipend 19
+hat . oolkit Incentive
+-~ )/ oie 3.3. Toolkit | ti 19
+\\ te > & 3.4 Credit Support 19
+' Ls 3.41 Enterprise Development Loan 19
+ae) 3.4.2. Concessional Interest and Subvention 20
+q - nl
+— 3.4.3 Credit Guarantee 20
+a 3.4.4. Participating Financial Institutions 22
+a? \ cy
+>. > sal 3.5 Incentive for Digital Transaction 22
+<n
+a 4 “ 3.6 Marketing Support 22
+_ 4. Eligibility 25
+5. Registration Process 27
+——_
+5.1 Application for enrolment 27
+5.2 Verification 29
+< 5.2.1 Stage 1: Verification at Gram 30
+sai Panchayat or ULB level
+5.2.2 Stage 2: Vetting and Recommendation by 30
+the District Implementation Committee
+5.2.3 Stage 3: Approval by the Screening Committee 30
+6. Process Flow for availing benefits under the Scheme 32
+6.1 PM Vishwakarma Certificate and ID Card 33
+6.2. Skill Upgradation 33
+6.3 Toolkit Incentive 34
+
+--- PAGE 5 ---
+6.4 Credit Support 34
+6.41 Enterprise Development Loan 34
+ee 6.4.2 Concessional Interest and Subvention 36
+6.4.3 Credit Guarantee 36
+6.5 Incentive for Digital Transactions 37
+6.6 Marketing Support 38
+7. Financial Provisions 39
+a 8. Implementation Framework 4
+= on 8.1 National Steering Committee (NSC) 4
+Lae Z \ . , c 8.2 State Monitoring Committee (SMC) 42
+“ a4 ie ' 8.3 District Implementation Committee 42
+i J ed i 8.4 Credit Oversight Committee 44
+a rd 4 8.5 Roles and Responsibilities 44
+(ale bb Wy 9. Coordination with Ministries 48
+=" "'S ey 91 Coordination with Common Service Centres 48
+we | its (CSCs) and NIC, Ministry of Electronics and
+fi te ; Information Technology
+& 4 9.2 Coordination with Ministry of Labour and 48
+4 a Employment
+a - 9.3. Coordination with Ministry of Panchayati Raj 48
+he ae ve 9.4 Coordination with Ministry of Housing and 49
+' ae Urban Affairs
+‘ im 9.5 Coordination with Ministry of Consumer Affairs, 49
+yu Sa Food & Public Distribution
+/ a 9.6 Coordination with Ministry of Information 49
+. 4 and Broadcasting
+, 9.7 Cordination with Ministry of Rural Development 49
+9.8 Coordination with Department for Promotion of 50
+Industry and Internal Trade, Ministry of
+Commerce and Industries
+9.9 Coordination with Department of Posts, 50
+Ministry of Communications
+910 Coordination with Ministry of Tourism 50
+9.11 Coordination with Ministry of Cooperation 50
+
+--- PAGE 6 ---
+912 Coordination with Ministry of Agriculture 50
+10. Review and Monitoring 51
+Annexures
+
+Annexure-A 53
+
+4 Annexure-B 54
+Annexure-C 55
+
+Annexure-D 56
+
+Annexure-E 57
+
+Annexure-F 58
+
+%
+/
+q ae
+
+--- PAGE 7 ---
+APBS Aadhaar Payment Bridge System
+
+API Application Programming Interface
+
+APO Artisan Producer Organizations
+
+BHIM Bharat Interface for Money
+
+CNA Central Nodal Agency
+
+CGTMSE Credit Guarantee Fund Trust for Micro and Small Enterprises
+CSC Common Service Centre
+
+DBT Direct Benefit Transfer
+
+DFO Development and Facilitation Office
+
+DFS Department of Financial Services
+
+DIC District Industries Centre
+
+DPA Digital Payment Aggregators
+
+GeM Government e-Marketplace
+
+Gol Government of India
+
+IA Implementation Agencies
+
+IP Implementation Partners
+
+IT Information Technology
+
+ITI Industrial Training Institute
+
+KVIB Khadi and Village Industries Board
+
+KVIC Khadi and Village Industries Commission
+
+LDM Lead District Manager
+
+MeitY Ministry of Electronics & Information Technology
+MFI Micro Finance Institutions
+
+MIS Management Information Systems
+
+MLI Member Lending Institutions
+
+MoLE Ministry of Labour & Employment
+
+MoMSME Ministry of Micro, Small and Medium Enterprises
+MSDE Ministry of Skill Development and Entrepreneurship
+NBFC Non-Banking Finance Companies
+
+--- PAGE 8 ---
+NCM National Committee for Marketing
+
+NCO National Classification of Occupations
+NCVET National Council for Vocational Education and Training
+NDUW National Database of Unorganized Workers
+NER North Eastern Region
+
+NIC National Informatics Centre
+
+NPA Non-Performing Assets
+
+NPCl National Payments Corporation of India
+NSC National Steering Committee
+
+OBC Other Backward Classes
+
+ONDC Open Network for Digital Commerce
+
+PAN Permanent Account Number
+
+PMSS Procurement and Marketing Support Scheme
+PMU Programme Management Unit
+
+RBI Reserve Bank of India
+
+RPL Recognition of Prior Learning
+
+Sc Scheduled Castes
+
+SCB Scheduled Commercial Banks
+
+SFB Small Finance Banks
+
+SHG Self Help Group
+
+SIDBI Small Industries Development Bank of India
+SLBC State Level Bankers Committee
+
+SMC State Monitoring Committee
+
+ST Scheduled Tribes
+
+UAP Udyam Assist Platform
+
+ULB Urban Local Bodies
+
+UPI Unified Payments Interface
+
+UT Union Territory
+
+VLE Village Level Entrepreneurs
+
+--- PAGE 9 ---
+1. Introduction
+
+ 1.1 A significant section of the workforce of the Indian
+ Economy consists of artisans and craftspeople, who work with
+ their hands and tools, are usually self-employed and are
+ generally considered to be a part of the informal or unorganised
+ sector of the economy. These traditional artisans and
+ craftspeople are referred to as ‘Vishwakarmas’ and are engaged
+ in occupations like Blacksmiths, Goldsmiths, Potters,
+ Carpenters, Sculptors, etc. These skills or occupations are
+ passed from generation-to-generation following a guru-shishya
+ model of traditional training, both within the families and other
+ informal groups of artisans and craftspeople.
+
+ 1.2 In the above backdrop, a new scheme, called ‘PM
+ Vishwakarma‘, aims at improving the quality, as well as the
+ reach of products and services of artisans and craftspeople and
+ to ensure that the Vishwakarmas are integrated with the
+ domestic and global value chains. It is the goal of this Scheme to
+ offer holistic end-to-end support to the Vishwakarmas, i.e. the
+ artisans and craftspeople, to enable them to move up the value
+ chain in their respective trades. It will bring a qualitative shift in
+ the way the occupations are practiced by artisans and
+ craftspeople and this will uplift their socio-economic status as
+ well as their quality of life.
+
+ 1.3 PM Vishwakarma will be implemented as a Central
+ Sector Scheme, fully funded by the Government of India, with
+ an initial outlay of Rs 13,000 crore.
+
+ 1.4 The Scheme will be conjointly implemented by the
+ Ministry of Micro, Small and Medium Enterprises (MoMSME),
+ the Ministry of Skill Development and Entrepreneurship
+ (MSDE) and the Department of Financial Services (DFS),
+ Ministry of Finance (MoF), Government of India.
+
+ 1.5 MoMSME will be the Nodal Ministry for the Scheme and
+ Additional Secretary & Development Commissioner (MSME)
+ in Ministry of MSME will be the focal point for all aspects of
+ implementation and coordination. [Email: dcmsme@nic.in ;
+ Tel: 011-23061176]
+
+ 1.6 PM Vishwakarma will be initially implemented for five
+ years up to 2027-28.
+
+ 07
+
+--- PAGE 10 ---
+2.2. Objective,Objective, ApproachApproachandandCoverageCoverage
+
+ 2.1 Objective
+
+ The objectives of the Scheme are as under:
+
+ • To enable the recognition of artisans and craftspeople as
+ Vishwakarma making them eligible to avail all the benefits
+ under the Scheme.
+
+ • To provide skill upgradation to hone their skills and make
+ relevant and suitable training opportunities available to
+ them.
+
+ • To provide support for better and modern tools to
+ enhance their capability, productivity, and quality of
+ products.
+
+ • To provide the beneficiaries an easy access to collateral
+ free credit and reduce the cost of credit by providing
+ interest subvention.
+
+ • To provide incentives for digital transaction to
+ encourage the digital empowerment of these
+ Vishwakarmas.
+
+ • To provide a platform for brand promotion and market
+ linkages to help them access new opportunities for growth.
+
+ 2.2 Approach
+
+ • 2.2.1 The Scheme aims at providing several benefits
+ to the Vishwakarmas, who are either self-employed or
+ intend to setup their own small-scale ventures. The support
+ provided through this Scheme to such beneficiaries will not
+ only contribute to the preservation of cultural practices,
+ generational skills and guru-shishya parampara but will
+ also provide an identity and recognition to them.
+
+ • 2.2.2 The Scheme envisages to provide end-to-end
+ holistic support to artisans and craftspeople for their
+ respective trades. Through the implementation of the
+
+ 08
+
+--- PAGE 11 ---
+Scheme, it is expected that beneficiaries who are currently
+ working as entrepreneurs in the unorganised sector will be
+ able to scale-up their operations, modernize/upgrade their
+ tools and business, and enter the formal economy as
+ entrepreneur and contribute towards the larger goal of
+ nation building.
+
+• 2.2.3 The Scheme will be rolled out in rural and
+ urban areas with focus on saturating districts in a phased
+ manner.
+
+• 2.2.4 The Scheme seeks to promote empowerment of
+ women, and those belonging to the marginalised or
+ under-served groups like the Scheduled Castes, Scheduled
+ Tribes, OBCs, Specially Abled, Transgenders, residents of
+ NER states, Island Territories and Hilly Areas.
+
+• 2.2.5 During the course of implementation of PM
+ Vishwakarma, awareness for availing benefits of insurance,
+ pension and health schemes will be promoted. Efforts will
+ be made to increase awareness among the beneficiaries to
+ avail social security benefits under the various schemes of
+ the Government of India and State Governments such as
+ Prime Minister Jeevan Jyoti Bima Yojana, Prime Minister
+ Suraksha Bima Yojana, Atal Pension Yojana, Pradhan
+ Mantri Shram Yogi Maan-dhan Yojana. It is expected that
+ many of the beneficiaries of the PM Vishwakarma would
+ avail such benefits.
+
+• 2.2.6 The implementation framework of the Scheme
+ will be participatory in nature and will involve coordination
+ at multiple levels.
+
+2.3 Coverage of Trades
+
+The following trades will be initially covered under the PM
+Vishwakarma for providing benefits to the artisans and
+craftspeople engaged in these trades (Table 1).
+
+ 09
+
+--- PAGE 12 ---
+Table 1:
+ Trades initially covered under PM Vishwakarma and
+ their Description
+
+SNo. Trade Description
+
+ Wood Based
+
+ 1. Carpenter Self-employed artisans and
+ (Suthar) craftspeople who work with their
+ hands and tools to make/assemble
+ wooden products or alter/repair
+ wooden fixtures mostly engaged in
+ traditional/unorganised sector.
+
+ 2. Boat Maker Self-employed artisans and
+ craftspeople who work with their
+ hands and tools to make, assemble,
+ alter and/or repair wooden boats in
+ the unorganized sector.
+
+ Iron/Metal Based/Stone Based
+
+ 3. Armourer Self-employed artisans and
+ craftspeople who manufacture,
+ repair or service various types of
+ arms like swords, shields, knives,
+ helmets, etc. using hands and
+ traditional tools employed in the
+ unorganized sector.
+
+ Self-employed artisans and
+ 4. Blacksmith
+ craftspeople, including
+ (Lohar)
+ blacksmiths, coppersmiths and
+ bronzesmiths, who work with their
+ hands and tools to forge metals like
+ iron, copper, brass or bronze to get
+ the required shape and size by
+ heating, bending, hammering, etc.
+ to create products in the
+ unorganized sector.
+
+ 10
+
+--- PAGE 13 ---
+Hammer and Self-employed artisans and 5.
+ Tool Kit Maker craftspeople who work with their
+ hands and tools to forge metals
+ like iron to get the required shape
+ and size by heating, bending,
+ hammering, etc. to create hammer
+ and tools in the unorganized
+ sector.
+
+ 6. Locksmith Self-employed artisans and
+ craftspeople found in small roadside
+ stalls or travelling in streets who use
+ hands and traditional tools like
+ cutter, hammer, needle, threads, etc
+ in the unorganised sector to
+ assemble, install and repair locks.
+
+7. Sculptor Self-employed artisans and
+ (Moortikar, craftspeople also known as Shilpis
+ Stone Carver), or Moortikars who work with their
+ Stone Breaker hands and tools to carve, break or
+ shape stones into
+ three-dimensional artworks in the
+ unorganized sector.
+
+ Gold/ Silver Based
+
+8. Goldsmith Self-employed goldsmiths/
+ (Sunar) sunars/ swarnakars, silversmiths
+ are the artisans and craftspeople
+ who work with their hands and
+ tools to create and design intricate
+ jewellery and ornamental pieces
+ with gold and other precious
+ metals in the unorganized sector.
+
+ Clay Based
+
+9. Potter Self-employed artisans and
+ (Kumhaar) craftspeople who work with their
+ hands and tools to create pottery
+ articles by moulding clay on a
+ wheel and baking them in a kiln
+ using traditional methods in the
+ unorganized sector.
+
+ 11
+
+--- PAGE 14 ---
+Leather Based
+
+10. Cobbler Self-employed artisans found in
+ (Charmakar)/ small roadside stalls or travelling
+ Shoesmith/ in streets who use hands and
+ Footwear traditional tools like cutter,
+ Artisan hammer, needle, threads, etc. to
+ manufacture, repair, restore and
+ modify footwear.
+
+ Architecture/ Construction Based
+
+11. Masons Masons are artisans and
+ (Raaj Mistri) craftspeople who work with their
+ hands and tools to perform works
+ such as constructing structure
+ using brick/block, plastering,
+ cement, water proofing work, etc.
+ in the unorganized sector. These
+ artisans are also known as Raaj
+ Mistris.
+
+ Other
+
+12. Basket/ Mat/ Basket Makers are self-employed
+ Broom Maker/ artisans and craftspeople who
+ Coir Weaver weave pliable materials in order to
+ make different types of baskets in
+ the unorganised sector.
+
+ Mat maker/Coir Weavers are
+ self-employed artisans and
+ craftspeople who weave coir and
+ bamboo materials to make items
+ such as Baskets, Mats, etc.
+
+ Broom makers are self-employed
+ artisans and craftspeople who
+ process the bristles collected from
+ various grass or plants such as
+ coconut to make brooms by using
+ tools such as wooden handle,
+ scissors, knife, etc.
+
+ 12
+
+--- PAGE 15 ---
+13. Doll & Toy Doll & Toy Makers (Traditional)
+ Maker are self-employed artisans and
+ (Traditional) craftspeople who work with their
+ hands and tools to make Dolls and
+ Toys by using materials such as
+ wool, threads, cotton, wood, etc.
+
+14. Barber (Naai) Self-employed artisans and
+ craftspeople who work with their
+ hands using scissors, blades,
+ combs, shaving creams, etc. to
+ provide grooming services to
+ people, primarily hair cutting,
+ shaving, etc.
+
+15. Garland Self-employed artisans who work
+ Maker with their hands to create
+ (Malakaar) decorative garlands made of
+ flowers, leaves, or other materials
+ for use at rituals, or cultural or
+ ceremonial occasions. They
+ meticulously arrange and string
+ together these elements, often
+ incorporating different colours
+ and textures, to produce beautiful
+ and fragrant adornments for
+ various cultural, religious, or
+ celebratory purposes.
+
+ 16. Washerman Self-employed artisans and
+ (Dhobi) craftspeople who work with their
+ hands and provide services such as
+ washing and ironing of clothes to
+ people. They primarily use manual
+ washing techniques, local soaps,
+ wooden stick ‘thapi’ and
+ coal-based irons in the
+ unorganised sector.
+
+ 13
+
+--- PAGE 16 ---
+Tailor Self-employed artisans and17.
+ (Darzi) craftspeople who work with their
+ hands using sewing machine,
+ scissors, buttons, fabrics, threads,
+ needles, etc. to stitch and alter
+ various dresses/garments in the
+ unorganized sector.
+
+18. Fishing Net Self-employed artisans and
+ Maker craftspeople who work with hands
+ in unorganised sector to craft
+ fishing nets using various
+ materials like ropes, twines, or
+ threads. They employ traditional
+ techniques or modern machinery
+ to weave and knot the nets into
+ specific designs and sizes,
+ ensuring they are strong and
+ durable for catching fish and other
+ aquatic creatures.
+
+ The list of trades may be updated and modified by the National
+ Steering Committee with the approval of Minister for MSME,
+ Government of India.
+
+ 14
+
+--- PAGE 17 ---
+3. Benefits under PM Vishwakarma
+
+ PM Vishwakarma is a holistic Scheme that envisages to provide
+ end-to-end support to the artisans and craftspeople through
+ the following components:
+
+ a. Recognition: PM Vishwakarma Certificate and ID Card
+ b. Skill Upgradation
+ c. Toolkit Incentive
+ d. Credit Support
+ e. Incentive for Digital Transactions
+ f. Marketing Support
+
+3.1 PM Vishwakarma Certificate and ID
+ Card
+
+ The artisans and craftspeople will receive PM Vishwakarma
+ Certificate and PM Vishwakarma ID Card. A unique digital
+ number shall be created and reflected on the certificate and
+ the ID Card. The certificate shall enable the applicant’s
+ recognition as a Vishwakarma and shall make them eligible to
+ avail all the benefits under the PM Vishwakarma Scheme. The
+ PM Vishwakarma Certificate and ID Card will be provided
+ digitally as well as in physical form to the beneficiaries.
+
+3.2 Skill Upgradation
+
+ The skilling intervention under PM Vishwakarma is aimed at
+ enhancing the capabilities of traditional artisans and
+ craftspeople, who have been working with hands and
+ traditional tools for generations. This intervention consists of
+ three components: Skill Verification, Basic Skilling and
+ Advanced Skilling. The skill upgradation shall embed modern
+ tools, design elements and integration with the sector value
+ chain as its key components of domain skilling. Besides
+ domain skills, the skill upgradation would also cover aspects
+ which shall enable the Vishwakarma to access other features
+ of the scheme, including usage of toolkits, marketing support,
+ enterprise creation and expansion through credit and benefits
+ of digital transactions.
+
+ 15
+
+--- PAGE 18 ---
+3.2.1 Skill Verification and Basic Skill Training
+ 3.2.1.1 Skill Verification :
+ Skill Verification for all registered beneficiaries would
+ be done to ascertain their existing skill levels. It will be
+ the first significant activity in the skill upgradation
+ process and by assessing the current levels of skills,
+ future path of skill upgradation in PM Vishwakarma
+ will be charted in an informed manner. It will be a
+ simple, short, demonstrative (computer based and/or
+ physical) test, to make a broad assessment of the
+ Vishwakarmas’ existing skills, familiarity with modern
+ tools and techniques, and any knowledge gaps. The
+ assessment of skill levels through verification will be
+ shared with MoMSME so that toolkit incentive can be
+ provided. The verification will be a part of, and will
+ precede, the Basic Training. It will be conducted at the
+ centres nominated for Basic Training.
+
+ 3.2.1.2 Basic Training :
+
+ Basic Training is considered essential for improving
+ the skills of all registered Vishwakarmas, and an
+ eligibility condition for drawing the first tranche of
+ loan. Thus, the purpose of Basic Training will be to
+ enable the Vishwakarmas to improve their skill levels,
+ to avail credit support and upgrade/modernize their
+ tools. This will lead to improved income levels and
+ proficiency, contemporizing of knowledge, and
+ entrepreneurship. The training will be imparted in
+ identified skill centres, ordinarily at district HQ/
+ neighboring districts/ industrial cluster, etc.
+
+ 3.2.1.3 Basic Training will be of 40 hours, over 5-7
+ days, and shall include formalization of acquired skills
+ (through Recognition of Prior Learning or RPL) and
+ upgradation. Expertise of industry and associations,
+ community organizations, and knowledge existing in
+ MSDE skill ecosystem has been harnessed to develop
+ customized training programme for each trade/ type of
+ Vishwakarmas, and toolkits. This will be further
+ refined through consultations with expert institutions
+ of MoRD like NIRD and MoMSME. Beneficiaries will
+ be upskilled in their trade through exposure to modern
+
+ 16
+
+--- PAGE 19 ---
+tools and best practices, designs, introduction to the
+ larger value chain of the sector; digital, financial, and
+ soft skills; and imbibed with marketing and
+ entrepreneurial knowledge. At the end of the training,
+ the Vishwakarma should be confident to attempt new
+ business practices in their trade, use the tools skillfully
+ and have a concrete plan to utilize the subsequent Rs 1
+ lakh loan.
+
+ 3.2.1.4 The training will be delivered through
+ experienced, certified trainers in a classroom mode
+ (Guru – Shishya Parampara), with training equipment
+ and tools for practical training. Modern training
+ audio-visual tools will supplement the training.
+ Training material for the 40 hours training along with
+ manuals on toolkits, in printed, electronic and
+ audio-visual form will be provided. Master trainers will
+ be experts in the trade and will be sourced from
+ industry and the community. At the end of the basic
+ training, an independent assessment will be conducted,
+ and National Skill Qualification Framework (NSQF)
+ certification will be provided to successful candidates.
+ The results of the Basic Training will be shared with
+ MoMSME for further disbursement of loans.
+
+ 3.2.1.5 Boarding and lodging during the training
+ shall be provided free of cost and wage compensation
+ support shall also be provided.
+
+ 3.2.1.6 The focus of skill training will be to
+ handhold and facilitate beneficiaries to enhance quality
+ of their products.
+
+3.2.2 Advanced Skill Training
+
+ 3.2.2.1 Beneficiaries interested in pursuing further
+ skill upgradation after the Basic Skilling shall be
+ enrolled for Advanced Skill Training of 15 days/ 120
+ hours or more at designated Training Centres.
+
+ 3.2.2.2 The Advanced Skilling will be aimed at
+ deepening entrepreneurial knowledge so that the
+ Vishwakarmas may feel confident enough to expand
+ into an enterprise from self-employment. Advance
+
+ 17
+
+--- PAGE 20 ---
+Skilling will promote deeper understanding of latest
+technologies, design elements, and enabling value
+chain linkages with identified anchor industry
+partners. The subjects of basic training requiring
+more attention will also be taken up. Video manuals
+on toolkits will be provided to the beneficiaries. The
+beneficiary will also be made aware of the second loan
+tranche of upto Rs. 2 Lakh available under the
+scheme.
+
+3.2.2.3 The same process, as described for the
+Basic Training and RPL will be used for delivery of
+training, and preparation of resource material for 120
+hours. At the end of training, a proper assessment will
+be done and NSQF certification will be provided to
+the successful candidates. Boarding and lodging, and
+wage compensation support will also be provided.
+Boarding and lodging during the training shall be
+provided free of cost by the Government.
+
+3.2.2.4 The outreach, information and mobilization
+of Vishwakarmas for Skill Verification, Basic and
+Advanced Training will be done by MSDE in
+association with the District Implementation
+Committee, and supervised at the State Level
+Committee. The information on skill upgradation will
+be an essential part of outreach and information
+campaign of the CSCs.
+
+3.2.2.5 The existing training infrastructure in the
+MSDE (PMKKs, ITIs, Industry Clusters, Other
+Centres, etc.); MSME ecosystem, such as MSME
+Technology Centres, ITI, KVIC, etc.; and facilities of
+MoRD shall be optimally leveraged for conducting
+Basic and Advanced Skill Training.
+
+3.2.2.6 The data of trained Vishwakarmas at every
+stage and training life cycle will be available on the
+Skill India Digital portal, which would be leveraged to
+push regular updates on skilling opportunities and
+upgradation, study material on lifelong learning, and
+employment opportunities.
+
+ 18
+
+--- PAGE 21 ---
+3.2.3 Training Stipend
+ (i) Each beneficiary shall be eligible to receive a training
+ stipend of Rs. 500 per day while undergoing the Basic
+ and Advanced Training programmes.
+
+ (ii) Training stipend will be credited to the beneficiaries’
+ bank account through DBT mode after training
+ completion and certification by MSDE.
+
+3.3 Toolkit Incentive
+
+ (i) A toolkit incentive of Rs. 15,000 will be provided to
+ the beneficiary after Skill Verification at the start of
+ Basic Training. The incentive shall be disbursed to
+ the beneficiaries through e-RUPI/ e-vouchers which
+ can be utilized at designated centres to procure
+ improved toolkits.
+
+ (ii) A digital guide and short video tutorials will be
+ provided to Vishwakarmas to familiarize and enable
+ them in skillful handling of the modern tools in their
+ trades. The improved toolkits will enable the
+ Vishwakarmas to enhance their quality and
+ production levels resulting in higher productivity and
+ value for their products.
+
+3.4 Credit Support
+
+ To enhance and support the capabilities of traditional artisans
+ and craftspeople, access to affordable credit under this Scheme
+ shall be facilitated. The beneficiary should have undergone
+ Skill Verification and successfully completed Basic Skill
+ training to be eligible to avail first tranche of credit support of
+ upto Rs 1 lakh under the Scheme.
+
+ The aim of this component is to provide the Vishwakarmas with
+ easy access to subsidized institutional credit for enterprise
+ development through the following interventions:
+
+ 3.4.1 Enterprise Development Loan
+
+ (i) Under PM Vishwakarma, financial support will be
+ provided to the targeted beneficiaries in the form of
+ collateral free ‘Enterprise Development Loans’.
+
+ 19
+
+--- PAGE 22 ---
+(ii) The total quantum of loan assistance would be Rs.
+ 3,00,000/- wherein, the beneficiaries can avail the
+ first loan tranche upto Rs. 1,00,000/- and second
+ loan tranche upto Rs 2,00,000/-.
+
+ (iii) The second loan tranche will be available to skilled
+ beneficiaries who maintain a standard loan account
+ and have adopted digital transactions in their
+ business or have undergone Advanced Skill Training.
+ They must have repaid the first loan tranche before
+ availing the second tranche.
+
+ (iv) The loan is required to be repaid in monthly
+ installments; the term of repayment is as indicated in
+ the following table:
+
+ Tranches Amount of Loan Tenure of Repayment
+ (In Rs.) (In months)
+
+ 1st Tranche Upto 1,00,000 18 months
+
+ 2nd Tranche Upto 2,00,000 30 months
+
+3.4.2 Concessional Interest and Subvention
+
+ (i) Concessional rate of interest chargeable for loans
+ from beneficiaries will be fixed at 5%. The interest
+ subvention by the Government of India will be to an
+ extent of 8% and provided upfront to the banks. The
+ interest charged from beneficiaries and subvention
+ by MoMSME is illustrated at Annexure-A.
+
+ (ii) A beneficiary shall be eligible to avail the interest
+ subvention for both first and second tranches of the
+ loan.
+
+ (iii) A Credit Oversight Committee headed by the
+ Secretary, DFS may revise the interest subvention cap
+ of 8% keeping in view the prevailing interest rates.
+
+3.4.3 Credit Guarantee
+ A Graded Guarantee Cover for all loans sanctioned by
+ the Lending Institutions shall be covered by the Credit
+ Guarantee Fund Trust for Micro and Small Enterprises
+
+ 20
+
+--- PAGE 23 ---
+(CGTMSE), which shall be operated on a portfolio basis
+ and the portfolio will be created on an annual basis
+ ending with the financial year, subject to the following
+ conditions:
+
+ (i) Graded Guarantee Cover for first tranche of the
+ loans:
+
+ • First Loss Default (0 to 7.5%): 100% coverage
+ • Second Loss (More than 7.5% and up to 20%):
+ 80% coverage of default portfolio, and
+ • Third Loss (More than 20% and up to 50%):
+ 60% coverage of default portfolio.
+
+ Maximum guarantee coverage will be 50% of the year
+ portfolio for the First tranche of loan.
+
+ (ii) Graded Guarantee Cover for the second tranche of
+ the loan will be as follows:
+
+ • First Loss Default (Up to 5%): 100% coverage
+ and for,
+ • Second Loss (beyond 5% and up to 15%): 80%
+ coverage of default portfolio
+ Maximum guarantee coverage will be 15% of the year
+ portfolio for the Second tranche of loan.
+
+ The details of coverage are given in the following table:
+
+ First Loan Second Loan
+ Portfolio Coverage Portfolio Coverage
+
+First Loss 0 to 7.5% 100% 0 to 5% 100%
+
+Second Loss Above 7.5% 80% Above 5% to 80%
+ to 20% 15%
+
+Third Loss Above 20% 60%
+ to 50%
+
+Maximum
+Guarantee 50% 15%
+Cover
+
+Effective
+Guarantee 35.5% 13%
+Cover
+
+ 21
+
+--- PAGE 24 ---
+3.4.4 Participating Financial Institutions
+
+ Scheduled Commercial Banks, Regional Rural Banks, Small
+ Finance Banks, Cooperative Banks, Non-Banking Finance
+ Companies and Micro Finance Institutions, are eligible to
+ lend under this Scheme. The Lending Institutions will be
+ encouraged to use their network of field functionaries i.e.,
+ Business Correspondents/ Associates to ensure maximum
+ coverage of the Scheme.
+
+ 3.5 Incentives for Digital Transaction
+
+ (i) The Scheme aims to digitally empower the
+ beneficiaries by facilitating them to adopt digital
+ transactions. An amount of Re. 1 per eligible digital
+ transaction (upto a maximum of 100 eligible
+ transaction) monthly will be credited to the
+ beneficiary’s bank account in DBT mode through
+ Aadhaar Payment Bridge System (APBS). Here,
+ eligible transaction means a digital pay-out or receipt
+ in the bank account of the beneficiary.
+
+ (ii) The Scheme envisages to incentivize digital
+ transactions undertaken by the artisans and
+ craftspeople through cashbacks. The online
+ transaction trail so created is expected to enhance the
+ credit score of skilled workers for supporting their
+ future credit needs. This incentive is an attempt to
+ promote a new digital culture among the
+ Vishwakarmas with regard to embracing digital
+ payments ecosystem.
+
+ 3.6 Marketing Support
+
+ Creating market linkages for the Vishwakarmas is a
+ critical step in improving their livelihood and quality of
+ life. The National Committee for Marketing (NCM) shall
+ provide marketing and branding support for the products
+ of the artisans and craftspeople registered under the
+ Scheme. Marketing Support in the form of quality
+ certification, branding, advertising, publicity and other
+ marketing activities would be extended to the
+ beneficiaries to improve their linkage to value chain of
+
+ 22
+
+--- PAGE 25 ---
+MSMEs and established companies. The composition
+ of NCM, will include marketing experts and is given in
+ Annexure-B. The NCM may engage services of
+ professional agencies/entities for market support
+ activities for the beneficiaries.
+
+ The NCM will have a dedicated corpus of funds for
+ carrying out marketing support activities and it will
+ assist the Vishwakarmas in the following:
+
+ a. Quality Certification: The NCM shall ensure that the
+ quality of products being marketed and distributed
+ through its channels is as per the market standards.
+ This will also motivate the Vishwakarmas to improve
+ the quality of their products and services to make them
+ marketable and competitive in domestic as well as
+ international markets. Endeavours will be made for
+ creating a certification system for quality to improve
+ their linkage to domestic and global value chains. The
+ beneficiaries shall be eligible for assistance for Quality
+ Certification which will enhance the quality of their
+ products and services and set standards for
+ competence.
+
+b. Branding & Promotion: The NCM will support in
+ creating a physical and online presence of products
+ and services of the Vishwakarmas. The products are
+ envisaged to be sold under a common brand identity to
+ enhance credibility and market acceptability. It will
+ promote the brand through digital advertising and
+ social media campaigns. It will also support in
+ managing the distribution channels with added
+ operations and logistics support.
+
+c. E-commerce: The NCM will enable cataloguing and
+ on boarding of the products and services of the
+ Vishwakarmas on popular e-commerce platforms like
+ Open Network for Digital Commerce (ONDC)
+ platform and make efforts for e-commerce linkage with
+ GeM, Khadi India, MSME Mart, etc. The beneficiaries
+ will be eligible for receiving assistance regarding
+ on-boarding related expenses on e-commerce
+ platforms.
+
+ 23
+
+--- PAGE 26 ---
+d. Market Linkages: The NCM will encourage
+ collaboration with buyers through integration of
+ Vishwakarmas into the supply chains, creation of
+ backward and forward linkages, packaging and
+ logistics support, etc. Efforts will be made to promote
+ the use of digital marketing for wider reach and
+ publicity of the Scheme to reach beneficiaries in
+ remote areas.
+
+ e. Exporters & Traders: The NCM will facilitate linking
+ the beneficiaries with the suitable exporters and
+ traders operating under this sector. This will be
+ achieved through collaborations with Industry Bodies
+ and Export Promotion Councils.
+
+ f. Trade Fairs: The Scheme will facilitate participation
+ of beneficiaries in trade fairs, exhibitions, etc. by
+ bringing the beneficiaries under the ambit of market
+ access schemes of other ministries. Through
+ inter-ministerial convergence, the Vishwakarmas shall
+ be provided access to opportunities for participation in
+ trade fairs. Vishwakarmas who would like to
+ participate in domestic and international exhibitions
+ will be required to register on the Udyam Registration
+ Portal to avail these benefits under Procurement and
+ Marketing Support Scheme (PMSS) or International
+ Cooperation scheme of MoMSME.
+
+g. Assistance for collective display of PM
+ Vishwakarma Products: NCM may consider
+ providing assistance for collective display of PM
+ Vishwakarma Products to associations/ trusts
+ /societies of the artisan groups registered under any
+ State or Central Governments Act in the selected
+ trades.
+
+ 24
+
+--- PAGE 27 ---
+4. Eligibility
+
+ (i) An artisan or craftsperson working with hands and tools
+ and engaged in one of the family-based traditional trades
+ specified in Para 2.3, in the unorganized sector on
+ self-employment basis, shall be eligible for registration
+ under PM Vishwakarma.
+
+ (ii) The minimum age of the beneficiary should be 18 years
+ on the date of registration.
+
+ (iii) The beneficiary should be engaged in the trades
+ concerned on the date of registration and should not have
+ availed loans under similar credit-based schemes of
+ Central Government or State Government for
+ self-employment/ business development, e.g. PMEGP,
+ PM SVANidhi, Mudra, in the past 5 years. However, the
+ beneficiaries of MUDRA and SVANidhi who have repaid
+ their loan, will be eligible under PM Vishwakarma. This
+ period of 5 years will be calculated from the date of
+ sanction of the loan.
+
+ (iv) The registration and benefits under the Scheme shall be
+ restricted to one member of the family. For availing
+ benefits under the Scheme, a ‘family’ is defined as
+ consisting of the husband, wife and unmarried children.
+ (v) A person in government service and their family members
+ shall not be eligible under the Scheme.
+
+ 25
+
+--- PAGE 28 ---
+™ 5 ; —,
+_ nite’
+i . Fs sory
+r -
+Through PM Vishwakarma, the Central Government will provide
+holistic institutional support to every artisan friend. We will ensure
+that the artisan friends get loans easily; their skills are enhanced
+and they receive all kinds of technical support.
+- Narendra Modi, Hon'ble Prime Minister
+26
+
+--- PAGE 29 ---
+5. Registration Process
+
+ 5.1 Application for enrolment
+
+ 5.1.1 MoMSME in association with CSCs (Common
+ Service Centres) shall enrol the beneficiary families.
+ Further, an Aadhaar authenticated and centralized PM
+ Vishwakarma portal shall act as the facilitator for this
+ exercise along with a PM Vishwakarma mobile app for
+ enabling smooth operations of the Scheme.
+
+ 5.1.2 The Ministry of Labour & Employment
+ (MoLE) maintains the National Database of
+ Unorganized Workers (NDUW) on the e-Shram
+ portal, which is mapped with National Classification of
+ Occupations (NCO). This e-Shram mapped database
+ will be primarily used for identification of potential
+ beneficiaries falling in the trade categories covered
+ under PM Vishwakarma. These artisans and
+ craftspeople families will be identified and encouraged
+ to register under the Scheme.
+
+ 5.1.3 Besides the above, any eligible person, not
+ covered under e-Shram database shall also be eligible
+ to enrol in the Scheme by making an online application
+ through CSCs or online self-application on the PM
+ Vishwakarma Portal.
+
+ 5.1.4 The enrolment of beneficiaries shall be done by
+ seeking applications through CSCs under MeitY at the
+ Gram Panchayat and Urban Local Bodies level as well as
+ by an online application through the portal. This
+ exercise will also help in capturing the details of
+ eligible families of artisans and craftspeople besides
+ collecting relevant details such as bank account and
+ purpose and amount of loan, etc. The eligible
+ beneficiaries are required to get themselves enrolled
+ through nearest CSC in their area. The following is the
+ list of documents or information to be provided by the
+ beneficiaries:
+
+ (i) Required documents or information: The
+ beneficiaries need to produce documents like
+ Aadhaar, mobile number, bank details, ration card
+ for the registration.
+
+ 27
+
+--- PAGE 30 ---
+a. In case of a beneficiary not having a ration card,
+ they would be required to produce Aadhaar
+ cards of all family members. (Para 4 (iv) of the
+ guidelines on Eligibility may be referred to for
+ definition of family).
+ b. If beneficiary does not have bank account, they
+ will be first required to open a bank account for
+ which handholding shall be done by the CSC.
+
+ (ii) Additional documents or information: The
+ beneficiaries may be required to provide
+ additional documents or information as per the
+ requirements prescribed by the MoMSME.
+
+5.1.5 There shall be no fees or charges for enrolment
+under PM Vishwakarma. The entire cost of enrolments
+through the CSC under the Scheme and subsequent
+registration and issue of certificate/ID card shall be borne
+by the Government.
+
+5.1.6 Steps for Registration Process will be as follows:
+
+ (i) The registration shall be done by seeking
+ applications through Common Service Centres
+ (CSCs) as well as open online application through
+ Aadhaar based biometric authenticated PM
+ Vishwakarma portal. The portal will have
+ convergence with various Government portals
+ including Skill India Digital through API. A
+ multi-lingual helpline will be available on the
+ portal to ensure that the information is
+ disseminated to everyone across the country
+ without any language barrier.
+
+ (ii) The beneficiary can apply either on their own or
+ with the help of the CSCs through Village Level
+ Entrepreneurs (VLEs) or Enumerators.
+
+ (iii) Further, the CSCs will also provide handholding
+ support to the beneficiaries to assess their key
+ requirements and choose from the varied benefits
+ available under the Scheme. At the time of
+ application, the beneficiaries will be made aware
+ of the Skill Upgradation component of the
+ Scheme.
+
+ 28
+
+--- PAGE 31 ---
+(iv) The beneficiary shall furnish their Aadhaar-seeded
+ bank account details at the time of application. This
+ shall be considered as their preferred bank account
+ for availing any monetary benefit under any
+ component of PM Vishwakarma.
+
+ (v) At every stage of intervention under this Scheme,
+ Aadhaar authentication would be mandatory.
+ Aadhaar authentication will be done through
+ biometric by CSCs.
+
+ (vi) The portal will also provide link for registration
+ under Udyam Assist Portal which is the registration
+ portal for Informal Micro Enterprises which do not
+ have PAN. The applicants who have PAN and those
+ who wish to be registered on the Udyam
+ Registration Portal for MSMEs will also have an
+ option for the same.
+
+ (vii) The beneficiaries would be encouraged to onboard
+ on GeM Portal. Further, the Scheme would also be
+ advertised on GeM Portal. This will provide
+ encouragement and support to the Vishwakarmas
+ in getting access to market. Through GeM the
+ products will be made available freely for
+ procurement.
+
+ (viii) Submission of application by the beneficiary shall be
+ followed by a three-step verification which, if
+ successful, will lead to registration under PM
+ Vishwakarma.
+
+ 5.1.7 All registrations under PM Vishwakarma will be
+ Aadhaar-based and the authentication will be through
+ biometric. Notification to beneficiaries on disbursement of
+ incentives will be done through SMS.
+
+5.2 Verification
+
+ There will be a three-tier verification and approval process
+ for the registration of beneficiaries:
+
+ 29
+
+--- PAGE 32 ---
+5.2.1 Stage 1: Verification at Gram Panchayat or
+ ULB level
+ The first step of screening for the artisans and
+ craftspeople registered under PM Vishwakarma will
+ be through the head of Gram Panchayat/ Chairman of
+ Village Council or Executive Head/ Administrator of
+ the Urban Local Body. The Head of Panchayat can use
+ services of Gram Sevak/Panchayat Secretary in
+ screening and verifying the details provided by the
+ beneficiaries. The Head of Gram Panchayat will also
+ ascertain that the beneficiary has been traditionally
+ engaged in the trade on self-employment basis. The
+ verification shall include screening of family details
+ mentioned by the beneficiary to ensure that only one
+ eligible person is covered from a family. The same
+ shall be applicable for the Executive Head in ULB.
+ The details collected by VLEs will be certified by the
+ Head of Gram Panchayat in the villages or the
+ Executive Head of ULBs.
+
+5.2.2 Stage 2: Vetting and Recommendation by the
+ District Implementation Committee
+ The registration verified by the Head of Gram
+ Panchayat or the Executive Head will be forwarded
+ online to the District Implementation Committee.
+ The second step of verification will be done by the
+ District Implementation Committee which will ensure
+ proper vetting and recommendation of the
+ applications made by the beneficiaries.
+
+5.2.3 Stage 3: Approval by the Screening Committee
+ The final approval for registration of beneficiaries
+ shall be accorded by the Screening Committee after
+ due diligence and consideration of the
+ recommendation made by the District
+ Implementation Committee. The Screening
+ Committee will be chaired by an officer of the field
+ formation of the Office of DC-MSME and will have
+ members including State Lead Bank Manager,
+ representatives of MSDE, State Departments of
+ MSME/Industry and Panchayat Raj as members in
+ each State/UT to oversee the registration process.
+
+ 30
+
+--- PAGE 33 ---
+Following are the terms of reference of the
+Screening Committee:
+(a) To accord final approval of the beneficiaries for
+ registration under PM Vishwakarma after
+ satisfying itself as to their eligibility.
+
+(b) To ensure that the enrolment and verification
+ process is conducted without undue delays.
+
+(c) To ensure that only eligible beneficiaries in the
+ trades covered under PM Vishwakarma are
+ onboarded.
+
+(d) To take or suggest appropriate remedial
+ measures, if required, for better or more
+ efficient implementation of the Scheme.
+
+ 31
+
+--- PAGE 34 ---
+6. Process Flow for availing benefits
+under the Scheme
+
+ Identification Registration Flow of
+ and Verification through PM Benefits of
+ of the Vishwakarma the Scheme
+ Beneficiaries Portal
+
+The following diagram provides a broad overview of the steps
+ involved
+
+ Figure 1: Process Flow for PM Vishwakarma Scheme
+
+ 32
+
+--- PAGE 35 ---
+6.1 PM Vishwakarma Certificate and ID
+ Card
+
+ After a successful three-step verification, the artisans and
+ craftspeople will formally registered under this Scheme as
+ Vishwakarmas. They will receive a Digital ID, a PM
+ Vishwakarma Digital Certificate and a PM Vishwakarma
+ ID Card. The certificate will enable the applicants’
+ recognition as a Vishwakarma, making them eligible to
+ avail all the benefits under the Scheme.
+
+6.2 Skill Upgradation
+
+ (i) Database of the registered beneficiaries under PM
+ Vishwakarma shall be shared on a real time basis
+ through the PM Vishwakarma Portal with MSDE
+ which shall be responsible for skill verification,
+ training and certification of beneficiaries. MSDE
+ shall ensure provisioning of field level institutional
+ arrangement for upskilling the beneficiaries within
+ the MSDE ecosystem and/or accredited/ affiliated
+ skill training institutions.
+
+ (ii) The training shall be imparted at vocational training
+ centres, established/affiliated to MSDE, training
+ centres of MoRD/NIRD, etc.
+
+ (iii) MSDE would ensure the quality of trainers
+ providing training to beneficiaries under the
+ Scheme.
+
+ (iv) MSDE will design and administer tailor-made
+ Training programmes relevant to skill upgradation
+ and modernization needs of the Vishwakarmas
+ already possessing traditional skill sets and
+ competencies. Further, proficient senior artisans
+ and master craftspeople having high skill level will
+ be involved by MSDE as master trainers. This will
+ strengthen the Guru - Shishya parampara and will
+ encourage and enhance skill dissemination from
+ master craftsmen to multiple beneficiaries in the
+ trades, in a quality assured manner.
+
+ 33
+
+--- PAGE 36 ---
+(v) MSDE will facilitate the organization of training at
+ the nearest possible place from the beneficiaries’
+ location so that organizing training is feasible and
+ convenient for both beneficiaries’ and Training
+ Institutions. This will be ordinarily carried out at a
+ district level. However, for certain low population
+ trades, centres may be set up in neighbouring
+ districts or industrial clusters. Mobilization for Basic
+ and Advanced Training will be done by States/DIC.
+
+ (vi) After, skill verification at training centres, the
+ beneficiary will become eligible for toolkit incentive
+ which will be immediately followed by basic training
+ at the same centres. Further, the beneficiary will
+ also become eligible for training stipend, which will
+ be paid after the completion of 5-7 days basic skill
+ training. A beneficiary shall be eligible for availing
+ Advanced Skill Training only after successful
+ completion of Basic Skill Training. The training
+ stipend shall be credited by MSDE into the Aadhaar
+ linked bank account of the beneficiary through DBT
+ mode.
+
+ (vii) A Skill Upgradation Committee led by MSDE, with
+ members from MoMSME along with experts and
+ lead practitioners drawn from different trades will
+ monitor the quality of skill training.
+
+6.3 Toolkit Incentive
+
+ The beneficiaries who have successfully undergone skill
+ verification under the ‘Skill Upgradation’ component of
+ the Scheme, will be eligible for toolkit incentive of Rs.
+ 15,000 through e-RUPI/e-vouchers for purchase, from
+ designated centres, of improved tools suitable for the
+ occupation practiced by the Vishwakarma.
+
+6.4 Credit Support
+ 6.4.1 Enterprise Development Loan
+
+ (i) The preferred Bank/ Financial Institution of the
+ beneficiary will sanction and disburse the
+ ‘Enterprise Development Loans’ to the beneficiaries
+
+ 34
+
+--- PAGE 37 ---
+on the PM Vishwakarma portal upon receiving
+ applications.
+
+ (ii) No collateral shall be required to avail the loan
+ from a Lending Institution/ Bank under the PM
+ Vishwakarma Scheme.
+
+ (iii) PAN requirements for the credit facilities shall be
+ as per the banking norms.
+
+ (iv) Credit information report will be required for
+ those who have a credit history, for availing
+ benefits under the credit component, so as to
+ exclude any defaulter from again availing credit
+ under the Scheme.
+
+ (v) In case of a beneficiary not having a credit
+ history, the Banks or Financial Institutions shall
+ not exclude them from availing credit and they
+ shall also not insist upon Credit Information
+ Report.
+
+ (vi) No prepayment penalty shall be charged from
+ artisans and craftspeople after 6 months of loan
+ disbursement.
+
+(vii) The disbursal of credit under the Scheme will be
+ linked with attainment of specific milestones of
+ training. The beneficiaries will be eligible for
+ first Loan Tranche on completion of 5 days Basic
+ Skill Training provided by MSDE under PM
+ Vishwakarma. The second Loan Tranche will be
+ available to skilled beneficiaries who maintain a
+ standard loan account and have adopted digital
+ transactions in their business or have taken
+ Advanced Skill Training.
+
+(viii) The beneficiary will be eligible for second
+ tranche loan when first tranche loan is fully
+ repaid. Further, the second loan shall not be
+ granted before six months of the disbursement of
+ first tranche loan.
+
+ 35
+
+--- PAGE 38 ---
+6.4.2 Concessional Interest and Subvention
+
+ (i) The beneficiaries will be charged effective interest at a
+ fixed rate of 5%. The benefit of entire interest
+ subvention of upto 8% shall be passed on upfront to
+ the beneficiaries by MoMSME through banks.
+
+ (ii) The Credit Oversight Committee under the
+ chairmanship of Secretary, DFS may revise the
+ subvention cap of 8% keeping in view the prevailing
+ interest rates.
+
+ (iii) Advance release of interest subvention to the banks
+ will be done by MoMSME through an escrow account
+ or placement of advance funds with the participating
+ banks or any other suitable mechanism in consultation
+ with the DFS. For effective monitoring of interest
+ subvention and ensuring that reimbursement is paid
+ only for Standard Accounts, the bank will maintain
+ interest data in Customer Induced Format rather than
+ System Induced Format.
+
+ (iv) The lenders will be required to submit monthly
+ returns for interest subvention for each financial year.
+ Subvention will only be provided in respect of those
+ accounts of borrowers, which are Standard (non-NPA
+ as per extant RBI guidelines) on respective claim
+ dates and only for those months during which the
+ account has remained Standard.
+
+ (v) Banks are required to submit quarterly audited
+ reconciliation certificate to the SIDBI/ Agency
+ maintaining escrow account for interest subvention
+ claims.
+
+6.4.3 Credit Guarantee
+
+ (i) At the time of sanction and disbursal of loans, the
+ banks will upload the data on the PM Vishwakarma
+ portal. From the portal, CGTMSE shall be able to
+ capture the data through API and issue the
+ guarantees. The claims against the guarantee shall be
+ lodged by the banks on CGTMSE portal. Once the
+ payment is made by CGTMSE, the details will be
+ updated on the PM Vishwakarma portal. CGTMSE
+
+ 36
+
+--- PAGE 39 ---
+shall be required to share a status report with the
+ MoMSME on a monthly basis.
+
+ (ii) The periodicity of filing of claims by Lending
+ Institutions shall be quarterly. All the
+ participating Lending Institutions shall be
+ eligible to avail this guarantee cover without any
+ charges.
+
+ (iii) CGTMSE shall be reimbursed for the cost of
+ Annual Guarantee Fee for the loans sanctioned to
+ beneficiaries under PM Vishwakarma.
+
+6.5 Incentive for Digital transactions
+
+ (i) The beneficiaries shall be provided incentives for
+ promoting digital transactions through UPI. The
+ business UPI IDs of the Vishwakarmas shall be captured
+ in the portal at the time of registration.
+(ii) For those beneficiaries not having access to QR code and
+ no UPI ID, they will be provided QR Codes and UPI ID
+ free of cost through Digital Payment Aggregators (DPA)
+ e.g. Paytm, Bharat Pe, Phone Pe, etc. The DPAs shall be
+ suitably incentivized through PIDF Scheme of RBI or
+ through MoMSME as per incentives being provided
+ under PM SVANidhi or as decided by MoMSME
+
+(iii) Efforts to integrate with different platforms of recognized
+ Digital Payments Platforms, including NPCI (for BHIM),
+ Unified Payments Interface (UPI), RuPay Debit Cards,
+ developed by National Payments Corporation of India
+ (NPCI), BHIM Aadhaar Pay, Bharat Bill Payment System,
+ etc. shall be made.
+
+(iv) The UPI IDs shall be shared with NPCI and digital
+ transaction partners for data on the number of
+ transactions for calculation of incentive amount. SIDBI
+ will generate the payment file as per data received from
+ NPCI and send it further for payment to beneficiary.
+ MoMSME shall make the payment.
+
+ (v) The mobile number and UPI ID both shall be taken as
+ identifier for data on the number of transactions for
+ calculation of incentive amount. The bank account
+ through which digital transactions are made may also be
+ taken for calculation of incentive in this regard.
+
+ 37
+
+--- PAGE 40 ---
+(vi) The incentive amount shall be transferred to the
+ beneficiaries’ Aadhaar linked bank account through DBT.
+
+6.6 Marketing Support
+
+ (i) The NCM shall facilitate Marketing Support to the
+ beneficiaries based on the support area selected by
+ the beneficiary on the PM Vishwakarma portal in
+ the following aspects:
+ a. Create physical and online presence for the
+ products and services of the Vishwakarmas
+
+ b. List products on e-commerce portals
+ c. Brand building
+ d. Connect Vishwakarmas to exporters and
+ traders
+ e. Ensure participation of Vishwakarmas in trade
+ fairs and exhibition
+ f. Provide support for ensuring quality of
+ products
+ g. Packaging support and other common use
+ facilities
+ h. Design and development support
+ i. Providing support for identifying Government
+ infrastructure which can be used as retail
+ space for display of products
+
+ (ii) NCM shall reimburse the cost to the beneficiaries in
+ the following areas:
+ a. Onboarding on e-commerce platforms
+ b. Quality certifications
+ c. Participation in trade fair
+
+ (iii) The NCM shall also support in the formation of
+ Artisan Producer Organizations (APOs) and help
+ them in availing retail infrastructure in
+ Government buildings or in reimbursement of
+ rental costs incurred by APOs on select basis.
+ (iv) In this backdrop, a Committee for Standardization
+ and Quality Control shall also be constituted for
+ ensuring standardization and quality control of the
+ products and services.
+
+ 38
+
+--- PAGE 41 ---
+7. Financial Provisions
+
+ The initial budgetary outlay under the Scheme will be Rs 13000 crore. The details of the
+various components of the Scheme along with the proposed funding pattern and the mode
+ of fund flow is detailed in the table below.
+
+ Proposal
+ Component Scheme Element Fund Flow
+ Funding Pattern
+
+ Component 1 Skill Upgradation 100% funding by Funds will be released by
+ MoMSME • Skill Verification MoMSME to the agency
+ • Basic Training designated by MSDE for
+ • Advanced Training further expenditure or
+ • Stipend disbursement
+
+ Component 2 Toolkit Incentive 100% funding by Toolkit Incentive
+ MoMSME e-vouchers will be
+ provided by MoMSME
+
+ • For Guarantee Access to Affordable Funds will be released Component 3
+ Coverage of ‘Enterprise Credit by CGTMSE to MLIs
+ Development Loans’, based on claims arising
+ 100% coverage by from beneficiaries
+ CGTMSE from the
+ funds already disbursed
+ to CGTMSE under Funds for subvention
+ existing schemes of will be released by
+ MoMSME MoMSME directly to
+ the lending bank
+ • 100% funding by
+ MoMSME for the
+ interest subvention
+ and reimbursement
+ of Annual Guarantee
+ Fees
+
+ Component 4 Marketing Support 100% funding by Funds will be released
+ MoMSME to the agency
+ designated by the
+ National Committee for
+ Marketing (NCM)
+
+ Component 5 Incentive for Digital 100% funding by Funds will be released
+ transactions MoMSME by MoMSME
+
+ 39
+
+--- PAGE 42 ---
+™ 5 ; —,
+ae
+i . Fs sory
+6 a
+The objective of this scheme is not only to preserve the rich tradition of
+these artisans and craftsmen, but also to develop it more.
+- Narendra Modi, Hon'ble Prime Minister
+40
+
+--- PAGE 43 ---
+8. Implementation Framework
+
+ A three-tier Implementation Framework at the National, State
+ and District levels, i.e. the National Steering Committee, State
+ Monitoring Committee and District Implementation
+ Committee, respectively has been set up for implementation of
+ PM Vishwakarma. The operational guidelines of the Scheme,
+ containing the process flow from registration to disbursal of
+ benefits along with the templates, will be formulated by the
+ National Steering Committee and approved by MoMSME. An
+ online monitoring system or dashboard shall be put in place for
+ real time monitoring
+
+ 8.1 National Steering Committee (NSC)
+
+ The National Steering Committee (NSC) shall be the Apex
+ Committee constituted by the MoMSME. The NSC will be
+ empowered to take all major policy and strategy decisions
+ with respect to the implementation of the Scheme and
+ approve any modifications required in the Scheme, like
+ inclusion of further categories of trades. The committee
+ meeting will be convened at least twice a year for a
+ Scheme-level review, course corrections or to discuss any
+ other agenda as deemed important in the opinion of the
+ committee, as per the requirement. The composition of
+ National Steering Committee is detailed in Annexure-C.
+ The NSC will have the following terms of reference:
+
+ (i) Ensuring effective roll-out of PM Vishwakarma
+ across India.
+ (ii) Apex decision making body related to any aspect
+ concerning the Scheme.
+ (iii) Undertaking measures, as deemed appropriate,
+ and ensure delivery of Scheme benefits to the
+ eligible beneficiaries.
+ (iv) Approving any modifications required in the
+ Scheme including addition or deletion of trades.
+ (v) Engaging with stakeholders including civil
+ organisations, associations, forums etc. for
+ getting feedback about the Scheme.
+ (vi) Modifying the Scheme design, coverage, delivery
+ mechanism etc. within the overall mandate of the
+ Scheme.
+
+ 41
+
+--- PAGE 44 ---
+8.2 State Monitoring Committee (SMC)
+
+ The State Monitoring Committee (SMC) shall be
+ responsible for the operational implementation and
+ monitoring of the Scheme at the state level, it will also act as
+ a bridge between the NSC and the field level setup. The
+ SMC shall ensure the following:
+
+ (i) Co-ordination in roll out of the PM
+ Vishwakarma.
+ (ii) Active participation of stakeholder departments
+ and agencies of the State Governments
+ facilitating implementation of the Scheme.
+
+ (iii) To facilitate agencies of MSDE in providing Skill
+ Training to the beneficiaries.
+
+ (iv) To ensure coordination among banks and
+ financial institutions for smooth provisioning of
+ credit support to the beneficiaries.
+
+ (v) To facilitate IT-ITeS related support in
+ implementing the Scheme.
+
+ (vi) To create awareness about the Scheme at the
+ Gram Panchayat and Urban Local Body level in
+ the state.
+ (vii) To monitor the Scheme implementation and
+ share suggestions or feedback, if any, with the
+ National Steering Committee.
+
+ The Committee shall be convened once in every quarter or
+ as per the requirement to discuss all the operational and
+ ground-level implementation matters under the Scheme.
+ The composition of the State Monitoring Committee is
+ detailed in Annexure-D.
+
+8.3 District Implementation Committee
+
+ The District Implementation Committee shall be
+ responsible for the actual roll–out and implementation of
+ the Scheme at the field level and will coordinate with State
+ Government and other committees. The following are the
+ indicative terms of references of the District
+ Implementation Committee:
+
+ 42
+
+--- PAGE 45 ---
+(i) To ensure that enrolments of the beneficiaries
+ are seamlessly done by the CSCs in the Gram
+ Panchayats and Urban Local Bodies of the
+ district.
+ (ii) To ensure that verification of the enrolled
+ beneficiaries by Head of Gram Panchayats and
+ Executive Heads of Urban Local Bodies is done
+ in a smooth manner.
+ (iii) To ensure adequate awareness about the Scheme
+ in all Gram Panchayats and Urban Local Bodies.
+ It may put in place a suitable mechanism for the
+ purpose of ensuring that all eligible beneficiaries
+ are onboarded under the Scheme.
+
+ (iv) To conduct the Stage II verification of the
+ beneficiaries after Stage I verification from
+ Gram Panchayats and Urban Local Bodies.
+ (v) To ensure that all registered beneficiaries get
+ access to PM Vishwakarma Certificate and ID
+ Cards.
+ (vi) To ensure that registered beneficiaries get
+ access to:
+ a. 5 days Basic Skill Training
+ b. Credit Support under the Scheme
+ c. Incentives for Digital Transaction
+ d. Marketing Support
+ (vi) The District Implementation Committee may
+ adopt suitable mechanism for ensuring that the
+ beneficiaries get seamless access to benefits
+ under the Scheme. The Committee may co-opt
+ two-three leading practitioners or domain
+ experts on honorary basis, with prior approval of
+ the National Steering Committee.
+(vii) To ensure coordination with agencies of MSDE
+ for skill training and Tool kit distribution.
+(viii) To ensure coordination with Banks and NBFCs,
+ etc. to facilitate credit support for the
+ beneficiaries.
+ (ix) To ensure that all suitable institutional
+ mechanism is put in place so that beneficiaries
+ can avail benefits that they are entitled to.
+
+ 43
+
+--- PAGE 46 ---
+(x) Take appropriate action on grievances of
+ beneficiaries related to the Scheme and share
+ feedback.
+
+ The Development and Facilitation Officers (DFOs) of
+ MoMSME shall work in close coordination with the
+ District Implementation Committee. The composition
+ of District Implementation Committee is detailed in
+ Annexure-E.
+
+ The Scheme will be implemented at the district level by
+ field level Implementing Agencies (IAs) through the
+ District Implementation Committee, under the
+ recommendation of the National Steering Committee
+ and the State Monitoring Committee. In view of the
+ number of beneficiaries to be covered under the PM
+ Vishwakarma Scheme, multiple IAs will be engaged for
+ the roll out. The details of IAs at the Central level and
+ State level are given at Annexure-F.
+
+8.4 Credit Oversight Committee
+
+ The Credit Oversight Committee will be chaired by
+ Secretary (DFS) with Secretary (MoMSME) and
+ representative of Secretary (Expenditure), RBI, SIDBI and
+ CGTMSE as members. The Committee shall monitor
+ assured credit flow to the beneficiaries and ensure that the
+ credit is disbursed properly. The Credit Oversight
+ Committee shall be empowered to review and revise the
+ interest subvention cap under this Scheme keeping in view
+ the prevailing interest rates.
+
+8.5 Roles and Responsibilities
+
+ Given the unique features of this Scheme, MSDE and DFS
+ shall be the co-executors of the Scheme along with
+ MoMSME. MSDE, DFS and MoMSME shall work in close
+ coordination for the successful implementation of the
+ Scheme, from identification of the beneficiaries to the
+ disbursal of funds, loans and marketing support. The roles
+ and responsibilities of various stakeholders are given
+ below:
+
+ 44
+
+--- PAGE 47 ---
+Implementing Agency/ Roles and ResponsibilitiesSNo.
+ Implementing Partner
+ (Ministry/Department/
+ Entity)
+
+ 1. MoMSME • Development of the Scheme portal
+ in collaboration with SIDBI and
+ MeitY.
+ • Coordination with Central
+ Ministries and Departments, State
+ Governments, Field level
+ Implementing Agencies and
+ CGTMSE.
+
+ • Registration of the beneficiaries and
+ linking them with Scheme
+ components.
+ • Scheme outreach.
+
+ • Fund disbursement to the
+ Implementing Agency.
+ • Monitoring & Evaluation of the
+ Scheme.
+
+ • Providing all components of Skill 2. MSDE
+ verification, Basic and Advanced
+ training along with Stipend, training
+ infrastructure and setup of MSDE
+ for the PM Vishwakarma Scheme.
+ • Development of customized
+ training programmes for trades
+ identified under the Scheme for
+ upgrading the skill-sets of the
+ Vishwakarmas.
+
+ • Ensuring delivery of skill training
+ programmes through their training
+ institutions.
+
+ • Preparing inputs, training videos
+ including on toolkits and booklets/
+ manuals for training programmes
+ and arranging training centres,
+ trainers, content and curriculum,
+ etc.
+ • Coordination with the assessment
+ agencies for conducting
+ assessment of beneficiaries and
+ certification.
+
+ • The credit components will be
+ 3. DFS implemented by MLIs under the
+ supervison of DFS.
+ • Instructions to SLBC and LDM
+ for implementation of the Scheme
+ will also be issued by DFS.
+
+ 45
+
+--- PAGE 48 ---
+• Assistance in identifying the 4. Field level agencies
+ prospective beneficiaries. of Central
+ Government • Handholding the beneficiaries to
+ register on the PM Vishwakarma
+ portal.
+
+ 5. State Government • Scheme outreach at grassroot
+ Departments: level and identification of the
+ Industries/MSME/ beneficiaries.
+ Cottage, Finance • Support in on-ground monitoring
+ Dept., Urban of Scheme performance through
+ Development, Rural monitoring visits.
+ Development, Skill
+ Development, etc. • Participation in State Monitoring
+ Committee to evaluate proposals,
+ monitor performance in the State,
+ etc.
+
+ • Mobilisation of Beneficiaries for
+ Basic & Advanced Training.
+
+6. State Government • Identifying and verifying
+ field offices prospective beneficiaries for
+ registering on the PM
+ Vishwakarma portal.
+
+ • Mobilisation of beneficiaries for
+ Basic & Advanced Training.
+
+7. Financial Institutions • Ensuring timely disbursement of
+ - All Public and collateral free credit.
+ Private Sector Banks • Streamlining and simplifying the
+ etc. process for smooth credit
+ disbursement at grassroots level.
+ • Continuous reporting of loan
+ portfolio of the Scheme
+ beneficiaries.
+
+ 8. CGTMSE • Implementing agency for credit
+ guarantee.
+
+ • Coordination with Financial
+ Institutions.
+ • Continuous monitoring of loan
+ portfolio of Scheme beneficiaries.
+
+ • Redressing the grievances of
+ beneficiaries & issues related to
+ the Credit Guarantee.
+
+ 46
+
+--- PAGE 49 ---
+• PMUs shall be set up at both the 9. Programme
+ National and the State level for Management Unit
+ smooth implementation of the (PMU)
+ Scheme.
+
+ • National PMU shall consist of
+ one Senior Consultant and eight
+ consultants for assisting
+ MoMSME in coordination with
+ State Governments, monitoring
+ the milestone wise progress,
+ furnishing the output-outcome
+ indicators, managing the MIS,
+ etc.
+
+ • State level PMU shall consist of
+ one Senior Consultant and three
+ Consultants in every State for
+ assisting the State Government on
+ implementation of the Scheme
+ through coordination with district
+ level IAs, monitoring the
+ progress, furnishing information
+ on target & achievements to
+ MoMSME, etc.
+
+ • Scheme outreach at grassroots
+10. MSME Associations level and identification of target
+ beneficiaries.
+
+ • Handholding and linking
+ beneficiaries with IAs for availing
+ the facilities.
+
+ • Ensuring formalization of artisans
+ and craftspeople having
+ established enterprises through
+ linkages with Udyam Registration
+ Portal.
+
+ 47
+
+--- PAGE 50 ---
+9. Coordination with Ministries
+
+ The implementation of the Scheme will be done in
+ coordination with Ministry of Electronics and Information
+ Technology, Ministry of Labour & Employment, Ministry of
+ Panchayati Raj, Ministry of Consumer Affairs, Food and
+ Public Distribution, Ministry of Housing and Urban Affairs,
+ Ministry of Information and Broadcasting, Department for
+ Promotion of Industry and Internal Trade, Department of
+ Posts, Ministry of Tourism, and others.
+
+ 9.1 Coordination with Common Service
+ Centres (CSCs) and NIC, Ministry of
+ Electronics and Information Technology
+
+ The support will be provided for the following:
+
+ (i) Identification of the beneficiaries.
+ (ii) Handholding and Registration of the
+ beneficiaries.
+ (iii) Awareness about the Scheme.
+
+ 9.2 Coordination with Ministry of Labour &
+ Employment
+ Access to database of e-Shram for identification of
+ beneficiaries to avail benefits under the PM Vishwakarma
+ Scheme has been given by the Ministry of Labour &
+ Employment.
+
+ 9.3 Coordination with Ministry of
+ Panchayati Raj
+ The Gram Panchayat details shall be provided by the
+ Ministry of Panchayati Raj which shall also provide
+ necessary support for the identification and verification of
+ the families of artisans and craftspeople for PM
+ Vishwakarma. Awareness building about the Scheme
+ through PRIs will also be undertaken by the Ministry.
+
+ 48
+
+--- PAGE 51 ---
+9.4 Coordination with Ministry of Housing
+ and Urban Affairs
+ The details of the Executive Heads of Urban Local Bodies
+ shall be provided by the Ministry of Urban Affairs which
+ shall also provide support for the identification and
+ verification of the families of the artisans and craftspeople
+ for registration under the Scheme.
+
+9.5 Coordination with Ministry of
+ Consumer Affairs, Food & Public
+ Distribution
+
+ The Ration Card details of the family of artisans and
+ craftspeople shall be accessed through the database of
+ Department of Food and Public Distribution for the
+ identification and verification of families under the
+ Scheme. Appropriate support for enlisting and operating
+ credible supply channels/agencies for modern toolkits
+ under the Scheme and market outlets to Vishwakarmas,
+ will be facilitated by Department of Consumer Affairs.
+
+9.6 Coordination with Ministry of
+ Information and Broadcasting
+
+ The Ministry shall provide necessary support in spreading
+ nation-wide information and awareness about the Scheme
+ to the target beneficiaries. The Ministry will guide the
+ preparation of media strategy and the media action plan in
+ this regard.
+
+9.7 Coordination with Ministry of Rural
+ Development
+
+ The Ministry shall provide necessary support through its
+ infrastructure at the district level for conducting skill
+ upgradation programmes. It shall also support creation of
+ digital knowledge resources and training experts through
+ NIRD, Hyderabad. State Institute of Rural Development
+ will also be engaged.
+
+ 49
+
+--- PAGE 52 ---
+9.8 Coordination with Department for
+ Promotion of Industry and Internal
+ Trade, Ministry of Commerce and
+ Industries
+
+ The Department for Promotion of Industry and Internal
+ Trade (DPIIT) will support the processes related to quality
+ certification and marketing support by onboarding the
+ digital marketplace, through its agencies QCI, GeM and
+ ONDC respectively. They will also provide the venue and
+ necessary support for the launch of the Scheme.
+
+ 9.9 Coordination with Department of
+ Posts, Ministry of Communications
+ The Department of Posts will support the delivery of PM
+ Vishwakarma Certificate and ID Cards to the beneficiaries
+ in a befitting manner. They will also issue a stamp to
+ honour the Vishwakarmas and mark the formal launch of
+ the Scheme.
+
+9.10 Coordination with Ministry of
+ Tourism
+
+ The Ministry will provide support for the PM Vishwakarma
+ Scheme with its network of offices and set-up, wherein the
+ products of the artisans can be encouraged as gifts and
+ mementos. They will also support and assist in the launch
+ of the Scheme.
+
+9.11 Coordination with Ministry of
+ Cooperation
+
+ The Ministry shall provide support in spreading
+ information about the Scheme through its network of
+ cooperatives.
+
+9.12 Coordination with Ministry of
+ Agriculture
+
+ Agriculture Ministry will provide support for the Scheme
+ by spreading information about the Scheme. It will also
+ provide infrastructure/structural support at village level
+ for the Scheme.
+
+ 50
+
+--- PAGE 53 ---
+10. Review and Monitoring
+
+ Monitoring of the implementation of the Scheme shall be
+ conducted on a regular basis through the National Steering
+ Committee and the State Monitoring Committee to
+ determine the progress under various components of the
+ Scheme. This shall be supported by a dedicated Programme
+ Management Unit (PMU) which shall be responsible for
+ monitoring the performance of IAs and the overall Scheme
+ implementation. An Online Monitoring System (OMS) shall
+ also be developed for approvals and monitoring of the
+ physical and financial progress of the Scheme. Some of the
+ key areas of monitoring shall be as follows:
+
+ (i) Achievement of milestones against timelines,
+ (ii) Utilization of funds as per the activities or amount as
+ indicated against the components,
+
+ (iii) Expenditure pattern as per the sequence of activities,
+
+ (iv) Output and outcome as per the defined indicators,
+
+ (v) Performance appraisal of IAs, and
+
+ (vi) Any other activity incidental to the above.
+
+ The PM Vishwakarma portal shall also have the facility to
+ gather the beneficiary feedback and query resolution
+ mechanism to monitor the performance of the Scheme. A
+ helpline number shall also be setup at the central level to
+ support the beneficiaries in availing various incentives under
+ the Scheme.
+
+ Evaluation of the Scheme: It is envisaged to take-up third
+ party mid-term evaluation of the Scheme to determine the
+ gaps and take mid-course corrective measures. Impact
+ assessment studies shall also be undertaken at end of the
+ Scheme both at the IA-level and the Scheme level to validate
+ the outcomes achieved.
+
+ These Guidelines will be reviewed, revised and updated from
+ time to time by the National Steering Committee with the
+ approval of the Union Minister of MSME.
+
+ 51
+
+--- PAGE 54 ---
+™ 5 ; —,
+_ nite’
+i . Fs sory
+r -
+This is the class that has been preserving its craft for centuries by
+using traditional methods. This is the class, which is making a mark
+with its extraordinary skills and unique creations. These are
+symbols of the true spirit of self-reliant India. Our government
+considers such people, such classes as Vishwakarma of New India.
+- Narendra Modi, Hon'ble Prime Minister
+a2
+
+--- PAGE 55 ---
+Annexures Annexure-A
+
+ Illustrations on calculation of interest subvention on loans
+ Loan Amount Sanctioned: Rs. 1,00,000
+ Loan Amount Outstanding: Rs. 1,00,000
+ Gross interest charged: 13%
+ Amount in Rs.
+
+ Months in one Quarter
+ Particulars
+ Month 1 Month 2 Month 3
+
+Loan Amount Outstanding at
+ 1,00,000 95,000 90,000the beginning of the month [A]
+
+Installment Amount 5,000 5,000 5,000
+
+Applicable RoI @5% [A X 5%
+ 417 396 375X 1/12]
+
+Monthly interest payable by
+beneficiary to the Bank [B] 417 396 375
+
+ Calculation of Interest Subvention
+
+ Particulars Month 1 Month 2 Month 3
+
+Status of account Regular/ Regular/ Regular/
+ Standard Standard Standard
+
+Amount of interest subvention
+
+Amount of interest subvention (1,00,000 X (95,000 X (90,000 X
+@8% [A X 8% X 1/12] 8%)/12=667 8%)/12=633 8%)/12=600
+
+Monthly subvention amount 667 633 600
+payable by MoMSME to banks
+[C]
+
+Total Interest Earning by Bank 1084 1029 975
+[B+C]
+
+ 53
+
+--- PAGE 56 ---
+Annexure-B
+
+ National Committee for Marketing
+
+1. AS & DC MSME as Chairperson
+
+2. Representative of DPIIT
+
+3. Representatives of ONDC/QCI
+
+4. Representative of M/o Textiles
+
+5. CEO, KVIC as Member Secretary
+
+6. Three Experts in the field of marketing from the Government/Public
+ Institute of eminence like IIM/IRMA/MDI
+
+ 54
+
+--- PAGE 57 ---
+Annexure-C
+
+ Composition of National Steering Committee
+
+ 1. Secretary, Ministry of MSME
+
+ 2. Secretary, Department of Financial Services, Ministry
+ Co-Chairs of Finance
+
+ 3. Secretary, Ministry of Skill Development &
+ Entrepreneurship
+
+ 4. Representative of Niti Aayog Member
+
+ 5. Representative from Ministry of Skill Development
+ -do- & Entrepreneurship
+
+ 6. Representative from Ministry of Electronics and -do-
+ Information Technology
+
+ 7. Representative from Ministry of Panchayati Raj -do-
+
+ 8. Representative from Ministry of Rural Development -do-
+
+ 9. Representative from Ministry of Housing & Urban -do- Affairs
+
+10. Two leading experts/practitioners may be nominated
+ -do- by the Chairperson
+
+11. Additional Secretary & Development Commissioner, Member
+ Ministry of MSME Convener
+
+ 55
+
+--- PAGE 58 ---
+Annexure-D
+
+ Composition of State Monitoring Committee
+
+1. Principal Secretary/ Secretary(MSME/Industries/ Chairman/State
+ Cottage Industries) Nodal Officer
+
+ Member2. Director (MSME/Industries/ Cottage Industries)
+ Convener
+
+3. Secretary/Director (Panchayati Raj/Rural Member
+ Development)
+
+4. Secretary/Director (Urban Development) -do-
+
+5. Secretary/Director (IT) -do-
+
+6. Representative of Department of Skill, State -do-
+ Government
+
+7. State DFO Director/ In-charge of MoMSME -do-
+
+8. State Lead Bank -do-
+
+ 56
+
+--- PAGE 59 ---
+Annexure-E
+
+ Composition of District Implementation Committee
+
+1. Deputy Commissioner/District Collector/District
+ Magistrate Chairman
+
+ Member2. GM/In-Charge of DIC
+ Convener
+
+3. DFO of MoMSME or Representative Member
+
+4. Nominee of MSDE at District Level -do-
+
+5. Lead District Manager -do-
+
+6. Three domain Experts or Practitioners to be Members
+ nominated by the National Steering Committee
+
+ 57
+
+--- PAGE 60 ---
+Annexure-F
+(A). LIST OF IMPLEMENTING AGENCIES
+ Central Government:
+ 1. Ministry of MSME
+ i). Office of DC(MSME) through Development and Facilitation Offices (DFOs)
+ ii). KVIC
+ iii). Coir Board
+
+ 2. Ministry of Skill Development & Entrepreneurship
+ 3. Department of Financial Services
+ 4. Ministry of Rural Development & Panchayati Raj
+
+ 5. DPIIT: ONDC and QCI
+
+ State Government:
+ 1. Department of /MSME/Industries/Cottage Industries through DICs
+ 2. Department of Panchayati Raj
+
+ 3. Department of Skill Development
+
+ 4. KVIBs
+
+ 5. Any other entity of State Governments that is recommended for addition by
+ the respective State Government
+
+ Financial Institutions:
+ 1. All Public and Private Sector Banks
+ 2. SIDBI
+
+ 3. CGTMSE
+
+ 4. Micro Finance Institutions (MFIs)
+
+(B). LIST OF IMPLEMENTING PARTNERS
+
+ Central Government:
+ 1. Department of Financial Services, Ministry of Finance
+ 2. Ministry of Electronics and Information and Technology
+ 3. Department of Commerce (GeM)
+
+ State Government:
+ 1. Department of Finance
+ 2. Department of IT through Common Service Centres (CSCs)
+
+* Further agencies may be included from time to time as per the requirement.
+
+ 58
+
+--- PAGE 61 ---
+™ 5 ; —,
+_ nite’
+i . Fs sory
+r -
+Our aim is to turn today's artisans into big entrepreneurs of
+tomorrow. For this, sustainability in their sub-business model is
+essential. Keeping this in mind, we are also working on improving
+the products they make with attractive designing, packaging and
+branding.
+- Narendra Modi, Hon'ble Prime Minister
+39
+
+--- PAGE 62 ---
+[BLANK PAGE]
+
+--- PAGE 63 ---
+Contact Details:
+
+AS&DC( MSME) is the Nodal Officer for PM VISHWAKARMA and may be contacted on
+ Email: dcmsme @nic.in | Tel:011-23061176
+
+--- PAGE 64 ---
+GOVERNMENTGOVERNMENT OFOF INDIAINDIA
+MINISTRYMINISTRY OFOF MICRO,MICRO, SMALLSMALL ANDAND MEDIUMMEDIUM ENTERPRISESENTERPRISES

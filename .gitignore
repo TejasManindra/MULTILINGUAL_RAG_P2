@@ -1,13 +1,30 @@
-@"
-.venv/
-__pycache__/
-*.pyc
+﻿# Secrets
 .env
 .env.*
 !.env.example
-.vscode/
-data/raw/
-data/processed/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Local models and generated vector indexes
+models/
+model/
+data/vector_db/
+qdrant/
+*.safetensors
+*.gguf
+
+# Generated logs and temporary files
 *.log
+*.tmp
+.DS_Store
+.vscode/
 
-
+# Keep project source data and processed datasets versioned
+# Do not ignore data/raw or data/processed

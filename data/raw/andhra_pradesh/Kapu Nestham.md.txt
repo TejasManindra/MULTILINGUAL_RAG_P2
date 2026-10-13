@@ -1,0 +1,373 @@
+Scheme Status: HISTORICAL_CURRENT_CONTINUATION_UNCONFIRMED
+
+Kapu Nestham
+
+## 1. Scheme Name
+
+**Kapu Nestham / YSR Kapu Nestham**
+
+## 2. Scheme Status
+
+**CURRENT_STATUS:** ACTIVE_CURRENT*
+**SOURCE_VERIFICATION_STATUS:** VERIFIED_SCHEME_RULES_WITH_CURRENT-CONTINUATION_CAVEAT
+
+*The scheme remains listed on current Government of Andhra Pradesh district BC Corporation pages and the National Government Services Portal, which was reviewed/updated in July 2026. However, I did not find a current 2026-27 Government Order confirming a new payment cycle or revised rules. Therefore, the historical scheme rules should not be treated as proof of a fresh 2026 payment without current-cycle confirmation. ([Kakinada District][1])
+
+---
+
+## 3. Objective
+
+The objective of Kapu Nestham is to **financially empower women belonging to Kapu, Balija, Telaga and Ontari communities** by providing livelihood-oriented financial assistance and improving their living standards.
+
+The scheme was established under **G.O.Ms.No.4, BC Welfare (C) Department, dated 28-01-2020**. ([Kakinada District][1])
+
+---
+
+## 4. Target Beneficiaries
+
+The scheme targets:
+
+* Women belonging to the **Kapu community**
+* **Balija**
+* **Telaga**
+* **Ontari/Vontari**
+* Age group: **45 years and above and below 60 years**
+* Permanent residents of Andhra Pradesh
+* Economically eligible families meeting the prescribed exclusion conditions. ([Grama Awards Achivalayam][2])
+
+---
+
+## 5. Benefit Provided
+
+The original scheme provides:
+
+* **₹15,000 per year**
+* For a period of **5 years**
+* Total assistance: **₹75,000**
+* Intended for livelihood and economic empowerment activities. ([Kakinada District][1])
+
+The AP Government's 2023-24 budget documentation also recorded ₹15,000 annual assistance for eligible women in the 45–60 age group. ([Scribd][3])
+
+---
+
+## 6. Eligibility Criteria
+
+A beneficiary must satisfy the applicable scheme conditions.
+
+### A. Citizenship / Residence
+
+* Must be a **permanent resident of Andhra Pradesh**. ([Grama Awards Achivalayam][2])
+
+### B. Community
+
+Must belong to:
+
+* Kapu
+* Balija
+* Telaga
+* Ontari
+
+community. ([Grama Awards Achivalayam][2])
+
+### C. Age
+
+* **45 years or above**
+* **Below 60 years**
+
+The scheme documentation specifies that the age condition is assessed according to the prescribed scheme date/order. ([Kakinada District][1])
+
+### D. Family Income
+
+Total family income should be:
+
+* **Less than ₹10,000/month in rural areas**
+* **Less than ₹12,000/month in urban areas**. ([Kakinada District][1])
+
+### E. Landholding
+
+Total family landholding should be:
+
+* Less than **3 acres wet land**, or
+* Less than **10 acres dry land**, or
+* Within the prescribed **10-acre combined limit**. ([Kakinada District][1])
+
+### F. Government Employee / Pensioner
+
+* No family member should be a Government employee or Government pensioner.
+* **Sanitary workers' families are exempted** under the documented criteria. ([Kakinada District][1])
+
+### G. Four-Wheeler
+
+Family should not own a four-wheeler.
+
+The documented exemptions include:
+
+* Taxi
+* Tractor
+* Auto
+
+([Grama Awards Achivalayam][2])
+
+### H. Income Tax
+
+* No family member should be an **income-tax payee**. ([Kakinada District][1])
+
+### I. Municipal Property
+
+For municipal areas:
+
+* Built-up property should be **less than 750 sq. ft.**
+
+The current district BC Corporation page gives this 750 sq. ft. criterion. ([Kakinada District][1])
+
+### J. Electricity Consumption
+
+The scheme SOP specifies:
+
+* Monthly electricity consumption of the family dwelling unit should be **less than 300 units**. ([Grama Awards Achivalayam][2])
+
+---
+
+## 7. Family Definition
+
+For scheme eligibility, the family is defined as:
+
+* Father
+* Mother
+* Dependent children
+
+as specified in the district BC Corporation documentation. ([Kakinada District][1])
+
+---
+
+## 8. Required Documents
+
+The documented sources identify the following age/community-related documents:
+
+1. **Integrated Caste Certificate**
+
+   * Caste
+   * Date of Birth
+   * Nativity
+
+2. **Birth Certificate / SSC Marks Sheet**
+
+3. **Voter ID Card**
+
+4. **Government of AP Pension Card**, where applicable. ([Kakinada District][1])
+
+The available sources do **not** establish a complete universal current 2026 document checklist, so additional documents should not be hard-coded into the RAG knowledge base without source verification.
+
+---
+
+## 9. Application / Delivery Mechanism
+
+The original scheme documentation identifies the **Village/Ward Welfare and Development Secretary** as the functionary responsible for scheme delivery. ([Grama Awards Achivalayam][2])
+
+The scheme was implemented through the Village/Ward Secretariat welfare-delivery system.
+
+**Current 2026 application-cycle procedure:**
+A new 2026 application workflow was not conclusively established from the official sources reviewed. Therefore, the RAG system should not present a specific current application procedure as fact unless a current notification confirms it.
+
+---
+
+## 10. Implementing Department
+
+The scheme falls under the **Backward Classes Welfare Department / AP Kapu Welfare and Development Corporation framework**.
+
+Current district Government of Andhra Pradesh pages continue to list Kapu Nestham under the BC Corporation's implemented schemes. ([Kakinada District][1])
+
+---
+
+## 11. Verification / Selection Conditions
+
+Eligibility involves verification of parameters such as:
+
+* Community
+* Age
+* Residence
+* Family income
+* Landholding
+* Government employment/pension status
+* Vehicle ownership
+* Income-tax status
+* Municipal property
+* Electricity consumption
+
+These conditions should be treated as **scheme-rule checks**, rather than allowing the LLM to determine eligibility independently.
+
+---
+
+## 12. Historical Implementation
+
+The scheme was formally introduced through **G.O.Ms.No.4, BC Welfare (C), dated 28-01-2020**.
+
+Government district records document substantial implementation during the earlier scheme period. For example, Konaseema district recorded:
+
+* **34,652 beneficiaries in 2020-21**
+* **32,188 beneficiaries in 2021-22**
+
+with corresponding financial assistance recorded by the district administration. ([Konaseema][4])
+
+The 2023-24 AP Budget also recorded continued annual assistance of ₹15,000 for eligible women and an allocation of ₹550 crore for YSR Kapu Nestham. ([Scribd][3])
+
+---
+
+## 13. Current-Status Interpretation
+
+There is an important distinction for the RAG system:
+
+**Scheme existence:**
+Current Government of Andhra Pradesh district pages and the National Government Services Portal continue to describe Kapu Nestham. The National Government Services Portal page was reviewed/updated on **31 July 2026**. ([Kakinada District][1])
+
+**Current payment cycle:**
+The sources reviewed do **not** establish a new 2026-27 payment amount/disbursement schedule through a newly issued 2026 GO.
+
+Therefore:
+
+> **Do not answer “₹15,000 is currently being paid in 2026-27” unless a current-cycle government notification confirms it.**
+
+The ₹15,000/year × 5-year structure should be retained as the **documented scheme rule**, with its applicable implementation period/version.
+
+---
+
+## 14. Important Distinction
+
+Do not confuse **Kapu Nestham** with:
+
+* EBC Nestham
+* Jagananna Chedodu
+* YSR Cheyutha
+* Jagananna Vidya Deevena
+* Jagananna Vasathi Deevena
+* YSR Nethanna Nestham
+* Kapu community education or welfare schemes
+
+These are separate schemes with different beneficiary definitions and eligibility rules.
+
+---
+
+## 15. RAG Retrieval Keywords
+
+```text
+Kapu Nestham
+YSR Kapu Nestham
+Kapu women scheme
+Kapu women financial assistance
+Balija women
+Telaga women
+Ontari women
+Vontari women
+Kapu Welfare Corporation
+Kapu Nestham eligibility
+Kapu Nestham ₹15000
+Kapu Nestham age
+Kapu Nestham income
+Kapu Nestham land eligibility
+Kapu Nestham four wheeler
+```
+
+---
+
+## 16. Suggested Metadata
+
+```yaml
+scheme_name: Kapu Nestham
+alternate_name: YSR Kapu Nestham
+state: Andhra Pradesh
+department: Backward Classes Welfare Department
+beneficiary_category:
+  - Kapu
+  - Balija
+  - Telaga
+  - Ontari/Vontari
+gender: Female
+age_min: 45
+age_max_exclusive: 60
+benefit_amount: 15000
+benefit_frequency: Annual
+benefit_duration_years: 5
+total_documented_benefit: 75000
+```
+
+---
+
+## 17. Source References
+
+### Primary / Government Sources
+
+* Government of Andhra Pradesh — Kakinada District, **BC Corporation**: scheme objective, benefit and eligibility conditions. ([Kakinada District][1])
+* Government of Andhra Pradesh — Dr. B. R. Ambedkar Konaseema District, **BC Corporation**: scheme rules and implementation records. ([Konaseema][4])
+* Andhra Pradesh Village/Ward Secretariat **Scheme SOP**: eligibility and delivery-functionary details. ([Grama Awards Achivalayam][2])
+* National Government Services Portal — **Information on YSR Kapu Nestham**, reviewed/updated July 2026. ([India.gov.in][5])
+* AP Budget documentation — 2023-24 YSR Kapu Nestham allocation and annual assistance. ([Scribd][3])
+
+---
+
+## 18. RAG Readiness
+
+```text
+RAG_STATUS:
+READY_WITH_CURRENT-CONTINUATION_CAVEAT
+
+ELIGIBILITY_ENGINE_STATUS:
+READY_FOR_DOCUMENTED_RULES
+
+CURRENT_STATUS:
+ACTIVE_CURRENT_WITH_2026_PAYMENT_CYCLE_UNCONFIRMED
+
+SOURCE_VERIFICATION_STATUS:
+VERIFIED_SCHEME_RULES_WITH_CURRENT-CONTINUATION_CAVEAT
+```
+
+### Eligibility Engine
+
+The deterministic engine can safely evaluate the documented conditions:
+
+```text
+community
+AND gender
+AND age
+AND residence
+AND family_income
+AND landholding
+AND government_employee_status
+AND pensioner_status
+AND four_wheeler_status
+AND income_tax_status
+AND municipal_property
+AND electricity_consumption
+```
+
+However, **current-cycle payment eligibility should be separated from historical scheme-rule eligibility**.
+
+---
+
+## 19. Final RAG Classification
+
+**Kapu Nestham should be retained in the AP RAG dataset as a scheme with verified historical/current scheme documentation, but the 2026-27 payment cycle should be marked as requiring current-cycle confirmation.**
+
+### Final classification
+
+| Field                                    | Value                               |
+| ---------------------------------------- | ----------------------------------- |
+| **Scheme**                               | Kapu Nestham / YSR Kapu Nestham     |
+| **State**                                | Andhra Pradesh                      |
+| **Target User**                          | Kapu, Balija, Telaga, Ontari women  |
+| **Age**                                  | 45 to below 60                      |
+| **Documented Benefit**                   | ₹15,000/year                        |
+| **Documented Duration**                  | 5 years                             |
+| **Documented Total**                     | ₹75,000                             |
+| **Eligibility Engine**                   | **READY for documented rules**      |
+| **RAG**                                  | **READY with current-cycle caveat** |
+| **Current 2026-27 payment confirmation** | **NOT conclusively verified**       |
+| **Historical rules**                     | **Verified**                        |
+| **Overall Record**                       | **READY_AFTER_STATUS_VERSIONING**   |
+
+**Important RAG rule:** The system should answer **“Kapu Nestham is documented as providing ₹15,000 annually for five years”**, rather than automatically claiming that every eligible woman can receive a fresh ₹15,000 payment in the 2026-27 cycle. ([Kakinada District][1])
+
+[1]: https://kakinada.ap.gov.in/departments/bc-corporation/?utm_source=chatgpt.com "BC CORPORATION | Kakinada District | India"
+[2]: https://gramawardsachivalayam.ap.gov.in/GSWS/downloads/Schemes_SOP.pdf?utm_source=chatgpt.com "| Sch e me : Jaga na nna Am ma Vod i"
+[3]: https://www.scribd.com/document/632767829/AP-Budget-Speech-2023-24-EM?utm_source=chatgpt.com "Andhra Pradesh Budget 2023-24 Overview | PDF | Agriculture | Infrastructure"
+[4]: https://konaseema.ap.gov.in/bc-corporation/?utm_source=chatgpt.com "BC CORPORATION | Dr. B. R. Ambedkar Konaseema District | India"
+[5]: https://www.india.gov.in/category/benefits-social-development/subcategory/minorities-castes-tribes/details/information-on-ysr-kapu-nestham?utm_source=chatgpt.com "Information on YSR Kapu Nestham | Minorities, Castes & Tribes | Benefits & Social development | Category | National Portal of India"

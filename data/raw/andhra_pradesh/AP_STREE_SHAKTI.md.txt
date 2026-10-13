@@ -1,0 +1,793 @@
+# Stree Shakti Scheme
+
+## 1. Basic Information
+
+Scheme ID: AP_STREE_SHAKTI
+
+Official Scheme Name: Stree Shakti Scheme
+
+Official Description:
+Free Bus Travel for Women Scheme – Stree Shakti Scheme
+
+State: Andhra Pradesh
+
+Government: Government of Andhra Pradesh
+
+Department:
+Transport, Roads & Buildings Department
+
+Implementing Agency:
+Andhra Pradesh State Road Transport Corporation (APSRTC) /
+Andhra Pradesh Public Transport Department (APPTD)
+
+Category: Women Welfare / Public Transport
+
+Subcategory: Free Public Transport
+
+Scheme Status: ACTIVE_CURRENT
+
+Current As Of: September 2026
+
+Launch Date:
+15 August 2025
+
+Governing Government Order:
+G.O.Ms.No.27, Transport, Roads & Buildings (PTD.I) Department,
+dated 11.08.2025
+
+Current Operational Evidence:
+The official APSRTC website continues to list Stree Shakti under its
+current passenger schemes/coverage information.
+
+Important 2026 Update:
+G.O.Ms.No.21 dated 28.02.2026 separately extended free travel to
+eligible persons with disabilities in Stree Shakti-covered bus services,
+with a 50% concession for eligible escorts.
+
+
+## 2. Scheme Overview
+
+Stree Shakti is an Andhra Pradesh Government free public-transport
+scheme launched on 15 August 2025.
+
+The original scheme provides free travel to:
+
+- Girls
+- Women
+- Transgender persons
+
+who have Andhra Pradesh domicile status and produce valid identity proof.
+
+The original scheme operates in specified APSRTC bus services.
+
+The Government Order specifies that the scheme is implemented across
+Andhra Pradesh.
+
+The scheme is intended to improve mobility and access to:
+
+- Education
+- Employment
+- Healthcare
+- Other essential activities
+
+The Government reimburses APSRTC for the eligible zero-fare travel
+provided under the scheme.
+
+The scheme should be represented as a transport-benefit programme,
+not as a cash-transfer scheme.
+
+
+## 3. Target Beneficiaries
+
+### Original Stree Shakti Beneficiaries
+
+The original Government Order identifies:
+
+- Girls
+- Women
+- Transgender individuals
+
+with Andhra Pradesh domicile status.
+
+A valid identity document must be produced.
+
+There is no age restriction specified in the original Stree Shakti
+Government Order for the general women/girls/transgender beneficiary
+category.
+
+### 2026 Disability-Travel Expansion
+
+G.O.Ms.No.21 dated 28.02.2026 separately provides free travel for
+eligible persons with disabilities covered under Section 2(zc) of
+the Rights of Persons with Disabilities Act, 2016, with disability
+of 40% or more, in Stree Shakti-covered buses.
+
+Eligible escorts receive a 50% concession according to the applicable
+disability-travel rules.
+
+Important:
+The disability provision is a separate 2026 transport expansion and
+should not be used to redefine the original Stree Shakti women/girls/
+transgender eligibility.
+
+
+## 4. Eligibility Criteria
+
+### Age
+
+Original Stree Shakti scheme:
+
+No general minimum or maximum age is specified in G.O.Ms.No.27.
+
+The scheme uses the category "girls, women and transgender individuals"
+rather than establishing a numerical age threshold.
+
+Therefore:
+
+Age:
+No numerical age limit specified in the verified original Government
+Order.
+
+
+### Gender
+
+Original beneficiaries:
+
+- Girls
+- Women
+- Transgender individuals
+
+The official APSRTC page describes the eligible population as girls,
+women and transgender citizens domiciled in Andhra Pradesh.
+
+
+### Residence
+
+The beneficiary must have Andhra Pradesh domicile status.
+
+This is an explicit condition in G.O.Ms.No.27.
+
+The beneficiary must also produce valid identity proof.
+
+
+### Income
+
+No income limit is specified.
+
+Stree Shakti is not described as an income-tested welfare programme.
+
+
+### Occupation
+
+No occupation requirement is specified.
+
+Women/girls/transgender persons may use the facility regardless of
+occupation, subject to domicile, identity and bus-service conditions.
+
+
+### Education
+
+No education requirement is specified.
+
+The scheme is not restricted to students.
+
+
+### Land
+
+No landholding requirement is specified.
+
+
+### Social Category
+
+No caste/social-category restriction is specified.
+
+The original scheme is available to eligible beneficiaries regardless
+of social category, subject to domicile and identity requirements.
+
+
+### Family Requirement
+
+No family-income or family-size requirement is specified.
+
+Eligibility is individual and travel-based rather than a household
+cash-benefit calculation.
+
+
+### Other Conditions
+
+The beneficiary must:
+
+- Have Andhra Pradesh domicile status.
+- Produce valid identity proof.
+- Travel in an APSRTC/APPTD service covered by Stree Shakti.
+- Comply with applicable ticketing and conductor-verification
+  procedures.
+
+
+## 5. Exclusions / Non-Eligibility
+
+The original Stree Shakti Government Order excludes travel in:
+
+- Non-stop services
+- Interstate services
+- Contract Carriage services
+- Chartered services
+- Package Tours
+- Saptagiri Express
+- Ultra Deluxe
+- Super Luxury
+- Star Liner
+- AC products
+
+The scheme is therefore not a blanket "all APSRTC buses are free"
+programme.
+
+### Service-specific exclusion
+
+A person who is otherwise eligible for Stree Shakti must still pay
+the applicable fare when travelling on services that are outside
+the Stree Shakti coverage.
+
+### Domicile
+
+Persons without Andhra Pradesh domicile status are not eligible under
+the original Stree Shakti scheme.
+
+### Identity Proof
+
+The beneficiary must produce valid identity proof.
+
+Exact acceptable-ID list:
+Not exhaustively specified in the Government Order reviewed.
+
+The current APSRTC implementation should be followed for acceptable
+identity verification.
+
+
+## 6. Benefits
+
+### Primary Benefit
+
+Free bus travel / zero-fare travel.
+
+Eligible beneficiaries receive zero-fare tickets on covered APSRTC
+services.
+
+### Covered Services
+
+The original Government Order identifies five service categories:
+
+1. Pallevelugu
+2. Ultra Pallevelugu
+3. City Ordinary
+4. Metro Express
+5. Express
+
+### Enclave Routes
+
+Eligible beneficiaries are permitted to travel free on enclave route
+services.
+
+### Travel Area
+
+The original scheme is a statewide Andhra Pradesh transport scheme.
+
+The beneficiary can travel within Andhra Pradesh on eligible covered
+services.
+
+Interstate services are excluded.
+
+### Number of Journeys
+
+No numerical daily/monthly journey limit is specified in the verified
+Government Order.
+
+Therefore:
+
+Journey limit:
+Not specified.
+
+### Cash Benefit
+
+There is no direct cash payment to beneficiaries.
+
+The benefit is free transportation.
+
+### Government Reimbursement
+
+The Government reimburses APSRTC based on eligible zero-fare tickets
+issued under the scheme.
+
+
+## 7. Required Documents
+
+The original Government Order requires:
+
+- Valid identity proof.
+
+The current APSRTC scheme page also states that eligible beneficiaries
+must produce valid ID proof.
+
+The exact list of acceptable identity documents should be taken from
+the current APSRTC implementation system.
+
+Potential identity documents may include government-issued identity
+documents where accepted by APSRTC.
+
+Do not mark Aadhaar as the only universally mandatory document unless
+the current APSRTC implementation guideline explicitly states this.
+
+No income certificate is required under the verified original scheme.
+
+No caste certificate is required under the verified original scheme.
+
+No land document is required under the verified original scheme.
+
+
+## 8. Application Process
+
+Stree Shakti is primarily a travel entitlement rather than a
+cash-benefit application scheme.
+
+### Normal Travel Process
+
+1. Beneficiary travels on an eligible Stree Shakti service.
+2. Beneficiary produces valid identity proof when required.
+3. Conductor verifies eligibility/identity.
+4. A zero-fare ticket is issued.
+5. Beneficiary travels without paying the normal fare.
+
+The Government Order directs APSRTC/APPTD to implement the scheme and
+issue zero-fare tickets.
+
+### Bus Pass / Registration
+
+A separate advance registration or welfare-application process is not
+established as a universal requirement in the original Government Order.
+
+Exact current APSRTC ticketing/identity-verification workflow should
+be followed.
+
+### Government Reimbursement
+
+APSRTC records eligible zero-fare tickets and claims reimbursement
+from the Government according to the applicable administrative
+process.
+
+
+## 9. Important Dates
+
+Scheme Government Order:
+11 August 2025
+
+Scheme Launch:
+15 August 2025
+
+Current operation:
+Active during 2026.
+
+One-year operational milestone:
+15 August 2026.
+
+2026 Disability Expansion:
+G.O.Ms.No.21 dated 28 February 2026.
+
+Application opening date:
+Not applicable as a conventional welfare application.
+
+Application closing date:
+Not specified / no fixed closing date identified.
+
+Scheme validity:
+No fixed expiry date identified in the verified sources.
+
+
+## 10. Selection / Verification / Approval
+
+Stree Shakti does not use a conventional beneficiary selection process.
+
+Eligibility is determined at the point of travel through:
+
+- Domicile status
+- Identity proof
+- Covered service category
+
+APSRTC conductors/operational staff verify the passenger according
+to the applicable ticketing procedure.
+
+### 2026 PwD Expansion
+
+For persons with disabilities under the 2026 expansion:
+
+- Disability must meet the applicable 40% threshold.
+- Eligibility is linked to the applicable disability certification/
+  SADAREM system.
+- Eligible escorts receive 50% concession under the applicable rules.
+
+The PwD expansion is administered separately from the original
+women/girls/transgender eligibility.
+
+
+## 11. Implementing Authority
+
+Government:
+Government of Andhra Pradesh
+
+Administrative Department:
+Transport, Roads & Buildings Department
+
+Transport Operator:
+Andhra Pradesh State Road Transport Corporation (APSRTC)
+
+Public Transport Department:
+Andhra Pradesh Public Transport Department (APPTD)
+
+Operational implementation:
+APSRTC bus depots, conductors and associated transport
+administration.
+
+
+## 12. Related / Linked Government Programs
+
+### Divyanga Shakthi
+
+The 2026 Government Order separately provides free travel for eligible
+persons with disabilities in Stree Shakti-covered services.
+
+This should be represented as a separate transport-benefit record.
+
+### APSRTC Other Free/Concessional Passes
+
+APSRTC operates several other free/concessional transport facilities
+for:
+
+- Students
+- Persons with disabilities
+- Freedom fighters
+- Journalists
+- Government-related categories
+- Other notified beneficiaries
+
+These should not be merged into Stree Shakti.
+
+### Student Free Travel
+
+APSRTC separately provides free travel facilities for certain
+students under its own eligibility rules.
+
+This is not part of the general Stree Shakti eligibility.
+
+
+## 13. Official Websites and Portals
+
+Primary Official Operator:
+
+Andhra Pradesh State Road Transport Corporation (APSRTC)
+
+Official Website:
+https://www.apsrtc.ap.gov.in/
+
+Official APSRTC Passenger Schemes / Coverage:
+https://www.apsrtc.ap.gov.in/coverage.php
+
+Official APSRTC Bus Pass / Passenger Services:
+https://www.apsrtc.ap.gov.in/
+
+Government Department:
+Transport, Roads & Buildings Department,
+Government of Andhra Pradesh.
+
+Important:
+Third-party websites must not be treated as official scheme portals.
+
+
+## 14. Official Source Documents
+
+### Primary Source 1
+
+Government of Andhra Pradesh
+
+G.O.Ms.No.27
+
+Department:
+Transport, Roads & Buildings (PTD.I) Department
+
+Date:
+11.08.2025
+
+Subject:
+Implementation of Free Bus Travel for Women Scheme,
+i.e. Stree Shakti Scheme.
+
+Primary facts supported:
+
+- Scheme name
+- Launch date
+- Andhra Pradesh implementation
+- Girls/women/transgender beneficiaries
+- AP domicile requirement
+- Valid identity proof
+- Covered bus services
+- Excluded services
+- Enclave route provision
+- Zero-fare tickets
+- Government reimbursement to APSRTC
+
+
+### Primary Source 2
+
+Official APSRTC Coverage Page
+
+Current facts supported:
+
+- Stree Shakti is an APSRTC passenger scheme.
+- Launch date: 15 August 2025.
+- AP domicile and valid ID requirement.
+- Covered bus categories.
+- Excluded service categories.
+- Current scheme presentation.
+
+
+### Primary Source 3
+
+Government of Andhra Pradesh
+
+G.O.Ms.No.21
+
+Transport, Roads & Buildings (PTD.I) Department
+
+Date:
+28.02.2026
+
+Primary facts supported:
+
+- Free travel for eligible persons with disabilities in Stree
+  Shakti-covered buses.
+- Disability threshold of 40% or more.
+- Coverage in City Ordinary, Metro Express, Pallevelugu,
+  Ultra Pallevelugu and Express.
+- 50% concession for eligible escorts in the applicable services.
+- Continued concession in services outside Stree Shakti coverage
+  according to the order.
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Evidence:
+
+1. The official APSRTC website currently lists Stree Shakti under
+   Passenger Schemes / Coverage.
+2. APSRTC states that the scheme was launched on 15 August 2025.
+3. The original scheme Government Order remains the basis for the
+   five covered service categories.
+4. A separate Government Order dated 28 February 2026 expanded free
+   travel to eligible persons with disabilities in Stree Shakti
+   covered buses.
+5. Current 2026 reporting confirms continued operation of the
+   scheme.
+
+Current covered services:
+
+- Pallevelugu
+- Ultra Pallevelugu
+- City Ordinary
+- Metro Express
+- Express
+
+Current original beneficiary categories:
+
+- Girls
+- Women
+- Transgender individuals
+
+Current 2026 additional disability provision:
+
+- Eligible persons with disabilities with 40% or more disability
+  under the applicable rules.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- Stree Shakti is currently operational.
+- Scheme launched on 15 August 2025.
+- G.O.Ms.No.27 dated 11.08.2025 establishes the scheme.
+- AP domicile is required.
+- Valid identity proof is required.
+- Girls, women and transgender individuals are the original
+  beneficiaries.
+- Free travel is provided.
+- Covered services are:
+  - Pallevelugu
+  - Ultra Pallevelugu
+  - City Ordinary
+  - Metro Express
+  - Express
+- Non-stop services are excluded.
+- Interstate services are excluded.
+- Contract Carriage services are excluded.
+- Chartered services are excluded.
+- Package Tours are excluded.
+- Saptagiri Express is excluded.
+- Ultra Deluxe is excluded.
+- Super Luxury is excluded.
+- Star Liner is excluded.
+- AC products are excluded.
+- Enclave route travel is permitted.
+- Zero-fare tickets are issued.
+- Government reimburses APSRTC for eligible zero-fare tickets.
+- G.O.Ms.No.21 dated 28.02.2026 provides a separate PwD free-travel
+  expansion.
+
+
+### NOT SPECIFIED IN VERIFIED SOURCE
+
+- Maximum number of journeys per day.
+- Maximum number of journeys per month.
+- Income limit.
+- Land limit.
+- Education requirement.
+- Occupation requirement.
+- Caste/social-category restriction.
+- Family-income requirement.
+- Fixed application deadline.
+- Scheme expiry date.
+- Universal requirement to register in advance.
+- Universal requirement to obtain a separate Stree Shakti bus pass.
+
+
+## 17. Notes and Limitations
+
+1. Stree Shakti is a transportation benefit, not a cash-transfer
+   welfare scheme.
+
+2. Eligibility for the original scheme is based primarily on:
+   - AP domicile
+   - beneficiary category
+   - valid identity proof
+   - eligible bus service.
+
+3. The five covered bus categories must be treated as a hard service
+   filter in the RAG.
+
+4. Interstate services are excluded even though the beneficiary may
+   otherwise qualify.
+
+5. AC and specified premium services are excluded.
+
+6. The 2026 PwD free-travel expansion should be represented as a
+   separate rule/component.
+
+7. The 2026 PwD expansion does not change the original Stree Shakti
+   eligibility definition for women/girls/transgender beneficiaries.
+
+8. No income or land eligibility condition should be added because
+   none is specified in the verified original scheme sources.
+
+9. No cash amount should be displayed as a beneficiary benefit.
+
+10. The benefit is zero-fare transportation.
+
+11. Final operational ticketing/identity-verification procedures are
+    subject to APSRTC's current implementation system.
+
+
+## 18. Structured Eligibility Data
+
+age_min:
+Not specified.
+
+age_max:
+Not specified.
+
+gender:
+Girls, women and transgender individuals.
+
+residence:
+Andhra Pradesh domicile.
+
+income_limit:
+Not applicable / no income limit specified.
+
+occupation:
+No occupation requirement.
+
+education:
+No education requirement.
+
+land_requirement:
+None specified.
+
+social_category:
+No restriction specified.
+
+family_requirement:
+None specified.
+
+other_conditions:
+- Valid identity proof.
+- Andhra Pradesh domicile.
+- Travel on an eligible Stree Shakti service.
+
+exclusions:
+- Non-stop services
+- Interstate services
+- Contract Carriage services
+- Chartered services
+- Package Tours
+- Saptagiri Express
+- Ultra Deluxe
+- Super Luxury
+- Star Liner
+- AC products
+
+covered_services:
+- Pallevelugu
+- Ultra Pallevelugu
+- City Ordinary
+- Metro Express
+- Express
+
+benefit_amount:
+Free travel / zero fare.
+
+benefit_frequency:
+Per eligible journey; no numerical journey limit specified.
+
+application_method:
+No conventional welfare application established.
+Eligibility is verified during travel.
+
+application_portal:
+No separate universal Stree Shakti application portal identified.
+
+official_operator:
+Andhra Pradesh State Road Transport Corporation (APSRTC).
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source Document | Page/Section | Official URL | Status |
+|---|---|---|---|---|
+| Scheme name | G.O.Ms.No.27, 11.08.2025 | Para 1 | AP Government / APSRTC | VERIFIED_CURRENT |
+| Launch date | G.O.Ms.No.27 | Para 1 | AP Government / APSRTC | VERIFIED_CURRENT |
+| AP domicile requirement | G.O.Ms.No.27 | Para 1(d) | AP Government | VERIFIED_CURRENT |
+| Valid ID requirement | G.O.Ms.No.27 / APSRTC Coverage | Eligibility | APSRTC | VERIFIED_CURRENT |
+| Girls/women/transgender eligibility | G.O.Ms.No.27 | Para 1(d) | AP Government | VERIFIED_CURRENT |
+| Pallevelugu coverage | G.O.Ms.No.27 | Para 1(f) | AP Government | VERIFIED_CURRENT |
+| Ultra Pallevelugu coverage | G.O.Ms.No.27 | Para 1(f) | AP Government | VERIFIED_CURRENT |
+| City Ordinary coverage | G.O.Ms.No.27 | Para 1(f) | AP Government | VERIFIED_CURRENT |
+| Metro Express coverage | G.O.Ms.No.27 | Para 1(f) | AP Government | VERIFIED_CURRENT |
+| Express coverage | G.O.Ms.No.27 | Para 1(f) | AP Government | VERIFIED_CURRENT |
+| Non-stop exclusion | G.O.Ms.No.27 | Para 1(g) | AP Government | VERIFIED_CURRENT |
+| Interstate exclusion | G.O.Ms.No.27 | Para 1(g) | AP Government | VERIFIED_CURRENT |
+| Contract Carriage exclusion | G.O.Ms.No.27 | Para 1(g) | AP Government | VERIFIED_CURRENT |
+| Chartered service exclusion | G.O.Ms.No.27 | Para 1(g) | AP Government | VERIFIED_CURRENT |
+| Package Tour exclusion | G.O.Ms.No.27 | Para 1(g) | AP Government | VERIFIED_CURRENT |
+| Saptagiri Express exclusion | G.O.Ms.No.27 | Para 1(h) | AP Government | VERIFIED_CURRENT |
+| Ultra Deluxe exclusion | G.O.Ms.No.27 | Para 1(h) | AP Government | VERIFIED_CURRENT |
+| Super Luxury exclusion | G.O.Ms.No.27 | Para 1(h) | AP Government | VERIFIED_CURRENT |
+| Star Liner exclusion | G.O.Ms.No.27 | Para 1(h) | AP Government | VERIFIED_CURRENT |
+| AC-product exclusion | G.O.Ms.No.27 | Para 1(h) | AP Government | VERIFIED_CURRENT |
+| Enclave route permission | G.O.Ms.No.27 | Para 1(i) | AP Government | VERIFIED_CURRENT |
+| Zero-fare ticket | G.O.Ms.No.27 | Para 1(m) | AP Government | VERIFIED_CURRENT |
+| Government reimbursement | G.O.Ms.No.27 | Para 1(n) | AP Government | VERIFIED_CURRENT |
+| Current APSRTC implementation | APSRTC Coverage | Stree Shakti Scheme | https://www.apsrtc.ap.gov.in/coverage.php | VERIFIED_CURRENT |
+| Current scheme status | APSRTC Coverage | Stree Shakti Scheme | https://www.apsrtc.ap.gov.in/coverage.php | VERIFIED_CURRENT |
+| PwD free travel expansion | G.O.Ms.No.21, 28.02.2026 | Order | AP Government | VERIFIED_CURRENT |
+| PwD 40% threshold | G.O.Ms.No.21 | Order | AP Government | VERIFIED_CURRENT |
+| PwD covered services | G.O.Ms.No.21 | Order | AP Government | VERIFIED_CURRENT |
+| Escort 50% concession | G.O.Ms.No.21 | Order | AP Government | VERIFIED_CURRENT |
+| Income eligibility | No current primary source found | — | — | NOT_SPECIFIED |
+| Land eligibility | No current primary source found | — | — | NOT_SPECIFIED |
+| Education requirement | No current primary source found | — | — | NOT_SPECIFIED |
+| Occupation requirement | No current primary source found | — | — | NOT_SPECIFIED |
+| Family-income requirement | No current primary source found | — | — | NOT_SPECIFIED |
+| Maximum journey limit | No current primary source found | — | — | NOT_SPECIFIED |

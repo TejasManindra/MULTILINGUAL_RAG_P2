@@ -1,0 +1,781 @@
+# Annadata Sukhibhava – PM-KISAN
+
+## 1. Basic Information
+
+Scheme ID: AP_ANNADATA_SUKHIBHAVA_PM_KISAN
+
+Official Scheme Name: Annadata Sukhibhava – PM-KISAN
+
+State: Andhra Pradesh
+
+Government: Government of Andhra Pradesh
+
+Department: Department of Agriculture, Government of Andhra Pradesh
+
+Implementing Agency:
+Department of Agriculture, Government of Andhra Pradesh, in coordination with the Government of India for the PM-KISAN component.
+
+Category: Agriculture / Farmer Welfare
+
+Subcategory: Direct Investment / Income Support
+
+Scheme Status: ACTIVE_CURRENT
+
+Current As Of: September 2026
+
+Launch / Implementation:
+The current Annadata Sukhibhava programme was implemented from 2025-26.
+The Andhra Pradesh Government is continuing the programme during 2026-27.
+
+Relationship with PM-KISAN:
+Annadata Sukhibhava is an Andhra Pradesh farmer-support programme implemented in conjunction with the central PM-KISAN scheme.
+
+The total annual support described by the Andhra Pradesh Government is ₹20,000 per farmer family under the combined Annadata Sukhibhava–PM-KISAN arrangement.
+
+The Andhra Pradesh State Government contribution is ₹14,000 per year and the PM-KISAN component is ₹6,000 per year for eligible PM-KISAN beneficiaries.
+
+Important:
+The eligibility rules of the Andhra Pradesh state component and the central PM-KISAN component must not be treated as identical.
+
+
+## 2. Scheme Overview
+
+Annadata Sukhibhava is an Andhra Pradesh Government farmer welfare programme intended to provide financial support for agricultural investment and farmer-family needs.
+
+The Andhra Pradesh Government's budget documents state that the scheme provides financial assistance of ₹20,000 per annum to farmers.
+
+The Andhra Pradesh Government has also explicitly described the scheme as covering farmer families including tenant farmers and Recognition of Forest Rights (ROFR) farmers.
+
+Current Andhra Pradesh Agriculture Department material additionally describes state-budget assistance of ₹20,000 per year for landless cultivators.
+
+The central PM-KISAN component provides ₹6,000 per year to eligible landholding farmer families under the separate PM-KISAN eligibility rules.
+
+Therefore, the RAG should distinguish:
+
+1. Annadata Sukhibhava – Andhra Pradesh state support.
+2. PM-KISAN – Government of India support.
+3. Combined Annadata Sukhibhava–PM-KISAN implementation.
+
+
+## 3. Target Beneficiaries
+
+Current Andhra Pradesh government sources identify farmer beneficiaries including:
+
+- Farmer families owning cultivable agricultural land
+- Tenant farmers
+- Recognition of Forest Rights (ROFR) land cultivators / farmer families
+- Landless cultivators, for the state-budget assistance described by the Agriculture Department
+
+The Andhra Pradesh Agriculture Department describes the programme as providing ₹20,000 annual support to farmer families.
+
+Important:
+
+The PM-KISAN component is separately restricted to eligible landholding farmer families under PM-KISAN rules.
+
+Therefore:
+
+Landholding farmer family:
+May be eligible for the combined Annadata Sukhibhava–PM-KISAN support subject to applicable state and PM-KISAN rules.
+
+ROFR cultivator:
+Recognized by Andhra Pradesh government sources as a beneficiary category.
+
+Tenant farmer:
+Recognized by Andhra Pradesh government budget material as a beneficiary category.
+
+Landless cultivator:
+The Andhra Pradesh Agriculture Department states that state-budget assistance is provided to landless cultivators.
+
+Exact category-wise current implementation rules require verification against the latest Agriculture Department beneficiary-selection guidelines.
+
+
+## 4. Eligibility Criteria
+
+### Age
+
+No general age minimum or maximum for Annadata Sukhibhava is specified in the current Andhra Pradesh sources reviewed.
+
+PM-KISAN does not establish a general age requirement for the landholding farmer family benefit.
+
+Therefore:
+
+Age:
+Not specified in the verified current Annadata Sukhibhava source.
+
+
+### Gender
+
+The scheme is not described as gender-restricted.
+
+Male and female farmer beneficiaries may be covered subject to the applicable farmer-family and programme conditions.
+
+Gender:
+Not restricted in the verified current source.
+
+
+### Residence
+
+The programme is an Andhra Pradesh Government scheme and is implemented for eligible farmers in Andhra Pradesh.
+
+A separate universal "permanent resident of Andhra Pradesh" condition should not be added unless the applicable current scheme guideline explicitly states it.
+
+State coverage:
+Andhra Pradesh.
+
+
+### Income
+
+No universal monetary household-income ceiling for Annadata Sukhibhava was identified in the current authoritative Andhra Pradesh sources reviewed.
+
+PM-KISAN has its own exclusion criteria, including income-tax-payer exclusion and other higher-economic-status exclusions.
+
+Therefore:
+
+Annadata Sukhibhava income limit:
+Not specified in the verified current Andhra Pradesh source.
+
+PM-KISAN income-related exclusion:
+Persons who paid income tax in the last assessment year are excluded under PM-KISAN.
+
+
+### Occupation
+
+The programme is intended for farmers/cultivators.
+
+Current AP sources identify:
+
+- Landholding farmer families
+- Tenant farmers
+- ROFR cultivators/farmer families
+- Landless cultivators for the state-budget component
+
+The exact definition and documentation for each category must follow the applicable Agriculture Department implementation rules.
+
+
+### Education
+
+No education requirement is specified in the verified current source.
+
+
+### Land
+
+The original draft stated:
+
+"Must own less than 5 acres of cultivable agricultural land."
+
+This condition is NOT retained.
+
+Current Andhra Pradesh government sources reviewed do not establish a universal 5-acre maximum for Annadata Sukhibhava.
+
+The Tirupati Agriculture Department page describes the programme as covering farmer families who collectively own cultivable land and ROFR cultivators.
+
+The same source also describes state-budget support for landless cultivators.
+
+Therefore:
+
+Universal Annadata Sukhibhava land ceiling:
+Not specified in the verified current source.
+
+Important:
+Do not use a 5-acre ceiling as a deterministic eligibility rule unless a current official Agriculture Department guideline explicitly establishes it.
+
+
+### Social Category
+
+The programme is not restricted to a single social category in the verified current sources.
+
+Social category:
+All eligible farmer categories, subject to the applicable scheme rules.
+
+No separate caste-based exclusion should be inferred.
+
+
+### Family Requirement
+
+The Andhra Pradesh Government describes the benefit in terms of farmer families.
+
+For PM-KISAN, the central Government defines a farmer family as:
+
+- Husband
+- Wife
+- Minor children
+
+The PM-KISAN benefit is calculated at the family level.
+
+Annadata Sukhibhava state-component family rules must be interpreted according to the current Andhra Pradesh implementation guidelines.
+
+Do not assume that every state-component beneficiary must independently satisfy all PM-KISAN family conditions.
+
+
+### Other Eligibility Conditions
+
+Potential verification requirements include:
+
+- Land records for landholding farmers
+- Recognition of Forest Rights records for ROFR cultivators
+- Tenant/cultivator documentation where applicable
+- Correct farmer identity records
+- Aadhaar/eKYC and bank-account verification where required by the applicable payment system
+- PM-KISAN eligibility for the central ₹6,000 component
+
+Exact current verification requirements must follow the applicable Agriculture Department and PM-KISAN procedures.
+
+
+## 5. Exclusions / Non-Eligibility
+
+### Annadata Sukhibhava State Component
+
+A universal current exclusion list could not be conclusively verified from the current Andhra Pradesh sources reviewed.
+
+Do not automatically apply the PM-KISAN exclusion list to every Annadata Sukhibhava state beneficiary.
+
+### PM-KISAN Component
+
+The Government of India identifies the following major exclusion categories:
+
+- Institutional landholders
+- Former and present holders of constitutional posts
+- Former and present Ministers / State Ministers
+- Former and present Members of Parliament
+- Former and present Members of State Legislative Assemblies / Councils
+- Former and present Mayors of Municipal Corporations
+- Former and present Chairpersons of District Panchayats
+- Serving or retired Central/State Government officers and employees
+- Employees of Central/State Public Sector Enterprises
+- Employees of autonomous institutions under government
+- Regular employees of local bodies
+- Retired pensioners receiving ₹10,000 or more per month, subject to the stated exceptions
+- Persons who paid income tax in the previous assessment year
+- Practising registered professionals including doctors, engineers, lawyers, chartered accountants and architects
+
+PM-KISAN also has specific land-record and family-level requirements.
+
+These exclusions apply to the PM-KISAN component and must not automatically be represented as the complete exclusion list for the Andhra Pradesh state component.
+
+
+## 6. Benefits
+
+### Total Combined Annual Support
+
+The Andhra Pradesh Government describes total annual support of:
+
+₹20,000 per farmer family per year
+
+The combined amount consists of:
+
+- ₹14,000 from the Government of Andhra Pradesh
+- ₹6,000 from the Government of India through PM-KISAN
+
+### Annadata Sukhibhava State Component
+
+Annual state contribution:
+₹14,000 per eligible beneficiary/farmer family under the applicable state rules.
+
+### PM-KISAN Component
+
+Annual central contribution:
+₹6,000 per eligible PM-KISAN farmer family.
+
+PM-KISAN pays the ₹6,000 in three equal instalments of ₹2,000.
+
+### Annadata Sukhibhava Instalments
+
+The combined programme is implemented through multiple instalments.
+
+For the 2026-27 first instalment, the official Eluru district government release records:
+
+- ₹5,000 from the Andhra Pradesh Government
+- ₹2,000 through PM-KISAN
+- Total first instalment: ₹7,000
+
+The exact timing and amount of subsequent instalments can vary by financial year and government release schedule.
+
+Therefore, the instalment schedule should be stored as a year-specific timeline rather than treated as a permanent rule.
+
+
+## 7. Required Documents
+
+The current authoritative sources reviewed do not establish one universal document list for every Annadata Sukhibhava beneficiary category.
+
+Potential verification records include:
+
+### Landholding Farmer
+
+- Land ownership / land-record information
+- Aadhaar / identity information
+- Bank-account information
+- PM-KISAN registration/eKYC information where applicable
+
+### Tenant Farmer
+
+- Valid tenant/cultivator recognition documentation where required
+- Applicable CCRC or other government-recognized cultivation record where prescribed
+- Aadhaar / identity information
+- Bank-account information
+
+### ROFR Farmer
+
+- Recognition of Forest Rights documentation
+- Aadhaar / identity information
+- Bank-account information
+
+### Landless Cultivator
+
+- Current government-recognized cultivator/beneficiary identification
+- Aadhaar / identity information
+- Bank-account information
+
+Exact mandatory documents:
+Not conclusively verified from the current statewide Annadata Sukhibhava guideline available in the reviewed sources.
+
+Do not mark Aadhaar, bank passbook, 1B, CCRC or PM-KISAN registration number as universally mandatory without the corresponding current application/verification document.
+
+
+## 8. Application Process
+
+The current programme appears to be substantially based on government beneficiary identification, agriculture records and verification rather than a simple standalone public application form.
+
+Current AP government sources identify:
+
+- Agriculture Department implementation
+- Rythu Seva Kendras as part of the agriculture service infrastructure
+- Land-record modernization
+- Bank-account issue resolution
+- Direct transfer of assistance to farmer accounts
+
+The PM-KISAN component has its own official registration and eKYC process.
+
+PM-KISAN eKYC is mandatory for registered PM-KISAN farmers according to the current PM-KISAN portal.
+
+For Annadata Sukhibhava, the exact current state-side application/update workflow must follow the latest Andhra Pradesh Agriculture Department instructions.
+
+Do not state the following as universally verified without a current official SOP:
+
+- Mandatory RSK application for every beneficiary
+- Mandatory biometric eKYC for every Annadata beneficiary
+- Mandatory MeeBhoomi cross-check for every category
+- A fixed online application workflow
+- A specific application deadline
+
+
+## 9. Important Dates
+
+Current programme implementation:
+
+- Annadata Sukhibhava implementation began from 2025-26.
+- The programme continues in FY 2026-27.
+
+2026-27:
+The first instalment was released in June 2026.
+
+The official Eluru district government release dated 20 June 2026 records the first 2026-27 payment.
+
+The current official sources reviewed do not establish one permanent annual application opening and closing date.
+
+Application deadline:
+Not specified in the verified current source.
+
+Instalment dates:
+Year-specific and subject to government release schedules.
+
+
+## 10. Selection / Verification / Approval
+
+The programme uses government agricultural and beneficiary records for identifying eligible farmer beneficiaries.
+
+Current implementation evidence indicates verification involving:
+
+- Farmer/family records
+- Land records
+- PM-KISAN records for the central component
+- Bank-account information
+- eKYC/identity verification where applicable
+- Government beneficiary databases
+
+The exact current backend validation sequence should not be represented as a fixed rule unless supported by the latest Agriculture Department SOP.
+
+For PM-KISAN:
+
+The State Government/UT administration identifies eligible farmer families and uploads/maintains beneficiary information for release of central benefits.
+
+PM-KISAN uses its own eligibility and exclusion framework.
+
+
+## 11. Implementing Authority
+
+State Government:
+Government of Andhra Pradesh
+
+Department:
+Department of Agriculture
+
+District-level implementation:
+District Agriculture administration / District Agriculture Officers and associated field machinery.
+
+Local farmer-service infrastructure:
+Rythu Seva Kendras and Agriculture Department field machinery.
+
+Central component:
+Department of Agriculture & Farmers Welfare, Government of India, for PM-KISAN.
+
+
+## 12. Related / Linked Government Programs
+
+### PM-KISAN
+
+Relationship:
+Central Government component integrated with the Andhra Pradesh farmer-support programme.
+
+Annual benefit:
+₹6,000 per eligible PM-KISAN farmer family.
+
+Important:
+PM-KISAN has its own eligibility and exclusion rules.
+
+
+### Rythu Seva Kendras
+
+Relationship:
+Agriculture Department service-delivery infrastructure.
+
+They should not be represented as a separate financial benefit under Annadata Sukhibhava.
+
+
+### Crop Cultivator Rights Card (CCRC)
+
+Relationship:
+Relevant to tenant cultivator identification and access to agricultural welfare/credit programmes.
+
+A CCRC may support tenant-farmer eligibility/verification where required, but it should not automatically be treated as a universal Annadata document without current programme-specific confirmation.
+
+
+### YSR Rythu Bharosa
+
+Relationship:
+Historical/previous Andhra Pradesh farmer-support programme.
+
+Do not merge historical YSR Rythu Bharosa eligibility rules into current Annadata Sukhibhava.
+
+Historical records should remain separately indexed.
+
+
+## 13. Official Websites and Portals
+
+Official Annadata Sukhibhava Portal:
+https://annadathasukhibhava.ap.gov.in/
+
+Andhra Pradesh Agriculture Department:
+https://apagrisnet.gov.in/
+
+PM-KISAN:
+https://pmkisan.gov.in/
+
+PM-KISAN Farmer Registration:
+https://pmkisan.gov.in/RegistrationFormupdated.aspx
+
+MeeBhoomi:
+https://meebhoomi.ap.gov.in/
+
+Important:
+The Annadata Sukhibhava official portal could not be directly fetched during this verification session because the site timed out, but the official Andhra Pradesh Agriculture Department and AP district government pages explicitly identify the portal URL.
+
+
+## 14. Official Source Documents
+
+### Primary Source 1
+
+Government of Andhra Pradesh Budget / Agriculture Department documents.
+
+FY 2025-26 Agriculture budget documentation states:
+
+"Providing financial investment support of Rs. 20,000/- per year to farmer families including tenants and ROFR farmers through Annadata Sukhibhava scheme."
+
+Status:
+VERIFIED_CURRENT / GOVERNMENT BUDGET SOURCE
+
+
+### Primary Source 2
+
+Andhra Pradesh 2026-27 Budget documentation.
+
+The Agriculture Department section states that Annadata Sukhibhava provides financial assistance of ₹20,000 per annum and that the scheme has been implemented from 2025-26.
+
+Status:
+VERIFIED_CURRENT
+
+
+### Primary Source 3
+
+Eluru District, Government of Andhra Pradesh.
+
+Publication:
+20 June 2026
+
+Subject:
+Annadata Sukhibhava–PM-KISAN first instalment for FY 2026-27.
+
+Supported facts:
+- Current 2026-27 implementation
+- First instalment
+- ₹5,000 state contribution
+- ₹2,000 PM-KISAN contribution
+- Direct payment to farmer accounts
+
+Status:
+VERIFIED_CURRENT
+
+
+### Primary Source 4
+
+Tirupati District Agriculture Department, Government of Andhra Pradesh.
+
+Supported facts:
+- ₹20,000 annual farmer support
+- landholding farmer families
+- ROFR cultivators
+- landless cultivator state-budget support
+- Annadata Sukhibhava official portal URL
+
+Status:
+VERIFIED_CURRENT
+
+
+### Primary Source 5
+
+Government of India PM-KISAN official portal.
+
+Supported facts:
+- PM-KISAN ₹6,000 annual benefit
+- three equal instalments
+- farmer-family definition
+- exclusion criteria
+- State Government identification of beneficiaries
+- mandatory eKYC for registered PM-KISAN farmers
+
+Status:
+VERIFIED_CURRENT
+
+
+### Primary Source 6
+
+Government of India PM-KISAN Operational Guidelines.
+
+Supported facts:
+- farmer-family definition
+- cultivable landholding requirement
+- PM-KISAN exclusions
+- DBT framework
+
+Status:
+OFFICIAL CENTRAL GUIDELINE
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Current Verification:
+September 2026
+
+Evidence:
+
+1. Andhra Pradesh 2026-27 budget documentation continues to provide allocation for Annadata Sukhibhava.
+2. The Agriculture Department's 2026-27 budget documentation states that the scheme is being implemented.
+3. Eluru District Government reported the first 2026-27 Annadata Sukhibhava–PM-KISAN payment on 20 June 2026.
+4. Andhra Pradesh Agriculture Department pages continue to list Annadata Sukhibhava and its official portal.
+5. PM-KISAN continues nationally into 2026-27 under the Government of India's continuation decision.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- Scheme is currently active.
+- Annadata Sukhibhava is an Andhra Pradesh farmer-support programme.
+- ₹20,000 annual combined support is documented by AP Government sources.
+- ₹14,000 state component + ₹6,000 PM-KISAN component is documented.
+- The scheme is being implemented during FY 2026-27.
+- The first FY 2026-27 instalment was released in June 2026.
+- Tenant farmers are identified in AP budget documentation as beneficiaries.
+- ROFR farmers are identified in AP government sources.
+- Landholding farmer families are covered.
+- AP Agriculture Department describes state support for landless cultivators.
+- PM-KISAN has separate eligibility and exclusion rules.
+- PM-KISAN provides ₹6,000/year in three equal instalments.
+- PM-KISAN eKYC is currently mandatory for registered PM-KISAN farmers.
+
+### NOT VERIFIED / SHOULD NOT BE USED AS CURRENT RULE
+
+- Universal 5-acre land ceiling.
+- Universal "one member per family" rule for the entire Annadata scheme.
+- Universal requirement to already be an active PM-KISAN beneficiary.
+- Universal income ceiling.
+- Universal government-employee exclusion for the AP state component.
+- Universal professional exclusion for the AP state component.
+- Fixed annual application opening/closing dates.
+- Universal mandatory CCRC.
+- Universal mandatory 1B record.
+- Universal RSK application workflow.
+- Universal MeeBhoomi cross-check workflow.
+- Exact permanent three-instalment calendar for every financial year.
+
+
+## 17. Notes and Limitations
+
+1. Annadata Sukhibhava and PM-KISAN must be represented as related but distinct components.
+
+2. The ₹20,000 figure is the combined annual support described by Andhra Pradesh Government sources.
+
+3. The ₹6,000 PM-KISAN component remains subject to the separate central PM-KISAN eligibility and exclusion rules.
+
+4. Andhra Pradesh Government sources explicitly mention tenant farmers and ROFR farmers.
+
+5. The Tirupati Agriculture Department page additionally identifies state-budget assistance for landless cultivators.
+
+6. The original draft's 5-acre ceiling was removed because it was not supported by the current authoritative AP sources reviewed.
+
+7. The original draft's statement that every beneficiary must already be an active PM-KISAN beneficiary was removed because it is too broad and conflicts with AP sources identifying ROFR and landless cultivator beneficiaries.
+
+8. Historical YSR Rythu Bharosa rules must not be used as current Annadata Sukhibhava rules.
+
+9. Instalment amounts can vary by financial year and release schedule.
+
+10. The current official Annadata portal should be checked during future maintenance/re-verification.
+
+11. Final beneficiary determination is made by the competent Government of Andhra Pradesh / Government of India authorities according to the applicable component rules and verification records.
+
+
+## 18. Structured Eligibility Data
+
+age_min:
+Not specified.
+
+age_max:
+Not specified.
+
+gender:
+All genders; no gender restriction identified in the verified current source.
+
+residence:
+Andhra Pradesh programme coverage.
+
+income_limit:
+No universal current monetary income ceiling verified for the AP state component.
+
+occupation:
+Farmer / cultivator categories including:
+- landholding farmers
+- tenant farmers
+- ROFR cultivators
+- landless cultivators for the state-budget component.
+
+education:
+Not specified.
+
+land_requirement:
+No universal 5-acre ceiling verified.
+
+Landholding farmer eligibility:
+Subject to applicable state and PM-KISAN rules.
+
+ROFR:
+Recognized as an eligible beneficiary category by AP government sources.
+
+Landless cultivator:
+State-budget assistance identified by AP Agriculture Department.
+
+social_category:
+No general caste restriction identified.
+
+family_requirement:
+Farmer-family based support.
+
+PM-KISAN family definition:
+Husband, wife and minor children.
+
+other_conditions:
+- Applicable agricultural/cultivator status.
+- Government beneficiary/database verification.
+- PM-KISAN eligibility for the central component.
+- eKYC and payment-account verification where applicable.
+
+exclusions:
+Annadata state-component universal exclusion list:
+Not conclusively verified.
+
+PM-KISAN exclusions:
+- Institutional landholders
+- Constitutional post holders
+- Ministers
+- MPs/MLAs/MLCs
+- Mayors
+- District Panchayat Chairpersons
+- specified serving/retired government employees
+- specified pensioners
+- income-tax payers
+- practising registered professionals
+
+required_documents:
+Category-specific and current-process dependent.
+
+Potential evidence:
+- Land records
+- ROFR records
+- Tenant/cultivator recognition records
+- Aadhaar/identity information
+- Bank-account information
+- PM-KISAN registration/eKYC information
+
+Universal mandatory document list:
+Not conclusively verified.
+
+benefit_amount:
+₹20,000/year combined:
+- ₹14,000 Andhra Pradesh
+- ₹6,000 PM-KISAN
+
+benefit_frequency:
+Multiple instalments per year.
+
+PM-KISAN:
+Three equal ₹2,000 instalments.
+
+Annadata state component:
+Instalment schedule may vary by financial year.
+
+application_method:
+Government identification/verification and applicable agriculture-service channels.
+
+Exact universal application workflow:
+Not conclusively verified.
+
+application_portal:
+https://annadathasukhibhava.ap.gov.in/
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source Document | Page/Section | Official URL | Status |
+|---|---|---|---|---|
+| Scheme provides ₹20,000/year | AP 2026-27 Agriculture Budget | Annadata Sukhibhava section | AP Finance | VERIFIED_CURRENT |
+| Scheme implemented from 2025-26 | AP 2026-27 Agriculture Budget | Annadata Sukhibhava section | AP Finance | VERIFIED_CURRENT |
+| ₹20,000 support to farmer families including tenants and ROFR farmers | AP 2025-26 Agriculture Budget | Farmer welfare / Annadata Sukhibhava | AP Finance | VERIFIED_CURRENT |
+| Landholding farmer families covered | AP Agriculture Department, Tirupati | Agriculture / Annadata Sukhibhava | AP Government | VERIFIED_CURRENT |
+| ROFR cultivators covered | AP Agriculture Department, Tirupati | Annadata Sukhibhava | AP Government | VERIFIED_CURRENT |
+| Landless cultivators receive state-budget support | AP Agriculture Department, Tirupati | Annadata Sukhibhava | AP Government | VERIFIED_CURRENT |
+| ₹14,000 state + ₹6,000 central | AP Government implementation/release material | Annadata Sukhibhava–PM-KISAN | AP Government | VERIFIED_CURRENT |
+| 2026-27 first instalment | Eluru District Government, 20.06.2026 | Annadata Sukhibhava–PM-KISAN | AP Government | VERIFIED_CURRENT |
+| First 2026-27 state instalment ₹5,000 | Eluru District Government, 20.06.2026 | Payment details | AP Government | VERIFIED_CURRENT |
+| First 2026-27 PM-KISAN instalment ₹2,000 | Eluru District Government, 20.06.2026 | Payment details | AP Government | VERIFIED_CURRENT |
+| PM-KISAN annual ₹6,000 | PM-KISAN official portal | Scheme Overview | Government of India | VERIFIED_CURRENT |
+| PM-KISAN three equal instalments | PM-KISAN official portal | Scheme Overview | Government of India | VERIFIED_CURRENT |
+| PM-KISAN farmer-family definition | PM-KISAN official guidelines | Section 3 | Government of India | VERIFIED_CURRENT |
+| PM-KISAN exclusions | PM-KISAN official portal/guidelines | Exclusion Categories | Government of India | VERIFIED_CURRENT |
+| PM-KISAN eKYC mandatory | PM-KISAN official portal | Current notice | Government of India | VERIFIED_CURRENT |
+| Official Annadata portal | Tirupati Agriculture Department | Website URLs | AP Government | VERIFIED_CURRENT |
+| 5-acre maximum landholding | Draft document only | Eligibility | None authoritative found | REJECTED |
+| Universal PM-KISAN beneficiary requirement | Draft document only | Eligibility | Conflicts with AP beneficiary categories | REJECTED |
+| Universal ₹10,000/₹12,000 income limit | Draft document only | Eligibility | No authoritative current AP source found | REJECTED |
+| Universal one-member-per-family rule | Draft document only | Eligibility | Not established | NEEDS_VERIFICATION |
+| Universal RSK → biometric eKYC → MeeBhoomi workflow | Draft document only | Application | Not established by current primary source | NEEDS_VERIFICATION |

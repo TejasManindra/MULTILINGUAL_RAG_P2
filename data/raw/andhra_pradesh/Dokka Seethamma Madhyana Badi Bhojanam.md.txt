@@ -1,0 +1,351 @@
+Scheme Status: ACTIVE_CURRENT
+
+# Dokka Seethamma Madhyana Badi Bhojanam
+
+## 1. Scheme Name
+
+**Dokka Seethamma Madhyana Badi Bhojanam**
+
+Also referred to as:
+
+* **Dokka Seethamma Mid-Day Meal**
+* **Dokka Seethamma Madhyana Bhojanam**
+* Andhra Pradesh's school mid-day meal programme under **PM POSHAN**
+
+---
+
+## 2. Scheme Status
+
+**CURRENT_STATUS:** ACTIVE_CURRENT
+**SOURCE_VERIFICATION_STATUS:** VERIFIED_CURRENT
+
+Dokka Seethamma Madhyana Badi Bhojanam is the Andhra Pradesh implementation/branding of the school mid-day meal programme. Current Andhra Pradesh district government information describes the programme as providing standardized nutritious meals to government-school students. ([Ankapalli District][1])
+
+At the Union level, the programme is implemented under **Pradhan Mantri Poshan Shakti Nirman (PM POSHAN)**. The official PM POSHAN system continues to record Andhra Pradesh with **43,218 schools and 25,51,044 enrolments** in its 2026 reporting data. ([PM Poshan][2])
+
+---
+
+## 3. Objective
+
+The objective is to provide **nutritional support to school children** while supporting:
+
+* School enrolment
+* Attendance
+* Retention
+* Improved nutritional status
+* Access to a hot cooked meal during the school day.
+
+The Union Government describes PM POSHAN as a rights-based centrally sponsored scheme providing nutritional support through hot cooked meals to eligible students. ([PM Poshan][3])
+
+---
+
+## 4. Target Beneficiaries
+
+The primary beneficiaries are **eligible school students in Andhra Pradesh's covered schools**.
+
+The PM POSHAN framework covers eligible students in:
+
+* Government schools
+* Government-aided schools
+* Local-body schools
+* Other categories covered under the scheme guidelines.
+
+The official PM POSHAN Andhra Pradesh data currently records more than **25 lakh student enrolments** across the State's reporting school system. ([PM Poshan][2])
+
+---
+
+## 5. Benefit Provided
+
+The benefit is an **in-kind nutritional benefit**, not a cash transfer.
+
+Students receive a **hot cooked meal during the school day**.
+
+Andhra Pradesh's Dokka Seethamma programme focuses on improving and standardizing the meal supplied to government-school students, including regional food preferences. ([Ankapalli District][1])
+
+The exact menu and nutritional quantities are governed by the applicable PM POSHAN/state implementation guidelines and can vary according to the applicable category and implementation year.
+
+---
+
+## 6. Eligibility Criteria
+
+### A. Student Status
+
+The beneficiary must be an **eligible student enrolled in a school covered by the PM POSHAN/state school-meal programme**.
+
+### B. School Type
+
+Eligibility is linked primarily to the **type of school and class covered by the programme**, rather than household income.
+
+### C. Income
+
+No individual family-income test is required for a student to receive the regular school meal under the programme.
+
+Therefore, the RAG system should **not import income limits from schemes such as Thalliki Vandanam or Jnanabhumi scholarships**.
+
+### D. Caste
+
+There is no general caste-based eligibility condition for receiving the regular school meal.
+
+### E. Gender
+
+The benefit is available to eligible students regardless of gender.
+
+---
+
+## 7. Class / School Coverage
+
+PM POSHAN historically focuses on children in the prescribed school classes/categories under its operational guidelines.
+
+The exact coverage should be stored as **versioned programme rules**, because PM POSHAN's scope and approved categories are determined through Union Government guidelines and annual State AWP&B approvals.
+
+The Andhra Pradesh PM POSHAN system currently reports **43,218 schools** and **25,51,044 enrolments**. ([PM Poshan][2])
+
+---
+
+## 8. Required Documents
+
+Students do **not normally submit an individual welfare application** to receive the school meal.
+
+Eligibility is primarily established through:
+
+* School enrolment
+* School category
+* Applicable PM POSHAN coverage
+* School attendance/meal records.
+
+Therefore, the RAG system should **not require**:
+
+* Income certificate
+* Land records
+* Vehicle ownership information
+* Property records
+* Caste certificate
+
+unless a particular implementation rule explicitly requires such information for a separate purpose.
+
+---
+
+## 9. Application / Delivery Mechanism
+
+This is a **school-based delivery programme**.
+
+The meal is prepared and served through participating schools under the State's PM POSHAN implementation system.
+
+The official Andhra Pradesh district education page reports:
+
+* Schools covered
+* Students covered
+* Meal uptake
+* Cook-cum-helpers
+* Ayahs and other supporting personnel
+
+for Dokka Seethamma Madhyana Badi Bhojanam. ([Ankapalli District][1])
+
+Thus, a student generally does **not apply individually** in the manner used for a direct-benefit scheme.
+
+---
+
+## 10. Implementing Department
+
+The programme is implemented through the:
+
+**School Education Department, Government of Andhra Pradesh**
+
+under the broader:
+
+**Pradhan Mantri Poshan Shakti Nirman (PM POSHAN)** framework of the Government of India.
+
+The Union Ministry of Education's PM POSHAN system maintains State-level implementation and monitoring information for Andhra Pradesh. ([PM Poshan][2])
+
+---
+
+## 11. Verification / Selection Conditions
+
+The deterministic eligibility engine should primarily verify:
+
+```text
+student_enrolled
+AND eligible_school
+AND applicable_programme_category
+AND applicable_academic_year
+```
+
+The system should then determine whether the student falls within the relevant meal coverage.
+
+The LLM should **not determine eligibility using socioeconomic assumptions**.
+
+---
+
+## 12. Current Implementation
+
+Andhra Pradesh district government information currently records implementation of **Dokka Seethamma Madhyana Badi Bhojanam**.
+
+For example, Anakapalli District reports:
+
+* **1,407 schools covered**
+* **94,615 students covered**
+* **94% average percentage of meals taken**
+* **2,642 cook-cum-helpers**
+* **1,550 ayahs**
+* **220 night watchmen**
+
+under the programme information displayed by the district administration. ([Ankapalli District][1])
+
+At the national PM POSHAN level, Andhra Pradesh's 2026 system data records **43,218 schools** and **25,51,044 enrolments**. ([PM Poshan][2])
+
+---
+
+## 13. Current-Status Interpretation
+
+The current evidence supports treating the scheme as **ACTIVE_CURRENT**.
+
+The Union Government's PM POSHAN programme is currently being administered, with official 2026 reporting infrastructure and Andhra Pradesh State-level data available. ([PM Poshan][2])
+
+There is one important versioning issue:
+
+The official PM POSHAN page states that the scheme had been approved through **2025-26** and was due for appraisal for the **2026-27 to 2030-31** cycle. It also states that existing schemes ending on 31 March 2026 were temporarily extended up to **30 September 2026 or approval of the new cycle, whichever was earlier**, with the existing scope and terms during the extension. ([PM Poshan][4])
+
+Therefore:
+
+> The RAG record should maintain **2026-27 PM POSHAN coverage as a versioned/current-policy field**, rather than assuming that every historical PM POSHAN rule automatically applies unchanged for the entire 2026-27 academic year.
+
+---
+
+## 14. Important Scheme Distinction
+
+Do not confuse Dokka Seethamma Madhyana Badi Bhojanam with:
+
+* **Thalliki Vandanam** — financial assistance to mothers/guardians
+* **Vidya Mitra School Kits** — educational materials
+* **Jnanabhumi Post-Matric Scholarships** — higher-education financial support
+* **NTR Vaidya Seva** — healthcare
+* Other nutrition programmes such as **Anganwadi supplementary nutrition**.
+
+Dokka Seethamma is specifically the **school meal/nutritional support programme**.
+
+---
+
+## 15. RAG Retrieval Keywords
+
+```text
+Dokka Seethamma Madhyana Badi Bhojanam
+Dokka Seethamma Madhyana Bhojanam
+Dokka Seethamma Mid Day Meal
+Dokka Sitamma meal
+AP mid day meal
+Andhra Pradesh school meal
+PM POSHAN Andhra Pradesh
+PM POSHAN AP
+school lunch Andhra Pradesh
+government school meal AP
+free meal students Andhra Pradesh
+mid day meal eligibility
+Dokka Seethamma eligibility
+school nutrition AP
+hot cooked meal AP
+```
+
+---
+
+## 16. Suggested Metadata
+
+```yaml
+scheme_name: Dokka Seethamma Madhyana Badi Bhojanam
+alternate_name:
+  - Dokka Seethamma Madhyana Bhojanam
+  - Dokka Seethamma Mid-Day Meal
+  - PM POSHAN Andhra Pradesh
+state: Andhra Pradesh
+department: School Education Department
+central_scheme: PM POSHAN
+benefit_type: In-Kind
+benefit_category: Nutritional Support
+beneficiary_category:
+  - School Students
+delivery_mode: School-Based
+cash_benefit: false
+application_required: false
+academic_year_specific: true
+```
+
+---
+
+## 17. Source References
+
+### Primary Government Sources
+
+* **Anakapalli District, Government of Andhra Pradesh — Education:** current Dokka Seethamma Madhyana Badi Bhojanam implementation data, including schools, students and meal uptake. ([Ankapalli District][1])
+* **Government of India, Ministry of Education — PM POSHAN:** current State-wise Andhra Pradesh school and enrolment data. ([PM Poshan][2])
+* **Government of India, Ministry of Education — PM POSHAN Programme Approval Board:** current information on the 2026-27 transition and temporary extension of the existing scheme. ([PM Poshan][4])
+* **Government of India — PAB PM POSHAN Andhra Pradesh:** Andhra Pradesh implementation and nutritional-support framework. ([PM Poshan][3])
+* **Government of India — PM POSHAN:** programme objectives and national implementation framework. ([PM Poshan][5])
+
+---
+
+## 18. RAG Readiness
+
+```text
+RAG_STATUS:
+READY
+
+ELIGIBILITY_ENGINE_STATUS:
+READY_WITH_SCHOOL_AND_ACADEMIC_YEAR_DEPENDENCY
+
+CURRENT_STATUS:
+ACTIVE_CURRENT
+
+SOURCE_VERIFICATION_STATUS:
+VERIFIED_CURRENT
+
+POLICY_VERSIONING:
+REQUIRED_FOR_2026-27
+```
+
+### Eligibility Engine
+
+The deterministic engine can safely evaluate:
+
+```text
+student_enrolled
+AND eligible_school
+AND applicable_programme_category
+AND applicable_academic_year
+```
+
+Then:
+
+```text
+meal_entitlement = TRUE
+```
+
+No household financial/property/land/vehicle filters should be introduced.
+
+---
+
+## 19. Final RAG Classification
+
+**Dokka Seethamma Madhyana Badi Bhojanam should be retained in the AP RAG dataset as an active school-based nutritional-support programme implemented under the PM POSHAN framework.**
+
+| Field                      | Value                                           |
+| -------------------------- | ----------------------------------------------- |
+| **Scheme**                 | Dokka Seethamma Madhyana Badi Bhojanam          |
+| **State**                  | Andhra Pradesh                                  |
+| **Department**             | School Education                                |
+| **Central Framework**      | PM POSHAN                                       |
+| **Target User**            | Eligible school students                        |
+| **Benefit Type**           | In-kind meal                                    |
+| **Cash Benefit**           | No                                              |
+| **Application**            | School-based; no individual welfare application |
+| **Current Status**         | **ACTIVE_CURRENT**                              |
+| **2026 Policy Versioning** | **Required**                                    |
+| **Eligibility Engine**     | **READY with school-data dependency**           |
+| **RAG**                    | **READY**                                       |
+| **Overall Record**         | **READY**                                       |
+
+**Key RAG rule:** Treat this as a **school meal entitlement**, not an income-based individual welfare scheme. For 2026-27, preserve the PM POSHAN policy version separately because the Union Government's official documentation identifies a transition from the 2025-26 cycle to the next five-year cycle. ([PM Poshan][4])
+
+[1]: https://anakapalli.ap.gov.in/education-2/?utm_source=chatgpt.com "EDUCATION | Ankapalli District | India"
+[2]: https://pmposhan-ams.education.gov.in/School_enrolment_view.aspx?utm_source=chatgpt.com "Pradhan Mantri Poshan Shakti Nirman - PM POSHAN"
+[3]: https://pmposhan.education.gov.in/Files/PAB/PAB-2024-25/Minutes-PAB-2024-25/Andhra_Pradesh%20PAB%20Minutes.pdf?utm_source=chatgpt.com "Government of India"
+[4]: https://pmposhan.education.gov.in/PAB_PM_POSHAN.html?utm_source=chatgpt.com "::Welcome to Mid Day Meal"
+[5]: https://pmposhan-ams.education.gov.in/About_mdm.aspx?utm_source=chatgpt.com "Pradhan Mantri Poshan Shakti Nirman - PM POSHAN"

@@ -1,0 +1,338 @@
+Scheme Status: HISTORICAL_CURRENT_CYCLE_UNCONFIRMED
+
+#YSR Nethanna Nestham
+
+## 1. Scheme Name
+
+**YSR Nethanna Nestham**
+
+---
+
+## 2. Scheme Status
+
+**CURRENT_STATUS:** ACTIVE_SCHEME_DOCUMENTATION / CURRENT_2026_PAYMENT_CYCLE_NOT_CONFIRMED
+**SOURCE_VERIFICATION_STATUS:** VERIFIED_SCHEME_RULES_WITH_CURRENT-CYCLE_CAVEAT
+
+The Andhra Pradesh Department of Handlooms and Textiles continues to publish YSR Nethanna Nestham as a financial-assistance scheme for handloom weaver families. Government district pages also continue to list the scheme and its eligibility conditions. However, the latest clearly documented beneficiary/payment data located in the official sources is for **2023-24**; a fresh 2026-27 payment notification was not conclusively established. ([Tirupati District][1])
+
+---
+
+## 3. Objective
+
+The objective of YSR Nethanna Nestham is to provide financial assistance to **handloom weaver families who own a handloom**, enabling them to:
+
+* Modernize their handloom equipment
+* Adopt improved handloom technologies
+* Improve productivity
+* Compete with the powerloom sector
+* Improve their socio-economic conditions
+
+The scheme was formally introduced through **G.O.Ms.No.89, Industries, Infrastructure, Investment and Commerce (Prog-II) Department, dated 23-10-2019**. ([Handlooms & Textiles][2])
+
+---
+
+## 4. Target Beneficiaries
+
+The documented target beneficiaries are:
+
+* **Handloom weaver families**
+* Family must **own a handloom**
+* Weaver must be **actually engaged in handloom weaving**
+* Weaving should be the source of livelihood
+* Family must belong to the **Below Poverty Line (BPL)** category. ([Tirupati District][1])
+
+---
+
+## 5. Benefit Provided
+
+The documented scheme benefit is:
+
+* **₹24,000 per year**
+* Paid to an eligible **weaver family**
+* One family receives **only one benefit**, irrespective of the number of handlooms owned.
+
+The financial assistance is intended primarily for modernization of handloom equipment and improving the family's ability to compete with powerloom products. ([Handlooms & Textiles][2])
+
+---
+
+## 6. Eligibility Criteria
+
+### A. Handloom Ownership
+
+The family must **own a handloom**.
+
+This is a core eligibility condition of the scheme. ([Handlooms & Textiles][2])
+
+### B. Active Weaving Profession
+
+The weaver must:
+
+* Be engaged in handloom weaving
+* Depend on weaving for livelihood.
+
+Government district Handlooms and Textiles pages explicitly state this requirement. ([Tirupati District][1])
+
+### C. BPL Status
+
+The weaver family must belong to the:
+
+**Below Poverty Line (BPL)** category. ([Handlooms & Textiles][2])
+
+### D. One Benefit Per Family
+
+Only **one benefit is allowed per weaver family**, irrespective of the number of handlooms owned by the family. ([Handlooms & Textiles][2])
+
+### E. Gender
+
+The official scheme order does **not restrict the benefit to women**.
+
+Therefore, the RAG system should not introduce a female-only condition.
+
+---
+
+## 7. Family Definition
+
+The scheme is structured around the **weaver family**, rather than providing a separate ₹24,000 payment for every individual loom or every individual family member.
+
+The Government Order explicitly states:
+
+> One weaver family shall be eligible for only one benefit, irrespective of the number of looms owned.
+
+([Handlooms & Textiles][2])
+
+---
+
+## 8. Required Documents
+
+The official sources reviewed establish:
+
+* Proof of handloom ownership
+* Verification of handloom weaving activity
+* BPL/family eligibility verification
+
+However, the sources reviewed do **not establish a complete current 2026 document checklist**.
+
+Therefore, documents such as Aadhaar, bank passbook, caste certificate, income certificate, etc. should **not be hard-coded as mandatory scheme documents** unless confirmed by the relevant current implementation instructions.
+
+---
+
+## 9. Application / Delivery Mechanism
+
+Government district Handlooms and Textiles pages identify the **Village/Ward Secretariat system** for registration.
+
+For example, official district documentation states that applicants should be registered through the **Welfare and Education Assistant at Village/Ward Secretariats**, with the scheme linked to the GSWS/NBM system. ([Guntur District][3])
+
+The RAG system should nevertheless distinguish this documented workflow from a **new 2026 application cycle**, which was not independently confirmed.
+
+---
+
+## 10. Implementing Department
+
+The implementing department is the:
+
+**Department of Handlooms & Textiles, Government of Andhra Pradesh.** ([Handlooms & Textiles][4])
+
+District-level Handlooms and Textiles offices participate in implementation and beneficiary identification.
+
+---
+
+## 11. Verification / Selection Conditions
+
+The deterministic eligibility engine should verify:
+
+* Handloom ownership
+* Actual handloom weaving activity
+* Livelihood dependence on weaving
+* BPL status
+* Family-level benefit history
+
+The engine should also enforce:
+
+```text
+MAXIMUM_ONE_BENEFIT_PER_WEAVER_FAMILY
+```
+
+It should **not** automatically apply income, land, vehicle, electricity or property rules from unrelated AP welfare schemes unless a specific Nethanna Nestham source establishes those rules.
+
+---
+
+## 12. Historical / Documented Implementation
+
+The official Department of Handlooms and Textiles page records **80,686 beneficiaries for 2023-24** across Andhra Pradesh under YSR Nethanna Nestham. ([Handlooms & Textiles][4])
+
+The official SPSR Nellore district page provides year-wise implementation data:
+
+| Year    | Beneficiaries | Amount @ ₹24,000 |
+| ------- | ------------: | ---------------: |
+| 2019-20 |         4,110 |     ₹9.864 crore |
+| 2020-21 |         3,833 |    ₹9.1992 crore |
+| 2021-22 |         3,316 |    ₹7.9584 crore |
+| 2022-23 |         3,639 |    ₹8.7336 crore |
+| 2023-24 |         3,817 |    ₹9.1608 crore |
+
+([Sri Potti Sriramulu Nellore District][5])
+
+Srikakulam district documentation also records the **5th phase / 2023-24** assistance to weaver beneficiaries. ([Srikakulam District Website][6])
+
+These figures are historical implementation records and should **not be interpreted as 2026 beneficiary counts**.
+
+---
+
+## 13. Current-Status Interpretation
+
+There are two separate pieces of information that should be retained in the RAG database.
+
+### Scheme Documentation
+
+The official AP Handlooms and Textiles website and current district government pages continue to describe YSR Nethanna Nestham as a financial-assistance scheme for handloom weavers. ([Handlooms & Textiles][4])
+
+### Current 2026-27 Payment Cycle
+
+The latest clearly documented beneficiary/payment data located in these official sources is for **2023-24**.
+
+Therefore:
+
+> The RAG system can state that the documented scheme provides **₹24,000 per eligible weaver family per year**, but should not automatically state that a fresh ₹24,000 payment is currently being disbursed in 2026-27 without a current Government notification.
+
+---
+
+## 14. Important Scheme Distinction
+
+Do not confuse YSR Nethanna Nestham with:
+
+* Weaver pension under **NTR Bharosa**
+* Weaver **MUDRA** loans
+* PMJJBY
+* PMSBY
+* National Handloom Development Programme
+* Handloom cluster-development schemes
+* Other textile/handloom assistance programmes.
+
+Nethanna Nestham is specifically the **₹24,000 annual financial-assistance scheme for eligible handloom weaver families owning handlooms**. ([Handlooms & Textiles][2])
+
+---
+
+## 15. RAG Retrieval Keywords
+
+```text
+YSR Nethanna Nestham
+Nethanna Nestham
+Nethanna Nestham Andhra Pradesh
+handloom weaver scheme
+handloom weaver financial assistance
+weaver family ₹24000
+weaver handloom subsidy
+YSR Nethanna Nestham eligibility
+Nethanna Nestham BPL
+Nethanna Nestham handloom ownership
+Nethanna Nestham ₹24000
+Nethanna Nestham weaver
+AP handloom welfare scheme
+Andhra Pradesh weaver scheme
+Handlooms and Textiles Andhra Pradesh
+```
+
+---
+
+## 16. Suggested Metadata
+
+```yaml
+scheme_name: YSR Nethanna Nestham
+alternate_name: Nethanna Nestham
+state: Andhra Pradesh
+department: Department of Handlooms & Textiles
+beneficiary_category:
+  - Handloom Weaver
+  - Weaver Family
+occupation: Handloom Weaving
+required_asset: Handloom
+bpl_required: true
+benefit_amount: 24000
+benefit_frequency: Annual
+benefit_unit: Weaver Family
+maximum_benefits_per_family: 1
+purpose:
+  - Handloom modernization
+  - Equipment improvement
+  - Livelihood improvement
+```
+
+---
+
+## 17. Source References
+
+### Primary Government Sources
+
+* **Department of Handlooms & Textiles, Government of Andhra Pradesh — Schemes:** scheme description, ₹24,000 annual assistance and 2023-24 beneficiary data. ([Handlooms & Textiles][4])
+* **Government of Andhra Pradesh — G.O.Ms.No.89, dated 23-10-2019:** original scheme order and core eligibility conditions. ([Handlooms & Textiles][2])
+* **Tirupati District, Government of Andhra Pradesh — Funding Support:** eligibility and scheme implementation information. ([Tirupati District][1])
+* **SPSR Nellore District, Government of Andhra Pradesh — Handlooms & Textiles:** detailed eligibility and year-wise beneficiary implementation data. ([Sri Potti Sriramulu Nellore District][5])
+* **Srikakulam District, Government of Andhra Pradesh — Handlooms & Textiles/ODOP:** scheme eligibility and 2023-24 implementation references. ([Srikakulam District Website][7])
+* **Guntur District, Government of Andhra Pradesh — ODOP:** application/registration and eligibility information. ([Guntur District][3])
+
+---
+
+## 18. RAG Readiness
+
+```text
+RAG_STATUS:
+READY_WITH_CURRENT-CYCLE_CAVEAT
+
+ELIGIBILITY_ENGINE_STATUS:
+READY_FOR_DOCUMENTED_RULES
+
+CURRENT_STATUS:
+ACTIVE_SCHEME_DOCUMENTATION
+CURRENT_2026-27_PAYMENT_NOT_CONFIRMED
+
+SOURCE_VERIFICATION_STATUS:
+VERIFIED_CURRENT_SCHEME_DOCUMENTATION_WITH_PAYMENT-CYCLE_CAVEAT
+```
+
+### Eligibility Engine
+
+The deterministic engine can safely evaluate:
+
+```text
+handloom_owned
+AND actively_engaged_in_handloom_weaving
+AND weaving_is_livelihood
+AND BPL_status
+AND family_has_not_already_received_scheme_benefit
+```
+
+The engine should **not infer additional financial/property/vehicle criteria** from other AP schemes.
+
+---
+
+## 19. Final RAG Classification
+
+**YSR Nethanna Nestham should be retained in the AP RAG dataset as a verified handloom-weaver welfare scheme. Its core ₹24,000 annual benefit and eligibility rules are directly supported by the original Government Order and AP Handlooms & Textiles sources. The 2026-27 payment cycle should remain separately flagged as requiring current-cycle confirmation.**
+
+| Field                            | Value                               |
+| -------------------------------- | ----------------------------------- |
+| **Scheme**                       | YSR Nethanna Nestham                |
+| **State**                        | Andhra Pradesh                      |
+| **Department**                   | Handlooms & Textiles                |
+| **Target User**                  | Eligible handloom weaver families   |
+| **Core Requirement**             | Own a handloom + actively weave     |
+| **BPL Requirement**              | Yes                                 |
+| **Documented Benefit**           | ₹24,000/year                        |
+| **Benefit Unit**                 | Weaver family                       |
+| **Maximum Benefit**              | One per family                      |
+| **Scheme Start**                 | December 2019                       |
+| **Eligibility Engine**           | **READY for documented rules**      |
+| **RAG**                          | **READY with current-cycle caveat** |
+| **2026-27 payment confirmation** | **NOT conclusively verified**       |
+| **Historical implementation**    | **Verified through 2023-24**        |
+| **Overall Record**               | **READY_AFTER_STATUS_VERSIONING**   |
+
+**Key RAG rule:** The answer should say **“YSR Nethanna Nestham provides documented financial assistance of ₹24,000 per year to eligible handloom weaver families”**, while separately checking whether the requested **2026-27 payment cycle** has been officially opened or disbursed. ([Handlooms & Textiles][2])
+
+[1]: https://tirupati.ap.gov.in/funding-support/?utm_source=chatgpt.com "FUNDING SUPPORT | TIRUPATI DISTRICT, Government of Andhra Pradesh | India"
+[2]: https://handlooms.ap.gov.in/documents/GO_Ms_No_89.PDF?utm_source=chatgpt.com "Microsoft Word - 2019INDS_MS89.DOC"
+[3]: https://guntur.ap.gov.in/odop2023/?utm_source=chatgpt.com "One District One Product 2023 | Guntur District, Government of Andhra Pradesh | India"
+[4]: https://handlooms.ap.gov.in/schemes.html?utm_source=chatgpt.com "AP Handlooms"
+[5]: https://spsnellore.ap.gov.in/handlooms-and-textiles/?utm_source=chatgpt.com "HANDLOOMS & TEXTILES | Sri Potti Sriramulu Nellore District, Government of Andhra Pradesh | India"
+[6]: https://srikakulam.ap.gov.in/handlooms-and-textiles1/?utm_source=chatgpt.com "One District One Product (ODOP) single page | Srikakulam District, Government of Andhra Pradesh, India. | India"
+[7]: https://srikakulam.ap.gov.in/handlooms-and-textiles/?utm_source=chatgpt.com "One District One Product (ODOP) – 2023 (Ponduru Cotton Sarees) | Srikakulam District, Government of Andhra Pradesh, India. | India"

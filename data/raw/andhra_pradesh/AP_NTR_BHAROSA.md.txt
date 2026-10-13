@@ -1,0 +1,837 @@
+Scheme Status: ACTIVE_CURRENT
+
+# NTR Bharosa Pension Scheme
+
+## 1. Basic Information
+
+Scheme ID AP_NTR_BHAROSA
+
+Official Scheme Name NTR Bharosa Pension Scheme
+
+Official Source URL https://sspensions.ap.gov.in/
+
+State Andhra Pradesh
+
+Government Government of Andhra Pradesh
+
+Department Panchayat Raj & Rural Development Department
+
+Implementing Agency
+Society for Elimination of Rural Poverty (SERP)
+
+Category Social Security  Pension
+
+Subcategory Social Assistance Pension
+
+Implementing Authority
+Government of Andhra Pradesh through SERP, District Rural Development Agencies (DRDAs), Mandal Parishad Development Officers (MPDOs), Municipal Commissioners and the prescribed local pension-disbursement system.
+
+Scheme Status ACTIVE_CURRENT
+
+Current As Of September 2026
+
+Historical Names
+- NTR Bharosa Pension Scheme
+- YSR Pension Kanuka
+- Other earlier Andhra Pradesh social security pension programme names where applicable
+
+Current Scheme Identity
+The Government of Andhra Pradesh restored the name of the pension scheme to
+NTR Bharosa Pension Scheme through G.O.Ms.No.43 dated 13.06.2024.
+
+Current Verification
+The official NTR Bharosa pension dashboard records pension releases and disbursements for September 2026.
+
+
+## 2. Scheme Overview
+
+NTR Bharosa Pension Scheme is the Government of Andhra Pradesh's social security pension programme for eligible vulnerable and economically disadvantaged beneficiaries.
+
+The scheme provides monthly financial assistance to specified beneficiary categories including old-age persons, widows, persons with disabilities, weavers, toddy tappers, fishermen, single women, transgender persons, traditional cobblers, Dappu artists, ARTPLHIV beneficiaries and specified medical-condition categories.
+
+The scheme name was restored to NTR Bharosa Pension Scheme through G.O.Ms.No.43 dated 13.06.2024.
+
+The enhanced pension rates ordered through the 2024 Government Order became applicable from July 2024, with the ₹4,000 category receiving arrears as specified in the Government Order.
+
+Current operational status is supported by the official NTR Bharosa dashboard, which records pension disbursements for September 2026.
+
+
+## 3. Target Beneficiaries
+
+The official NTR Bharosa portal identifies the following pension categories
+
+- Old Age Pension
+- Weavers Pension
+- Widow Pension
+- Disabled Pension
+- Toddy Pension
+- ART  PLHIV Pension
+- Transgender Pension
+- Fishermen Pension
+- Single Women Pension
+- CKDU Pension
+- Traditional Cobblers Pension
+- Dappu Artists Pension
+
+The 2024 Government Order additionally identifies pension categoriesmedical conditions including
+
+- Fully disabled persons
+- Multi-deformity leprosy
+- Paralysis confining a person to a wheelchair or bed
+- Severe muscular dystrophy
+- Accident victims under the specified category
+- Bilateral Elephantiasis Grade 4
+- Kidney, liver and heart transplant
+- Specified CKDU conditions
+- CKDU patients undergoing dialysis
+- Sickle cell disease
+- Thalassemia
+- Severe haemophilia
+
+The exact eligibility for each category must be evaluated separately.
+
+
+## 4. Eligibility Criteria
+
+### Common Eligibility Conditions
+
+The official NTR Bharosa portal specifies the following common conditions
+
+- The proposed beneficiary shall be from a BPL family holding a white ration card.
+- The beneficiary shall be a local resident of the district.
+- The beneficiary shall not be covered under another pension scheme.
+
+These common conditions should be interpreted together with the category-specific eligibility conditions and applicable exclusion factors.
+
+
+### Age
+
+#### Old Age Pension
+
+- Male or female.
+- 60 years of age or above.
+- The official portal also describes the beneficiary as destitute, meaning having little or no means of subsistence and no family or relative to depend upon.
+
+#### Weavers Pension
+
+- 50 years of age or above.
+- The official portal describes the beneficiary as destitute.
+
+#### Widow Pension
+
+- 18 years and above, according to the current official NTR Bharosa eligibility page.
+
+#### Disabled Pension
+
+- No age limit.
+- Minimum 40% disability according to the official NTR Bharosa eligibility page.
+
+#### Toddy Pension
+
+- 50 years and above.
+- The official portal refers to members of Toddy Cooperative Societies or individual tappers under the Tree for Tappers scheme and contains a historical reference to completion of 50 years as on 01.02.2009.
+
+The historical date should not be interpreted as a newly imposed 2026 age cutoff.
+
+#### ART  PLHIV Pension
+
+- No age limit stated on the current official eligibility page.
+- Six months continuous treatment on Anti-Retroviral Therapy (ART).
+
+#### CKDU Pension
+
+- No age limit stated.
+- Patients undergoing continuous kidney dialysis for Chronic Kidney Disease of Unknown Etiology (CKDU).
+
+#### Transgender Pension
+
+- 18 years of age or above.
+
+#### Fishermen Pension
+
+- 50 years of age or above.
+
+#### Traditional Cobblers Pension
+
+- Above 40 years.
+
+#### Single Women Pension
+
+Married women who are separateddeserted
+- Above 35 years.
+- Separation period must be more than one year as on the date of pension sanction.
+
+Unmarried women
+- 30 years and above in rural areas.
+- 35 years and above in urban areas.
+- Must have no support of the family according to the official eligibility page.
+
+#### Dappu Artist Pension
+
+- Above 50 years.
+
+
+### Gender
+
+Gendercategory requirements vary by pension type.
+
+- Old Age Pension Male and female.
+- Widow Pension Female.
+- Single Women Pension Female.
+- Transgender Pension Transgender persons.
+- Disabled Pension Category-specific, not restricted to one gender.
+- Occupational pensions Category-specific.
+
+
+### Residence
+
+The official NTR Bharosa portal states that the beneficiary must be a local resident of the district.
+
+Exact legal interpretation of domicilepermanent residence should not be expanded beyond the wording of the current official source.
+
+
+### Income
+
+The fundamental common criterion identified by the official NTR Bharosa portal is BPL status with a white ration card.
+
+The available official sources contain different incomevalidation references in older and category-specific material.
+
+Therefore
+
+Current universal income threshold
+Not conclusively verified from a single current authoritative source.
+
+Do not use a universal ₹10,000 rural  ₹12,000 urban income rule as a deterministic eligibility condition without confirming the latest applicable Government Order or implementation guideline.
+
+
+### Occupation
+
+Occupation-specific eligibility applies to categories such as
+
+- Weavers
+- Toddy Tappers
+- Fishermen
+- Traditional Cobblers
+- Dappu Artists
+
+The relevant occupationcategory must be established according to the applicable pension-category rules.
+
+For Toddy Tappers, the official portal refers to Toddy Cooperative Societies  Tree for Tappers arrangements.
+
+For occupational categories, registration or other occupation-specific evidence may be required where prescribed.
+
+Exact current document requirements are category-specific.
+
+
+### Education
+
+Not specified as a general eligibility condition for NTR Bharosa pensions.
+
+
+### Land
+
+The current official NTR Bharosa portal lists the following landholding exclusion
+
+- More than 2.5 acres of wet land and 5 acres of dry land, or
+- More than 5 acres when wet and dry land are considered together.
+
+The portal states an exception for ST households in scheduled areas under ITDAs.
+
+Important
+Some AP district-level pages contain olderdifferent validation criteria, including 3 acres wet  10 acres dry and other household validation conditions.
+
+Because these sources conflict, the 310-acre rule must NOT be treated as the universal current NTR Bharosa rule without further official reconciliation.
+
+Current land-rule status
+PARTIALLY_VERIFIED  SOURCE CONFLICT REQUIRES RESOLUTION.
+
+
+### Social Category
+
+The official NTR Bharosa portal describes priority for
+
+- ST households, particularly PVTG households in Agency areas
+- SC households
+- Practising artisans
+- Other Backward Classes
+- Daily labourers
+- Agricultural labourers
+- Migrated labourers
+- Nomadic tribes
+- Destituteorphan households
+- Households with disabled persons
+- Manual scavengers
+- Other poor households
+
+Priority categories should not be interpreted as an automatic exclusion or automatic eligibility condition for categories not listed.
+
+
+### Family Conditions
+
+The official sources support householdfamily-level assessment as part of determining BPL eligibility and exclusion factors.
+
+The official NTR Bharosa portal does not provide a single current universal one pension per family rule applicable identically to every category on the current eligibility page.
+
+Category-specific family rules may apply.
+
+Do not use a blanket one-pension-per-family rule in the eligibility engine unless supported by the applicable category-specificcurrent guideline.
+
+
+### Other Conditions
+
+Other category-specific requirements may include
+
+- Destitution
+- Disability percentage
+- ART treatment duration
+- Dialysismedical-condition criteria
+- Occupational status
+- Category-specific certification
+- Other conditions specified by the Government of Andhra Pradesh.
+
+Where a current source does not specify an exact condition
+
+Not specified in the verified source.
+
+
+## 5. Exclusions  Non-Eligibility
+
+The current official NTR Bharosa portal lists the following exclusion factors
+
+- State Government employees
+- Central Government employees
+- PSU employees
+- Government employee pensioners, including PSUCentral Government pensioners
+- Income-tax payers
+- Land owners exceeding the specified landholding limits
+- Outsourced employees
+- Private salariedmonthly salaried employees
+- Owners of cars
+- Freedom Fighter pension holders
+- Persons already covered under another pension scheme
+
+Land exclusion
+- More than 2.5 acres wet and 5 acres dry, or
+- More than 5 acres combined wetdry,
+subject to the exception stated by the official portal for ST households in scheduled areasITDAs.
+
+Important
+Some historicalcategory-specific AP government pages contain additional validation conditions such as electricity consumption, built-up area and household income thresholds.
+
+Those conditions must not be treated as universal current NTR Bharosa rules unless confirmed by the latest applicable official guideline.
+
+
+## 6. Benefits
+
+The current benefit structure is based primarily on G.O.Ms.No.43 dated 13.06.2024.
+
+### ₹4,000 per month
+
+The Government Order specifies ₹4,000 per month for
+
+- Old Age Pension
+- Widow Pension
+- Weaver Pension
+- Toddy Tapper Pension
+- Fishermen Pension
+- Single Women Pension
+- Traditional Cobblers Pension
+- Transgender Pension
+- ART  PLHIV Pension
+- Dappu Artists Pension
+- Artist pensions
+
+### ₹6,000 per month
+
+The Government Order specifies ₹6,000 per month for
+
+- Persons with disabilities
+- Multi-deformity leprosy persons
+
+The disabled pension eligibility page specifies a minimum 40% disability for the general disabled pension category.
+
+### ₹15,000 per month
+
+The Government Order specifies ₹15,000 per month for
+
+- Paralysis confining the person to a wheelchair or bed
+- Severe muscular dystrophy cases
+- Accident victims under the specified pension category
+
+The Government Order describes this section under fully disabled persons pensions.
+
+### ₹10,000 per month
+
+The Government Order specifies ₹10,000 per month for specified chronic conditions including
+
+- Bilateral Elephantiasis Grade 4
+- Kidney transplant
+- Liver transplant
+- Heart transplant
+- CKDU not on dialysis with serum creatinine greater than 5 mg
+- CKDU not on dialysis with estimated GFR below 15 ml
+- CKDU not on dialysis with small contracted kidney
+- CKDU undergoing dialysis
+- Sickle cell disease
+- Thalassemia
+- Severe haemophilia below the specified factor 89 threshold
+
+The exact medical certification requirements for each condition should be verified separately before use in the deterministic eligibility engine.
+
+### Historicaltransition payment
+
+The 2024 Government Order states that the ₹4,000 category was payable from 1 April 2024 and was to be disbursed from July 2024 with three months' arrears.
+
+This historical arrears provision should not be interpreted as the normal current monthly pension amount.
+
+Current ordinary benefit frequency
+Monthly.
+
+
+## 7. Required Documents
+
+Required documents vary by pension category.
+
+The verified official sources support the need for category-specific evidence, but the exact complete current document checklist is not established uniformly for all categories in the sources reviewed.
+
+Potential category-specific evidence may include
+
+- Identityage evidence
+- White ration cardBPL evidence
+- Disability certification
+- Medical certification
+- ART treatment records
+- Dialysismedical records
+- Occupationalcategory certification
+- Widow-related evidence
+- Other documents prescribed by the implementing authority
+
+Current universal document list
+Not conclusively verified.
+
+Do not treat Aadhaar, bank passbook, electricity bill, voter ID, photograph or any other document as universally mandatory unless the current official application guideline explicitly requires it.
+
+
+## 8. Application Process
+
+The official NTR Bharosa material describes a government-administered sanction process.
+
+### Sanctioning authority
+
+Rural
+- Mandal Parishad Development Officer (MPDO)
+
+Urban
+- Municipal Commissioner
+
+The official portal states that eligible lists are uploaded through the MPDOMunicipal Commissioner system to the DRDA for sanction.
+
+### Local application
+
+Current AP district government information identifies GramaWard Sachivalayam as the application point for NTR Bharosa.
+
+The exact current application-entry and verification workflow may vary according to the applicable local administrative process.
+
+### Verification and sanction
+
+The official scheme documentation describes
+
+1. Identificationselection of eligible beneficiaries.
+2. Uploading of eligible lists by the MPDOMunicipal Commissioner.
+3. DRDA-level processing and sanction.
+4. Maintenance of the pension database.
+5. Monthly pension disbursement.
+
+The exact current digital workflow, including any current AP SevaSix-Step Validation process, should be treated separately unless supported by the latest applicable SOP.
+
+
+## 9. Important Dates
+
+Scheme name restoration
+13 June 2024 through G.O.Ms.No.43.
+
+Enhanced ₹4,000 category
+Payable from 1 April 2024, with disbursement from July 2024 and three months' arrears as specified in G.O.Ms.No.43.
+
+Enhanced ₹6,000  ₹10,000  ₹15,000 categories
+Disbursement from 1 July 2024 according to G.O.Ms.No.43.
+
+Current pension frequency
+Monthly.
+
+Official scheme documentation states that pension disbursement is scheduled for the first of each month.
+
+Current application opening date
+Not specified in the verified current source.
+
+Current application closing date
+Not specified in the verified current source.
+
+
+## 10. Selection  Verification  Approval
+
+The official NTR Bharosa portal identifies the following administrative structure
+
+### Rural areas
+
+MPDO
+- Sanctioning authority for pensions.
+
+### Urban areas
+
+Municipal Commissioner
+- Sanctioning authority for pensions.
+
+### District level
+
+District Rural Development Agency
+- Administers the pension programme at district level.
+- Maintains the pension database.
+- Processes financial and administrative requirements.
+
+### State level
+
+Society for Elimination of Rural Poverty
+- Monitors the pension programme.
+- Coordinates reporting and implementation.
+
+The current official portal also describes pension-software-based processing and database management.
+
+Exact current automated validation logic should not be reproduced as a deterministic eligibility rule unless supported by the latest applicable implementation SOP.
+
+
+## 11. Implementing Authority
+
+State Level
+Society for Elimination of Rural Poverty (SERP), Government of Andhra Pradesh.
+
+Departmental framework
+Panchayat Raj & Rural Development Department.
+
+District Level
+District Rural Development Agencies  DRDA.
+
+Rural Sanctioning Authority
+Mandal Parishad Development Officer (MPDO).
+
+Urban Sanctioning Authority
+Municipal Commissioner.
+
+Local disbursement
+The official scheme documentation assigns pension-disbursement responsibilities to the prescribed local officials.
+
+
+## 12. Related  Linked Government Programs
+
+NTR Bharosa is part of the broader social-security pension system of Andhra Pradesh.
+
+Related programmes may include
+
+- National Social Assistance Programme (NSAP)
+- Indira Gandhi National Old Age Pension Scheme (IGNOAPS)
+- Other category-specific welfare and social-security programmes
+
+Important
+Central schemes such as NSAPIGNOAPS should not be treated as separate benefits automatically added to the NTR Bharosa pension amount unless an official source explicitly establishes the applicable fundingbenefit relationship.
+
+NTR Bharosa should remain a separate scheme record in the RAG.
+
+
+## 13. Official Websites and Portals
+
+Official NTR Bharosa Pension Scheme Portal
+NTR Bharosa Pension Scheme official portal
+
+Official NTR Bharosa Dashboard
+Current pension releasedisbursement dashboard
+
+Official Government Order
+G.O.Ms.No.43 dated 13.06.2024
+
+Official Andhra Pradesh Government Portal
+Government of Andhra Pradesh official portal
+
+Official applicationlocal service point
+GramaWard Sachivalayam, according to current AP district government information.
+
+
+## 14. Official Source Documents
+
+### Primary Source 1
+
+Government of Andhra Pradesh.
+
+G.O.Ms.No.43, Panchayat Raj and Rural Development (RD.I) Department.
+
+Date
+13.06.2024
+
+Subject
+Enhancement of existing Social Security Pension amounts and restoration of the scheme name as NTR Bharosa Pension Scheme.
+
+Primary facts supported
+- Scheme name restoration
+- ₹4,000 pension categories
+- ₹6,000 disabledmulti-deformity leprosy
+- ₹15,000 specified fully disabled categories
+- ₹10,000 specified chronic disease categories
+- Effectivedisbursement dates
+
+
+### Primary Source 2
+
+Official NTR Bharosa Pension Scheme portal.
+
+Primary facts supported
+- Current pension categories
+- Common eligibility conditions
+- Category-specific age criteria
+- Disability criteria
+- Local residence condition
+- Existing pension exclusion
+- Current listed exclusion factors
+- Sanctioning authority
+- Administrative process
+- Pension distribution process
+
+
+### Primary Source 3
+
+Official NTR Bharosa Pension Dashboard.
+
+Current observation
+September 2026 pension releasedisbursement data are displayed.
+
+Primary fact supported
+- NTR Bharosa is currently operational and being disbursed as of September 2026.
+
+
+### Government District Sources
+
+Relevant AP district government pages may be used as supporting government sources for category-specific implementation information.
+
+Such district-level information should not override a newer statewide Government Order without explicit justification.
+
+
+## 15. Current Status
+
+Status
+ACTIVE_CURRENT
+
+Verification date
+September 2026
+
+Evidence of current operation
+The official NTR Bharosa dashboard records pension releases and disbursements for September 2026.
+
+Current benefit basis
+G.O.Ms.No.43 dated 13.06.2024.
+
+Important source note
+The current NTR Bharosa website contains an older section displaying legacy pension amounts of ₹2,250₹3,000₹10,000.
+
+Those legacy figures conflict with the later G.O.Ms.No.43 dated 13.06.2024.
+
+For current benefit representation, the 2024 Government Order is treated as the controlling source, while the dashboard confirms current operation.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- Scheme currently operational.
+- NTR Bharosa is the current restored scheme name.
+- Official NTR Bharosa pension portal is operational.
+- September 2026 pension disbursement data are available.
+- Common BPLwhite-ration-card criterion is stated by the official portal.
+- Local district residence is stated by the official portal.
+- Existing pension coverage is an exclusion.
+- Major pension categories are documented.
+- Category-specific age criteria are documented.
+- Disabled pension minimum 40% disability is documented.
+- ₹4,000  ₹6,000  ₹10,000  ₹15,000 benefit structure is supported by G.O.Ms.No.43.
+- MPDO is rural sanctioning authority.
+- Municipal Commissioner is urban sanctioning authority.
+
+### PARTIALLY_VERIFIED
+
+- Exact current income-validation rules.
+- Exact current land-validation implementation.
+- Category-specific documentation.
+- Current digital application workflow.
+- Current automated validation implementation.
+- Detailed family-level eligibility rules.
+
+### SOURCE CONFLICT
+
+Landholding criteria
+- Current NTR Bharosa portal lists more than 2.5 acres wet + 5 acres dry  more than 5 acres combined as an exclusion, with a stated ST scheduled-area exception.
+- Some AP district material contains olderdifferent 3-acre wet  10-acre dry criteria.
+
+The conflicting criteria should not be merged.
+
+### NOT USED AS CURRENT RULES
+
+- Old ₹2,250  ₹3,000 pension values appearing on the legacy portal section.
+- Historical application workflows.
+- Unsupported universal ₹10,000 rural  ₹12,000 urban income rule.
+- Unsupported universal 1,500 sq.ft. urban-property rule.
+- Unsupported universal 300 units electricity rule.
+
+
+## 17. Notes and Limitations
+
+1. This document is intended for a government-scheme RAG system and not as a legal determination of eligibility.
+
+2. The eligibility engine must not make a final government eligibility decision.
+
+3. Where current authoritative sources conflict, the system should surface the conflict rather than silently selecting a value.
+
+4. The 2024 Government Order is the primary source for the enhanced pension amounts.
+
+5. The live NTR Bharosa portal confirms current operational status but contains legacy information in some sections. Legacy values must not override the later 2024 Government Order.
+
+6. Category-specific medical pensions require medicaldocument verification and should not be evaluated using only generic demographic information.
+
+7. If a current authoritative source does not specify a condition
+
+Not specified in the verified source.
+
+8. Final eligibility, sanction and pension continuation are determined by the competent Government of Andhra Pradesh authorities based on the applicable rules and administrative verification.
+
+
+## 18. Structured Eligibility Data
+
+age_min
+Category-dependent
+- Old Age 60
+- Widow 18
+- Transgender 18
+- Weaver 50
+- Fishermen 50
+- Toddy 50
+- Traditional Cobbler above 40
+- Dappu Artist above 50
+- Single Women category-specific
+- Disabled no age limit
+- ARTPLHIV no age limit stated
+- CKDU no age limit stated
+
+age_max
+No general maximum age specified in the verified current source.
+
+gender
+Category-dependent.
+
+residence
+Local resident of the district.
+
+income_limit
+BPL  white ration card criterion.
+Exact universal current monetary income threshold NOT CONCLUSIVELY VERIFIED.
+
+occupation
+Category-dependent for
+- Weavers
+- Toddy Tappers
+- Fishermen
+- Traditional Cobblers
+- Dappu Artists
+- Artists
+
+education
+Not specified.
+
+land_requirement
+Current official portal exclusion
+More than 2.5 acres wet and 5 acres dry, or more than 5 acres combined wetdry, subject to the stated ST scheduled-area exception.
+
+Important
+Conflicting olderdistrict-level criteria exist and require further reconciliation.
+
+social_category
+Open across eligible categories, with official priority references for SC, STPVTG and other vulnerable groups.
+
+family_requirement
+HouseholdBPL-based assessment applies.
+Exact current universal one-pension-per-family rule NOT CONCLUSIVELY VERIFIED.
+
+other_conditions
+Category-specific conditions including
+- destitution
+- disability percentage
+- ART treatment
+- dialysismedical condition
+- occupation
+- category-specific certification
+
+exclusions
+- Government employees
+- Government pensioners
+- PSU employees
+- Income-tax payers
+- Outsourced employees
+- Private salaried employees
+- Car owners
+- Freedom Fighter pension holders
+- Certain landholding levels
+- Persons covered under another pension scheme
+
+required_documents
+Category-specific.
+Exact current universal document list NOT CONCLUSIVELY VERIFIED.
+
+benefit_amount
+- ₹4,000month specified general categories
+- ₹6,000month disabled and multi-deformity leprosy
+- ₹10,000month specified chronic disease categories
+- ₹15,000month specified fully disabledparalysismuscular dystrophyaccident categories
+
+application_method
+Through the designated Andhra Pradesh local administrative system  Grama or Ward Sachivalayam, with sanction by the competent authority.
+
+application_portal
+Official NTR Bharosa Pension Scheme portal.
+Exact public online applicant workflow Not specified in the verified current source.
+
+
+## 19. Source-to-Fact Mapping
+
+ Fact  Source Document  PageSection  Official URL  Status
+---------------
+ Current scheme name  G.O.Ms.No.43, 13.06.2024  Para 2(g)  Official NTR Bharosa Government Order  VERIFIED_CURRENT
+ Scheme currently operating  NTR Bharosa Pension Dashboard  September 2026 dashboard  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Common BPLwhite ration card criterion  NTR Bharosa official portal  Eligibility Criteria  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Local district residence  NTR Bharosa official portal  Common Eligibility  Official NTR Bharosa portal  VERIFIED_CURRENT
+ No other pension  NTR Bharosa official portal  Common Eligibility  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Old-age age criterion  NTR Bharosa official portal  Old Age Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Weaver age criterion  NTR Bharosa official portal  Weaver Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Widow age criterion  NTR Bharosa official portal  Widow Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Disabled minimum 40%  NTR Bharosa official portal  Disabled Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Toddy pension agecategory  NTR Bharosa official portal  Toddy Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ ARTPLHIV condition  NTR Bharosa official portal  ART Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ CKDU dialysis condition  NTR Bharosa official portal  CKDU Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Transgender age  NTR Bharosa official portal  Transgender Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Fishermen age  NTR Bharosa official portal  Fishermen Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Traditional Cobbler age  NTR Bharosa official portal  Traditional Cobbler Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Single Women criteria  NTR Bharosa official portal  Single Women Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Dappu Artist age  NTR Bharosa official portal  Dappu Artist Pension  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Government employee exclusion  NTR Bharosa official portal  Exclusion Factors  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Income-tax exclusion  NTR Bharosa official portal  Exclusion Factors  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Land exclusion  NTR Bharosa official portal  Exclusion Factors  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Car-owner exclusion  NTR Bharosa official portal  Exclusion Factors  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Freedom Fighter pension exclusion  NTR Bharosa official portal  Exclusion Factors  Official NTR Bharosa portal  VERIFIED_CURRENT
+ ₹4,000 pension categories  G.O.Ms.No.43, 13.06.2024  Para 2(a), Table I  Official Government Order  VERIFIED_CURRENT
+ ₹6,000 disabledmulti-deformity leprosy  G.O.Ms.No.43, 13.06.2024  Para 2(b), Table II  Official Government Order  VERIFIED_CURRENT
+ ₹15,000 specified fully disabled categories  G.O.Ms.No.43, 13.06.2024  Para 2(c), Table III  Official Government Order  VERIFIED_CURRENT
+ ₹10,000 chronic disease categories  G.O.Ms.No.43, 13.06.2024  Para 2(d), Tables IVV  Official Government Order  VERIFIED_CURRENT
+ Benefit effectivedisbursement dates  G.O.Ms.No.43, 13.06.2024  Paras 2(e)-(f)  Official Government Order  VERIFIED_CURRENT
+ Rural sanctioning authority  NTR Bharosa official portal  Sanctioning Authority  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Urban sanctioning authority  NTR Bharosa official portal  Sanctioning Authority  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Monthly disbursement  NTR Bharosa official portal  DistributionRoles  Official NTR Bharosa portal  VERIFIED_CURRENT
+ Exact universal monetary income limit  Available official sources conflict  insufficient  Eligibility  Official sources  NEEDS_VERIFICATION
+ Exact current digital application workflow  Current authoritative SOP not conclusively established  Application  Official AP sources  NEEDS_VERIFICATION
+ Universal document list  Category-specific  Application  Official AP sources  NEEDS_VERIFICATION
+ Universal 300-unit electricity rule  Olderdistrict-level material only  Validation  AP district source  NEEDS_VERIFICATION
+ Universal 1,500 sq.ft. property rule  Not established in current primary source reviewed  Validation  Official sources  NEEDS_VERIFICATION
+ 3-acre wet  10-acre dry rule  Appears in some district-level material but conflicts with current NTR Bharosa portal  Validation  AP district source  NEEDS_VERIFICATION

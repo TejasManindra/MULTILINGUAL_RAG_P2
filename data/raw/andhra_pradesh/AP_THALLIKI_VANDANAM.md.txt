@@ -1,0 +1,1030 @@
+# Thalliki Vandanam Scheme
+
+## 1. Basic Information
+
+Scheme ID: AP_THALLIKI_VANDANAM
+
+Official Scheme Name: Thalliki Vandanam
+
+State: Andhra Pradesh
+
+Government: Government of Andhra Pradesh
+
+Department: School Education Department
+
+Category: Education / Student Welfare
+
+Subcategory: Educational Financial Assistance
+
+Implementing Departments / Agencies:
+- School Education Department
+- Director of School Education
+- Director of Intermediate Education
+- State Project Director, Samagra Shiksha
+- School Infrastructure / Mid-Day Meal & related education authorities
+- Society for Grama/Ward Secretariats (SGSW)
+- Welfare Departments / Welfare Corporations
+- District Collectors
+- APCFSS / RTGS for payment-related functions
+
+Scheme Status: ACTIVE_CURRENT
+
+Current As Of: September 2026
+
+Academic Year Covered:
+2026-27
+
+Original Implementation:
+2025-26
+
+Current Governing Order:
+G.O.Ms.No.15, School Education (Ser.I) Department,
+dated 16.07.2026.
+
+Administrative Sanction:
+G.O.Ms.No.16, School Education (Ser.I) Department,
+dated 16.07.2026.
+
+Historical Relationship:
+The programme follows the earlier Andhra Pradesh school-education financial-assistance framework associated with Amma Vodi, but the current scheme should be represented independently as Thalliki Vandanam.
+
+Important:
+Do not merge historical Amma Vodi eligibility and current Thalliki Vandanam rules unless the applicable government order explicitly carries the rule forward.
+
+
+## 2. Scheme Overview
+
+Thalliki Vandanam is an Andhra Pradesh Government educational financial-assistance programme intended to support children continuing education from Class I through Class XII, including Intermediate Education.
+
+The scheme provides financial assistance to an eligible mother or recognised guardian for each eligible child.
+
+The scheme applies to eligible students studying in:
+
+- Government schools
+- Private aided schools
+- Private unaided schools
+- Recognised residential schools
+- Recognised junior colleges / residential junior colleges
+
+The scheme was implemented from academic year 2025-26 and was continued for academic year 2026-27 through G.O.Ms.No.15 dated 16.07.2026.
+
+The benefit is ₹15,000 per eligible child per academic year.
+
+An amount of ₹2,000 per student is deducted at source for the educational ecosystem, including school/junior-college maintenance, hygiene and sanitation and other purposes prescribed under the applicable SOP.
+
+Therefore, the normal amount credited to the beneficiary's Aadhaar-seeded bank account is ₹13,000, subject to special payment arrangements such as RTE Section 12(1)(c) and scholarship convergence.
+
+
+## 3. Target Beneficiaries
+
+Primary beneficiary:
+
+- Eligible mother of a child studying in Classes I-XII / Intermediate.
+
+Recognised guardian:
+
+- Where the mother is unavailable or where the applicable rules recognise another guardian, the benefit may be paid to the recognised guardian subject to the scheme's verification process.
+
+Student coverage:
+
+- Class I
+- Classes II-XII
+- Intermediate / Junior Intermediate
+- Recognised residential school/junior-college students
+- Eligible students in Government schools
+- Eligible students in Private Aided schools
+- Eligible students in Private Unaided schools
+
+Special categories:
+
+- Single-parent families
+- Orphan children
+- Street children enrolled through eligible voluntary organisations
+- Children admitted under Section 12(1)(c) of the Right to Education Act, 2009
+- Students covered under certain Centrally Sponsored Scholarship Schemes, subject to the scheme's balance-payment rules
+
+The benefit is calculated per eligible child rather than once per family.
+
+
+## 4. Eligibility Criteria
+
+### Age
+
+No separate beneficiary age limit for the mother/guardian is specified in the verified scheme guidelines.
+
+Eligibility is primarily linked to the student's class, enrolment and household eligibility.
+
+Student education level:
+
+- Class I to Class XII
+- Intermediate / Junior Intermediate
+
+Age:
+Not specified as a standalone eligibility criterion in the verified current scheme order.
+
+
+### Gender
+
+The ordinary beneficiary is the mother of the eligible child.
+
+However, the scheme also recognises guardians and provides special provisions for:
+
+- Single-parent families
+- Cases where the mother is unavailable
+- Orphan children
+
+Therefore, the benefit is not implemented as a strict female-only payment rule in every circumstance.
+
+Payment recipient is determined according to the applicable mother/guardian rules.
+
+
+### Residence
+
+The beneficiary should be included in the relevant Andhra Pradesh household database.
+
+The 2026 guidelines provide for field verification where the beneficiary is not present in the household database but the child is present.
+
+The student must be studying in a recognised institution covered by the Andhra Pradesh scheme.
+
+State:
+Andhra Pradesh.
+
+
+### Income
+
+The total household income must not exceed:
+
+Rural:
+₹10,000 per month
+
+Urban:
+₹12,000 per month
+
+The household income condition is a household-level eligibility parameter.
+
+
+### Occupation
+
+There is no general occupation requirement for the mother/guardian.
+
+However, employment status of household members is used as an exclusion criterion.
+
+Government/PSU employment may disqualify a household, subject to the exemptions specified in the scheme guidelines.
+
+Specified exemptions include:
+
+- Sanitation workers
+- Anganwadi workers
+- Employees whose monthly income is below the prescribed household-income threshold, according to the applicable guideline.
+
+
+### Education
+
+Student must be studying in:
+
+- Class I-XII, or
+- Intermediate / Junior Intermediate
+
+Institution must be recognised by the Government of Andhra Pradesh.
+
+Students pursuing:
+
+- ITI
+- Polytechnic
+- RGUKT / IIIT
+- Other similar courses already benefiting from fee reimbursement
+
+are not eligible under the specified exclusion in the Thalliki Vandanam guidelines.
+
+
+### Land
+
+The household landholding must satisfy the following:
+
+- Less than 3 acres of wet land, OR
+- Less than 10 acres of dry land, OR
+- Less than 10 acres when wet and dry land are considered together.
+
+Landholding is assessed at the household level.
+
+Land information is subject to government-record verification.
+
+
+### Social Category
+
+The scheme is not restricted to one caste or social category.
+
+Students/beneficiaries from SC, ST, BC, Minority, EWS and other eligible households may be covered subject to the general scheme conditions.
+
+The 2026 guidelines specifically address students who are also covered under Centrally Sponsored Pre-Matric and Post-Matric Scholarship schemes.
+
+For such students, scholarship amounts are handled according to the applicable scholarship rules, with the balance payable under Thalliki Vandanam released where applicable.
+
+
+### Family Requirement
+
+The household must satisfy the scheme's household eligibility conditions.
+
+At least one person in the household must possess a Rice Card.
+
+The beneficiary should be present in the state household database.
+
+Where the mother/guardian is absent from the household database but the child is present, the SGSW Department may conduct field verification and map the eligible mother/guardian according to the applicable rules.
+
+
+### Attendance
+
+For the 2025-26 implementation, the Andhra Pradesh Government's budget documentation describes the scheme as supporting mothers whose children are studying in Classes I-Intermediate and having 75% attendance.
+
+For the 2026-27 scheme, the governing order and implementation framework continue the scheme while using the verified beneficiary/student database and eligibility screening.
+
+Current attendance interpretation:
+The exact academic-year attendance cutoff and how attendance is applied to 2026-27 beneficiaries should follow the current School Education Department implementation/SOP.
+
+Do not assume that the 2025-26 payment rule automatically applies identically to every 2026-27 case without checking the current implementation instruction.
+
+
+### Other Conditions
+
+The household must satisfy the applicable verification parameters including:
+
+- Rice Card condition
+- Landholding condition
+- Four-wheeler condition
+- Electricity consumption condition
+- Municipal property condition
+- Government employment/pension condition
+- Income-tax condition
+- Household database condition
+
+The student must be enrolled in a recognised educational institution covered by the scheme.
+
+
+## 5. Exclusions / Non-Eligibility
+
+A household is not eligible when it fails the prescribed household verification parameters.
+
+### Income
+
+Household income:
+
+- More than ₹10,000/month in rural areas
+- More than ₹12,000/month in urban areas
+
+
+### Rice Card
+
+At least one household member must possess a Rice Card.
+
+Households without the required Rice Card condition are not eligible unless covered by a specific exception under the applicable government rules.
+
+
+### Land
+
+Household landholding at or above the prescribed thresholds is excluded:
+
+- 3 acres or more wet land
+- 10 acres or more dry land
+- 10 acres or more combined wet/dry land
+
+The exact treatment of mixed wet/dry holdings should follow the government's validation calculation.
+
+
+### Four-Wheeler
+
+Households owning a four-wheeler are excluded.
+
+Exemptions specified by the guidelines include:
+
+- Taxis
+- Tractors
+- Autos
+
+where they fall under the stated livelihood exemptions.
+
+
+### Electricity
+
+Average household electricity consumption must be:
+
+Less than 300 units per month.
+
+The guidelines specify that the average electricity consumption over the preceding 12 months is considered.
+
+This applies to the household's own or rented residence as specified in the guidelines.
+
+
+### Municipal Property
+
+The household should not own municipal property measuring:
+
+1,000 square feet or more.
+
+The current guideline uses the municipal-property condition as a household eligibility parameter.
+
+
+### Government Employment / Pension
+
+Households are excluded where a member is:
+
+- Employed in Central Government service
+- Employed in State Government service
+- Employed in a PSU
+- Receiving government pension after retirement
+
+Specified exemptions include:
+
+- Sanitation workers
+- Anganwadi workers
+- Employees whose salary falls below the applicable ₹10,000 rural / ₹12,000 urban monthly threshold, as specified by the guideline.
+
+
+### Income Tax
+
+If any household member is an income-tax payer, the household is not eligible.
+
+
+### Student Course
+
+Students pursuing:
+
+- ITI
+- Polytechnic
+- RGUKT / IIIT
+- Similar courses already receiving fee reimbursement
+
+are excluded according to the scheme guidelines.
+
+
+### Household Database
+
+The beneficiary should be present in the Andhra Pradesh household database.
+
+If the child is present but the mother/guardian is absent from the household database, field verification may be conducted before eligibility is established.
+
+
+## 6. Benefits
+
+### Financial Assistance
+
+₹15,000 per eligible child per academic year.
+
+The benefit is:
+
+- Per child
+- Not limited to one child per family
+
+### Deduction at Source
+
+₹2,000 per student is deducted from the sanctioned ₹15,000.
+
+The deducted amount is used for:
+
+- School maintenance
+- Junior college maintenance
+- Hygiene
+- Sanitation
+- Other educational ecosystem purposes prescribed by the Government.
+
+### Normal DBT Amount
+
+₹13,000 is normally credited to the eligible mother's/guardian's Aadhaar-seeded bank account after the ₹2,000 deduction.
+
+### Special Payment Cases
+
+For students admitted under Section 12(1)(c) of the Right to Education Act:
+
+- The applicable Government-prescribed fee may be paid to the private school management through the State Project Director, Samagra Shiksha.
+- The remaining eligible amount, if any, is credited to the beneficiary.
+
+For students covered by applicable Centrally Sponsored Pre-Matric/Post-Matric Scholarship schemes:
+
+- The admissible scholarship amount is met from the relevant Welfare Department provisions.
+- The balance amount, if any, is released under Thalliki Vandanam.
+
+### Orphan Children
+
+Where an eligible orphan child does not have a bank account, the District Collector may facilitate a guardian-operated minor savings account according to applicable banking regulations.
+
+The scheme amount is then disbursed according to the special orphan-child procedure.
+
+
+## 7. Required Documents
+
+The scheme is primarily implemented using government databases and verified student/household records.
+
+The 2026 guidelines identify data elements including:
+
+### Student
+
+- Student name
+- Aadhaar number
+- Gender
+- Caste
+- Sub-caste
+- Date of birth
+- Class
+- School name
+
+### Mother / Guardian
+
+- Name
+- Aadhaar number
+- Age
+- Relationship with student
+
+### Verification Data
+
+- Household database
+- Civil Supplies / Rice Card data
+- Aadhaar validation
+- Mother-child mapping
+- School/UDISE/education records
+
+### Bank
+
+Mother/guardian should have:
+
+- Aadhaar-seeded bank account
+
+The bank account may be with:
+
+- Bank
+- Post Office
+
+The NPCI/Aadhaar-seeding status is verified for DBT.
+
+The exact physical-document checklist for every beneficiary category is not presented as a single universal list in the verified scheme order.
+
+
+## 8. Application Process
+
+Thalliki Vandanam is primarily implemented through government data collection, verification, beneficiary identification and DBT rather than a conventional open application form for every student.
+
+### Step 1 — Student Data Collection
+
+School/educational institution data is collected from the relevant education databases.
+
+Student information includes:
+
+- Name
+- Aadhaar
+- Class
+- School
+- Date of birth
+- Other relevant educational information
+
+
+### Step 2 — Mother/Guardian Mapping
+
+Mother/guardian information is collected and authenticated.
+
+The system establishes the relationship between:
+
+Student ↔ Mother/Guardian
+
+
+### Step 3 — Data Validation
+
+The SGSW Department carries out data verification including:
+
+- Aadhaar validation
+- Duplicate-record removal
+- Invalid-record correction
+- Mother-child mapping
+- Household Survey cross-verification
+- Civil Supplies/Rice Card cross-verification
+
+
+### Step 4 — Eligibility Screening
+
+The household is checked against:
+
+- Income
+- Rice Card
+- Land
+- Vehicle
+- Electricity
+- Municipal property
+- Government employment/pension
+- Income-tax
+- Household database
+- Student educational status
+
+
+### Step 5 — Eligible / Ineligible Lists
+
+Eligible and ineligible lists are displayed at the designated Swarna Gramam / Swarna Wardu offices for social audit.
+
+### Step 6 — Grievances
+
+Ineligible mothers/guardians can submit grievances through the designated SGSW/local administrative mechanism.
+
+### Step 7 — Supplementary Verification
+
+Valid grievances and corrected records are verified.
+
+Supplementary eligible lists are prepared.
+
+### Step 8 — Payment
+
+The eligible amount is processed through the government payment architecture.
+
+Normal payment:
+Mother's Aadhaar-seeded bank account.
+
+Special cases:
+
+- Single-parent family: father's Aadhaar-seeded bank account where applicable.
+- Mother unavailable: recognised guardian according to the applicable rules.
+- Orphan: District Collector / guardian-operated account mechanism.
+- RTE Section 12(1)(c): applicable amount routed for school reimbursement as prescribed.
+
+
+## 9. Important Dates
+
+### Scheme Start
+
+Academic Year:
+2025-26
+
+### 2026-27 Continuation
+
+G.O.Ms.No.15:
+16 July 2026
+
+G.O.Ms.No.16 administrative sanction:
+16 July 2026
+
+### 2026-27 Initial Disbursement
+
+22 July 2026:
+Disbursement to the initial verified eligible student list.
+
+### Grievance Period
+
+22 July 2026 to 03 August 2026:
+Objections/grievances.
+
+### Grievance Verification
+
+04 August 2026 to 10 August 2026:
+Verification and supplementary eligible list preparation.
+
+### Additional Admissions
+
+25 August 2026:
+Last date for eligible additional admissions into Class I and Class XI/Junior Intermediate under the 2026-27 schedule.
+
+### Supplementary List / Additional Disbursement
+
+30 August 2026:
+Publication of additional eligible lists and disbursement to eligible beneficiaries under the prescribed schedule.
+
+
+## 10. Selection / Verification / Approval
+
+The programme uses a government-data-driven beneficiary verification process.
+
+### School Education Department
+
+Responsible for:
+
+- Student data
+- Educational records
+- School/college information
+- Coordination with institutions
+
+### SGSW Department
+
+Responsible for:
+
+- Household verification
+- Aadhaar validation
+- Mother-child mapping
+- Household/Civil Supplies cross-verification
+- Eligibility database
+- Grievance mechanism
+
+### Welfare Departments
+
+Relevant Welfare Departments coordinate benefits for students covered by applicable Centrally Sponsored Scholarship schemes.
+
+### District Collectors
+
+Responsible for district-level implementation and specified special-category cases including orphan children.
+
+### Payment Agencies
+
+APCFSS / RTGS and other designated government financial systems support the DBT/payment process.
+
+Final beneficiary eligibility is determined according to the applicable government rules and verified data.
+
+
+## 11. Implementing Authority
+
+Primary Department:
+School Education Department, Government of Andhra Pradesh.
+
+Key implementing authorities:
+
+- Director of School Education
+- Director of Intermediate Education
+- State Project Director, Samagra Shiksha
+- Director, SGSW
+- District Collectors
+- Relevant Welfare Departments
+- APCFSS
+- RTGS
+
+Local implementation and social audit:
+Swarna Gramam / Swarna Wardu offices.
+
+
+## 12. Related / Linked Government Programs
+
+### Earlier Amma Vodi Framework
+
+Thalliki Vandanam should be treated as the current Andhra Pradesh school-education financial-assistance scheme.
+
+Historical Amma Vodi information should be separately labelled and should not automatically override the current 2026 Thalliki Vandanam rules.
+
+### Pre-Matric Scholarships
+
+SC/ST/BC/Minority and other eligible students may also fall under Centrally Sponsored scholarship programmes.
+
+Where applicable, scholarship amounts are handled according to the respective scholarship rules and the Thalliki Vandanam balance-payment provisions.
+
+### Post-Matric Scholarships
+
+The scheme guidelines similarly address students covered by Post-Matric Scholarship programmes.
+
+### RTE Section 12(1)(c)
+
+Students admitted under the Right to Education Act's Section 12(1)(c) may have the applicable fee component routed through the prescribed government mechanism.
+
+These linked programmes should remain separate records in the RAG.
+
+
+## 13. Official Websites and Portals
+
+Primary Department:
+School Education Department, Government of Andhra Pradesh
+
+Official School Education portal:
+https://cse.ap.gov.in/
+
+Andhra Pradesh Government:
+https://www.ap.gov.in/
+
+Official Thalliki Vandanam implementation:
+Managed through the School Education / SGSW government systems.
+
+Local beneficiary/social-audit interface:
+Swarna Gramam / Swarna Wardu offices.
+
+Important:
+Do not use third-party Thalliki Vandanam websites as the official scheme portal.
+
+
+## 14. Official Source Documents
+
+### Primary Source 1
+
+G.O.Ms.No.15
+
+Department:
+School Education (SER.I)
+
+Date:
+16.07.2026
+
+Purpose:
+Continuation and detailed implementation guidelines for Thalliki Vandanam for Academic Year 2026-27.
+
+Supported facts:
+- Current 2026-27 continuation
+- ₹15,000 per child
+- Classes I-XII/Intermediate
+- Recognised Government/Private Aided/Private Unaided/Residential institutions
+- DBT
+- Household eligibility parameters
+- Data verification
+- Payment procedure
+- Grievance mechanism
+
+
+### Primary Source 2
+
+G.O.Ms.No.16
+
+Department:
+School Education (SER.I)
+
+Date:
+16.07.2026
+
+Purpose:
+Administrative sanction for implementation during Academic Year 2026-27.
+
+Supported facts:
+- 2026-27 implementation
+- ₹10,120.78 crore administrative sanction
+- 67,47,190 projected students
+- 42,70,802 projected mothers/guardians
+- 22 July 2026 initial disbursement
+- 30 August 2026 supplementary disbursement schedule
+
+
+### Primary Source 3
+
+G.O.Ms.No.26
+
+Department:
+School Education (SER.I)
+
+Date:
+12.06.2025
+
+Purpose:
+Original guidelines for implementation from Academic Year 2025-26.
+
+Supported facts:
+- Scheme introduction
+- ₹15,000 per child
+- Classes I-XII/Intermediate
+- Recognised institutions
+- DBT framework
+
+
+### Primary Source 4
+
+G.O.Ms.No.27
+
+Department:
+School Education (SER.I)
+
+Date:
+12.06.2025
+
+Purpose:
+Administrative sanction / launch of the 2025-26 implementation.
+
+Supported facts:
+- 2025-26 launch
+- Beneficiary verification
+- Eligible/ineligible lists
+- Grievance process
+- Initial payment schedule
+
+
+### Primary Source 5
+
+Andhra Pradesh School Education Department publications.
+
+Supported facts:
+- Current education programme
+- Thalliki Vandanam as a School Education Department initiative
+- ₹15,000 educational assistance
+
+
+### Primary Source 6
+
+Andhra Pradesh District Government School Education pages.
+
+Supported facts:
+- Current implementation
+- Local administration
+- Current beneficiaries/payment activity
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Academic Year:
+2026-27
+
+Current Governing Order:
+G.O.Ms.No.15 dated 16.07.2026.
+
+Administrative Sanction:
+G.O.Ms.No.16 dated 16.07.2026.
+
+Current benefit:
+₹15,000 per eligible child per academic year.
+
+Normal DBT after deduction:
+₹13,000.
+
+Current implementation evidence:
+
+- 2026-27 administrative sanction issued.
+- Initial verified beneficiary payment scheduled/released from 22 July 2026.
+- Supplementary verification/disbursement schedule continued through August 2026.
+- Andhra Pradesh School Education Department continues to list Thalliki Vandanam as a current initiative.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- Scheme is active for Academic Year 2026-27.
+- G.O.Ms.No.15 dated 16.07.2026 continues the scheme.
+- G.O.Ms.No.16 dated 16.07.2026 provides administrative sanction.
+- Benefit is ₹15,000 per eligible child per academic year.
+- Benefit applies irrespective of number of eligible children.
+- Classes I-XII including Intermediate are covered.
+- Government, Private Aided, Private Unaided and recognised Residential Schools/Junior Colleges are covered.
+- ₹2,000 is deducted at source for educational ecosystem purposes.
+- Normal beneficiary DBT is ₹13,000.
+- Household income limits are ₹10,000 rural / ₹12,000 urban.
+- Rice Card condition applies.
+- Landholding conditions apply.
+- Four-wheeler exclusion applies with stated livelihood exemptions.
+- Electricity consumption condition applies.
+- Municipal property condition applies.
+- Government employment/pension exclusions apply with stated exemptions.
+- Income-tax exclusion applies.
+- Household database verification applies.
+- Aadhaar validation and mother-child mapping apply.
+- Grievance mechanism is provided.
+- Special procedures exist for RTE Section 12(1)(c), scholarship convergence and orphan children.
+
+
+### NEEDS CAREFUL INTERPRETATION
+
+- Attendance rules should be interpreted according to the academic-year-specific implementation instructions.
+- The 2025-26 75% attendance wording should not automatically be converted into an unconditional 2026-27 rule without checking the current attendance implementation/SOP.
+- Special payment arrangements for RTE and scholarship beneficiaries should not be represented as ordinary beneficiary payment rules.
+- Mother/guardian payment rules vary for single-parent, orphan and special cases.
+
+
+## 17. Notes and Limitations
+
+1. Thalliki Vandanam is a current Andhra Pradesh education-support programme.
+
+2. The current governing guideline is G.O.Ms.No.15 dated 16.07.2026.
+
+3. The scheme should be represented as a current programme separately from historical Amma Vodi material.
+
+4. ₹15,000 is the sanctioned annual amount per eligible child.
+
+5. ₹2,000 is deducted at source for educational ecosystem purposes under the current guidelines.
+
+6. Therefore, the ordinary DBT amount to the mother's/guardian's account is ₹13,000.
+
+7. The benefit is per eligible child, not limited to one child per family.
+
+8. Household eligibility is evaluated using multiple government data sources.
+
+9. Final eligibility is determined through government verification.
+
+10. The RAG system should not treat the scheme as a simple "₹15,000 payment" without considering household, student and institution conditions.
+
+11. Current year-specific payment schedules should be stored separately from permanent scheme rules.
+
+12. Historical Amma Vodi information should not be used to override the current Thalliki Vandanam rules.
+
+13. Final eligibility and payment are determined by the competent Government of Andhra Pradesh authorities.
+
+
+## 18. Structured Eligibility Data
+
+age_min:
+Not specified.
+
+age_max:
+Not specified.
+
+gender:
+Mother / recognised guardian; special provisions for father/guardian in applicable cases.
+
+residence:
+Andhra Pradesh household database / recognised state beneficiary records.
+
+income_limit:
+Rural: ₹10,000/month
+Urban: ₹12,000/month
+
+occupation:
+No general occupation requirement.
+Government employment/pension status is an exclusion parameter with specified exemptions.
+
+education:
+Student must study in Class I-XII / Intermediate.
+
+land_requirement:
+Household:
+- Less than 3 acres wet land
+OR
+- Less than 10 acres dry land
+OR
+- Less than 10 acres combined wet/dry.
+
+social_category:
+All eligible social categories subject to household/student rules.
+
+family_requirement:
+- At least one household member with Rice Card.
+- Beneficiary/child must be represented in household database or pass applicable field verification.
+- Benefit is per eligible child.
+
+other_conditions:
+- Recognised educational institution.
+- Student education level Class I-XII / Intermediate.
+- Aadhaar/data validation.
+- Mother-child mapping.
+- Household verification.
+- Electricity condition.
+- Municipal property condition.
+- Vehicle condition.
+- Government employment/pension condition.
+- Income-tax condition.
+
+exclusions:
+- Household income above prescribed threshold.
+- No required Rice Card condition.
+- Landholding above prescribed threshold.
+- Non-exempt four-wheeler ownership.
+- Average electricity consumption ≥300 units/month.
+- Municipal property ≥1,000 sq ft.
+- Disqualifying government/PSU employment/pension.
+- Income-tax payer in household.
+- Student in excluded fee-reimbursement courses such as ITI/Polytechnic/RGUKT and similar courses.
+- Failure of required household/student verification.
+
+required_documents:
+Government database records and verification evidence including:
+- Student Aadhaar/data
+- Mother/guardian Aadhaar/data
+- Student educational records
+- Household/Rice Card data
+- Bank account with Aadhaar/NPCI linkage
+- Additional category-specific evidence where required.
+
+benefit_amount:
+₹15,000 per eligible child per academic year.
+
+benefit_frequency:
+Annual, per academic year.
+
+deduction:
+₹2,000 per student for educational ecosystem purposes.
+
+normal_dbt_amount:
+₹13,000.
+
+application_method:
+Government data collection and verification through educational institutions, SGSW and designated local administrative systems.
+
+application_portal:
+Current implementation uses School Education / SGSW government systems.
+Exact public citizen application URL:
+Not specified as a single universal application portal in the verified current source.
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source Document | Page/Section | Official URL | Status |
+|---|---|---|---|---|
+| Scheme current for 2026-27 | G.O.Ms.No.15, 16.07.2026 | Order / continuation | AP School Education | VERIFIED_CURRENT |
+| ₹15,000 per child/year | G.O.Ms.No.15, 16.07.2026 | Para 1/3 | AP School Education | VERIFIED_CURRENT |
+| Per child irrespective of number of children | G.O.Ms.No.15, 16.07.2026 | Para 1/3 | AP School Education | VERIFIED_CURRENT |
+| Classes I-XII / Intermediate | G.O.Ms.No.15 | Para 1/3 | AP School Education | VERIFIED_CURRENT |
+| Recognised Government schools | G.O.Ms.No.15 | Para 3 | AP School Education | VERIFIED_CURRENT |
+| Private Aided schools | G.O.Ms.No.15 | Para 3 | AP School Education | VERIFIED_CURRENT |
+| Private Unaided schools | G.O.Ms.No.15 | Para 3 | AP School Education | VERIFIED_CURRENT |
+| Residential Schools/Junior Colleges | G.O.Ms.No.15 | Para 3 | AP School Education | VERIFIED_CURRENT |
+| ₹2,000 deduction | G.O.Ms.No.15 | Para 4 | AP School Education | VERIFIED_CURRENT |
+| ₹13,000 normal DBT | Derived from ₹15,000 minus ₹2,000 | Payment provisions | AP School Education | VERIFIED_CURRENT |
+| Rural income ≤₹10,000/month | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Urban income ≤₹12,000/month | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Rice Card condition | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Wet land <3 acres | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Dry land <10 acres | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Combined land <10 acres | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Four-wheeler exclusion | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Taxi/tractor/auto exemption | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Electricity <300 units/month | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| 12-month electricity average | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Municipal property <1,000 sq ft | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Government employment exclusion | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| PSU employment exclusion | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Government pension exclusion | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Sanitation worker exemption | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Anganwadi worker exemption | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Income-tax exclusion | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| AP household database requirement | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Mother-child mapping | G.O.Ms.No.15 | Data Updating and Matching | AP School Education | VERIFIED_CURRENT |
+| Aadhaar validation | G.O.Ms.No.15 | Data Updating and Matching | AP School Education | VERIFIED_CURRENT |
+| ITI/Polytechnic/RGUKT exclusion | G.O.Ms.No.15 | Eligibility Parameters | AP School Education | VERIFIED_CURRENT |
+| Orphan provision | G.O.Ms.No.15 | Eligibility/Payment | AP School Education | VERIFIED_CURRENT |
+| Aadhaar-seeded bank account | G.O.Ms.No.15 | Mode of Payment | AP School Education | VERIFIED_CURRENT |
+| RTE Section 12(1)(c) payment provision | G.O.Ms.No.15 | Disbursement | AP School Education | VERIFIED_CURRENT |
+| Scholarship convergence | G.O.Ms.No.15 | Disbursement | AP School Education | VERIFIED_CURRENT |
+| 2026-27 first disbursement | G.O.Ms.No.16 | Schedule | AP School Education | VERIFIED_CURRENT |
+| 2026-27 grievance period | G.O.Ms.No.16 | Schedule | AP School Education | VERIFIED_CURRENT |
+| 2026-27 additional admission deadline | G.O.Ms.No.16 | Schedule | AP School Education | VERIFIED_CURRENT |
+| 2026-27 supplementary disbursement | G.O.Ms.No.16 | Schedule | AP School Education | VERIFIED_CURRENT |

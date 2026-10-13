@@ -1,0 +1,2670 @@
+--- PAGE 1 ---
+GUIDELINES FOR
+PRADHAN MANTRI
+KAUSHAL VIKAS YOJANA
+4.0
+
+ Government of India
+ Ministry of Skill Development and Entrepreneurship
+
+--- PAGE 2 ---
+Table of Contents
+
+CHAPTER I: INTRODUCTION TO PMKVY 4.0 ..................................................................... 1
+ 1. Background ............................................................................................................................. 1
+ 2. PMKVY 4.0 ............................................................................................................................... 2
+ 3. Objectives of PMKVY 4.0 ........................................................................................................ 2
+ 4. Design Principles of PMKVY 4.0 ............................................................................................ 2
+ 5. Implementation Strategy ........................................................................................................ 3
+ 6. Administrative Structure ......................................................................................................... 4
+ 7. Skill India Digital ..................................................................................................................... 4
+
+CHAPTER II: TRAINING TYPES AND TARGET GROUP .................................................... 5
+ 1. Types of Training ..................................................................................................................... 6
+ 2. Target Group, Eligibility and Geographical Coverage: .......................................................... 6
+
+CHAPTER III: TRAINING PROVIDERS ANDPROJECT IMPLEMENTING AGENCIES ..... 8
+ 1. Training Centres for Short-Term Training: ............................................................................. 9
+ 2. Recognition of Prior Learning - Project Implementing Agency (RPL-PIA) ......................... 10
+ 3. Special Projects Implementing Agency (SPIA) ................................................................... 10
+ 4. Accreditation and Affiliation of Training Centres ............................................................... 11
+
+CHAPTER IV: SKILL GAP AND TARGET ALLOCATION ........................................... 12
+ 1. Identifying Skill Gap ............................................................................................................. 13
+ 2. Target and Job Role Allocation ............................................................................................ 13
+ 3. Curriculum and Job Roles ................................................................................................... 15
+
+CHAPTER V: TRAINING LIFE-CYCLE MANAGEMENT .................................................... 17
+ 1. Registration and Counselling .............................................................................................. 18
+ 2. Facilities and Entitlements .................................................................................................. 19
+ 3. Pre-requisites for Commencement of Training .................................................................. 19
+ 4. Training of Candidate .......................................................................................................... 19
+ 5. Modes of Training ................................................................................................................ 21
+ 6. Attendance ........................................................................................................................... 21
+ 7. On-the-Job Training (OJT) ..................................................................................................... 22
+ 8. Assessment of Candidates .................................................................................................. 23
+ 9. Certification .......................................................................................................................... 24
+ 10. Convocation .......................................................................................................................... 24
+ 11. Post Certification Tracking and Other Support .................................................................. 25
+ 12. Re-enrolment in Skill Training ............................................................................................. 25
+
+CHAPTER VI: IMPLEMENTATION THROUGH SKILL HUBS ........................................... 26
+ 1. Background .......................................................................................................................... 27
+ 2. Pre-Requisites for Training .................................................................................................. 27
+ 3. Selection of Candidates ...................................................................................................... 27
+ 4. Implementation Modalities ................................................................................................. 27
+ 5. Financial Provisions ............................................................................................................. 28
+
+--- PAGE 3 ---
+CHAPTER VII: TRAINING OF TRAINERS AND ASSESSORS ......................................... 29
+ 1. Introduction .......................................................................................................................... 30
+ 2. Implementation Modality .................................................................................................... 30
+ 3. Types of Certifications ......................................................................................................... 31
+ 4. Financial Provision for the ToT/ToA .................................................................................... 31
+ 5. Monitoring and Feedback ................................................................................................... 32
+
+CHAPTER VIII: FINANCIAL MANAGEMENT .................................................................... 33
+ 1. General Financial Management ......................................................................................... 34
+ 2. Cost Norms for Training Programmes ................................................................................ 34
+ 3. Pay-out mechanism – Short Term Training (STT) .............................................................. 35
+ 4. Pay-out mechanism – Recognition of Prior Learning (RPL) .............................................. 36
+ 5. Pay-out mechanism – Additional Support .......................................................................... 36
+ 6. Administrative Expenditure: ................................................................................................ 37
+
+CHAPTER IX: CONVERGENCE ......................................................................................... 38
+ 1. Background .......................................................................................................................... 39
+ 2. Next Level of Convergence .................................................................................................. 39
+
+CHAPTER X: MONITORING AND EVALUATION .............................................................. 41
+ 1. Monitoring Framework ........................................................................................................ 42
+ 2. Key Stakeholders and their Role in Monitoring ................................................................. 44
+ 3. Impact Assessment ............................................................................................................. 46
+ 4. Data Analysis and Reporting ............................................................................................... 46
+ 5. Deployment of Human Resource ........................................................................................ 46
+ 6. Grievance Redressal ............................................................................................................ 47
+ 7. Capacity Building ................................................................................................................. 47
+
+CHAPTER XI: BRANDING AND COMMUNICATION ........................................................ 48
+
+ANNEXURES ...................................................................................................................... 50
+ Annexure I: Composition of Steering Committee and Executive Committee ............................. 51
+ Annexure II: Special Project Types and Permissible Flexibility .................................................... 54
+ Annexure III: Additional Support to Candidates ........................................................................... 56
+ Annexure IV: Average Unit Cost and Assumptions ....................................................................... 58
+ Annexure V: Compliance Standard and Levels of Penalty ........................................................... 60
+
+--- PAGE 4 ---
+Abbreviations and Acronyms
+
+1. AA - Assessment Agency
+2. AI - Artificial Intelligence
+3. AICTE - All India Council for Technical Education
+4. AR - Augmented Reality
+5. AB - Awarding Body
+6. A&C - Assessment and Certification
+7. ASEEM - Aatmanirbhar Skilled Employee Employer Mapping
+8. BICE - Best-in-class Employer
+9. CoE - Centre of Excellence
+10. C4W - Customized Crash Course Programme for COVID Warriors
+11. DAP - Demand Aggregation Portal
+12. DBT - Direct Benefit Transfer
+13. DGT - Directorate General of Training
+14. DSC - District Skill Committee
+15. DM - District Magistrate
+16. FY - Financial Year
+17. GKRA - Garib Kalyan Rozgar Abhiyan
+18. GFR - General Financial Rules
+19. GoI - Government of India
+20. IIE - Indian Institute of Entrepreneurship
+21. ITI - Industrial Training Institute
+22. MGNREGA - Mahatma Gandhi National Employment Guarantee Act
+23. MHA - Ministry of Home Affairs
+24. MIS - Management Information System
+25. MoE - Ministry of Education
+26. MoHFW - Ministry of Health and Family Welfare
+27. ML - Machine Learning
+28. MLA - Member of the Legislative Assembly
+29. MP - Member of Parliament
+30. MSDE - Ministry of Skill Development and Entrepreneurship
+31. MUDRA - Micro Units Development and Refinance Agency Ltd
+32. NAPS - National Apprenticeship Promotion Scheme
+33. NER - North-East Region
+34. NCVET - National Council for Vocational Education and Training
+35. NHA - National Health Authority
+36. NIESBUD - National Institute for Entrepreneurship and Small Business Development
+37. NOS - National Occupational Standards
+38. NSDA - National Skill Development Agency
+39. NSDC - National Skill Development Corporation
+40. NSDF - National Skill Development Fund
+41. NSQF - National Skills Qualiﬁcation Framework
+42. NSTI - National Skill Training Institute
+43. PFMS - Public Financial Management System
+44. PIA - Project Implementing Agency
+45. PMKK - Pradhan Mantri Kaushal Kendra
+
+--- PAGE 5 ---
+46. PMKVY - Pradhan Mantri Kaushal Vikas Yojana
+47. PMMY - Pradhan Mantri MUDRA Yojana
+48. PMU - Project Management Unit
+49. PwD - Persons with Disability
+50. QP - Qualiﬁcation Pack
+51. RDSDE - Regional Directorate of Skill Development and Entrepreneurship
+52. RPL - Recognition of Prior Learning
+53. SC - Scheduled Caste
+54. SH - Skill Hub
+55. SID - Skill India Digital
+56. SIP - Skill India Portal
+57. SSDM - State Skill Development Mission
+58. SOP - Standard Operating Procedure
+59. SP - Special Projects
+60. SSC - Sector Skill Council
+61. ST - Scheduled Tribe
+62. STT - Short Term Training
+63. SECC - Socio-Economic and Caste Census
+64. TC - Training Centre
+65. ToT - Training of Trainers
+66. ToA - Training of Assessors
+67. TP - Training Providers
+68. UC - Utilization Certificate
+69. UT - Union Territory
+70. VR - Virtual Reality
+
+--- PAGE 6 ---
+CHAPTER I:
+
+INTRODUCTION TO
+
+PMKVY 4.0
+a,
+
+--- PAGE 7 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. Background
+1.1 Skilling plays a crucial role in India with inclusive welfare,
+ enhancing individual productivity technology enabled development,
+ leading to an increase in climate action through energy
+ employment and income of the transitions, galloping towards a
+ workforce. The increase in multi-trillion dollars’ economy.
+ productivity and employment in 1.3 Ministry of Skill Development and
+ turn has a ripple effect on the Entrepreneurship was established
+ economy resulting in enhanced in 2014 with an overall objective
+ competitiveness. With the ever- to promote skilling and
+ changing nature of job market, the entrepreneurship development in
+ shelf life of skills has shortened India.
+ building a case for continuous life-
+ 1.4 In 2015, MSDE launched its long learning. For that reason,
+ flagship scheme, Pradhan Mantri skilling, reskilling, and upskilling
+ Kaushal Vikas Yojana (PMKVY), to are crucial pillars for a growth-
+ encourage and promote skill oriented economy. Further,
+ development in the country by studies have also identified that
+ providing free short-duration skill upskilling would lead to a
+ training and incentivizing youth for substantial boost in the Indian
+ skill certification. GDP.
+ 1.5 Between 2015 – 2022, three1.2 India is strategically placed with a
+ versions of the scheme have been young population having an
+ implemented with varied average median age of ~28 years
+ approach and strategy. which provides a window of
+ Cumulatively, more than 1.37 opportunity to make India the Skill
+ crore youths have been trained Capital of the World. Skilling is
+ across various sectors. poised to be the key driver for
+ ‘Amrit Kaal’ envisioning a New
+
+ Figure 1: PMKVY so far
+
+ 1
+
+--- PAGE 8 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+2. PMKVY 4.0 LWE-effected areas, border areas,
+ etc. by designing special projects.
+2.1 Based on the challenges faced in
+ 3.5 Improve inclusivity by ensuring implementing earlier phases of
+ that SC, ST, women, and other PMKVY and the learnings
+ marginalized communities can gathered, the next phase of
+ undertake skill training and PMKVY, i.e., PMKVY 4.0 under the
+ eventually access gainful wage umbrella scheme of the ‘Skill India
+ and self-employment. Programme' is being implemented
+ between FY 2022-2026. 3.6 Provide opportunity for lifelong
+ skilling through the crucial pillars2.2 PMKVY 4.0 is being realigned with
+ of upskilling and reskilling to a core focus on making the
+ address the dynamic needs of the existing skill ecosystem more
+ ever-changing market. flexible, swift, and geared to meet
+ the current challenges and 3.7 Quality training delivery through
+ emerging needs through process trained pedagogy, standardized
+ simplification. assessments, and industry
+ relevant curriculum.
+3. Objectives of PMKVY 3.8 Facilitate to enhance
+ 4.0 employability of candidates
+ through training in transferable
+3.1 Promote an enabling ecosystem skills and incentives for
+ for the youths to get skilled and employment generation.
+ choose a career path aligned with
+ 3.9 Provide candidate-centric training their abilities and aspirations.
+ with emphasis on industry-
+3.2 Enable delivery of skill training in a relevant skills.
+ market-oriented and demand-
+ driven manner by making the
+ existing skilling ecosystem more 4. Design Principles of
+ flexible, swift, and geared to meet PMKVY 4.0
+ the emerging demand along with
+ PMKVY 4.0 has been designed to
+ emphasis on improving the
+ make the scheme flexible,
+ employability of candidates.
+ inclusive, technology enabled, and
+3.3 Process simplification of the skill market driven resulting in better
+ ecosystem by leveraging employability. Broad design
+ technology and digitalization. principles are outlined below:
+3.4 Enhance access to skilling by 4.1 Enhance industry-connect, greater
+ setting up a network of skill reliance on On-the-Job Training in
+ development infrastructure in short-term training for learning by
+ remote parts of the country to doing. In addition, encourage
+ cater to the needs of difficult industry buy-in and contribution
+ geographies such as hilly terrain, for skilling (including sharing of
+
+ 2
+
+--- PAGE 9 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ training infrastructure, demand 4.10 Focus on New Age Skills like
+ aggregation, OJT, etc.). Industry 4.0, Web 3.0, AI/ML,
+ AR/VR, Climate Change, Circular4.2 Emphasis on re-skilling, and up-
+ Economy, Green Economy, and skilling under Recognition of Prior
+ Energy Transition. Learning (RPL) through innovation
+ in assessment and better
+ monitoring. 5. Implementation
+4.3 Digitalization of training Strategy
+ ecosystem through online 5.1 Policy Framework: MSDE will
+ integrated systems including provide the overall policy
+ registration and counselling, framework for the implementation
+4.4 Delinking of placement from of PMKVY 4.0.
+ skilling to lay emphasis on 5.2 Regulatory framework: National
+ empowering trained candidates to Council of Vocational Education
+ choose their career path with and Training (NCVET) will provide a
+ focus of entrepreneurship and unified regulatory framework,
+ livelihood creation. including recognizing Awarding
+ Bodies (ABs) and Assessment4.5 Simplification of procedures by
+ Agencies (AAs) for National Skills reducing compliance burden,
+ Qualification Framework (NSQF) enlisting multiple Assessment
+ aligned courses. Agencies and Awarding Bodies, re-
+ 5.3 Implementing Agency: National engineering IT systems based on
+ Skill Development Corporation requirement of stakeholders, etc.
+ (NSDC) will support MSDE in
+4.6 Creation of a national pool of effectively implementing the
+ trainers and assessors to ensure scheme as per approved
+ their availability and efficient guidelines by providing technical
+ implementation of training and and knowledge support in various
+ faster assessment. aspects of the scheme as
+4.7 Flexibility in course curriculum by mandated by MSDE.
+ introducing courses in partnership 5.4 Training Providers: Pradhan
+ with industry, Mantri Kaushal Kendras (PMKKs),
+ Ministries/Departments, etc. PMKVY Training Centres,
+ Industrial Training Institutes (ITIs),
+4.8 Focus on online/digital/blended
+ Skill Hubs (Schools, colleges,
+ skilling for effective learning,
+ Higher Education Institutes),
+ convenience, and outreach.
+ training centres of other
+4.9 Emphasis on community Ministries/Department, training
+ engagement through training in centres of industry partners and
+ job roles addressing the skill private training providers, etc. for
+ needs of the informal sector or training of candidates.
+ basic self-employed. 5.5 Sector Skill Councils: Sector Skill
+ Councils will promote industry
+ connect through skill gap studies,
+
+ 3
+
+--- PAGE 10 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ curriculum development, accordance with the Guidelines,
+ facilitating On-the-Job Training regular monitoring and any other
+ (OJT), Training of Trainers and functions as deemed fit by
+ Assessors and support in overall Steering Committee.
+ implementation of the scheme. 6.3 The detailed composition of both
+ the Committees is at Annexure 1.
+6. Administrative 6.4 District Skill Committee (DSC):
+ Structure DSCs chaired by the District
+ Collectors will be involved in6.1 Steering Committee: A Steering
+ development of District Skill Committee under the
+ Development Plan, regular field Chairmanship of Secretary, MSDE
+ level monitoring, ensuring shall be constituted at the apex
+ convergence among skilling level, for broad policy direction,
+ schemes in the district, etc. framing Guidelines, target
+ allocation and reallocation
+ amongst STT, RPL and Special 7. Skill India Digital
+ Projects, periodic review,
+ 7.1 Skill India Digital (SID) is a
+ monitoring and convergence.
+ platform which will bring whole of
+6.2 Executive Committee: An government approach to skilling.
+ Executive Committee shall be As a unified registry framework, it
+ constituted under the shall enable smooth transition
+ Chairmanship of Additional from education to skilling and
+ Secretary/Joint Secretary, MSDE future opportunities. SID will form
+ for overseeing the regular the backbone for implementation
+ functioning of the scheme, of PMKVY 4.0 by providing end-to-
+ recommending to Steering end digitalization of training
+ Committee any policy or lifecycle (Registration to Post
+ operational changes, reviewing Certification Tracking).
+ and approving of proposals in
+
+ Figure 2: Broad Implementation Framework
+
+ 4
+
+--- PAGE 11 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+CHAPTER II: TRAINING
+ TYPES AND TARGET
+ GROUP
+
+ 5
+
+--- PAGE 12 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. Types of Training
+ Three types of training will be undergo coursework for
+ offered under PMKVY 4.0: certification at a higher level
+ a. Short-Term Training (STT): NSQF- based on assessment.
+ aligned courses ranging between c. Special Projects: Special Projects
+ 300 – 600 hours will be provided are project-based short-term
+ under STT. Courses of higher skilling initiatives that primarily
+ duration based on meet the skilling needs of
+ industry/sectoral demand can marginalized and vulnerable
+ also be offered. Training to be groups, difficult geographies and
+ delivered through accredited and specialized training courses which
+ affiliated training centres. On-Job- are likely to be offered outside of
+ Training (OJT) will be an inherent regular short-term skilling
+ component under STT as programmes. Also, these projects
+ mandated by NCVET, and the can have focus on new-age job
+ duration of OJT will depend on the roles with future skills. These
+ job role. projects can avail certain
+ b. Recognition of Prior Learning exemptions granted with the
+ (RPL): Candidates with prior- approval of the Executive
+ learning experience or skills will Committee, and they can also be
+ be certified with due assessment. residential or non-residential.
+ This shall enable youths to obtain Permissible flexibility and type of
+ industry relevant skill certification. projects to be taken up is at
+ Emphasis will be on upskilling and Annexure-II.
+ interested candidates will have to
+
+2. Target Group, Eligibility and Geographical Coverage:
+ Recognition of
+ Short Term Training Special Projects
+ Prior Learning
+ Candidates looking for fresh Marginalized, Candidates with
+ skilling, re-skill/upskill, out- vulnerable groups, prior learning
+ Target of-education candidates, etc. requiring special experience or
+ Group School/college dropouts or attention or job-roles skills and willing to
+ unemployed youth of Indian with focus on future get assessed and
+ nationality. skills certified.
+ Indian nationals possessing valid Aadhaar and fulfilling eligibility criteria
+ of respective job role. In case of RPL, prior experience will be required in
+ Eligibility
+ the job role for which RPL certification is being sought and as specified in
+ the job role.
+ Age Group 15 – 45 years 15 – 45 years 18– 59 years
+
+ 6
+
+--- PAGE 13 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ Recognition of
+ Short Term Training Special Projects
+ Prior Learning
+ Special attention to aspirational, backward, border, tribal and Left-Wing
+Geographic
+ Extremism (LWE) affected districts, including skilling requirements for
+al Coverage
+ other countries.
+
+ 7
+
+--- PAGE 14 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ CHAPTER III:
+ TRAINING
+PROVIDERS, PROJECT
+ IMPLEMENTING
+ AGENCIES
+
+ 8
+
+--- PAGE 15 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. Training Centres for engaged in skilling/training
+ activities and with requisite
+ Short-Term Training: infrastructure, as indicated below:
+1.1 Any organization, legally a. National Institute of
+ established as a society, trust, Electronics and Information
+ proprietorship, Company/ Limited Technology (NIELIT)
+ Liability Partnership (LLP) / b. Central Institute of
+ Government Institute/ Petrochemicals Engineering
+ Organization, etc., can be a and Technology (CIPET)
+ training provider under the c. Rural Self Employment
+ scheme. Training Institutes (RSETI)
+ d. National Small Industries
+1.2 MSDE related Institutions: Corporation (NSIC)
+ e. Skill Development Institutes
+ a. Pradhan Mantri Kaushal (SDI)
+ Kendras (PMKKs)/ Skill India f. Central Tool Room and
+ Centres Training Centre (CTTC), etc.
+ b. Industrial Training Institutes
+ (ITIs) 1.5 Industry/Private Institutions:
+ c. Jan Shikshan Sansthans (JSS) a. Industry premise-based
+ d. National Skill Training Training Centres
+ Institutes (NSTIs) b. Non-Government Training
+ e. National Institute for Institutes, etc.
+ Entrepreneurship and Small
+ Training Centres as Business Development
+ (NIESBUD) Revenue and Production
+ f. Indian Institute of Centres
+ Entrepreneurship (IIE), etc. a. PMKKs and other Training
+ Centres will be encouraged to
+1.3 Skill Hubs: become revenue and
+ Skill Hubs will be setup in production centres by offering
+ Government and Private services based on the
+ educational institutions like: accredited job roles.
+ a. Schools b. They can offer courses under
+ b. Colleges other schemes/programmes
+ c. Universities (including Skill of different Ministries/
+ Universities) Department, Industries,
+ d. other Higher Education Corporate Social
+ Institutions, etc. Responsibility (CSR), etc.
+ c. However, any training centre Implementation mechanism in
+ opting to offer PMKVY courses Skill Hubs is at Chapter VI.
+ shall mandatorily disclose
+1.4 Other Government Institutions: details of other training
+ Any State/Central Government programmes, including a list of
+ Institution including PSUs already
+
+ 9
+
+--- PAGE 16 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ candidates on the Skill India financial year, including rejected
+ Digital, to avoid duplication. proposals.
+ d. The RPL-PIA should have had a
+2. Recognition of Prior positive net worth during the last two consecutive financial years.
+ Learning - Project e. The above conditions may be
+ exempted in the case of Implementing Agency
+ (RPL-PIA) Government, semi-Government
+ organizations, SSCs and Awarding
+2.1 RPL-PIA refers to the proposing Bodies, with prior approval of the
+ entity for RPL project, which shall Executive Committee.
+ be responsible for overall f. Should not be blacklisted by any
+ execution and implementation of Government Agency / PSU/
+ RPL. The following can be an RPL- Autonomous Body in the last three
+ PIA: years.
+ a. Government Organisations,
+ Institutions, PSUs, Autonomous
+ Bodies, etc. 3. Special Projects
+ b. Any legal entity, such as a private Implementing Agency
+ company, industry association, (SPIA)
+ non-profit organization,
+ 3.1 Specialist Organizations cooperative, etc., working in the
+ involved in skilling: sector and has been recognized
+ a. NGOs, research organizations, for such work. Recognition would
+ organizations of Persons with
+ include National level Awards,
+ Disabilities, educational or
+ NSDC/SSC recommendations, financial institutions, and other
+ etc. expert organizations experienced
+ c. Assessment Agencies notified by in working with and skilling
+ NCVET; Third Party Recruitment marginalized communities or
+ Agencies will not be permitted to specialized in working in proposed
+ implement RPL programmes. difficult geographies and have
+ established some models for
+ Eligibility Criteria for RPL-PIA supporting these groups.
+ a. Shall be at least three years of b. Recognized organizations/Non-
+ incorporation at the time of Government Organizations
+ proposal submission and at least (NGOs)/ Government bodies
+ one year of experience in the under the Ministry of Tribal Affairs
+ proposed sector. (MoTA) and Ministry of Social
+ b. Should have an average annual Justice and Empowerment
+ turnover of the last three financial (MoSJE), who have a niche in
+ years that is at least 25% of the training marginalized
+ total project cost proposed. communities.
+ c. The RPL-PIA may propose a 3.2 Agencies/bodies/organizations
+ maximum of two projects across all offering Captive Placement:
+ available sectors in a given
+
+ 10
+
+--- PAGE 17 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ Corporates, Industry bodies, Government and semi-Government
+ reputed industry associations and organizations with prior approval of
+ the Executive Committee. SSCs at the national/state level
+ with an assurance of providing g. The SPIA may propose two
+ 90% captive placement. proposals, including rejected ones,
+ in a given Financial Year.
+3.3 Government
+ organizations/departments:
+ 4. Accreditation and Ministries/Departments of
+ Central/State Government and UT Affiliation of Training
+ Administration, their autonomous Centres
+ bodies, affiliated institutions,
+ 4.1 All Training Centres shall be PSUs, and other organizations
+ required to qualify the already providing/proposing
+ accreditation and affiliation norms innovative models of skilling
+ prescribed by the Awarding Bodies linked to entrepreneurship and
+ and to be onboarded on Skill India those providing international
+ Digital before allocation of placements.
+ Training Target. There will be a
+ transparent selection process for3.4 NSDC International for
+ onboarding of private training international mobility related
+ providers and, inter alia, following programmes.
+ criteria will be adopted:
+ Eligibility Criteria for SP-PIA a. Availability of requisite
+ a. Should have been at least three infrastructure as per the Job Role
+ years in incorporation at the time of to be offered.
+ proposal submission. b. The entity should not have been
+ b. At least one year of experience in blacklisted.
+ the proposed sector(s). c. Any other criteria as
+ recommended by Steering c. Average annual turnover from last
+ three years to not to be less than Committee.
+ 25% of total project cost and should 4.2 Central and State Government
+ have had a positive net worth institutions and Skill Hubs will be
+ consecutively from last two exempted from Accreditation and
+ financial years in case of Private Affiliation requirements. However,
+ Institution. they shall be required to register
+ d. Should be Registered on the on the Skill India Digital platform.
+ Darpan Portal of NITI Aayog in case NSDC may inspect such
+ of Non-Government Organizations. institutions for availability of
+ requisite infrastructure and e. Should not have been blacklisted
+ by any Government Agency/Public equipment as normally done in
+ Sector Undertaking/autonomous case of other training centres. The
+ bodies in the last three years. cost of inspection may be borne
+ from the scheme budget. f. The above conditions may be
+ exempted in the case of
+
+ 11
+
+--- PAGE 18 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+CHAPTER IV: SKILL
+ GAP AND TARGET
+ ALLOCATION
+
+ 12
+
+--- PAGE 19 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. Identifying Skill Gap
+1.1 Sectoral Skill Gap Studies DSDPs to an aggregated State
+ Sector Skill Councils will Skill Development Plan (SSDP).
+ undertake periodic Skill Gap
+ Studies to identify human 1.3 National Skill Development Plan
+ resource requirements based on A composite National Skill
+ emerging trends in the respective Development Plan (NSDP) is
+ sector. These Skill Gap Studies will envisaged to be prepared by
+ also identify skill sets required in NSDC based on DSDPs/SSDPs
+ different sectors by considering and the Skill Gap Studies
+ the demand emerging from highlighting District-wise demand
+ industry clusters, sectoral and human resource
+ establishment, national priorities requirements. The report will be
+ (PM Gati Shakti, Sagarmala). updated based on the periodic
+ inputs from the sources.
+
+1.2 District/State Skill Development 1.4 PMKVY 4.0 shall be implemented
+ Plan based on the approved target
+ District Skill Committees will allocation methodology
+ develop District Skill Development considering the demand and other
+ Plans (DSDP), looking at both the parameters duly approved by the
+ demand and supply side. On the Steering Committee.
+ demand side, DSDPs will cover
+ aspects like labour market and 2. Target and Job Role skill gap analysis, mapping
+ demand in the formal sector, Allocation
+ employment generation capacity, 2.1 Training targets under PMKVY 4.0
+ etc., along with a proposed action will be allocated to training
+ plan. These DSDPs will be the providers on a long-term basis.
+ foundation for identifying District-
+ 2.2 Training providers will be
+ specific job roles. DSDPs will be
+ subjected to periodic performance
+ prepared (or reviewed in the case
+ reviews based on which the
+ of existing DSDPs) in a time bound
+ targets will be systematically
+ manner. States/UTs will be
+ released every quarter.
+
+ Figure 2: Target Allocation Process
+
+ encouraged to combine the
+
+ 13
+
+--- PAGE 20 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+2.3 Skill gap studies will help in target i. Allocation of targets to Training
+ allocation across geographies and Providers will be done in the order
+ sectors. of preference:
+ • Recruit-Train-Deploy (RTD)2.4 Target allocation will also account
+ model, where the potential for the specific needs of diverse
+ employer provides an offer geography, culture, language, and
+ letter to the training provider for population groups. The pliability in
+ employing skilled human target allocation and provision of
+ resources. special projects will enhance
+ • Providing or ensuring part access to skilling and alignment to
+ payment of the training cost national priorities.
+ through a tie-up with industry.
+2.5 Target allocation methodology will
+ ii. Apprenticeship model, be reviewed, if required, to cater
+ wherein, supporting letters will to the scheme's dynamic
+ be provided from Industry implementation requirements.
+ Partners for offering The same will be updated post-
+ Apprenticeship to the trained requisite approvals from the
+ candidates. PMKVY Steering Committee.
+ iii. Targets will be allocated to the2.6 State-wise Target
+ PMKKs depending on their
+ Assessment
+ capacity, available job role and
+ State-wise Training Targets under geographical location.
+ STT/SP/RPL will be decided based
+ iv. Subsequently, target on the population on a pro-rata
+ allocation would be done basis as per Census Data.
+ through a transparent Request
+2.7 Sector Identification: for Proposal (RFP)
+ a. Sectors will be identified based on mechanism.
+ the following parameters:
+ b. Special Projects i. Demand from District Skill
+ Allocation of Targets will be Committee through DSDP.
+ done through both project- ii. Skill Gaps identified by Sector Skill
+ based and RFP route. The Councils, including Skill Gaps for
+ distribution of targets is to be flagship Government Schemes.
+ decided with the approval of iii. Demand identified by State
+ the PMKVY 4.0 Executive Government
+ Committee. iv. Skill Gaps or demand identified by
+ i. Targets shall be directly Implementing Agencies.
+ allocated to: b. Based on the above, inter-sector
+ • Ministries, State and Central allocation of the targets will be
+ Government Organizations done within the respective State.
+ • SSCs/industries/associations2.8 Selection of Training
+ offering captive placement
+ Provider/Training Centre
+ • Non-Governmental
+ a. Short-Term Training: Organizations of repute
+
+ 14
+
+--- PAGE 21 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ having atleast 3 years of 2.9 Focused Geographies
+ experience in skilling and Special emphasis shall be given to
+ working in more than one the following geographies:
+ State
+ a. Aspirational districts
+ ii. The proposals shall be
+ b. Districts identified under the
+ evaluated by NSDC and then
+ Utkarsh programme of NITI Aayog
+ submitted for the approval of
+ c. Tribal dominated districts (i.e.,
+ the PMKVY 4.0 Executive
+ districts having more than 50%
+ Committee.
+ tribal population)
+ c. Recognition of Prior Learning d. LWE-affected and Border districts
+ Allocation of Targets will be done as identified by Ministry of Home
+ through project-based and RFP Affairs
+ routes within the overall limit for e. Other areas as approved by
+ RPL approved by Steering Executive Committee
+ Committee. The distribution of 2.10 In special cases target can be
+ targets between the two modes allocated to State Skill
+ will be decided with the approval Development Mission in challenge
+ of the Steering Committee. method (RTD, Special Projects,
+ RPL, etc.) to be implemented i. Project-based: Eligible RPL-PIAs
+ through Training Providers can submit project proposals
+ accredited and affiliated on the based on the requirement, and
+ Skill India Digital Platform. the proposals will be evaluated
+ 2.11 Special Projects in identified areas and approved by Executive
+ such as border areas, hilly areas, Committee.
+ island territories and sectors like ii. Request for Proposal: Proposals
+ agriculture, handicraft, traditional will be invited online from
+ job roles and high-end courses, eligible RPL-PIAs, and the same
+ etc. shall be focussed. Further, shall be screened, evaluated,
+ marginalized communities in and approved by Executive
+ areas like LWE Districts, Committee.
+ Aspirational Districts, Backwardiii. The preference for RPL target
+ and Tribal Areas shall be allocation will be based on the
+ encouraged for higher inclusivity. following parameter:
+ • Projects based out of
+ employer/industry premises 3. Curriculum and Job
+ • Projects by Best-in-Class Roles
+ Employers (BICE) Large
+ 3.1 All job roles are required to be Corporations /Industry and
+ aligned with National Skill Medium Scale Enterprises
+ Qualification Framework (NSQF) • Pradhan Mantri Kaushal
+ and approved by National Skill Kendras
+ Qualification Committee (NSQC). • Other organizations with a
+ With the approval of Executive
+ strong background in skill
+ Committee, requirement of NSQF
+ development and training
+
+ 15
+
+--- PAGE 22 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ aligned courses can be relaxed,
+ particularly in case of Special
+ Projects.
+
+3.2 All Job Roles selected under
+ PMKVY must address the
+ following:
+
+ a. Local opportunities (Farm and
+ Non-Farm sector)
+ b. Industry ready (addressing the
+ needs of local industry within the
+ district and outside the district)
+ c. Future ready (addressing the
+ requirement of Industry 4.0,
+ emerging sectors like Drone, AI,
+ Robotics, Mechatronics, etc.)
+ d. Global ready (addressing the
+ skilled workforce requirement of
+ foreign destination countries)
+
+3.3 Training in higher level NSQF job
+ roles (level 5, 6 and above) will
+ also be imparted under PMKVY
+ 4.0.
+
+3.4 Courses of higher duration based
+ on industry/ sectoral demand will
+ be offered.
+
+3.5 An indicative list of Job Roles to be
+ offered under PMKVY 4.0 is
+ available at SID.
+
+ 16
+
+--- PAGE 23 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ CHAPTER V:
+TRAINING LIFE-CYCLE
+ MANAGEMENT
+
+ 17
+
+--- PAGE 24 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ Figure 3: Training life-cycle Process
+
+1. Registration & Role where he/she was trained
+ earlier.
+ Counselling
+ 1.3 Candidate Profiling
+1.1 Awareness Generation a. Apart from details to be filled in by
+ a. Through a sustained media the candidate during registration,
+ campaign before the existing details of the candidate
+ commencement of training, will be fetched from other portals
+ potential candidates will be like e-Shram, National Career
+ reached out to inform candidates Services (NCS), etc.
+ about PMKVY and its features. b. Profile information will include all
+ b. The services of existing field such details that shall be required
+ functionaries of different in case the candidate needs to be
+ Ministries/Departments will also registered on e-Shram and NCS
+ be utilized. Other traditional and portal.
+ innovative methods of information
+ 1.4 Counselling of Candidate dissemination will be explored.
+ a. Online Counselling will be offered
+1.2 Registration of Candidate to candidates through Skill India
+ a. Candidates will be required to Digital to help the candidates
+ register on the Skill India Digital or select appropriate course,
+ the Mobile App developed for the Training Centres, etc.
+ purpose. b. Candidate may select the nearest
+ b. Profile Verification shall be done Training Centre based on the
+ through mobile-based OTP (e- availability of preferred Job Role
+ KYC). and the quality of training
+ infrastructure (rating, centre c. De-duplication check of
+ profile) candidates shall be carried out
+ based on data available in the SID c. Automatic logic-based mapping of
+ database. A candidate should not candidates with the nearest
+ be enrolled again in the same Job
+
+ 18
+
+--- PAGE 25 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ training centre will also be done induction kit will have proper
+ based on the selection. branding as per the scheme
+ Guidelines. The content may be d. Brief profile of all available
+ modified with the approval of the centres, including those of other
+ Steering Committee. Free, fair and Ministries like MoE, MEITY, MSME,
+ transparent process for the etc., highlighting the name,
+ procurement of induction kit location, SPOC, facilities, trainers,
+ through Government e- and previous training record of the
+ Marketplace (GeM) will be centre will be made available on
+ followed. SID.
+ Other Additional Support under PMKVY
+2. Facilities and 4.0 is at Annexure IV.
+ Entitlements
+ 3. Pre-requisites for
+2.1 Prior Intimation to Candidates Commencement of
+ Post enrolment, candidates shall Training
+ be informed about the various
+ a. 100% enrolment of candidates as facilities and details of the training
+ per the batch size of 10 to 30. programme on their profile page
+ and through a downloadable link b. Availability of handbook/study
+ on their registered number, or at material (physical or online) for
+ the centre, which shall include, the selected job role.
+ inter alia, the following:
+ c. Fully functional lab as per the job
+ a. Broad course outline (including role.
+ duration of theory and practical
+ d. Trained and certified trainer for
+ classes).
+ imparting the course.
+ b. Details of the trainer (Name,
+ e. Tie up with establishments to offer
+ qualification, photograph etc.).
+ OJT in applicable job roles.
+ c. Facilities to be provided (e.g.,
+ f. Fully operational AEBAS device conveyance allowance, boarding
+ registered on the NIC platform.
+ and lodging, etc.).
+
+ d. Content of induction kit (T-shirt
+ 4. Training of Candidate /Jackets, and a bag
+
+ e. Course-specific raw materials that 4.1 Short Term Training and Special
+ is to be provided during the Projects
+ a. The training hours will be as per training.
+ the corresponding Job Role
+2.2 Induction Kit approved by NCVET.
+ All candidates will be provided
+ b. The model curriculum and content
+ with an induction kit consisting of
+ for the respective Qualification
+ a T-shirt (Male) or Jacket (Female),
+ Packs (QPs) should be in place.
+ and a bag. The content of the
+
+ 19
+
+--- PAGE 26 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ c. Add-on bridge courses and v. Employment opportunity (both
+ language courses for making wage and self) with learned skill.
+ schemes internationally vi. In addition to this, the Induction
+ compatible shall also be planned Video on RPL under PMKVY 4.0
+ to provide international should be shown to the
+ opportunities to the Indian youth. candidates at this stage.
+ b. RPL under PMKVY 4.0 will be d. The use of digital content to
+ implemented more robustly with a supplement classroom training
+ priority on upskilling and shall be encouraged. NSDC shall
+ horizontal skilling, within the same curate the digital content on the
+ NSQF level. Skill India Digital.
+ c. Certified trainers will Pre-Screen
+4.2 Recognition of Prior Learning the candidates to assess their
+ existing level of learning. Pre-
+ screening will be designed and
+ supported by Sector Skill Councils
+ (SSCs)/Awarding Bodies (ABs).
+ PIAs/trainers are to evaluate the
+ existing skill sets and experience
+ of the candidates based on pre-
+ screening format set by respective
+ SSCs/ABs for each job role and a
+ self-assessment test. No payment
+ for Pre-screening will be made.
+
+ i. PART 1: The collection of
+ supporting documentation and
+ evidence from the candidate -
+ SSCs to specify the personal
+ information required and the
+ supporting documentation that
+ may be available for the job role.
+ ii. PART 2: Assessment of the
+ candidate for assessing the
+ a. Potential candidates must be previous knowledge of the
+ counselled by the PIA/trainer in candidate.
+ the following areas: d. All candidates under RPL will have
+ to undergo mandatory training of a i. A brief about MSDE, Skill India
+ minimum of 30 hours in a programme, and RPL processes.
+ classroom setting. The maximum ii. Eligibility criteria for appearing for
+ duration of RPL will be 132 hours. RPL certification.
+ e. The RPL process is aligned with iii. The benefits of RPL certification
+ the guidelines of NCVET. and how to avail those benefits.
+ f. The training / orientation will be in iv. Possible Career Progression
+ classroom setting. It is the (vertical and horizontal).
+
+ 20
+
+--- PAGE 27 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ responsibility of PIA to make sure the qualification pack approved by
+ that the necessary infrastructure NCVET for the Job Role.
+ and equipment specified by SSC is 5.2 Courses with 100% physical mode
+ available for training and of delivery will be allowed without
+ assessment. The same should be any pre-condition.
+ checked by the assessor.
+ 5.3 The training will predominantly be
+ g. The content/ module for delivered through physical mode.
+ orientation will be approved by the Online mode of training shall be
+ concerned SSCs/ABs. Amongst allowed on case-to-case basis. A
+ others, it should include maximum limit on the hours of
+ Employability Skills and Digital online training will be ascertained
+ Skills. for a course.
+ h. Certification will be at the same
+ 5.4 Prior approval of the Executive NSQF level as determined during
+ Committee to be sought by the pre-screening.
+ implementing agency before i. AEBAS based compulsory
+ assigning target for any job role attendance is applicable.
+ wherein there is a component of j. Daily schedule of training will
+ blended or online mode of depend on the workplace
+ delivery. circumstances.
+ k. ABs/SSCs should ensure
+ availability of Handbooks for the 6. Attendance
+ Qualification Packs.
+ 6.1 Daily attendance on entry and exit l. Subsequently, online RPL may be
+ through Aadhaar Enabled taken up if aligned to NCVET
+ Biometric Attendance System guidelines on RPL.
+ (AEBAS) for the candidate and the
+ m. RPL will be allowed in at any trainer to be ensured under STT,
+ Accredited and Affiliated training RPL and Special Projects.
+ Centre(s) and Industry/Employer
+ 6.2 Compulsory AEBAS-based Premises.
+ attendance of assessors and
+ n. Digital RPL of gig workers may be candidates during the
+ considered to be taken up in assessment.
+ future, provided RPL norms of
+ 6.3 Payment to training Centres shall NCVET allow the same
+ be linked to attendance.
+ o. Assessments at the end of RPL will
+ 6.4 Apart from the above, a Hard Copy be done by the ABs, equivalent to
+ of the Attendance Register shall STT assessment.
+ be maintained in each classroom
+ of the TCs, mentioning the Batch
+5. Modes of Training Name, Batch ID, Important Dates,
+ Name of the Candidates, and5.1 The mode of training (Physical,
+ other relevant information. Blended, Online) will depend on
+
+ 21
+
+--- PAGE 28 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+6.5 More than 70% of biometric 7.7 It will be the responsibility of the
+ attendance is required for each TP to ensure attendance of the
+ candidate to appear in the candidates.
+ assessment in all types of training. 7.8 The final assessment of the
+ candidates will be carried out after
+ completion of OJT, and it shall be7. On-the-Job Training
+ (OJT) the responsibility of the training
+ provider to ensure the presence of
+7.1 OJT to be introduced under all candidates for the assessment
+ PMKVY 4.0 in Short-Term Training after completion of OJT.
+ and Special Projects with an aim
+ 7.9 In addition to the existing to provide practical exposure to
+ provisions on Skill India Digital, candidates. This will lead to better
+ details of the OJT, including Start employability for the candidates
+ Date and End Date, name of the as they experience a live-work
+ establishment and copy of the OJT environment.
+ certificate issued by the
+7.2 OJT will be applicable in all such establishment, will be available.
+ Job Roles as mandated by NCVET.
+ 7.10 In districts where facilities for OJT The approved qualification pack
+ are not available, special shall guide the duration of OJT.
+ exemptions will be given by
+7.3 It shall be the responsibility of the Executive Committee. In these
+ Training Provider to arrange for districts, candidates may carry out
+ establishments and tie up with project work.
+ them to offer OJT to candidates.
+
+7.4 Basic details of the establishment
+ 7.11 Payment to Training Provider for to be uploaded on SID by the
+ OJT: Training Provider before the
+ commencement of OJT. a. Training Provider will be paid 50%
+ Establishment to also indicate the of the applicable base hour cost
+ intake capacity for OJT. per candidate as determined
+ under PMKVY 4.0 for successfully7.5 The establishments offering OJT
+ organizing the OJT. The Training will give a certificate at the end of
+ Provider shall be responsible for OJT indicating the duration and
+ the following: attendance of the candidate. The
+ same may be uploaded on SID i. Identifying establishments
+ either by the establishment/TP. willing to offer OJT.
+
+7.6 It shall be the responsibility of the ii. Upload details of
+ Training Provider to physically visit establishment on the SID
+ the establishment during OJT at prior to OJT.
+ least twice to ensure that all iii. Make necessary
+ candidates are undertaking the arrangements for candidates
+ same. to undertake OJT.
+
+ 22
+
+--- PAGE 29 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ iv. Undertake monitoring and Grade Score Range
+ ensure attendance of NSQF Level 1,2,3
+ candidates during OJT. A 85% and above
+ B 70% to < 85%7.12 In case of Skill Hubs or other
+ C 50% to 70% special circumstances, in districts
+ NSQF Level 4 and above where OJT is not feasible, project
+ work may be permitted in lieu of A 85% and above
+ OJT. No additional payment will be B 70% to < 85%
+ done to the Training Provider in
+ such cases. e. Awarding Body/SSC must validate
+ and approve the results uploaded
+7.13 There will be no separate
+ by the Assessment Agencies
+ assessment of OJT. Candidate will
+ within specified timelines.
+ undergo assessment for entire
+ course after completion of OJT as Assessment and Re-assessment
+ per para 8.1 of the guidelines. fees
+ a. Assessment fees shall be funded
+8. Assessment of under the scheme.
+ Candidates b. SSCs or the Awarding Bodies can
+ retain up to 20% of the
+8.1 Short-Term Training and Special assessment fees paid to
+ Projects assessment agencies.
+ a. Assessment and certification will c. Every candidate will be offered
+ be the responsibility of NCVET One chance of re-assessment
+ approved Awarding Bodies and (free of cost), the fees of which
+ Assessment Agencies. shall be borne from the scheme.
+ b. Online assessment and proctored d. In case of insufficient candidates
+ assessment will be allowed in appearing for re-assessment,
+ certain cases based on approval candidates can be clubbed with
+ of Executive Committee. a nearby training centre.
+ c. More assessment agencies will be e. Re-assessment fees are to be
+ onboarded to ensure timely paid to the Awarding Bodies
+ assessment of candidates. under the scheme.
+
+ d. All the candidates who pass the
+ assessments successfully would 8.2 Recognition of Prior Learning
+ be awarded a graded certiﬁcate as a. Assessments under RPL shall be
+ per the grading given below: conducted like that under the
+ Short-Term Training component of
+ PMKVY.
+
+ b. It shall be the responsibility of
+ RPL-PIA to make sure that the
+ equipment specified by SSC is
+
+ 23
+
+--- PAGE 30 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ available for assessment, and the b. QR code-based Digital Certificate
+ assessor should check the same. to be issued to candidates through
+ the following means: c. Towards the end of the final
+ i. Directly on their Digi-locker assessment, the PIA shall ensure
+ ii. Link to download on their E- candidates fill up the Candidate
+ mail/Phone Number. Feedback Form available in
+ iii. On their profile page in Skill regional languages. These forms
+ India Digital/Mobile App should be confidential, and the
+ process for the same will be c. It shall be the responsibility of
+ developed. Training Providers to provide one
+ d. Marks scored in the Core NOSs of copy of the Printed Certificate free
+ a QP shall be given 70% weightage of cost to the candidates.
+ in the total score. The remaining
+ 30% weightage shall be from the 10. Convocation Non-Core NOSs. For example: A
+ QP has five NOSs (three Core and 10.1 A convocation ceremony shall be
+ two Non-Core). A candidate scores held on completion of training for
+ 240 marks out of 300 in the three all passed-out candidates. In the
+ Core NOS, and 160 out of 200 in case of Short-Term Training, a
+ the two Non-Core NOSs. The total common convocation will be
+ score of the candidate will be planned to be held across the
+ (240/300 x 70) + (160/200 x 30) country.
+ = 80 out of 100. 10.2 The training partner will organize a
+ e. The pass percentage for a QP will convocation in the presence of
+ be 70%. A candidate who achieves persons of repute (may invite
+ greater than or equal to the pass senior officials of the district,
+ percentage for a QP, shall be Public Representatives, etc.).
+ awarded the Skill Certificate and
+ 10.3 Wide publicity is to be given for the Marksheet. Certified candidates
+ convocation to improve the will also receive a Grade (A/B) on
+ aspirational value for skilling the Skill Certificate as per the
+ among potential candidates. grading criteria below:
+ Grade Score Range 10.4 High-resolution pictures and
+ A 85% and above videos need to be taken for the
+ B 70% to < 85% Certificate and mark sheet
+ distribution ceremony, including
+ the batch-wise photos of
+9. Certification candidates. RPL and SP PIAs need
+ a. On successful completion of the to upload images and videos on a
+ assessment, candidates will be portal to be designated by NSDC.
+ informed about the certificate
+ generation on their registered
+ mobile/e-mail.
+
+ 24
+
+--- PAGE 31 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+11. Post Certification SSCs) shall only be given for
+ enrolment for a maximum of two
+ Tracking and other job roles.
+ Support 12.3 Candidates already certified once
+ under PMKVY and opting for a11.1 IT-based tracking of candidates
+ lower NSQF level course in the upto 1 year from the date of
+ same sector shall be discouraged. certification shall be done for all
+ However, a higher job role in the the candidates by NSDC.
+ same sector is permitted. The11.2 Details of the trained candidates
+ candidate may select any Job Role will be made available on Skill
+ in case of opting for a different India Digital for connecting with
+ sector. potential employers.
+11.3 Through Skill India Digital,
+ candidates will have access to
+ jobs and apprenticeship
+ opportunities and other facilities,
+ including loans for
+ entrepreneurship.
+11.4 Certified candidates will be linked
+ with Rojgar Melas (including
+ virtual) and Apprenticeship Melas.
+11.5 Professional agencies may be
+ engaged through free fair,
+ transparent method to facilitate
+ placement of trained and certified
+ candidates,
+
+12. Re-enrolment in Skill
+ Training
+12.1 A candidate may enrol not more
+ than twice for training under
+ PMKVY in the same sector (the
+ second time to be for a higher
+ NSQF-aligned job role only) or, for
+ fresh training of a different course
+ in the scheme, provided there is a
+ six-month gap between the
+ certification date of the first
+ course and batch start date of the
+ subsequent course.
+12.2 The pay-out against such
+ candidates (which includes pay-
+ outs to candidates, PIAs and
+
+ 25
+
+--- PAGE 32 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ CHAPTER VI:
+IMPLEMENTATION IN
+ SKILL HUBS
+
+ 26
+
+--- PAGE 33 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. Background may also be engaged by the
+ respective Skill Hubs from
+1.1 With an aim to utilize the amongst the pool of trainers
+ permanent infrastructure and available on Skill India Digital.
+ other resources like trainers
+ available at the educational
+ institutions, Skill Hubs will be 3. Selection of
+ setup in Government and Private Candidates:
+ Schools, Colleges, Universities
+ 3.1 The scheme targets
+ (including Skill Universities) and
+ school/college dropouts, out-of-
+ other Higher Education
+ education, and unemployed
+ Institutions. This is in-line with the
+ youths in the age group of 15-45
+ Whole-of-Government approach.
+ years.
+ All such institutions will be allowed
+ to implement Short Term Training 3.2 Eligibility criteria for selection of
+ as per PMKVY 4.0 Guidelines. candidates is defined in the
+ respective course curriculum of
+ Job Role to be offered.
+2. Pre-Requisites for
+ Training 4. Implementation
+2.1 Infrastructure: Modalities:
+ a. Availability of adequate
+ 4.1 National Skill Development classroom for theory classes and
+ Corporation (NSDC) is the laboratory depending on the Job
+ implementing arm of the MSDE Role to be opted. (For e.g.,
+ and shall provide all required Computer Lab in case of Data
+ handholding support and Entry Operator).
+ technical assistance in b. Aadhaar Enabled Biometric
+ implementation of PMKV 4.0 in Attendance System (AEBAS)
+ Skill Hubs. installed and registered on the
+ NIC platform. Attendance of 4.2 The entire training lifecycle from
+ Candidates, Trainers, Assessors enrolment to certification and
+ shall be captured through tracking will be done through Skill
+ AEBAS. India Digital for which necessary
+2.2 Trainer: orientation and handholding
+ a. Teacher/Trainer available in the support will be provided by NSDC.
+ own institution with domain 4.3 Skill Hubs in Schools or Higher
+ experience shall be allowed to Education Institutions (HEIs) can
+ impart training under the decide on the timings for training
+ scheme. Any separate i.e., either during normal working
+ Recognition will not be required. hours or after working hours,
+ b. In case of non-availability of based on the availability of
+ suitable Teachers/ Trainers or infrastructure.
+ not interested, certified trainer
+
+ 27
+
+--- PAGE 34 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+4.4 On-the-Job Training (OJT) has been
+ mandated under the scheme in
+ applicable Job Roles. It shall be
+ the responsibility of the
+ institutions to arrange for OJT in
+ nearby industry or establishments
+ (refer Para 7 of Chapter V above).
+
+4.5 Assessment and certification
+ would be done through the third-
+ party agencies namely, Sector
+ Skill Councils (SSCs) or any other
+ National Council for Vocational
+ Education and Training (NCVET)
+ approved awarding body. The
+ State Education Board/Technical
+ Education Board can also become
+ an awarding body under NCVET.
+
+4.6 Skill Hub will be required to
+ register on the Skill India Digital
+ with requisite details of available
+ classroom, labs, trainers, etc.
+
+5. Financial Provisions
+5.1 Average training cost would be as
+ per PMKVY 4.0 standard cost
+ norms which includes base
+ training cost (trainer salary,
+ teaching aid, raw material,
+ infrastructure cost), assessment
+ & certification, insurance for
+ candidates, and AEBAS
+ transaction fees.
+
+5.2 The training cost will be paid by
+ NSDC in 3 tranches as per PMKVY
+ 4.0 norms as elaborated in
+ Chapter VIII.
+
+5.3 If any Skill Hub fails to conduct
+ training as per the allocated
+ target, then the full released
+ amount or the proportionate
+ amount shall be recovered.
+
+ 28
+
+--- PAGE 35 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ CHAPTER VII:
+ TRAINING OF
+TRAINERS AND
+ ASSESSORS
+
+ 29
+
+--- PAGE 36 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. Introduction b. Institutions of other
+ Ministries/Department: Skill
+1.1 A national pool of trainers and Universities, NIELIT, CIPET, Tool
+ assessors shall be created to Rooms and Technology Centres,
+ ensure the availability of quality Multi-Skill Development Centres,
+ trainers and assessors across the National Institute of Solar Energy,
+ ecosystem catering to different National Institute of Technical
+ job roles and geographical Teachers Training and Research
+ presence. (NITTTR). State Government
+1.2 Objective: Institutions, etc.
+ a. Creation of National pool of c. Industry-led Training Centres, Skill
+ trainers and assessors. Hubs, NSDC International, etc.
+ b. To improve the quality and 2.3 Interested institutions will be
+ numbers of trainers and required to submit a detailed
+ assessors. proposal for conducting ToT or
+ c. To improve geographical spread of ToA. The same shall be evaluated
+ trainers and assessors. by NSDC and presented for the
+ approval of the Executive
+2. Implementation Committee under PMKVY 4.0.
+ Modality 2.4 The training can be both
+ residential and non-residential.
+2.1 An effective and enabling
+ ecosystem for training of trainers 2.5 The entire training life cycle shall
+ and assessors will be created. be captured on the Skill India
+ Training of trainers/ assessors Digital. A repository of trained
+ facilities of various trainers and assessors will be
+ ministries/departments, State made available on the Portal to be
+ Government, Industries, etc. will accessible to the training
+ be utilized to create a large pool of providers.
+ trainers and assessors. 2.6 Efforts will be made to onboard
+2.2 Training of Trainers and Assessors existing trainers and assessors in
+ will be implemented through the ecosystem, including teachers
+ Institutions with prior experience in Schools, Colleges; faculty of
+ in conducting ToTs or ToA or with universities (including skill
+ necessary expertise: universities), ITIs, NSTIs,
+ Polytechnics; trainers in training
+ a. MSDE related Institutions:
+ centres of other Ministries, etc.,
+ National Skill Training Institutes
+ who meet the eligibility criteria.
+ (NSTIs), Industrial Training
+ Institutes (ITIs), Institutes of 2.7 Awarding Bodies may also offer
+ Training of Trainers (IToT), Centres Recognition of Prior Learning,
+ of Excellence (CoEs), SSCs, preferably online, with
+ NIESBUD, IIE, etc. certification for individuals with
+ relevant academic and
+ professional experience.
+
+ 30
+
+--- PAGE 37 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+2.8 Awarding Bodies will specify a pool rate as those of Existing Trainers /
+ of qualifications for which a single Assessors.
+ trainer and assessor certification
+ may apply for training and 4. Assessment and assessment.
+ Certification
+3. Types of 4.1 Trainer and assessor to be
+ assessed and certified by an
+ Certifications Awarding Body (AB).
+3.1 Basic Certification: 4.2 Trainer and assessor
+ Trainers/Assessors who qualifications as per the approved
+ successfully clear pre-screening, Qualification Pack/ AB.
+ classroom training and
+ 4.3 Master trainer and assessor as assessment on domain and
+ per the specifications and platform skills. All trainers who
+ certified by AB. achieve the passing requirements
+ are awarded a certificate with a
+ validity of 2 years. 5. Financial Provision
+ (i) Upto 10 days of training out of for ToT/ToA
+ which 5 days can be online.
+ 5.1 The financial norms for conduct of
+ Assessment post-training shall
+ ToT/ToA is given in Table below.
+ include both domain and platform
+ The same may be revised with the
+ skills. For the period of online
+ approval of the Steering
+ training, the pay-out will be
+ Committee.
+ reduced by 25%. Employability
+ Skill training /assessment to be 5.2 The expenditure on ToT and ToA
+ added as part of Basic will be borne by MSDE from the
+ Certification. scheme budget.
+3.2 Advanced Certification: Certified 5.3 In case of residential training up to
+ Trainers/Assessors who appear Rs. 375 per day per candidate will
+ for an On-job-Training component be paid to the Project
+ consisting of 6 assignment Implementing Agency as per
+ submissions across a maximum Common Norms.
+ 15-week period. All
+ 5.4 No Conveyance/ Transportation trainers/assessors who
+ cost will be provided to successfully clear this program
+ candidates, unless approved by are awarded a certificate with
+ Executive Committee. lifetime validity (with refresher
+ courses per the job role's 5.5 PIA can charge refundable,
+ requirements). nominal amount from the
+ candidates for retention.3.3 Standalone Employability Skill
+ certificate courses can be 5.6 In addition, Industry / Awarding
+ conducted and will be paid at the Bodies will also be encouraged to
+ arrange training for ToT/ToA
+
+ 31
+
+--- PAGE 38 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ through CSR/ Partial Funding / full for existing trainers/refresher course/
+ payment basis. standalone Employability Skill Training.
+
+5.7 Terms of Payment to ** The payment may be changed to
+ Implementing Agencies: batch level, as being done for student’s
+ payments in PMKVY 4.0, once such a
+ facility is available.
+ Tran Payout
+ Milestone
+ che (in %)
+ Approval of project 6. Monitoring and
+ by MSDE and Feedback 1 30
+ commencement of 6.1 AEBAS/ Biometric attendance will
+ training be mandatory with minimum 80%
+ At least 50% of the attendance.
+ candidates
+ 2 50 6.2 Monitoring visits by SSC enrolled and 25%
+ /AB/NSDC/ any other MSDE certified
+ authorised agency. Completion of
+ Project and 6.3 Feedback of trainers and 3 20
+ submission of Final assessors from stakeholders will
+ Project Report * be taken.
+*Final payment linked to candidates 6.4 Video recording/ record of training
+taking both domain and platform skill to be maintained.
+assessment for Basic Certification, and
+single assessment for others like training
+
+6.5 Cost Norms for Training of Trainers and Training of Assessors
+
+ Common Cost
+ Type of Type of Training Norms (CCN) Applicable Type of
+ financial Trainer/ duration Category of Pay-out Certification Pay-out Assessor (In days) the Domain (in Rs.)
+ Job role
+ 1 New CCN Category 1 11,200.00 Minimum 2 Trainer/ CCN Category 2 11,000.00
+ 10 days 3 Basic Assessor CCN category 3 10,800.00
+ 4 Certification Existing CCN Category 1 2,200.00 Minimum 5 Trainer/ CCN Category 2 2,000.00
+ 3 days 6 Assessor CCN Category 3 1,800.00
+ Advanced Trainer/ Maximum All CCN 7 14,000.00 Certification Assessor 15 weeks categories
+
+ 32
+
+--- PAGE 39 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+CHAPTER VIII:
+ FINANCIAL
+MANAGEMENT
+
+ 33
+
+--- PAGE 40 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. General Financial from previous versions of PMKVY
+ and the proposed plan of action,
+ Management the cost norms for PMKVY 4.0 has
+1.1 Funds for implementation of been derived, and an indicative
+ PMKVY 4.0 are to be met out of average unit cost for different
+ budgetary grant of the scheme. types of training is given below:
+
+1.2 General Financial Rules (GFR) Sl. Type of Per
+ shall be followed, and the No Training Candidate
+ implementing agencies shall Cost (In Rs.)
+ adhere to the Guidelines STT courses of Rs. 9,540
+ regarding expenditure and a. 300-hour per
+ submission of Utilization duration candidate
+ Certificates (UCs). Funds under STT courses of Rs.13,724
+ the scheme will be transacted b. 450-hour per
+ under Public Financial duration candidate
+ Management System (PFMS) Rs. 9,540
+ STT in Skill platform. c. per
+ Hubs
+ candidate1.3 All funds will be transacted
+ RPL with Rs. through Central Nodal Agency
+ upskilling (30 3,126.18 (CNA). NSDC will be designated
+ Hours) at any per CNA for PMKVY 4.0, and all
+ d. Accredited candidate applicable norms as per the
+ and Affiliated Department of Expenditure,
+ training center Ministry of Finance shall be
+ (s) followed.
+ RPL with Rs.
+1.4 The Steering Committee is
+ upskilling (30 2,826.18
+ empowered to take appropriate
+ e. Hours) at per
+ decision in matters relating to Industry candidate
+ broad policy direction, dynamic premises
+ fixation of targets and any
+ RPL with Rs.
+ deviation in scheme concept
+ upskilling (60 3,962.88
+ note/guidelines without affecting
+ Hours) at ) at per
+ the financial provisions.
+ f. any Accredited candidate
+1.5 All procurements under the and Affiliated
+ Scheme will be done through GeM training center
+ to the extent feasible. (s)
+ RPL with Rs.
+2. Cost Norms for upskilling (60 3,662.88
+ g. Hours) at per
+ Training Programmes Industry candidate
+2.1 The cost norms under PMKVY 4.0 premises
+ are based on the Common Norms. N.B. The detail average unit cost is
+ Keeping in view the experience depicted at Page 56-57 for reference.
+
+ 34
+
+--- PAGE 41 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ Existing centres/Skill hubs will be 4.2 Pay-out to TPs/TCs/Skill Hubs:
+ considered as par with Industry premises Based on the defined average unit
+ for payment
+ cost under various training types,
+2.2 Average unit cost has been payment shall be made to
+ derived considering Rs. 27.89 per TPs/TCs/Skill Hubs in three
+ hour as the base training cost. Tranches
+ Indicative detailed costing of
+ Tranche 1 30% On
+ different training type is at
+ commencement
+ Annexure IV.
+ of training
+ Tranche 2 30% On batch
+3. Release of Funds to achieving 70%
+ NSDC AEBAS
+ attendance once
+3.1 Funds will be released to NSDC on and 50 % of the
+ receipt of detailed proposal training is over.
+ seeking funds towards:
+ Tranche 3 40% On Certification
+ i. Training of candidates (passed
+ ii. Capacity Building of Trainer and candidates only)
+ Assessor
+ iii. Revamping of IT platform
+ 4.3 The tranche pay-out will ensure:
+ iv. Development of new age course
+ curriculum and online content a. The financial requirements of
+ Training Partners will be met v. Awareness, counselling, and
+ throughout the batch cycle, Capacity building& recognition of
+ including the beginning stakeholders, etc.
+ (enrolment), middle (mid-course vi. Administrative expenses.
+ attendance), and end
+ (assessment) stages.
+3.2 NSDC will submit Utilization b. To ensure a focus on certified skill
+ Certificate in the format workers in the scheme, the largest
+ prescribed as per GFR duly signed payout percentage is reserved for
+ by CEO/CFO. Tranche 3 (on certification) so that
+ Training Partners are financially
+4. Pay-out mechanism – motivated to complete the entire
+ batch life cycle.
+ Short Term Training
+ (STT) c. Since Tranche 3 is the payout with
+ the largest percentage, the
+4.1 Release of funds to Implementing recovery of ineligible candidates
+ Agencies: Based on the allocation (in terms of attendance) will be
+ of training targets and defined more feasible than in previous
+ average unit cost under different schemes.
+ types of training of PMKVY 4.0
+ (2022-23), funds will be released 4.4 Pay-out to the SSCs/ABs: Rs. 600
+ to implementing agencies, as per per candidate per assessment will
+ GFR.
+
+ 35
+
+--- PAGE 42 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ be provided for overseeing and 6. Pay-out mechanism –
+ facilitating final assessments.
+ Additional Support
+5. Pay-out mechanism – 6.1 Boarding, Lodging Facilities along with transportation cost for Short-
+ Recognition of Prior Term Training and Special
+ Projects: Boarding and Lodging Learning (RPL)
+ and transport facilities shall be
+5.1 Pay-outs to RPL PIA: Fixed cost of
+ provided to special groups
+ Rs. 2,000 per candidate for RPL at
+ (Women and PwD) and Special
+ any Accredited and Affiliated
+ Areas, as defined in Common
+ training center (s) Rs. 1,700 for
+ Norms, for training within and
+ RPL at Industry premises for 12
+ outside Special Areas. However,
+ hours training shall be paid. The
+ the same may also be extended
+ reduction of Rs. 300 for RPL in
+ for trainings in Aspirational,
+ Industry premises is owing to
+ Border, Tribal dominated and LWE
+ availability of infrastructure and
+ affected districts.
+ lower cost of mobilization. The
+ additional hours beyond 12 hours In addition, Projects/ Training
+ will be paid as per discounted under Special Projects may be
+ Common Norms i.e. Rs. 27.89 per taken up with the residential
+ hour as applicable for STT. training.
+ Insurance will be paid from the 6.2 Conveyance Facilities:
+ scheme while a T-shirt will be Conveyance facility will be
+ provided to the trainee by PIA, at permissible for Special Groups in
+ its own cost. case of non-residential training as
+5.2 Funds will be directly transferred per Common Norms.
+ to the PIA’s bank account (DBT) on 6.3 Pay-out for Accidental Insurance:
+ the completion of the following Every certified candidate will be
+ milestones: provided with 1-year accidental
+ a. Tranche 1: 80% payment on insurance. Insurance premium
+ Assessment results uploaded by shall be paid to identified
+ assessing body Insurance Company as per
+ b. Tranche 2: 20% payment upon prevailing rates duly approved by
+ submission/uploading of Monthly Steering Committee.
+ Performance Report (MPR) and 6.4 Induction Kit: Within the approved
+ submission of proof for certificate budget, NSDC to identify vendors
+ handover, with or without the to provide the Induction Kit to
+ distribution ceremony. Training Centres at the prescribed
+5.3 Pay-out to the SSCs/ABs: Rs. 600 rate.
+ per candidate per assessment will
+ 6.5 AEBAS Transaction fees: As be provided for overseeing and
+ AEBAS-based attendance is facilitating final assessments.
+ mandatory for Candidates,
+ Trainers and Assessors, the
+
+ 36
+
+--- PAGE 43 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ applicable transaction fees shall Sl Details % of
+ be paid by NSDC to NIC from the No Scheme
+ scheme budget. Outlay
+ a. Administrative Upto 4%6.6 Post Certification candidate
+ charges of Tracking: NSDC will be
+ NSDC responsible for post certification
+ b Administrative Upto 1 tracking of the candidate for 1
+ cost of MSDE % year. NSDC may use online, app-
+ Notes: based tracking, call centre and
+ any other mechanism for tracking a. NSDC will be paid up to 4% of
+ these candidates. Based on the the total scheme outlay
+ successful certification number of towards administrative cost
+ candidates under STT and SP, an for overall implementation of
+ allowance of up to Rs. 50 per the scheme. However, based
+ candidate will be utilised for this on requirement and
+ purpose. availability of funds, the
+ administrative cost may be6.7 Enrolment for the second time:
+ changed, subject to approval Candidates may choose to enrol
+ of Steering Committee. for the second time in a gap period
+ b. Up to 1% of the scheme outlay of 6 months for a different job
+ will be retained by MSDE role/related job role/higher job
+ towards setting up of PMU, role, under short term
+ monitoring and evaluation and training/RPL, during the
+ other expenses related to implementation of the scheme.
+ administration of the scheme. The pay-out against such
+ candidates (which includes pay-
+ out to candidates, PIAs and SSCs)
+ shall only be given for enrolment
+ for a maximum of two job roles,
+ only if there is a six-month gap
+ between the certification date of
+ the first job role enrolled for and
+ the subsequent enrolment date
+ under short Term training/RPL (or
+ the batch start date).
+
+7. Administrative
+ Expenditure:
+7.1 Upto 5% of the total scheme
+ budget will be earmarked towards
+ administrative expenditure as per
+ the following breakup:
+
+ 37
+
+--- PAGE 44 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ CHAPTER IX:
+CONVERGENCE
+
+ 38
+
+--- PAGE 45 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1. Background etc. The following will be managed
+ through SID:
+ MSDE, since its inception in 2014,
+ a. End-to-end training lifecycle has taken several initiatives to
+ management leading to saving of facilitate convergence and
+ costs. consolidate the efforts of different
+ stakeholders to get a broad b. Single point source of information
+ picture of skilling in the country, - schemes, courses, trainers, and
+ such as: assessors.
+ a. National Skills Qualifications c. Candidates select course
+ depending on interest area and Framework-NSQF (2013) for
+ SID guides them to the scheme standardization of curriculum and
+ offering the course.
+ content.
+ b. Notification of Common Norms d. Onboarding of recognized
+ organizations/ autonomous (2015) to bring about uniformity
+ bodies of respective Ministries/ and standardization in terms of
+ Department as an Awarding and
+ training cost, funding norms, Assessment Body.
+ categorization of courses/trade
+ e. Utilizing already available e- for training cost etc.
+ content (e-skill India, Bharat c. National Council for Vocational
+ Skills).
+ Education and Training (2018) set
+ up as an overarching umbrella 2.2 Field level convergence at District
+ & local bodies pursued by bilateral regulator to ensure strong industry
+ MoUs with Ministries. interfacing, set standards for
+ Awarding Bodies and Assessment a. Involve district level functionaries
+ Agencies, etc. of all Ministries to contribute to
+ d. Skill India Portal/ SMART Portal District Skill Development Plans
+ (DSDPs). (2019) for standardization of
+ Input Quality and data b. Cross- utilization of skilling
+ convergence. infrastructure spread across
+ Ministries
+2. Next Level of c. Skill Hubs Pilot utilized Schools,
+ HEIs, Polytechnics for delivery of
+ Convergence skilling in addition to MSDE
+ institutions; similar model2.1 Candidate Level Convergence: To
+ planned for PMKVY 4.0. enable candidate to choose
+ skilling avenues through single 2.3 Common Branding, accreditation
+ interface- Skill India Digital (SID). & certification to enhance the
+ SID, an Aadhaar-based student aspiration value of skilling
+ registry platform capable of 2.4 Linking Skilling with career
+ student life cycle management, guidance, employment, credit, up-
+ and with broader features like; skilling, etc.
+ Aadhaar-based student 2.5 Aadhaar authenticated
+ authentication through eKYC & registration of candidates for de-
+ attendance management, Direct duplication
+ Benefit Transfer through PFMS,
+
+ 39
+
+--- PAGE 46 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+2.6 NSQF compliance of all skilling 2.8 Geo-referenced details of Training
+ courses offered and adherence to Institutions and courses offered,
+ Common Norms for facilities available, etc.
+ standardization of input 2.9 Identify & recognise uniformly
+ standards and costs branded ‘Skill India centres’ to
+2.7 Creating a pool of Skill India enable candidate choice
+ accredited trainers and assessors
+
+ 40
+
+--- PAGE 47 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ CHAPTER X:
+MONITORING AND
+ EVALUATION
+
+ 41
+
+--- PAGE 48 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ A CCTV Command Centre will be
+1. Monitoring established in NSDC for real-time
+ Framework monitoring of CCTV feed.
+ 1.4 Virtual Verification
+1.1 A robust monitoring and evaluation Virtual verification of operational
+ framework will be put in place training centres will be conducted
+ under the scheme to ensure strict
+ using a mobile app to ensure
+ monitoring, evaluation and
+ compliance and monitor
+ learning from the scheme. performance. Virtual verification
+ will also be conducted based on1.2 Aadhar Enabled Biometric
+ specific inputs received from Attendance System
+ AEBAS and NIC integration are of attendance monitoring. This
+ utmost importance to track the process will further help to:
+ daily attendance of trainees and a. Monitor remote TC locations
+ virtually at any given point of time. trainers. Any deviations in daily
+ b. Reduce travel time of resources AEBAS attendance will be an
+ which could be utilized in other
+ escalation for further validation of monitoring activities.
+ ongoing batches through c. Generate operational data that
+ CCTV/Virtual verification. can be used for TP rating
+ Additionally, the availability and framework.
+ proper functioning of the AEBAS
+ 1.5 Call Validation machine linked with NIC will be
+ Call validation will be carried out
+ verified during physical
+ on regular basis for taking
+ inspection.
+ feedback of candidates on their
+ experiences and support1.3 CCTV based Monitoring and
+ Command Centre investigation process in case of
+ To effectively monitor training grievances received against
+ activity on the ground, remote Training Partners/Centres. Calls
+ monitoring will be conducted will be made to a randomised set
+ through CCTV installed at the of candidates on the mobile
+ centres. CCTV livestreaming would numbers provided during the
+ be a useful tool and alternative to registration process. A standard
+ physical monitoring, with calling script incorporating vital
+ additional feature of real time questions that establish the
+ surveillance of training center authenticity of the candidate
+ activities. Additionally, CCTV through their real time response
+ monitoring will provide: will be used by the agency to be
+ a. Alerts of non-compliance to engaged for this purpose by
+ relevant stakeholders NSDC.
+ b. Reports such as Daily count of
+ a. Enrolment verification of students, Student/Trainer
+ candidates absence during batch timings
+ b. Candidate feedback on training
+ delivery
+
+ 42
+
+--- PAGE 49 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ c. Candidate feedback on availability Projects candidates for one- year
+ of training facilities/training kit post certification. The tracking of
+ d. Candidate feedback on overall candidates post completion of
+ quality of training training will help to understand of
+ his/her career progression post
+1.6 Physical Visits
+ training and assess the impact of a. Physical inspection of the training
+ the scheme. NSDC may use centre by State Engagement
+ online, app-based tracking, call Officer/representative from NSDC
+ centre and any other mechanism at least once for every batch of
+ for tracking these candidates. training in case of Short-Term
+ Since all the candidates will Training and Special Projects and
+ register on Skill India Digital (SID), at least once in a month for RPL at
+ their profile will be automatically Training Centre location.
+ created. Activities logged in the
+ b. Regular visit by officers of MSDE profile will assist in tracking the
+ to inspect maximum training status of the student. The
+ centres. registration process on SID also
+ c. The data during Physical ensures e-KYC compliance,
+ Inspection will be captured Aadhaar based authentication of
+ through a monitoring mobile candidate credentials, and mobile
+ application. number authentication.
+ b. Other active measures like
+1.7 Assessment Monitoring WhatsApp messaging and chatbot
+ Monitoring of assessments will be may be initiated for the registered
+ tracked, and any deviations will be candidates. However, focused
+ penalized as per defined tracking will be done through call
+ guidelines. Surprise inspections center and a total of four phone
+ will be carried out on assessment calls per year (once every quarter)
+ locations by District Skill shall be made, for one year post
+ Committee (DSC)/State certification. The questions will be
+ Engagement Officers/members of framed to know the status of the
+ Implementing Agencies and SSCs. candidate, relevant to training,
+ The proctor/invigilator shall like currently in employment, in
+ ensure that the assessments are education or training etc.
+ being conducted in a fair manner, Subsequent analysis of data will
+ validate the candidates uploaded assist in determine the impact of
+ by TP/TC on SID. The PMKVY 4.0 training on the
+ proctor/invigilator will also ensure candidates. The tracking will be
+ that all candidates are provided restricted to Short Term Training
+ necessary aids for taking the and Special Projects.
+ assessment.
+ 1.9 Penalty Grid
+1.8 Post Certification Candidate a. Penalty will be imposed based on
+ Tracking the level of non-compliance as
+ a. Under PMKVY 4.0, NSDC will track listed in Annexure II.
+ Short Term Training and Special
+
+ 43
+
+--- PAGE 50 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ b. NSDC will constitute an Internal States/UTs for monitoring the
+ Monitoring Committee to decide scheme at field level and within a
+ on the action to be taken on the specific duration or time-period.
+ TPs or PIAs based on the penalty c. A comprehensive Monthly
+ matrix. Any request/appeal (1 Progress Report (MPR) shall be
+ appeal application per case only) devised by MSDE for updates from
+ against the decision of the internal Implementing Agencies and
+ committee will be examined by the periodic review shall be
+ Executive Committee for a conducted.
+ decision. Inquiry will be
+ 2.2 National Skill Development conducted, and notice shall be
+ Corporation (NSDC) given to the parties concerned to
+ a. Effective implementation and
+ present their cases including facts
+ monitoring of PMKVY 4.0 scheme
+ and figures to the Executive
+ will be undertaken by NSDC. NSDC
+ committee. The decision of the
+ will take strict action against any
+ Executive committee shall be final
+ irregularities, malpractices, and
+ decision of the proceedings.
+ deviation from PMKVY 4.0
+ guidelines within a stipulated time1.10 Feedback Mechanism
+ Qualitative feedback from frame.
+ trainees (i.e., candidate b. Physical inspection of the training
+ satisfaction surveys will be centre by representative from
+ conducted during training), NSDC at least twice for every
+ trainers and training centres will batch of training in case of Short-
+ be sought through Skill India Term Training and Special
+ Digital platform. This will help in Projects and at least once during
+ course correction and improve the RPL training.
+ quality of scheme delivery. c. Internal Monitoring Committee
+ (IMC) at NSDC shall prepare the
+ Monthly monitoring reports to
+2. Key Stakeholders & provide oversight of the
+ their Role in ecosystem to the stakeholders.
+ Monitoring Such monitoring reports to be
+ submitted to PMKVY Executive
+2.1 Ministry of Skill Development Committee for review.
+ and Entrepreneurship: d. NSDC shall use compliance
+ a. MSDE shall hold periodical monitoring tools like Call
+ meetings to review the physical Validation, Out-Bound Dialling and
+ progress, utilisation of funds, Surprise Visits during the
+ future planning, and proposed enrolment and training phases to
+ suggestions to improve the gain candidate feedback,
+ implementation of PMKVY 4.0, as complains and grievances about
+ and when required. the skill ecosystem.
+ b. MSDE shall notify a group of its e. NSDC shall monitor the following
+ Senior Officials and other Central indicators during the training
+ Ministries for field visits to some
+
+ 44
+
+--- PAGE 51 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ lifecycle to enforce the quality of b. Identification of skill development
+ training, being imparted by needs including preparing a
+ TPs/TCs under PMKVY 4.0: catalogue of types of skills, range,
+ i. Attendance of candidates and depth of skills to facilitate
+ ii. Availability of TC facilities & individuals to choose from them.
+ infrastructure c. Development of a sector skill
+ iii. Availability of Training development plan and
+ material as per the guidelines maintaining skill inventory.
+ iv. Branding of PMKVY as per the d. Facilitate industry connect for On-
+ guidelines the-Job training component of the
+ v. Availability of Candidate scheme.
+ enrolment Forms and e. Determining skills/competency
+ Candidate Feedback forms standards and qualifications,
+ vi. Regularity of Training getting them notified as per NSQF
+ including batch strength and regularly update the QPs as
+ vii. Trainer Qualification and ToT per industry requirements.
+ certification f. Standardization of affiliation,
+ viii. Any unethical practices by TC accreditation, examination, and
+ like giving misleading info certification process in
+ about scheme to the accordance with NSQF as
+ candidates etc. determined by NSQC.
+ f. NSDC shall prepare performance- g. May also conduct skill-based
+ based scorecards for TPs and TCs. assessment and certification for
+ These scorecard rankings will help QP /NOS aligned training
+ in highlighting best practices in programmes.
+ the ecosystem and may be used h. Participation in the setting up of
+ during the subsequent allocation affiliation, accreditation,
+ or scheme. examination, and certification
+ g. NSDC will furnish periodic reports norms for their respective sectors.
+ to MSDE on achievement of i. Plan and facilitate the execution of
+ physical and financial targets of Training of Trainers along with
+ the scheme. NSDC and states.
+ j. Setup and promotion of
+2.3 Sector Skill Councils (SSCs) and academies/centres of excellence
+ other approved awarding bodies for conducting skill development
+ a. The SSCs/ ABs shall continue to
+ programs.
+ play a key role through their
+ k. Paying particular attention to the
+ processes, resources, and
+ skilling needs of ST/SC, differently
+ affiliated assessment agencies, in
+ abled and minority groups.
+ monitoring the training (visit-
+ l. Ensuring that the persons trained
+ based monitoring) and
+ and skilled in accordance with the
+ assessment-related aspects
+ norms laid down are assured of
+ under PMKVY 4.0. The SSCs and
+ employment at decent wages.
+ ABs must ensure the following:
+
+ 45
+
+--- PAGE 52 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+2.4 District Skill Committee 5. Deployment of Human
+ a. Act as fulcrum of convergence by
+ promoting cross-utilization of Resource
+ infrastructure and resources 5.1 At MSDE, a Project Management
+ among various skilling schemes. Unit (PMU) shall be set up through
+ b. Assess the industry demand while professional firms/ agencies to
+ planning to bridge the skill gap in provide support for
+ the district implementation and monitoring of
+ c. Preparation and Submission of the scheme. The PMU will support
+ District Skill Development Plan the Ministry in the following:
+ (DSDP) a. Support MSDE in designing and
+ d. Facilitate in setting up of PMKK, preparation of scheme outline,
+ PMKVY training centers in the framework, guidelines, and other
+ district policy related issues
+ e. Create awareness through local b. Facilitate to establish alignment
+ media network with National priorities such as
+ f. Facilitate OJT, Placements in the ODOP, GatiShakti etc. for meeting
+ nearby industries/establishments the skill requirement
+ and conduct Rozgar Melas c. Coordinate with NSDC, Central
+ g. Support in enhancing industry Ministries & State Skill Missions
+ linkages in skilling for effective implementation of the
+ h. Regularly monitoring of the skilling scheme
+ interventions under the scheme in d. Extend necessary support to drive
+ the district convergence agenda across
+ central/state ministries
+3. Impact Assessment e. Assist in simplification of
+ processes and procedures for
+3.1 MSDE may empanel external implementation along with
+ agencies for evaluation and impact expanding industry collaboration
+ assessment of the scheme to f. Engage with various stakeholders
+ assess the impact of the project on key challenges/learnings and
+ and decide on future course of initiate policy changes
+ action. g. Support MSDE in enhancing
+ industry engagement through
+4. Data Analysis and strategic partnerships
+ Reporting h. Analyse scheme metrics to enhance efficiency and quality of
+4.1 NSDC will undertake in-depth data scheme implementation
+ analysis of the scheme trends and i. Tracking & Monitoring of fund
+ pre-defined monitoring indicators disbursement & utilisation as per
+ of the scheme to cull out insights GFR and Scheme Guidelines
+ with the objective of improving the j. Establish robust monitoring/
+ overall scheme implementation. assessment frameworks for
+ various Stakeholders of the
+
+ 46
+
+--- PAGE 53 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ scheme for effective be placed at Executive Committee
+ implementation of the Scheme for its effective and fair resolution.
+ k. Support MSDE for capacity 6.6 Stringent action in stipulated
+ building at state and district level timeframe shall be taken in
+ l. Preparation of interactive data consultation with MSDE to prevent
+ dashboards for various malpractices, irregularities, and
+ stakeholders in consultation with any deviation from the Scheme
+ Implementing Agency based on guidelines.
+ Skill India Portal. 6.7 NSDC shall submit a Monthly
+ m. Any other work assigned by MSDE Report (in a pre-defined template)
+ from time to time. regarding nature and status of
+ grievances received, pendency
+6. Grievance Redressal level, and whether disposed or not etc.
+6.1 A robust and effective grievance 6.8 NSDC shall analyse and record the
+ redressal mechanism will be nature of grievances for detailed
+ setup. data analysis. Based on the data
+6.2 Grievance Redressal Cell/ Desk at insights, NSDC may suggest to the
+ National level shall be set up in PMKVY Steering / Executive
+ NSDC to receive and dispose of Committee for modification/
+ grievances in time-bound manner. relaxation in the Scheme
+6.3 Compliants and grievancesmay be guidelines / policy documents.
+ received through a module on
+ SID/SIP.
+ 7. Capacity Building6.4 NSDC shall facilitate in resolution
+ and disposal of such grievances 7.1 Capacity building of all
+ within a stipulated time frame. If stakeholders will be carried out
+ required, field visit may also be periodically through training
+ conducted to ascertain the facts programmes, webinars,
+ and fair and timely resolution of State/Regional/Zonal review
+ grievances. meetings, etc. by the Ministry
+6.5 For serious grievances, which through NSDC or other
+ cannot be resolved at NSDC must stakeholders.
+
+ 47
+
+--- PAGE 54 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ CHAPTER XI:
+ BRANDING AND
+COMMUNICATION
+
+ 48
+
+--- PAGE 55 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+1.1. The Branding and d. Social Media: All implementation
+ Communications Guidelines of the partners will be encouraged to
+ scheme shall be issued separately ensure their presence on various
+ by NSDC, which shall provide the social media platforms, including
+ template of all branding materials Koo, X, Instagram, and YouTube,
+ like flyers, hoardings, standees, according to their target audience.
+ etc. This will help create awareness
+1.2. All training centres and other amongst the general population
+ implementing agencies shall on skill development programs
+ abide by branding guidelines, currently active in the country and
+ which can be used internally and promote a deeper engagement
+ externally to ensure consistency with the target audience.
+ and continuity of the PMKVY 1.5. The promotional campaigns can
+ scheme, identity, and strategy. be aligned with the following:
+ This shall include Logo a. Launch of new courses
+ Specifications, Exterior Centre b. Inauguration of new Skill Centres
+ Branding, Reception Area c. Progress of existing skill
+ Branding, Branding for Waiting development courses
+ Area, Classroom / Lab, Catchment d. Events (Kaushal Mela, special
+ Area, etc. training, RPL programs, visits by
+1.3. The training centres will be various dignitaries, media
+ responsible for arranging coverage)
+ necessary collaterals for branding e. Testimonials and experiences of
+ and communication in the beneficiaries, how their lives
+ accordance with the PMKVY have changed because of the
+ Branding and Communication training that they have received
+ Guidelines. (messages/videos/photos)
+1.4. Promotion of the scheme can be f. Other information that can help
+ done through the following the beneficiaries
+ medium: 1.6. Use of the logo of the Ministry or
+ a. Print Media: Advertisements in use of the photograph of the Prime
+ local newspapers, press releases, Minister and Ministers is a
+ etc. sensitive matter. Hence, the
+ b. Outdoor Advertising: Wall concerned should do due
+ Paintings, installation of outdoor diligence to ensure that the
+ hoardings, and posters in branding materials are pre-
+ populated areas. approved by MSDE or NSDC
+ c. Electronic Media: Advertisements before publication or
+ on Television, Radio Jingles on broadcasting.
+ local and community radio 1.7. Budget available under the
+ stations, including FM stations, Scheme shall be utilized based on
+ SMS campaigns, WhatsApp, and a Media Action Plan prepared by
+ Websites. NSDC and approved by Steering
+ Committee.
+
+ 49
+
+--- PAGE 56 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ ANNEXURES
+
+ 50
+
+--- PAGE 57 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+Annexure I: Composition of Steering Committee and
+Executive Committee
+
+A. National Steering Committee
+ 1. Secretary, Ministry of Skill Development and Entrepreneurship Chairperson
+ Additional/Joint Secretary, Dept. of School Education & Literacy 2. Member (DoSEL), Ministry of Education
+ Additional/Joint Secretary, Dept. of Higher Education (DHE), 3. Member
+ Ministry of Education
+ Additional/Joint Secretary, Dept. of Rural Development, Ministry of 4. Member Rural Development
+ Additional/Joint Secretary, Ministry of Electronics, and Information 5. Member
+ Technology
+ Additional/Joint Secretary, Ministry of Micro, Small and Medium
+ 6. Member Enterprises
+ Additional/Joint Secretary. Dept, of Chemicals and Petro- 7. Member
+ Chemicals, Ministry of Chemicals & Fertilizers
+ Additional/Joint Secretary & Financial Adviser, Ministry of Skill
+ 8. Member Development and Entrepreneurship
+ 9. MD & CEO, National Skill Development Corporation Member
+ Officers not below the rank of Principal Secretary, Skill 10. Members Development (or equivalent) from Four States*
+ 11. Chairperson of 2 Sector Skill Councils ** Members
+ 12. Special Invitees as decided by the Chairperson Steering Committee Members
+ Member 13. Additional/Joint Secretary (PMKVY), MSDE Secretary
+*On rotational basis (nominated by Secretary, MSDE)
+** On rotational basis (nominated by CEO, NSDC)
+B. Roles and Responsibilities of Steering Committee
+Steering Committee under the Chairpersonship of Secretary, MSDE will:
+
+a. Provide broad policy directions in effective implementation of the Scheme as per the
+ guidelines approved by MSDE.
+
+b. Propose changes in the guidelines, if required, during implementation of the scheme
+ keeping in view emerging needs and dynamism of the skill ecosystem.
+
+c. In exceptional cases, review and approve relaxation on provisions of the extant scheme
+ guidelines after due diligence and without affecting the broad design of the scheme
+ and financial provisions.
+
+d. Approve target allocation methodology and the parameters to be considered for inter-
+ state, inter-sectoral allocation.
+
+e. Review distribution of target between Short Term Training, Special Projects and
+ Recognition of Prior Learning and decide on the re-allocation of targets.
+
+f. Decide on target allocation between project based and RFP route within Short Term
+ Training, Special Projects, and Recognition of Prior Learning.
+
+ 51
+
+--- PAGE 58 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+g. Recommend criterion for accreditation and affiliation of Training Centres in
+ addition/modification to the extant criteria.
+
+h. Decide on the content of the induction kit and suggest any changes, if required.
+
+i. Decide on the financial norms for offering trainings under regular type of training, and
+ training of trainers/assessors.
+
+j. Decide on administrative expenses to be paid to NSDC.
+
+k. Approve the Media Plan for creating awareness of the scheme among various
+ stakeholders.
+
+l. Propose wage loss compensation for certain projects (including RPL), if the same is
+ critical for the successful implementation of the project.
+
+m. Ensure effective implementation of the scheme through periodic monitoring and
+ review.
+
+n. Delegate any such matter, as required, to be dealt by the Executive Committee of
+ PMKVY 4.0.
+
+o. Take up matters related to convergence among different schemes and programmes of
+ other Ministries/Department in the light of PMKVY 4.0.
+
+p. Take up any other matter, deemed fit, for the benefit of the scheme and effective
+ implementation of the scheme.
+
+q. Any other task, assigned by the Ministry of Skill Development & Entrepreneurship.
+
+The steering Committee shall meet atleast once in 6 months and if required, the
+Chairperson can convene a meeting at any time.
+
+C. Executive Committee
+
+ 1. Additional/Joint Secretary, MSDE Chairperson
+
+ 2. Chief Financial Officer, NSDC or his representative Member
+
+ 3. Vice President, SSC Governance, NSDC Member
+
+ 4. Vice President, Government Programmes/PMKVY, NSDC Member
+
+ 5. Vice President, Monitoring & MIS, PMKVY, NSDC Member
+
+ 6. Director/Deputy Secretary, IFD, MSDE Member
+ Member 7. Director/Deputy Secretary/Joint Director, MSDE
+ Secretary
+
+D. Roles and Responsibilities of Executive Committee
+The Executive Committee under the Chairpersonship of Additional Secretary/Joint
+Secretary, MSDE will:
+
+a. Review the progress of the scheme and take corrective actions as deemed necessary.
+
+ 52
+
+--- PAGE 59 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+b. Allocate targets under different training types as per the approved allocation
+ methodology under the scheme and based on the proposals received from NSDC.
+
+c. Approve exemptions required in the Special Projects within the broad contours of the
+ scheme.
+
+d. Decide on focussed geographies in addition to the existing provisions in the guidelines
+ depending on the special requirement and skilling need.
+
+e. Approve target allocation for any Job Role wherein there is a component of blended or
+ online mode of delivery of training.
+
+f. Approve proposals for conducting ToT or ToA based on prior evaluation by NSDC.
+
+g. Hear and decide on appeals received from aggrieved parties against the decision of
+ the Internal Monitoring Committee as per the penalty matrix.
+
+h. Seek reports from NSDC, Sector Skill Council, Training Providers, PIAs, etc.
+ implementing/dealing with PMKVY 4.0. The scope of the report sought will be under
+ the overall realm of implementation of PMKVY 4.0.
+
+i. Review monthly reports of the Internal Monitoring Committee of NSDC and direct
+ necessary corrective actions.
+
+j. Hear and decide on grievances which cannot be resolved at NSDC for effective and fair
+ resolution.
+
+k. Decide on addition / modification to the list of marginalized, vulnerable groups for
+ taking up of special projects.
+
+l. Recommend exceptional projects to be taken up as special projects based on need
+ and merit.
+
+m. Any other task, delegated/assigned by the Steering Committee of the Scheme.
+
+The Executive Committee shall meet at least once in every Quarter and if required, the
+Chairperson can convene a meeting at any time.
+
+ 53
+
+--- PAGE 60 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+Annexure II: Special Project Types and Permissible
+ Flexibility
+ Semiconductor manufacturing, Drone
+ Skills etc.
+ Type of Projects to be taken up as
+ Special Projects: f. In rare cases, training under non-
+ NSQF courses can be taken up for
+ i. Projects targeting marginalized and implementation for specific target
+ vulnerable groups groups/difficult geographies.
+ Scheduled Castes, Scheduled Tribes,
+ iv. The Executive Committee on merit Divyangjan, Women, Transgenders,
+ may also consider other exceptional rural artisans, jail inmates, inmates of
+ projects which can't be undertaken juvenile homes, beggars and other
+ under regular STT. specific groups/beneficiaries as
+ decided by the Executive Committee. Permissible Flexibility for Special
+ ii. Projects targeting difficult and remote Projects:
+ geographies
+ Based on merit of the project, certain Aspirational, backward, border, tribal
+ relaxations on the provisions in the dominated and Left-Wing Extremists
+ PMKVY 4.0 guidelines may be permitted (LWE) affected districts; Islands -
+ Andaman & Nicobar, Lakshadweep; UT by the Executive Committee.
+ of Jammu & Kashmir and Ladakh; i. Infrastructure: Certain relaxation in
+ North-eastern states, which require
+ terms of lower space available/not
+ special attention
+ meeting exact space specifications in
+iii. Projects with a specific focus: the infrastructure of TCs may be
+ a. Training by industries (captive provided as per the need of the
+ placement, innovative strategy, project or as decided by the Executive
+ special products) Committee. Selected Training Centres
+ b. Micro-entrepreneurship projects for (TCs) shall be onboarded on the Skill
+ local artisans and marginalized India Digital under PMKVY 4.0.
+ communities (setting-up training-cum- However, all TCs should have the
+ production centres and employing mandatory equipment and
+ certified candidates in such centres or machineries as specified by the
+ supporting candidates to produce respective Sector Skill Councils
+ goods and market them)
+ (SSCs).
+ c. Job Roles which target traditional
+ ii. Trainer: Flexibility in terms of required sectors like agriculture & allied,
+ qualification for trainers and handicrafts, handloom, etc with focus
+ relaxations in terms of Training of on ODOP and having emphasis on
+ Trainers (ToT) may be extended in introduction of new-age technologies.
+ cases, where the Executive
+ d. Promoting international workforce
+ Committee decides that trainers are
+ mobility and offering foreign language
+ qualified enough and do not require courses.
+ any such ToT. Any relaxation or
+ e. New-Age Skills Projects – Industry flexibility is to be vetted and certified
+ 4.0, Web 3.0, 5G Telecommunication, by the concerned SSCs.
+
+ 54
+
+--- PAGE 61 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ Subsequently, the available Trainers c. Conveyance facility will be
+ shall be encouraged to complete the permissible for Women and PwDs in
+ ToT for future training delivery case of Non-Residential training as
+ requirements. per Common Norms
+
+iii. Additional Benefits to Candidates: iv. Teaching Methodology (Pedagogy):
+ Additional services such as Flexibility may be provided in
+ conveyance, boarding & lodging, as pedagogy (promoting innovative ways
+ mentioned below or any other of training/ using attractive aids
+ facilities as permitted in Common during training, other ways would be
+ Norms may be extended by the permitted on merit basis) as decided
+ Executive Committee for a project by the Executive Committee.
+ beyond the criteria laid down under v. Unique identification of the
+ the Guidelines of PMKVY 4.0. Candidate: In exceptional cases such
+a. Boarding and Lodging facilities can be as Jail inmates wherein Aadhaar has
+ provided under Special Projects for not been made mandatory for the
+ fully residential training. target group, additional IDs may be
+ permitted with the approval of PMKVYb. Additional support to PwD candidates
+ EC. as per Common Cost Norms.
+
+ 55
+
+--- PAGE 62 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+Annexure III: Additional Support to Candidates
+
+ Sl. Paid
+ Particulars Coverage Amount (in Rs.) No. directly to
+ Training As per rationalised hourly Basic Training 1. All candidates Provider / base cost (Rs.
+ Cost Skill Hubs 27.89/hour)
+ Assessment & Rs. 600 per assessment
+ 2. Certification All candidates SSCs per candidate Cost
+ Uniform,
+ Induction Kit, Maximum up to Rs. 500 3. All candidates Vendor Participant per candidate
+ Handbook
+ Boarding and Lodging
+ and transport facilities
+ shall be provided to
+ special groups
+ (Women and PwD) and
+ Special Areas, as
+ defined in Common
+ Norms, for training
+ within and outside
+ Special Areas. Cost for
+ However, the same Training 4. Boarding and As per Common Norms
+ may also be extended Provider Lodging
+ for trainings in
+ Aspirational, Border,
+ Tribal dominated and
+ LWE affected districts.
+ In addition, Projects/
+ Training under Special
+ Projects may be taken
+ up with the residential
+ training.
+ Conveyance For Women and PwDs
+ 5. Cost/Transpor in non-residential Candidate As per Common Norms
+ tation Cost training
+ Additional Rs. 5,000/- towards Support to Training
+ 6. All PwD candidates assistive devices, aid, PwD Provider and appliances
+ Candidates
+ Accidental
+ Insurance with Insurance As per prevalent rates
+ 7. All candidates one year of company (Rs. 14.16)
+ coverage
+ AEBAS –
+ Candidates, Trainer, 8. Transaction NSDC / NIC Upto Rs. 10 per user and Assessor
+ Fees
+
+ 56
+
+--- PAGE 63 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ Post-
+ certification Rs. 50/- per certified
+9. All Candidates NSDC Tracking candidate
+ Allowance
+ Training of Training As per Para 3 of Chapter10. Trainers Trainers (ToT) Provider VII
+ Training of Training As per Para 3 of Chapter
+11. Assessors Assessors Provider VII (ToA
+
+ 57
+
+--- PAGE 64 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+Annexure IV: Average Unit Cost and Assumptions
+
+a. STT with 300 hours (Including Skill Hubs)
+
+ Sl. Cost Training Head Remarks No. (in Rs.)
+ 1 Base Training Cost for 300 hrs 8,366 @ Rs. 27.89 per hour
+
+ 2 Assessment & Certification 600 Minimum as per common norms
+ Uniform, Induction Kit,
+ 3 500 Participant Handbook
+ 4 Accidental Insurance 14.16 Insurance for only one year + taxes
+
+ 5 AEBAS - Transaction Fees 10
+
+ 6 Tracking Allowance 50
+
+ Total 9,540.16
+
+b. STT with 450 hours (Including Skill Hubs)
+
+ Sl. Cost Training Head Remarks
+ No. (in Rs.)
+ 1 Base Training Cost for 450 hrs 12,550.50 @ Rs. 27.89 per hour
+ 2 Assessment & Certification 600 Minimum as per common norms
+ Uniform, Induction Kit, 3 500 Participant Handbook
+ 4 Accidental Insurance 14.16 Insurance for only one year + taxes
+ 5 AEBAS - Transaction Fees 10
+ 6 Tracking Allowance 50
+ Total 13,724.66
+
+c. Recognition of Prior Learning (RPL) with upskilling (30 hours) at any
+ Accredited and Affiliated training center (s)
+ Sl. Cost
+ Training Head Remarks
+ No (in Rs.)
+ Fixed Rs. 2,000 for RPL at any
+ Base Training Cost (12 hours Accredited and Affiliated training
+ 1 orientation and 18 hours of 2,502.02 center (s) + @ Rs. 27.89 per hour X upskilling)
+ 18 hours
+ 2 Assessment & Certification 600 Minimum as per common norms
+ 3 Accidental Insurance 14.16 Insurance for only one year + taxes
+ 4 AEBAS - Transaction Fees 10
+ T-Shirt - T-Shirt by PIA at its own cost.
+ Total (with single assessment) 3,126.18
+
+ 58
+
+--- PAGE 65 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+d. Recognition of Prior Learning (RPL) with upskilling (30 hours) at Industry
+ premises
+ Sl. Cost
+ Training Head Remarks
+No (in Rs.)
+ Fixed Rs. 1,700 for RPL RPL at any
+ Accredited and Affiliated training
+ 1 Base Training Cost (120 hours) 2,202.02 centre (s) + @ Rs. 27.89 per hour X
+ 18 hours
+ 2 Assessment & Certification 600 Minimum as per common norms
+ 3 Accidental Insurance 14.16 Insurance for only one year + taxes
+ 4 AEBAS - Transaction Fees 10
+ T-Shirt - T-Shirt by PIA at its own cost.
+ Total (with single assessment) 2,826.18
+e. Recognition of Prior Learning (RPL) with upskilling (60 hours) at Any
+ Accredited and Affiliated Training Centre
+ Sl. Cost
+ Training Head Remarks
+No (in Rs.)
+ Fixed Rs. 2,000 for RPL RPL at any
+ Base Training Cost (12 hours Accredited and Affiliated training
+ 1 orientation and 18 hours of 3,338.72 centre (s) + @ Rs. 27.89 per hour X upskilling)
+ 48 hours
+ 2 Assessment & Certification 600 Minimum as per common norms
+ 3 Accidental Insurance 14.16 Insurance for only one year + taxes
+ 4 AEBAS - Transaction Fees 10
+ T-Shirt - T-Shirt by PIA at its own cost.
+ Total (with single assessment) 3,962.88
+f. Recognition of Prior Learning (RPL) with upskilling (60 hours) at Industry
+ premises
+ Sl. Cost
+ Training Head Remarks
+No (in Rs.)
+ Fixed Rs. 1,700 for 12 hours RPL at
+ any Accredited and Affiliated
+ 1 Base Training Cost (120 hours) 3,038.72 training centre (s) + @ Rs. 27.89 per
+ hour X 48 hours
+ 2 Assessment & Certification 600 Minimum as per common norms
+ 3 Accidental Insurance 14.16 Insurance for only one year + taxes
+ 4 AEBAS - Transaction Fees 10
+ T-Shirt - T-Shirt by PIA at its own cost.
+ Total (with single assessment) 3,662.88
+
+ 59
+
+--- PAGE 66 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+AnnexureV: Compliance Standard and Level of Penalty
+Short Term Training and Special Projects:
+
+ Sl Level of
+ Compliance Standards No Penalty
+ 1 Non-Existence of PMKVY Center High
+ 2 Subletting of Centre (franchise model not allowed under PMKVY 4.0) High
+ 3 Fake Enrolments / Ghost candidates High
+ Non-Availability of required infrastructure/tools and equipment for
+ 4 High each job role post inspection while batch is in progress
+ 5 Mass enrolments High
+ a) Center was closed at the time of visit
+ b) Training not being conducted at the time of visit as per PMKVY
+ 6 guidelines High
+ (While batch is in progress and the TP fails to justify the reason for not
+ conducting training)
+ Training Center found indulging in unethical practices such as
+ offering/demanding undue favours in cash or in kind to a stakeholder 7 High
+ like Assessor, in order to influence the outcome of assessment OR
+ with any other malafide intention affecting the outcome of the training
+
+ Intimidating assessor to conduct assessment at a place other than 8 High authorized by Skill India Digital
+ 9 Training not being conducted at the time of visit Medium
+ Non-Availability of required infrastructure /tools and equipment for
+ 10 Medium each job role post inspection
+ 11 Non-Availability of SSC Certified Trainers at the Center. Medium
+ 12 Non-Distribution of Induction Kits to the trainees Medium
+ 13 Non-Distribution of Handbook to the trainees Medium
+ 14 Non-Usage of AEBAS for recording Trainees and Trainers attendance Medium
+ 15 Regular candidates are admitted at the Training Centre Medium
+ 16 Non-Adherence to PMKVY Marketing and Branding Guidelines Low
+ High/
+ Medium/
+ 17 Any other offence not listed above Low to be
+ decided
+ by IMC
+
+Recognition of Prior Learning:
+
+ Penalty
+ Sl No Compliance Standards
+ Level
+ Non conduct of RPL training at the approved location 1 High
+ Candidates not available at the RPL Location
+ 2 Fake candidates High
+
+ 60
+
+--- PAGE 67 ---
+Guidelines for Pradhan Mantri Kaushal Vikas Yojana 4.0
+
+ Penalty
+ Sl No Compliance Standards
+ Level
+
+ PIA found indulging in unethical practices such as offering/
+ demanding undue favors in cash or in kind to a stakeholder like 3 High Assessor, to influence the outcome of assessment or with any
+ other malafide intention affecting the outcome of the training
+
+ Intimidating assessor to conduct assessment at a place other than
+ 4 High approved RPL location
+ Candidates have not undergone through pre-screening and 5 Medium counselling
+ 6 Unawareness of candidates about RPL or PMKVY Medium
+ Non-Distribution of Job Role Kits to the trainees (including t-
+ 7 Medium shirt/Jacket and cap)
+ 8 Non-Availability of SSC Certified Trainers at the Center Medium
+ 9 Non-Distribution of training material to the candidates Medium
+ Non-Adherence to PMKVY Marketing and Branding Guidelines 10 Low
+ specified for RPL location
+ High/
+ Medium/
+ 11 Any other offence not listed above Low to be
+ decided
+ by IMC
+
+* NSDC will devise a detailed Penalty Matrix based on various compliance standard and
+get the same approved by Steering Committeex
+
+ 61
+
+--- PAGE 68 ---
+Ministry of Skill
+Development and
+Entrepreneurship

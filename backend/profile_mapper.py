@@ -1,113 +1,45 @@
-"""
-Generic user-profile field mapper.
-
-Converts common natural-language profile information
-into the field names used by scheme eligibility rules.
-
-This layer does NOT decide eligibility.
-It only extracts/matches user-provided facts.
-"""
-
-from __future__ import annotations
-
 import re
 from typing import Any, Dict
 
 
 # ============================================================
-# PROFILE DEFAULTS
+# HELPERS
 # ============================================================
 
-PROFILE_DEFAULTS = {
-    "state": None,
-    "age": None,
-    "gender": None,
-    "occupation": None,
-    "employment_status": None,
-    "student": None,
-    "education_level": None,
-
-    # Academic
-    "class_12_percentile": None,
-    "course_mode": None,
-    "course_type": None,
-    "institution_recognition": None,
-
-    # Income
-    "family_income_annual": None,
-    "annual_income": None,
-
-    # Social category
-    "caste_category": None,
-    "social_category": None,
-    "religion": None,
-
-    # Disability
-    "disability": None,
-    "disability_percentage": None,
-
-    # Agriculture
-    "landholder": None,
-    "land_area": None,
-    "tenant_farmer": None,
-    "landless": None,
-
-    # Documents / economic status
-    "ration_card": None,
-    "owns_house": None,
-    "government_employee": None,
-    "income_tax_payer": None,
-
-    # Family
-    "marital_status": None,
-    "has_children": None,
-    "children_count": None,
-
-    # Scholarship
-    "other_scholarship_benefit": None,
-}
-
-
-# ============================================================
-# NORMALIZATION
-# ============================================================
-
-def _normalize(text: str) -> str:
-    """
-    Normalize user query for matching.
-    """
-
-    if not text:
+def _normalize(text: Any) -> str:
+    if text is None:
         return ""
 
-    text = str(text)
-
-    # Fix common accidental spacing problems.
-    text = re.sub(
-        r"\s+",
-        " ",
-        text.strip().lower(),
-    )
+    text = str(text).strip().lower()
+    text = re.sub(r"\s+", " ", text)
 
     return text
 
 
-# ============================================================
-# NUMBER EXTRACTION
-# ============================================================
+def _first_match(
+    text: str,
+    patterns,
+):
+    for pattern in patterns:
+        match = re.search(
+            pattern,
+            text,
+            re.IGNORECASE,
+        )
+
+        if match:
+            return match
+
+    return None
+
 
 def _extract_number(
-    pattern: str,
     text: str,
+    patterns,
 ):
-    """
-    Extract the first numeric capture group.
-    """
-
-    match = re.search(
-        pattern,
+    match = _first_match(
         text,
-        re.IGNORECASE,
+        patterns,
     )
 
     if not match:
@@ -116,794 +48,585 @@ def _extract_number(
     try:
         return float(
             match.group(1)
+            .replace(",", "")
         )
-    except (
-        ValueError,
-        TypeError,
-    ):
+    except Exception:
         return None
 
 
 # ============================================================
-# PROFILE EXTRACTION
+# STATE
 # ============================================================
 
-def extract_profile(
-    query: str,
-) -> Dict[str, Any]:
-    """
-    Extract user-provided facts from natural language.
-
-    Important:
-        None means UNKNOWN.
-
-    We must never interpret an unknown field as False.
-    """
-
-    text = _normalize(query)
-
-    profile = dict(
-        PROFILE_DEFAULTS
-    )
-
-    # ========================================================
-    # STATE
-    # ========================================================
+def _extract_state(text: str):
+    normalized = _normalize(text)
 
     if re.search(
-        r"\btelangana\b|\bతెలంగాణ\b",
-        text,
+        r"\btelangana\b|\bts\b|తెలంగాణ",
+        normalized,
         re.IGNORECASE,
     ):
-        profile["state"] = "telangana"
+        return "telangana"
 
-    elif re.search(
-        r"\bandhra\s*pradesh\b|\bఆంధ్ర\s*ప్రదేశ్\b",
-        text,
+    if re.search(
+        r"\bandhra pradesh\b|\bandhra\b|\bap\b|ఆంధ్రప్రదేశ్|ఆంధ్ర",
+        normalized,
         re.IGNORECASE,
     ):
-        profile["state"] = "andhra_pradesh"
+        return "andhra_pradesh"
 
-    # ========================================================
-    # STUDENT
-    # ========================================================
+    return None
+
+
+# ============================================================
+# OCCUPATION
+# ============================================================
+
+def _extract_occupation(text: str):
+    normalized = _normalize(text)
+
+    if re.search(
+        r"\btenant\s+farmer\b"
+        r"|\btenant\s+cultivator\b"
+        r"|\bsharecropper\b"
+        r"|\bfarmer\b"
+        r"|\bfarming\b"
+        r"|\bcultivator\b"
+        r"|\bkisan\b"
+        r"|\brythu\b"
+        r"|రైతు"
+        r"|వ్యవసాయం",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "farmer"
 
     if re.search(
         r"\bstudent\b"
-        r"|\bstudents\b"
-        r"|\bstudent\s+from\b"
         r"|\bstudying\b"
         r"|\bcollege student\b"
         r"|\buniversity student\b"
-        r"|\bundergraduate\b"
-        r"|\bpostgraduate\b"
-        r"|\bచదువుతున్న\b"
-        r"|\bవిద్యార్థి\b"
-        r"|\bవిద్యార్థిని\b",
-        text,
+        r"|విద్యార్థి",
+        normalized,
         re.IGNORECASE,
     ):
-        profile["student"] = True
-
-    # ========================================================
-    # GENDER
-    # ========================================================
+        return "student"
 
     if re.search(
-        r"\bwoman\b"
-        r"|\bwomen\b"
-        r"|\bfemale\b"
-        r"|\bgirl\b"
-        r"|\blady\b"
-        r"|\bమహిళ\b"
-        r"|\bస్త్రీ\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile["gender"] = "female"
-
-    elif re.search(
-        r"\bman\b"
-        r"|\bmale\b"
-        r"|\bboy\b"
-        r"|\bపురుషుడు\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile["gender"] = "male"
-
-    # ========================================================
-    # OCCUPATION
-    # ========================================================
-
-    if re.search(
-        r"\bfarmer\b"
-        r"|\bfarmers\b"
-        r"|\bcultivator\b"
-        r"|\bagricultural worker\b"
-        r"|\bagricultural labourer\b"
-        r"|\btenant farmer\b"
-        r"|\btenant cultivator\b"
-        r"|\bరైతు\b"
-        r"|\bవ్యవసాయదారుడు\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile["occupation"] = "farmer"
-
-    elif re.search(
         r"\bunemployed\b"
         r"|\bjobless\b"
-        r"|\bjob seeker\b"
-        r"|\bwithout a job\b"
-        r"|\bనిరుద్యోగి\b",
-        text,
+        r"|\bnot working\b"
+        r"|నిరుద్యోగి",
+        normalized,
         re.IGNORECASE,
     ):
-        profile["occupation"] = "unemployed"
-        profile["employment_status"] = "unemployed"
+        return "unemployed"
 
-    # ========================================================
-    # SENIOR CITIZEN
-    # ========================================================
+    return None
+
+
+# ============================================================
+# FARMER STATUS
+# ============================================================
+
+def _extract_tenant_farmer(text: str):
+    return bool(
+        re.search(
+            r"\btenant\s+farmer\b"
+            r"|\btenant\s+cultivator\b"
+            r"|\bsharecropper\b"
+            r"|\bshare\s+cropper\b"
+            r"|\boral\s+lessee\b"
+            r"|\btenant\b.*\bfarmer\b"
+            r"|కౌలు రైతు"
+            r"|కౌలు రైతులు"
+            r"|భాగస్వామ్య రైతు",
+            text,
+            re.IGNORECASE,
+        )
+    )
+
+
+def _extract_landholder(text: str):
+    """
+    IMPORTANT:
+    Do not infer ownership from acreage.
+
+    "I cultivate 2 acres" != "I own 2 acres".
+    """
+
+    return bool(
+        re.search(
+            r"\bi\s+own\s+\d+(?:\.\d+)?\s+acres?\b"
+            r"|\bi\s+own\s+\d+(?:\.\d+)?\s+acre\b"
+            r"|\bi\s+am\s+a\s+landowner\b"
+            r"|\bi\s+am\s+a\s+land\s+owner\b"
+            r"|\bi\s+own\s+agricultural\s+land\b"
+            r"|\bi\s+own\s+farmland\b"
+            r"|\blandowner\b"
+            r"|\bland\s+owner\b"
+            r"|నేను భూమి యజమాని"
+            r"|నా భూమి",
+            text,
+            re.IGNORECASE,
+        )
+    )
+
+
+def _extract_land_area(text: str):
+    patterns = [
+        r"\b(\d+(?:\.\d+)?)\s*acres?\b",
+        r"\b(\d+(?:\.\d+)?)\s*acre\b",
+        r"\b(\d+(?:\.\d+)?)\s*ఎకరాలు?\b",
+    ]
+
+    return _extract_number(
+        text,
+        patterns,
+    )
+
+
+# ============================================================
+# INCOME
+# ============================================================
+
+def _extract_income(text: str):
+    patterns = [
+        r"(?:family\s+income|annual\s+family\s+income)"
+        r"\s*(?:is|of|around|about|:)?\s*₹?\s*([\d,]+(?:\.\d+)?)"
+        r"\s*(lakh|lakhs|lacs|lac)?",
+
+        r"(?:annual\s+income|yearly\s+income|income)"
+        r"\s*(?:is|of|around|about|:)?\s*₹?\s*([\d,]+(?:\.\d+)?)"
+        r"\s*(lakh|lakhs|lacs|lac)?",
+
+        r"₹\s*([\d,]+(?:\.\d+)?)\s*(lakh|lakhs|lacs|lac)?",
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            text,
+            re.IGNORECASE,
+        )
+
+        if not match:
+            continue
+
+        try:
+            amount = float(
+                match.group(1).replace(",", "")
+            )
+        except Exception:
+            continue
+
+        unit = (
+            match.group(2)
+            or ""
+        ).lower()
+
+        if unit in {
+            "lakh",
+            "lakhs",
+            "lac",
+            "lacs",
+        }:
+            amount *= 100000
+
+        return amount
+
+    return None
+
+
+# ============================================================
+# AGE
+# ============================================================
+
+def _extract_age(text: str):
+    return _extract_number(
+        text,
+        [
+            r"\b(\d{1,3})\s*(?:years?\s*old|year\s*old)\b",
+            r"\bage\s*(?:is|:)?\s*(\d{1,3})\b",
+        ],
+    )
+
+
+# ============================================================
+# GENDER
+# ============================================================
+
+def _extract_gender(text: str):
+    normalized = _normalize(text)
 
     if re.search(
-        r"\bsenior citizen\b"
-        r"|\belderly\b"
-        r"|\bold age\b"
-        r"|\bవృద్ధ\b",
-        text,
+        r"\bmale\b|\bman\b|\bboy\b|పురుషుడు|పురుష",
+        normalized,
         re.IGNORECASE,
     ):
-        profile["occupation"] = "senior_citizen"
+        return "male"
 
-    # ========================================================
-    # AGE
-    # ========================================================
+    if re.search(
+        r"\bfemale\b|\bwoman\b|\bgirl\b|మహిళ|స్త్రీ",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "female"
 
-    age = _extract_number(
-        r"\b(?:age|aged)"
-        r"\s*(?:is|:)?\s*"
-        r"(\d{1,3})\b",
-        text,
-    )
+    return None
 
-    if age is None:
 
-        age = _extract_number(
-            r"\b(\d{1,3})\s*"
-            r"(?:years?\s*old|year\s*old|వయస్సు)\b",
+# ============================================================
+# STUDENT
+# ============================================================
+
+def _extract_student(text: str):
+    normalized = _normalize(text)
+
+    if re.search(
+        r"\bstudent\b"
+        r"|\bstudying\b"
+        r"|\bpursuing\b"
+        r"|\bcollege\b"
+        r"|\buniversity\b"
+        r"|విద్యార్థి"
+        r"|చదువుతున్న",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return True
+
+    return None
+
+
+# ============================================================
+# EDUCATION
+# ============================================================
+
+def _extract_education_level(text: str):
+    normalized = _normalize(text)
+
+    if re.search(
+        r"\b12th\b"
+        r"|\bclass\s*12\b"
+        r"|\b12th\s+class\b"
+        r"|\bintermediate\b"
+        r"|\binter\b",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "class_12"
+
+    if re.search(
+        r"\bdegree\b"
+        r"|\bgraduation\b"
+        r"\bgraduate\b"
+        r"|\bbachelor\b"
+        r"|\bundergraduate\b",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "degree"
+
+    if re.search(
+        r"\bdiploma\b",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "diploma"
+
+    return None
+
+
+# ============================================================
+# CLASS 12 PERCENTAGE
+# ============================================================
+
+def _extract_class_12_percentage(text: str):
+    patterns = [
+        r"\b(?:class\s*12|12th)\b"
+        r".{0,50}?"
+        r"\b(\d+(?:\.\d+)?)\s*%",
+
+        r"\b(\d+(?:\.\d+)?)\s*%"
+        r".{0,50}?"
+        r"\b(?:class\s*12|12th)\b",
+    ]
+
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
             text,
+            re.IGNORECASE,
         )
 
-    if age is not None:
-        profile["age"] = int(age)
+        if match:
+            try:
+                return float(
+                    match.group(1)
+                )
+            except Exception:
+                return None
 
-    # ========================================================
-    # CLASS 12 PERCENTAGE
-    # ========================================================
+    return None
 
-    percentage = _extract_number(
-        r"(?:class\s*12|12th|intermediate|inter)"
-        r".{0,30}?"
-        r"(\d+(?:\.\d+)?)\s*%",
-        text,
-    )
 
-    if percentage is None:
+# ============================================================
+# COURSE TYPE
+# ============================================================
 
-        percentage = _extract_number(
-            r"(\d+(?:\.\d+)?)\s*%"
-            r"\s*(?:in\s*)?"
-            r"(?:class\s*12|12th|intermediate|inter)",
-            text,
-        )
+def _extract_course_type(text: str):
+    normalized = _normalize(text)
 
-    if percentage is not None:
-        profile[
-            "class_12_percentile"
-        ] = percentage
+    if re.search(
+        r"\bdegree\b"
+        r"|\bbachelor\b"
+        r"|\bgraduation\b"
+        r"|\bundergraduate\b",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "degree"
 
-    # ========================================================
-    # FAMILY / ANNUAL INCOME
-    # ========================================================
+    if re.search(
+        r"\bdiploma\b",
+        normalized,
+        re.IGNORECASE,
+    ):
+        return "diploma"
 
-    income_lakh = _extract_number(
-        r"(?:family\s+income"
-        r"|annual\s+income"
-        r"|family\s+annual\s+income"
-        r"|income)"
-        r".{0,40}?"
-        r"(?:₹|rs\.?|rs)?\s*"
-        r"(\d+(?:\.\d+)?)\s*"
-        r"(?:lakh|lakhs|lac|lacs)",
-        text,
-    )
+    return None
 
-    if income_lakh is not None:
 
-        income = (
-            income_lakh * 100000
-        )
+# ============================================================
+# COURSE MODE
+# ============================================================
 
-        profile[
-            "family_income_annual"
-        ] = income
-
-        profile[
-            "annual_income"
-        ] = income
-
-    else:
-
-        income = _extract_number(
-            r"(?:family\s+income"
-            r"|annual\s+income"
-            r"|family\s+annual\s+income"
-            r"|income)"
-            r".{0,30}?"
-            r"(?:₹|rs\.?|rs)?\s*"
-            r"([\d,]+)",
-            text,
-        )
-
-        if income is not None:
-
-            income = float(
-                str(income)
-                .replace(",", "")
-            )
-
-            profile[
-                "family_income_annual"
-            ] = income
-
-            profile[
-                "annual_income"
-            ] = income
-
-    # ========================================================
-    # COURSE MODE
-    # ========================================================
-    #
-    # Important improvement:
-    #
-    # The previous mapper only detected:
-    #   "regular course"
-    #   "regular student"
-    #
-    # It did NOT reliably detect:
-    #   "regular degree course"
-    #   "regular degree"
-    #   "studying a regular course"
-    #
-    # We now detect the concept of regular study
-    # independently from course type.
-    # ========================================================
+def _extract_course_mode(text: str):
+    normalized = _normalize(text)
 
     if re.search(
         r"\bregular\b"
         r"(?:\s+(?:course|degree|program|programme|study|studies|education|college|university))?",
-        text,
+        normalized,
         re.IGNORECASE,
     ):
-        profile[
-            "course_mode"
-        ] = "regular"
-
-    elif re.search(
-        r"\b(distance|correspondence)\b",
-        text,
-        re.IGNORECASE,
-    ):
-        mode_match = re.search(
-            r"\b(distance|correspondence)\b",
-            text,
-            re.IGNORECASE,
-        )
-
-        if mode_match:
-
-            mode = (
-                mode_match.group(1)
-                .lower()
-            )
-
-            profile[
-                "course_mode"
-            ] = mode
-
-    # ========================================================
-    # COURSE TYPE
-    # ========================================================
+        return "regular"
 
     if re.search(
-        r"\bdiploma\b"
-        r"|\bpolytechnic\b"
-        r"|\biti\b",
-        text,
+        r"\bdistance\b"
+        r"|\bdistance\s+education\b",
+        normalized,
         re.IGNORECASE,
     ):
-        profile[
-            "course_type"
-        ] = "diploma"
-
-    elif re.search(
-        r"\bdegree\b"
-        r"|\bgraduation\b"
-        r"|\bundergraduate degree\b"
-        r"|\bgraduate degree\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "course_type"
-        ] = "degree"
-
-    elif re.search(
-        r"\bpostgraduate\b"
-        r"|\bpost graduate\b"
-        r"|\bpg course\b"
-        r"|\bmaster'?s\b"
-        r"|\bm\.?tech\b"
-        r"|\bm\.?sc\b"
-        r"|\bmba\b"
-        r"|\bmca\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "course_type"
-        ] = "postgraduate"
-
-    # ========================================================
-    # EDUCATION LEVEL
-    # ========================================================
+        return "distance"
 
     if re.search(
-        r"\bclass\s*12\b"
-        r"|\b12th\b"
-        r"|\bintermediate\b"
-        r"|\binter\b",
-        text,
+        r"\bcorrespondence\b",
+        normalized,
         re.IGNORECASE,
     ):
-        profile[
-            "education_level"
-        ] = "class_12"
+        return "correspondence"
 
-    elif re.search(
-        r"\bpostgraduate\b"
-        r"|\bpost graduate\b"
-        r"|\bmaster'?s\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "education_level"
-        ] = "postgraduate"
+    return None
 
-    elif re.search(
-        r"\bdegree\b"
-        r"|\bundergraduate\b"
-        r"|\bgraduation\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "education_level"
-        ] = "undergraduate"
 
-    # ========================================================
-    # INSTITUTION RECOGNITION
-    # ========================================================
+# ============================================================
+# OTHER SCHOLARSHIP
+# ============================================================
+
+def _extract_other_scholarship(text: str):
+    normalized = _normalize(text)
 
     if re.search(
-        r"\brecognized\s+(?:college|institution|university)\b"
-        r"|\brecognised\s+(?:college|institution|university)\b"
-        r"|\bgovernment\s+recognized\b"
-        r"|\bgovernment\s+recognised\b"
-        r"|\bugc\s+recognized\b"
-        r"|\bugc\s+recognised\b"
-        r"|\bapproved\s+(?:college|institution|university)\b",
-        text,
+        r"\breceiving\s+(?:another\s+)?scholarship\b"
+        r"|\bother\s+scholarship\b"
+        r"|\balready\s+getting\s+scholarship\b",
+        normalized,
         re.IGNORECASE,
     ):
-        profile[
-            "institution_recognition"
-        ] = True
+        return True
 
-    elif re.search(
-        r"\bunrecognized\s+(?:college|institution|university)\b"
-        r"|\bunrecognised\s+(?:college|institution|university)\b"
-        r"|\bnot\s+recognized\b"
-        r"|\bnot\s+recognised\b",
-        text,
+    if re.search(
+        r"\bnot\s+receiving\s+(?:any\s+)?(?:other\s+)?scholarship\b"
+        r"|\bno\s+other\s+scholarship\b",
+        normalized,
         re.IGNORECASE,
     ):
-        profile[
-            "institution_recognition"
-        ] = False
+        return False
 
-    # ========================================================
-    # CASTE / SOCIAL CATEGORY
-    # ========================================================
+    return None
 
-    category_patterns = {
 
-        "sc": (
-            r"\bsc\b"
-            r"|\bscheduled caste\b"
-        ),
+# ============================================================
+# DISABILITY
+# ============================================================
 
-        "st": (
-            r"\bst\b"
-            r"|\bscheduled tribe\b"
-        ),
-
-        "bc": (
-            r"\bbc\b"
-            r"|\bbackward class\b"
-        ),
-
-        "ebc": (
-            r"\bebc\b"
-            r"|\beconomically backward\b"
-        ),
-
-        "obc": (
-            r"\bobc\b"
-            r"|\bother backward class\b"
-        ),
-
-        "minority": (
-            r"\bminority\b"
-            r"|\bminorities\b"
-        ),
-
-        "kapu": (
-            r"\bkapu\b"
-        ),
-    }
-
-    for category, pattern in (
-        category_patterns.items()
-    ):
-
-        if re.search(
-            pattern,
-            text,
-            re.IGNORECASE,
-        ):
-
-            profile[
-                "caste_category"
-            ] = category
-
-            profile[
-                "social_category"
-            ] = category
-
-            break
-
-    # ========================================================
-    # RELIGION
-    # ========================================================
-
-    religion_patterns = {
-        "muslim": (
-            r"\bmuslim\b"
-            r"|\bislam\b"
-        ),
-
-        "christian": (
-            r"\bchristian\b"
-            r"|\bchristianity\b"
-        ),
-
-        "hindu": (
-            r"\bhindu\b"
-            r"|\bhinduism\b"
-        ),
-
-        "sikh": (
-            r"\bsikh\b"
-            r"|\bsikhism\b"
-        ),
-    }
-
-    for religion, pattern in (
-        religion_patterns.items()
-    ):
-
-        if re.search(
-            pattern,
-            text,
-            re.IGNORECASE,
-        ):
-
-            profile[
-                "religion"
-            ] = religion
-
-            break
-
-    # ========================================================
-    # DISABILITY
-    # ========================================================
+def _extract_disability(text: str):
+    normalized = _normalize(text)
 
     if re.search(
         r"\bdisabled\b"
         r"|\bdisability\b"
-        r"|\bperson with disability\b"
         r"|\bdivyang\b"
-        r"|\bవికలాంగ\b",
-        text,
+        r"|\bpwd\b"
+        r"|దివ్యాంగ"
+        r"|వైకల్యం",
+        normalized,
         re.IGNORECASE,
     ):
-        profile[
-            "disability"
-        ] = True
+        return True
 
-    disability_percentage = _extract_number(
-        r"(\d+(?:\.\d+)?)\s*%"
-        r"\s*(?:disability|disabled)",
-        text,
+    return None
+
+
+# ============================================================
+# MAIN PROFILE EXTRACTION
+# ============================================================
+
+def extract_profile(
+    text: str,
+) -> Dict[str, Any]:
+
+    text = text or ""
+
+    profile: Dict[str, Any] = {}
+
+    # --------------------------------------------------------
+    # Basic
+    # --------------------------------------------------------
+
+    state = _extract_state(text)
+
+    if state:
+        profile["state"] = state
+
+    age = _extract_age(text)
+
+    if age is not None:
+        profile["age"] = age
+
+    gender = _extract_gender(text)
+
+    if gender:
+        profile["gender"] = gender
+
+    occupation = _extract_occupation(text)
+
+    if occupation:
+        profile["occupation"] = occupation
+
+    student = _extract_student(text)
+
+    if student is not None:
+        profile["student"] = student
+
+    # --------------------------------------------------------
+    # Farmer
+    # --------------------------------------------------------
+
+    tenant_farmer = _extract_tenant_farmer(
+        text
     )
 
-    if disability_percentage is not None:
-
-        profile[
-            "disability_percentage"
-        ] = disability_percentage
-
-        profile[
-            "disability"
-        ] = True
-
-    # ========================================================
-    # LANDLESS
-    # ========================================================
-
-    if re.search(
-        r"\blandless\b"
-        r"|\bno land\b"
-        r"|\blandless farmer\b"
-        r"|\blandless labourer\b"
-        r"|\blandless laborer\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "landless"
-        ] = True
-
-    # ========================================================
-    # TENANT FARMER
-    # ========================================================
-
-    if re.search(
-        r"\btenant farmer\b"
-        r"|\btenant cultivator\b"
-        r"|\btenant agricultural\b",
-        text,
-        re.IGNORECASE,
-    ):
-
-        profile[
-            "tenant_farmer"
-        ] = True
-
-        profile[
-            "occupation"
-        ] = "farmer"
-
-    # ========================================================
-    # LAND AREA
-    # ========================================================
-
-    land_area = _extract_number(
-        r"(\d+(?:\.\d+)?)\s*"
-        r"(?:acres?|acre)\b",
-        text,
+    landholder = _extract_landholder(
+        text
     )
+
+    land_area = _extract_land_area(
+        text
+    )
+
+    if tenant_farmer:
+        profile["tenant_farmer"] = True
+        profile["landholder"] = False
+
+    elif landholder:
+        profile["landholder"] = True
+        profile["tenant_farmer"] = False
 
     if land_area is not None:
+        profile["land_area"] = land_area
 
-        profile[
-            "land_area"
-        ] = land_area
-
-        profile[
-            "landholder"
-        ] = True
-
-    # ========================================================
-    # RATION CARD
-    # ========================================================
-
-    if re.search(
-        r"\bwhite ration card\b"
-        r"|\bration card\b"
-        r"|\brice card\b",
-        text,
-        re.IGNORECASE,
+    if (
+        occupation == "farmer"
+        and "tenant_farmer" not in profile
     ):
-        profile[
-            "ration_card"
-        ] = True
+        profile["tenant_farmer"] = None
 
-    # ========================================================
-    # GOVERNMENT EMPLOYEE
-    # ========================================================
+    # --------------------------------------------------------
+    # Income
+    # --------------------------------------------------------
 
-    if re.search(
-        r"\bgovernment employee\b"
-        r"|\bgovt employee\b"
-        r"|\bgovernment servant\b"
-        r"|\bgovernment job\b"
-        r"|\bworking for government\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "government_employee"
-        ] = True
+    income = _extract_income(text)
 
-    # ========================================================
-    # INCOME TAX PAYER
-    # ========================================================
+    if income is not None:
+        profile["family_income_annual"] = income
+        profile["annual_income"] = income
 
-    if re.search(
-        r"\bincome tax payer\b"
-        r"|\bincome-tax payer\b"
-        r"|\bpay income tax\b"
-        r"|\bit payer\b"
-        r"|\bfile income tax\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "income_tax_payer"
-        ] = True
+    # --------------------------------------------------------
+    # Education
+    # --------------------------------------------------------
 
-    # ========================================================
-    # HOUSE OWNERSHIP
-    # ========================================================
-
-    if re.search(
-        r"\bdo not own a house\b"
-        r"|\bdon't own a house\b"
-        r"|\bdo not have a house\b"
-        r"|\bdon't have a house\b"
-        r"|\bno house\b"
-        r"|\bhomeless\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "owns_house"
-        ] = False
-
-    elif re.search(
-        r"\bown a house\b"
-        r"|\bowns a house\b"
-        r"|\bhave my own house\b"
-        r"|\bown my house\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "owns_house"
-        ] = True
-
-    # ========================================================
-    # MARITAL STATUS
-    # ========================================================
-
-    if re.search(
-        r"\bwidow\b"
-        r"|\bwidowed\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "marital_status"
-        ] = "widow"
-
-    elif re.search(
-        r"\bmarried\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "marital_status"
-        ] = "married"
-
-    elif re.search(
-        r"\bunmarried\b"
-        r"|\bsingle\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "marital_status"
-        ] = "single"
-
-    # ========================================================
-    # CHILDREN
-    # ========================================================
-
-    if re.search(
-        r"\bmy child\b"
-        r"|\bmy children\b"
-        r"|\bhave children\b"
-        r"|\bhas children\b"
-        r"|\bparent\b"
-        r"|\bmother of\b"
-        r"|\bfather of\b",
-        text,
-        re.IGNORECASE,
-    ):
-        profile[
-            "has_children"
-        ] = True
-
-    children_count = _extract_number(
-        r"\b(\d+)\s+children\b",
-        text,
+    education_level = _extract_education_level(
+        text
     )
 
-    if children_count is None:
+    if education_level:
+        profile["education_level"] = education_level
 
-        children_count = _extract_number(
-            r"\b(\d+)\s+kids\b",
-            text,
+    class_12_percentage = (
+        _extract_class_12_percentage(text)
+    )
+
+    if class_12_percentage is not None:
+        profile["class_12_percentile"] = (
+            class_12_percentage
         )
 
-    if children_count is not None:
+    course_type = _extract_course_type(
+        text
+    )
 
-        profile[
-            "children_count"
-        ] = int(
-            children_count
-        )
+    if course_type:
+        profile["course_type"] = course_type
 
-        profile[
-            "has_children"
-        ] = True
+    course_mode = _extract_course_mode(
+        text
+    )
 
-    # ========================================================
-    # OTHER SCHOLARSHIP BENEFIT
-    # ========================================================
+    if course_mode:
+        profile["course_mode"] = course_mode
 
-    if re.search(
-        r"\balready receiving.*scholarship\b"
-        r"|\breceiving another scholarship\b"
-        r"|\bgetting another scholarship\b"
-        r"|\bcurrently receiving a scholarship\b"
-        r"|\bother scholarship\b",
-        text,
-        re.IGNORECASE,
-    ):
+    # --------------------------------------------------------
+    # Other
+    # --------------------------------------------------------
 
+    other_scholarship = (
+        _extract_other_scholarship(text)
+    )
+
+    if other_scholarship is not None:
         profile[
             "other_scholarship_benefit"
-        ] = True
+        ] = other_scholarship
 
-    # Explicit negative statements.
-    elif re.search(
-        r"\bnot receiving any scholarship\b"
-        r"|\bnot receiving another scholarship\b"
-        r"|\bno other scholarship\b"
-        r"|\bnot getting any other scholarship\b",
-        text,
-        re.IGNORECASE,
-    ):
+    disability = _extract_disability(
+        text
+    )
 
-        profile[
-            "other_scholarship_benefit"
-        ] = False
+    if disability is not None:
+        profile["disability"] = disability
+
+    # --------------------------------------------------------
+    # Final consistency
+    # --------------------------------------------------------
+
+    # A tenant farmer is NOT automatically a landowner.
+    if profile.get("tenant_farmer") is True:
+        profile["landholder"] = False
 
     return profile
 
@@ -915,70 +638,12 @@ def extract_profile(
 def compact_profile(
     profile: Dict[str, Any],
 ) -> Dict[str, Any]:
-    """
-    Remove unknown fields for display/logging.
-    """
+
+    if not profile:
+        return {}
 
     return {
         key: value
         for key, value in profile.items()
         if value is not None
     }
-
-
-# ============================================================
-# TEST
-# ============================================================
-
-if __name__ == "__main__":
-
-    test_queries = [
-
-        (
-            "I am a student from Telangana. "
-            "I got 85% in 12th and my family income "
-            "is 3 lakhs. I am studying a regular "
-            "degree course. Can I get a scholarship?"
-        ),
-
-        (
-            "I am a 45 year old woman farmer "
-            "from Telangana with a white ration card."
-        ),
-
-        (
-            "I am an SC student studying a regular "
-            "degree course in a government recognized "
-            "college. My family income is 2 lakhs."
-        ),
-
-        (
-            "I am a tenant farmer from Andhra Pradesh "
-            "with 3 acres of land."
-        ),
-
-        (
-            "I am a person with 40% disability "
-            "and I do not own a house."
-        ),
-
-        (
-            "I am currently receiving another scholarship."
-        ),
-    ]
-
-    for query in test_queries:
-
-        print()
-        print("=" * 80)
-        print("QUERY:")
-        print(query)
-        print("-" * 80)
-
-        profile = extract_profile(
-            query
-        )
-
-        print(
-            compact_profile(profile)
-        )

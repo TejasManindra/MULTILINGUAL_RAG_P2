@@ -1,0 +1,612 @@
+# YSR Rythu Bharosa Scheme — Historical
+
+## 1. Basic Information
+
+Scheme ID: AP_YSR_RYTHU_BHAROSA_HISTORICAL
+
+Official Scheme Name:
+YSR Rythu Bharosa
+
+Historical Government:
+Government of Andhra Pradesh
+
+Implementing Department:
+Agriculture & Cooperation Department
+
+Category:
+Agriculture / Farmer Investment Support
+
+Subcategory:
+Farmer Financial Assistance
+
+Scheme Type:
+Direct financial assistance to eligible farmers/cultivators
+
+Current Status:
+HISTORICAL_REPLACED
+
+Historical Period:
+2019–2024
+
+Current Replacement:
+Annadata Sukhibhava–PM KISAN
+
+Important:
+Do not represent YSR Rythu Bharosa as the current Andhra Pradesh
+farmer-investment-support scheme in a 2026 eligibility answer.
+
+
+## 2. Scheme Overview
+
+YSR Rythu Bharosa was an Andhra Pradesh Government farmer-support
+programme introduced under the earlier state government's Navaratnalu
+programme.
+
+The programme provided financial assistance to eligible farming
+families/cultivators.
+
+The historical scheme included support for:
+
+- Landholding farmer families
+- Tenant farmers
+- Record of Forest Rights (ROFR) cultivators
+- Eligible farming households under the applicable state rules
+
+The scheme was administered through the Agriculture & Cooperation
+Department and local agricultural field machinery.
+
+Rythu Bharosa Kendras were used as village-level agricultural service
+points, but the RBK network is a separate service-delivery
+infrastructure and should not be confused with the financial scheme.
+
+
+## 3. Historical Target Beneficiaries
+
+The historical YSR Rythu Bharosa framework covered eligible:
+
+- Landholding farmer families
+- Tenant farmers
+- ROFR cultivators
+- Other cultivators covered by the applicable state rules
+
+The exact beneficiary categories and payment amounts changed across
+different years.
+
+Therefore the RAG must retain academic/financial year metadata.
+
+
+## 4. Historical Eligibility Criteria
+
+### Citizenship / Residence
+
+Historical scheme guidelines required the beneficiary to be a
+permanent resident of Andhra Pradesh.
+
+
+### Farmer / Cultivator Status
+
+The beneficiary had to satisfy the applicable farmer/cultivator
+definition.
+
+Historical implementation included:
+
+- Landholding farmers
+- Tenant farmers with Crop Cultivator Rights Card (CCRC)
+- ROFR cultivators
+
+
+### Income
+
+Historical scheme documentation contained an income ceiling.
+
+One official Andhra Pradesh scheme SOP specifies:
+
+Total family income:
+Less than ₹10,000 per month.
+
+However, this is a historical rule and must not be treated as the
+current eligibility rule for Annadata Sukhibhava–PM KISAN.
+
+
+### Land
+
+Historical YSR Rythu Bharosa eligibility rules contained landholding
+and government-beneficiary exclusions.
+
+The exact thresholds varied according to the applicable government
+guidelines/version.
+
+Do not use a single land ceiling as a timeless rule.
+
+
+### Government Employment
+
+Historical eligibility rules contained exclusions related to
+government employment/pension and other specified categories.
+
+These were part of the historical scheme eligibility framework.
+
+
+### Income Tax
+
+Historical eligibility rules included exclusion of specified
+income-tax-paying households/categories.
+
+
+### Other Exclusions
+
+Historical scheme rules also included exclusions relating to:
+
+- Institutional landholders
+- Certain government/public-sector employees
+- Certain elected representatives
+- Other categories specified in the eligibility guidelines
+
+These exclusions are historical and should not be transferred to
+the current Annadata Sukhibhava engine without separate verification.
+
+
+## 5. Historical Exclusions / Non-Eligibility
+
+Depending on the scheme year, historical YSR Rythu Bharosa rules
+excluded categories such as:
+
+- Non-eligible non-farmer households
+- Institutional landholders
+- Certain government employees
+- Certain pensioners
+- Income-tax payers
+- Certain elected representatives
+- Households exceeding prescribed land/income conditions
+- Other categories specified in the applicable government rules
+
+Because these conditions were version-specific, the RAG should store
+them under the relevant scheme year.
+
+
+## 6. Historical Benefits
+
+### Financial Assistance
+
+The original YSR Rythu Bharosa programme was announced as:
+
+₹50,000 financial assistance over five years.
+
+The later annual assistance structure was:
+
+₹12,500 per farmer family per year.
+
+Subsequent government orders modified the amount and beneficiary
+coverage.
+
+Therefore:
+
+Historical benefit:
+VERSION_DEPENDENT.
+
+
+### Tenant Farmers
+
+Tenant farmers were included under the applicable state component.
+
+CCRC holders were used to establish cultivator status.
+
+### ROFR Cultivators
+
+Record of Forest Rights cultivators were included under the
+applicable implementation rules.
+
+### Additional Associated Benefits
+
+The broader YSR Rythu Bharosa programme was associated with
+additional agricultural-support initiatives, including:
+
+- Zero-interest crop loans
+- Free borewells
+- Farmer service infrastructure
+
+These should not be merged into the direct financial-assistance
+benefit unless the individual component is separately represented.
+
+
+## 7. Historical Required Documents
+
+Depending on the beneficiary category, historical documentation
+could include:
+
+- Aadhaar
+- Rice Card / household information
+- Land ownership records
+- Cultivation records
+- Crop Cultivator Rights Card (CCRC)
+- Record of Forest Rights (ROFR) documentation
+- Income certificate where required
+- Domicile/residence information
+- Bank-account details
+
+The exact document set depended on the beneficiary category and
+scheme year.
+
+
+## 8. Historical Application / Verification Process
+
+Historical YSR Rythu Bharosa implementation used a government
+verification workflow.
+
+A documented Andhra Pradesh scheme procedure describes:
+
+1. Citizen applies through the Citizen Schemes Portal.
+2. Application is forwarded to Agriculture/Horticulture/Sericulture
+   Assistant.
+3. Field verification is conducted.
+4. Application is forwarded to the Mandal Agriculture Officer.
+5. MAO verifies and recommends the application.
+6. Provisional eligible and reverification lists are published.
+7. Citizens can raise grievances against ineligibility.
+8. Final eligible/ineligible lists are published.
+9. Eligible beneficiaries receive payment through Aadhaar-enabled
+   payment systems.
+
+This is the historical YSR Rythu Bharosa process.
+
+Do not present this as the current Annadata Sukhibhava process.
+
+
+## 9. Important Historical Dates
+
+YSR Rythu Bharosa launch:
+2019
+
+Initial implementation:
+2019-20
+
+Historical payment structure:
+Changed across subsequent financial years.
+
+YSR Rythu Bharosa:
+Historical / previous state farmer-support scheme.
+
+Current replacement:
+Annadata Sukhibhava–PM KISAN.
+
+Current status:
+NOT ACTIVE AS THE CURRENT STATE FARMER-INVESTMENT-SUPPORT SCHEME.
+
+
+## 10. Historical Selection / Verification
+
+Historical beneficiary verification included:
+
+- Agriculture department field verification
+- Mandal Agriculture Officer verification
+- Social-audit lists
+- Reverification lists
+- Final eligible/ineligible lists
+- Aadhaar-enabled payment
+
+Tenant farmers were verified using applicable cultivator documentation,
+including CCRC where required.
+
+ROFR cultivators were verified using applicable forest-rights records.
+
+
+## 11. Historical Implementing Authority
+
+Government:
+Government of Andhra Pradesh
+
+Department:
+Agriculture & Cooperation Department
+
+Field-level implementation:
+
+- Village Agriculture/Horticulture/Sericulture Assistants
+- Mandal Agriculture Officers
+- Agriculture Department
+- Rythu Bharosa Kendras / village agricultural service network
+
+Important:
+Rythu Bharosa Kendras continue to exist as agricultural service
+centres, but their continued existence does not mean the historical
+YSR Rythu Bharosa financial-assistance scheme remains current.
+
+
+## 12. Related / Replacement Government Programs
+
+### Annadata Sukhibhava–PM KISAN
+
+This is the current Andhra Pradesh farmer investment-support programme.
+
+Current Agriculture Department material states:
+
+- ₹20,000 annual support per eligible farmer under the combined
+  state + PM KISAN framework.
+- ₹6,000 of this amount comes from PM KISAN.
+- The state component covers additional eligible farmer/cultivator
+  categories.
+
+Landless cultivators are also described in current Andhra Pradesh
+Agriculture Department material as receiving ₹20,000 annual state
+assistance.
+
+Annadata Sukhibhava–PM KISAN must be stored as a separate RAG record.
+
+
+### PM KISAN
+
+PM KISAN is a Government of India scheme.
+
+Its eligibility and exclusions are separate from the historical
+YSR Rythu Bharosa rules.
+
+
+### Rythu Bharosa Kendras
+
+RBKs are village-level agricultural service centres.
+
+They provide services such as:
+
+- Agricultural inputs
+- Seeds
+- Fertilizers
+- Crop advisories
+- e-Crop services
+- Allied-sector services
+
+RBKs are not themselves the historical YSR Rythu Bharosa cash-benefit
+scheme.
+
+
+## 13. Official Websites and Portals
+
+Historical YSR Rythu Bharosa portal:
+
+https://ysrrythubharosa.ap.gov.in/
+
+Historical/current Agriculture Department ecosystem:
+
+https://apagrisnet.gov.in/
+
+Current replacement scheme:
+
+https://annadathasukhibhava.ap.gov.in/
+
+Important:
+The current Agriculture Department portal should be used to determine
+the active farmer-support programme.
+
+Do not direct users to a historical YSR Rythu Bharosa portal as though
+it were the current application route.
+
+
+## 14. Official Source Documents
+
+### Source 1
+
+Government of Andhra Pradesh Agriculture Department / GSWS
+scheme documentation.
+
+Historical YSR Rythu Bharosa SOP.
+
+Supported facts:
+
+- Scheme identity
+- Agriculture Department responsibility
+- Historical beneficiary criteria
+- Tenant/ROFR categories
+- Historical income rule
+- Historical verification workflow
+- Aadhaar-enabled payment
+
+
+### Source 2
+
+Andhra Pradesh Government district Agriculture Department material.
+
+Current Tirupati Agriculture Department page states that:
+
+- Annadata Sukhibhava–PM KISAN is the current farmer investment
+  support scheme.
+- Small and marginal farmers and tenant farmers are beneficiaries.
+- ₹20,000 annual support is provided under the combined scheme.
+- Landless cultivators receive ₹20,000 annual state support.
+- CCRC holders can access Annadata Sukhibhava and other agricultural
+  welfare benefits.
+
+
+### Source 3
+
+Government of Andhra Pradesh historical YSR Rythu Bharosa material.
+
+Historical documents establish YSR Rythu Bharosa as the former
+Navaratnalu farmer-support programme.
+
+
+## 15. Current Status
+
+Status:
+HISTORICAL_REPLACED
+
+Current As Of:
+September 2026
+
+Current farmer-support scheme:
+Annadata Sukhibhava–PM KISAN.
+
+Current Agriculture Department material explicitly presents
+Annadata Sukhibhava–PM KISAN as the programme providing current
+farmer investment assistance.
+
+Therefore:
+
+YSR Rythu Bharosa:
+Historical.
+
+Annadata Sukhibhava–PM KISAN:
+Current.
+
+Rythu Bharosa Kendras:
+Current agricultural service infrastructure.
+
+
+## 16. Verification Summary
+
+### VERIFIED_HISTORICAL
+
+- YSR Rythu Bharosa was an Andhra Pradesh Government farmer-support
+  programme.
+- It was launched in 2019.
+- Agriculture & Cooperation Department was responsible for
+  implementation.
+- Landholding farmers were included.
+- Tenant farmers were included under applicable rules.
+- ROFR cultivators were included.
+- CCRC documentation was used for tenant cultivator verification.
+- Historical eligibility rules included income and other household
+  exclusions.
+- Historical applications underwent agriculture-department
+  verification.
+- Social-audit/reverification lists were used.
+- Aadhaar-enabled payment was used.
+
+
+### CURRENT_REPLACEMENT
+
+Current AP Agriculture Department material identifies:
+
+Annadata Sukhibhava–PM KISAN
+
+as the farmer investment-support programme.
+
+The current programme provides ₹20,000 annual combined support,
+including the ₹6,000 PM KISAN component.
+
+Landless cultivators are separately described as receiving ₹20,000
+annual state assistance.
+
+
+### DO NOT USE AS CURRENT RULES
+
+- Historical YSR Rythu Bharosa annual amount
+- Historical ₹50,000 five-year promise
+- Historical ₹12,500 annual amount
+- Historical ₹10,000 monthly income rule
+- Historical YSR Rythu Bharosa exclusion tables
+- Historical payment schedules
+
+
+## 17. Notes and Limitations
+
+1. This record is intentionally marked HISTORICAL_REPLACED.
+
+2. Do not return YSR Rythu Bharosa as the current state farmer
+   investment scheme in a 2026 user query.
+
+3. The current replacement is Annadata Sukhibhava–PM KISAN.
+
+4. Rythu Bharosa Kendras remain active and are a separate concept.
+
+5. Historical YSR Rythu Bharosa rules changed across implementation
+   years.
+
+6. Historical benefit amounts must be stored with year/version
+   metadata.
+
+7. Historical eligibility rules must not be copied into the current
+   Annadata Sukhibhava eligibility engine.
+
+8. Tenant farmers and ROFR cultivators should be represented
+   separately in the current Annadata scheme where the current
+   government rules identify them.
+
+9. PM KISAN eligibility is a separate Central Government rule set.
+
+
+## 18. Structured Eligibility Data
+
+scheme_id:
+AP_YSR_RYTHU_BHAROSA_HISTORICAL
+
+current_status:
+HISTORICAL_REPLACED
+
+historical_launch:
+2019
+
+historical_department:
+Agriculture & Cooperation Department
+
+historical_beneficiary_types:
+- Landholding farmer families
+- Tenant farmers
+- ROFR cultivators
+- Other eligible cultivators under applicable historical rules
+
+historical_residence:
+Permanent resident of Andhra Pradesh
+
+historical_income_rule:
+< ₹10,000/month in documented historical SOP
+
+historical_payment:
+VERSION_DEPENDENT
+
+historical_initial_programme:
+₹50,000 over five years
+
+historical_annual_structure:
+₹12,500/year in the later documented structure
+
+historical_application:
+Citizen Schemes Portal
+
+historical_verification:
+- Agriculture/Horticulture/Sericulture Assistant
+- Mandal Agriculture Officer
+- Social audit
+- Reverification
+- Final beneficiary list
+
+historical_payment_method:
+Aadhaar-enabled payment system
+
+current_replacement:
+Annadata Sukhibhava–PM KISAN
+
+current_replacement_benefit:
+₹20,000/year combined support
+
+current_landless_cultivator_support:
+₹20,000/year state support
+
+official_historical_portal:
+https://ysrrythubharosa.ap.gov.in/
+
+current_portal:
+https://annadathasukhibhava.ap.gov.in/
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source | Status |
+|---|---|---|
+| YSR Rythu Bharosa scheme identity | AP Government historical scheme material | VERIFIED_HISTORICAL |
+| 2019 launch | AP Government district/historical material | VERIFIED_HISTORICAL |
+| Agriculture Department implementation | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| Tenant farmer coverage | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| ROFR coverage | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| CCRC-based tenant verification | AP Government Agriculture Department | VERIFIED_HISTORICAL |
+| Historical ₹10,000 monthly income criterion | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| Historical field verification | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| Historical MAO verification | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| Social audit/reverification | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| Aadhaar-enabled payment | AP Government scheme SOP | VERIFIED_HISTORICAL |
+| Historical ₹50,000 programme | AP Government historical material | VERIFIED_HISTORICAL |
+| Historical ₹12,500 annual amount | AP Government historical material | VERIFIED_HISTORICAL |
+| Current Annadata Sukhibhava–PM KISAN | AP Agriculture Department | VERIFIED_CURRENT |
+| Current ₹20,000 annual combined support | AP Agriculture Department | VERIFIED_CURRENT |
+| Current ₹6,000 PM KISAN component | AP Agriculture Department | VERIFIED_CURRENT |
+| Current ₹20,000 landless cultivator support | AP Agriculture Department | VERIFIED_CURRENT |
+| Current CCRC linkage | AP Agriculture Department | VERIFIED_CURRENT |
+| RBKs as current agricultural service centres | AP district Agriculture Department | VERIFIED_CURRENT |
+| YSR Rythu Bharosa as current scheme | Current evidence does not support this | NOT_CURRENT |

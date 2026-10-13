@@ -1,616 +1,673 @@
 import os
-import json
-from typing import Any, Optional
+import re
+from typing import Any
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
-
-# ============================================================
+# =========================================================
 # LOAD ENVIRONMENT
-# ============================================================
+# =========================================================
 
 load_dotenv()
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+# =========================================================
+# CONFIGURATION
+# =========================================================
+
+MODEL_NAME = os.getenv(
+    "OPENROUTER_MODEL",
+    "openrouter/free",
+)
+
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+
+# Context size sent to the model
+MAX_CONTEXT_CHARS = 12000
+
+# Maximum generated tokens
+MAX_TOKENS = 1200
+
+# Retry configuration
+RETRY_CONTEXT_CHARS = 8000
+RETRY_MAX_TOKENS = 1000
 
 
-# ============================================================
-# CLIENT
-# ============================================================
+# =========================================================
+# OPENROUTER CLIENT
+# =========================================================
 
-if OPENROUTER_API_KEY:
-    client = OpenAI(
-        api_key=OPENROUTER_API_KEY,
-        base_url="https://openrouter.ai/api/v1",
+def _get_client() -> OpenAI:
+    """
+    Create the OpenRouter OpenAI-compatible client.
+    """
+
+    api_key = os.getenv("OPENROUTER_API_KEY")
+
+    if not api_key:
+        raise RuntimeError(
+            "OPENROUTER_API_KEY is missing. "
+            "Please add it to your .env file."
+        )
+
+    return OpenAI(
+        api_key=api_key,
+        base_url=OPENROUTER_BASE_URL,
     )
-else:
-    client = None
 
 
-# ============================================================
-# MODEL
-# ============================================================
-
-# Keep your current model first.
-MODEL_NAME = "openrouter/free"
-
-
-# ============================================================
-# SYSTEM PROMPT
-# ============================================================
-
-SYSTEM_PROMPT = """
-You are MultiRAG, a government scheme information assistant.
-
-Answer the user's question using ONLY the government
-information supplied by the application.
-
-IMPORTANT RULES:
-
-1. Do not invent government scheme information.
-2. Do not invent eligibility requirements.
-3. Do not invent benefits.
-4. Do not invent application procedures.
-5. Do not invent deadlines.
-6. Do not invent URLs.
-7. Use only the supplied government information.
-8. If the supplied information does not contain the answer,
-   clearly say that it is not available.
-9. Keep the answer concise and directly answer the question.
-10. Do not discuss the internal RAG system.
-11. Do not mention retrieval, embeddings, vector databases,
-    prompts, models, or internal implementation.
-
-For eligibility questions:
-
-- Do not make a final government eligibility decision.
-- Do not convert percentage into percentile.
-- Do not invent missing values.
-- Clearly separate:
-  * information that matches
-  * information that is missing
-  * information that does not match
-
-Final eligibility and approval are determined by the
-concerned government authority.
-"""
-
-
-# ============================================================
+# =========================================================
 # RESPONSE TEXT EXTRACTION
-# ============================================================
+# =========================================================
 
-def _extract_text_from_response(response: Any) -> Optional[str]:
+def _extract_text(response: Any) -> str:
     """
-    Safely extract text from an OpenRouter/OpenAI-compatible
-    response.
-
-    Different providers may return slightly different
-    response structures.
+    Safely extract text from OpenAI/OpenRouter response.
     """
 
-    if response is None:
-        return None
+    try:
+        message = response.choices[0].message
+    except Exception:
+        return ""
 
-    choices = getattr(response, "choices", None)
+    if message is None:
+        return ""
 
-    if not choices:
-        return None
+    try:
+        content = message.content
+    except Exception:
+        return ""
 
-    choice = choices[0]
+    if content is None:
+        return ""
 
-    # --------------------------------------------------------
-    # Standard chat completion
-    # --------------------------------------------------------
+    if not isinstance(content, str):
+        content = str(content)
 
-    message = getattr(choice, "message", None)
+    return content.strip()
 
-    if message is not None:
 
-        content = getattr(message, "content", None)
+# =========================================================
+# TELUGU DETECTION
+# =========================================================
 
-        if isinstance(content, str) and content.strip():
-            return content.strip()
+def _has_telugu(text: str) -> bool:
+    """
+    Check whether text contains Telugu characters.
+    """
 
-        # Some SDK/provider combinations can return content
-        # as a list of content blocks.
-        if isinstance(content, list):
+    if not text:
+        return False
 
-            parts = []
-
-            for item in content:
-
-                if isinstance(item, str):
-                    parts.append(item)
-
-                elif isinstance(item, dict):
-
-                    text_value = item.get("text")
-
-                    if text_value:
-                        parts.append(str(text_value))
-
-                else:
-
-                    text_value = getattr(
-                        item,
-                        "text",
-                        None,
-                    )
-
-                    if text_value:
-                        parts.append(str(text_value))
-
-            combined = "\n".join(
-                part.strip()
-                for part in parts
-                if part and part.strip()
-            )
-
-            if combined:
-                return combined
-
-        # Some provider responses may expose reasoning
-        # separately. We do NOT use reasoning as the answer
-        # unless there is no other response text.
-        reasoning = getattr(
-            message,
-            "reasoning",
-            None,
+    return bool(
+        re.search(
+            r"[\u0C00-\u0C7F]",
+            text,
         )
-
-        if isinstance(reasoning, str) and reasoning.strip():
-            print(
-                "Provider returned reasoning but no message content."
-            )
-
-    # --------------------------------------------------------
-    # Legacy / alternative text field
-    # --------------------------------------------------------
-
-    text_value = getattr(
-        choice,
-        "text",
-        None,
     )
 
-    if isinstance(text_value, str) and text_value.strip():
-        return text_value.strip()
 
-    return None
+# =========================================================
+# LANGUAGE INSTRUCTION
+# =========================================================
 
+def _language_instruction(language: str) -> str:
 
-# ============================================================
-# RESPONSE DEBUGGING
-# ============================================================
+    language = (language or "English").strip().lower()
 
-def _safe_response_debug(response: Any) -> str:
-    """
-    Convert an SDK response into readable debug output.
-    """
+    if (
+        "telugu" in language
+        or language in {"te", "తెలుగు"}
+    ):
+        return """
+LANGUAGE: TELUGU
 
-    try:
+Write the answer in natural, readable Telugu.
 
-        if hasattr(response, "model_dump"):
+IMPORTANT:
+- Use normal Telugu used by educated Telugu speakers.
+- Do not produce literal machine translation.
+- Keep official scheme names in English when that is clearer.
+- Explain the details naturally in Telugu.
+- Do not translate official scheme names into unnatural Telugu.
 
-            dumped = response.model_dump()
+Use natural phrases such as:
 
-            return json.dumps(
-                dumped,
-                indent=2,
-                ensure_ascii=False,
-                default=str,
-            )
+- "ఎందుకు సంబంధితం"
+- "ముఖ్యమైన అర్హత"
+- "ప్రయోజనం"
+- "ఇంకా అవసరమైన సమాచారం"
+- "మొత్తం అంచనా"
 
-        if hasattr(response, "model_dump_json"):
+Avoid unnatural translated phrases.
 
-            return response.model_dump_json(
-                indent=2
-            )
+For example:
 
-    except Exception:
-        pass
+GOOD:
+"మీరు తెలంగాణకు చెందిన రైతు కావడంతో ఈ పథకం మీకు సంబంధం ఉండవచ్చు."
 
-    try:
+BAD:
+"మీరు కృషి చేస్తున్న జమీను కలిగిన వ్యక్తి కాబట్టి..."
 
-        return str(response)
+GOOD:
+"కుటుంబ వార్షిక ఆదాయం"
 
-    except Exception:
+BAD:
+"కుటుంబ ఆదాం"
 
-        return repr(response)
+GOOD:
+"అర్హత"
 
-
-# ============================================================
-# GENERATE ANSWER
-# ============================================================
-
-def generate_answer(
-    question,
-    context="",
-    language="English",
-):
-
-    # --------------------------------------------------------
-    # API KEY CHECK
-    # --------------------------------------------------------
-
-    if not OPENROUTER_API_KEY:
-
-        return (
-            "ERROR: OPENROUTER_API_KEY is not configured.\n\n"
-            "Please check your .env file."
-        )
-
-    if client is None:
-
-        return (
-            "ERROR: OpenRouter client could not be initialized."
-        )
-
-
-    # --------------------------------------------------------
-    # CONTEXT CHECK
-    # --------------------------------------------------------
-
-    if not context or not str(context).strip():
-
-        context = (
-            "NO GOVERNMENT INFORMATION WAS RETRIEVED."
-        )
-
-    context = str(context)
-
-
-    # --------------------------------------------------------
-    # LANGUAGE
-    # --------------------------------------------------------
-
-    # Support both "Telugu" and "తెలుగు".
-    language_normalized = str(
-        language or ""
-    ).strip().lower()
-
-    if language_normalized in {
-        "telugu",
-        "తెలుగు",
-    }:
-
-        language_instruction = """
-Answer primarily in Telugu.
-
-Keep official government scheme names in English
-where useful.
-
-Do not translate official scheme names incorrectly.
-
-Use natural, clear Telugu rather than translating
-technical field names literally.
+BAD:
+"సవలత్తయ్య సాక్షరత"
 """
 
-    else:
+    return """
+LANGUAGE: ENGLISH
 
-        language_instruction = """
-Answer primarily in English.
+Write the answer in clear, professional and natural English.
+Do not use unnecessarily complex language.
 """
 
 
-    # --------------------------------------------------------
-    # USER PROMPT
-    # --------------------------------------------------------
+# =========================================================
+# CONTEXT PREPARATION
+# =========================================================
 
-    user_prompt = f"""
+def _prepare_context(
+    context: str,
+    max_chars: int = MAX_CONTEXT_CHARS,
+) -> str:
+
+    if context is None:
+        return ""
+
+    context = str(context).strip()
+
+    if len(context) <= max_chars:
+        return context
+
+    return context[:max_chars]
+
+
+# =========================================================
+# MAIN PROMPT
+# =========================================================
+
+def _build_prompt(
+    question: str,
+    context: str,
+    language: str = "English",
+) -> str:
+
+    language_instruction = _language_instruction(
+        language
+    )
+
+    return f"""
+You are the response-generation component of MultiRAG.
+
+MultiRAG is a government scheme discovery and eligibility
+information system covering government schemes from Central
+Government, Telangana and Andhra Pradesh.
+
+Your job is to answer the user's question using ONLY the
+retrieved government-scheme information supplied below.
+
+============================================================
 USER QUESTION
-=============
+============================================================
 
 {question}
 
 
-REQUESTED LANGUAGE
-==================
-
-{language}
-
-{language_instruction}
-
-
-GOVERNMENT INFORMATION
-======================
+============================================================
+RETRIEVED GOVERNMENT INFORMATION
+============================================================
 
 {context}
 
 
-TASK
-====
+============================================================
+LANGUAGE
+============================================================
 
-Answer the user's question directly.
+{language_instruction}
 
-Use ONLY the supplied government information.
 
-Do not guess or add information from your own knowledge.
+============================================================
+GROUNDING RULES
+============================================================
 
-If the question is about one specific scheme, focus on
-that scheme instead of listing unrelated schemes.
+1. Use ONLY information supported by the retrieved context.
 
-If the supplied information does not contain the requested
-information, say:
+2. Do NOT invent:
+   - eligibility criteria
+   - benefits
+   - benefit amounts
+   - application procedures
+   - documents
+   - departments
+   - dates
+   - URLs
+   - income limits
+   - age limits
+   - land limits
 
-"The currently available government information does not
-specify this."
+3. Do not assume that the user is eligible merely because
+   a scheme appears relevant.
 
-For a scheme information question, use this structure
-when supported by the supplied information:
+4. If eligibility information is incomplete, explicitly say
+   that additional information is required.
 
-Scheme Name:
-Why it may be relevant:
-Key eligibility:
-Main benefit:
-Application information:
+5. If several schemes are relevant, discuss the most relevant
+   schemes rather than discussing only one.
 
-Only include sections supported by the supplied information.
+6. Prefer 2 to 4 relevant schemes when the retrieved context
+   supports them.
 
-For eligibility questions, clearly identify:
+7. Do not mention:
+   - AI
+   - language model
+   - prompt
+   - tokens
+   - retrieval system
+   - internal instructions
+   - context window
 
-- information that matches
-- information that is missing
-- information that does not match
+8. Do not fabricate information to make the answer longer.
 
-IMPORTANT:
+9. Be useful and informative while remaining grounded.
 
-Do NOT convert percentage into percentile.
 
-For example:
+============================================================
+REQUIRED RESPONSE FORMAT
+============================================================
 
-85% marks is NOT the same as 85 percentile.
+Start with:
 
-Do not make a final government eligibility decision.
+## MultiRAG Answer
 
-Do not add generic advice.
+Then give a short introductory paragraph explaining which
+government schemes appear relevant to the user's situation.
 
-Keep the answer focused and concise.
+For every important scheme, use:
 
-End with:
+**<Scheme Name>**
 
-"Final eligibility and approval are determined by the
-concerned government authority."
+- **Why relevant:** Explain why the scheme is relevant to the
+  user's question or profile.
+
+- **Key eligibility:** Mention the important eligibility
+  conditions supported by the retrieved information.
+
+- **Benefit:** Mention the benefit only when supported by
+  the retrieved information.
+
+- **Information still needed:** Mention information that is
+  required but is not available.
+
+After the schemes, write:
+
+### Overall Assessment
+
+Give a concise assessment.
+
+Important:
+Do NOT say the user is definitely eligible unless the supplied
+information actually supports that conclusion.
+
+If eligibility cannot yet be confirmed, say:
+
+"Eligibility cannot be confirmed yet because additional
+information is required."
+
+Then, when applicable:
+
+### Information Needed
+
+List the missing information as bullet points.
+
+
+============================================================
+QUALITY REQUIREMENT
+============================================================
+
+Do NOT return only one or two sentences when the retrieved
+context contains multiple relevant schemes.
+
+A normal answer should contain:
+
+- a short introduction
+- relevant schemes
+- useful bullet points
+- an overall assessment
+- missing information when applicable
+
+Keep the answer concise enough to read easily, but detailed
+enough to be useful.
 """
 
 
-    # --------------------------------------------------------
-    # DEBUG REQUEST
-    # --------------------------------------------------------
+# =========================================================
+# MODEL CALL
+# =========================================================
+
+def _call_model(
+    question: str,
+    context: str,
+    language: str,
+    max_tokens: int,
+) -> str:
+
+    client = _get_client()
+
+    prompt = _build_prompt(
+        question=question,
+        context=context,
+        language=language,
+    )
 
     print()
-    print("=" * 70)
-    print("MULTIRAG LLM REQUEST")
-    print("=" * 70)
-    print("Model:", MODEL_NAME)
-    print("Language:", language)
-    print("Question:", question)
-    print("Context characters:", len(context))
-    print("API key loaded:", bool(OPENROUTER_API_KEY))
-    print("=" * 70)
+    print("=" * 80)
+    print("[MULTIRAG LLM REQUEST]")
+    print("=" * 80)
+    print("MODEL:", MODEL_NAME)
+    print("LANGUAGE:", language)
+    print("QUESTION:", question)
+    print("CONTEXT LENGTH:", len(context))
+    print("MAX TOKENS:", max_tokens)
+    print("=" * 80)
+
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "You are a careful government-scheme "
+                    "information assistant. "
+                    "Give grounded, structured and useful "
+                    "answers based only on the supplied "
+                    "government information."
+                ),
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+        temperature=0.2,
+        max_tokens=max_tokens,
+    )
+
+    # -----------------------------------------------------
+    # DEBUG RESPONSE METADATA
+    # -----------------------------------------------------
+
+    try:
+        print("[LLM FINISH REASON]:", response.choices[0].finish_reason)
+    except Exception:
+        print("[LLM FINISH REASON]: unavailable")
+
+    try:
+        print(
+            "[LLM USAGE]:",
+            response.usage,
+        )
+    except Exception:
+        print("[LLM USAGE]: unavailable")
+
+    answer = _extract_text(response)
+
+    print()
+    print("[LLM RAW RESPONSE]")
+    print("-" * 80)
+    print(repr(answer))
+    print("-" * 80)
+    print("[LLM RESPONSE LENGTH]:", len(answer))
+    print("=" * 80)
+
+    return answer
 
 
-    # ========================================================
-    # OPENROUTER CALL
-    # ========================================================
+# =========================================================
+# RETRY CALL
+# =========================================================
+
+def _retry_response(
+    question: str,
+    context: str,
+    language: str,
+) -> str:
+
+    context = _prepare_context(
+        context,
+        RETRY_CONTEXT_CHARS,
+    )
+
+    client = _get_client()
+
+    prompt = f"""
+You must answer the following government-scheme question.
+
+QUESTION:
+
+{question}
+
+
+GOVERNMENT INFORMATION:
+
+{context}
+
+
+{_language_instruction(language)}
+
+
+Give a grounded answer using only the information above.
+
+Start with:
+
+## MultiRAG Answer
+
+Then provide:
+
+1. A short introduction.
+
+2. The most relevant government schemes.
+
+For each scheme:
+
+**Scheme Name**
+
+- **Why relevant:**
+- **Key eligibility:**
+- **Benefit:**
+- **Information still needed:**
+
+Then:
+
+### Overall Assessment
+
+Then, if necessary:
+
+### Information Needed
+
+Do not invent facts.
+
+Do not return only one sentence.
+
+Do not claim definite eligibility unless the supplied
+information supports it.
+"""
+
+    print()
+    print("=" * 80)
+    print("[MULTIRAG LLM RETRY]")
+    print("=" * 80)
+    print("MODEL:", MODEL_NAME)
+    print("CONTEXT LENGTH:", len(context))
+    print("=" * 80)
+
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "Give a grounded and structured "
+                    "government-scheme answer."
+                ),
+            },
+            {
+                "role": "user",
+                "content": prompt,
+            },
+        ],
+        temperature=0.2,
+        max_tokens=RETRY_MAX_TOKENS,
+    )
+
+    try:
+        print(
+            "[RETRY FINISH REASON]:",
+            response.choices[0].finish_reason,
+        )
+    except Exception:
+        pass
+
+    answer = _extract_text(response)
+
+    print()
+    print("[RETRY RAW RESPONSE]")
+    print("-" * 80)
+    print(repr(answer))
+    print("-" * 80)
+    print("[RETRY RESPONSE LENGTH]:", len(answer))
+    print("=" * 80)
+
+    return answer
+
+
+# =========================================================
+# PUBLIC GENERATION FUNCTION
+# =========================================================
+
+def generate_answer(
+    question: str,
+    context: str,
+    language: str = "English",
+) -> str:
+
+    context = _prepare_context(context)
+
+    print()
+    print()
+    print("#" * 80)
+    print("[MULTIRAG generate_answer]")
+    print("#" * 80)
+    print("MODEL:", MODEL_NAME)
+    print("QUESTION:", question)
+    print("LANGUAGE:", language)
+    print("CONTEXT LENGTH:", len(context))
+    print("#" * 80)
+
+    # -----------------------------------------------------
+    # EMPTY CONTEXT
+    # -----------------------------------------------------
+
+    if not context:
+
+        print("[LLM] Context is empty.")
+
+        return (
+            "## MultiRAG Answer\n\n"
+            "I could not find enough verified government "
+            "scheme information to answer this question."
+        )
+
+    # -----------------------------------------------------
+    # FIRST ATTEMPT
+    # -----------------------------------------------------
 
     try:
 
-        response = client.chat.completions.create(
-
-            model=MODEL_NAME,
-
-            messages=[
-                {
-                    "role": "system",
-                    "content": SYSTEM_PROMPT,
-                },
-                {
-                    "role": "user",
-                    "content": user_prompt,
-                },
-            ],
-
-            temperature=0.1,
-
-            max_tokens=1200,
-
+        answer = _call_model(
+            question=question,
+            context=context,
+            language=language,
+            max_tokens=MAX_TOKENS,
         )
 
-
-        # ----------------------------------------------------
-        # RESPONSE DEBUG
-        # ----------------------------------------------------
+    except Exception as exc:
 
         print()
-        print("=" * 70)
-        print("MULTIRAG LLM RESPONSE")
-        print("=" * 70)
+        print("=" * 80)
+        print("[MULTIRAG LLM API ERROR]")
+        print("=" * 80)
+        print(repr(exc))
+        print("=" * 80)
 
-        print(
-            "Response received:",
-            response is not None,
-        )
+        answer = ""
 
+    # -----------------------------------------------------
+    # EMPTY RESPONSE
+    # -----------------------------------------------------
 
-        if response is None:
+    if not answer:
+
+        print("[LLM] First response was empty.")
+        print("[LLM] Starting retry...")
+
+        try:
+
+            answer = _retry_response(
+                question=question,
+                context=context,
+                language=language,
+            )
+
+        except Exception as exc:
+
+            print()
+            print("=" * 80)
+            print("[MULTIRAG RETRY ERROR]")
+            print("=" * 80)
+            print(repr(exc))
+            print("=" * 80)
 
             return (
-                "ERROR: OpenRouter returned no response."
+                "## MultiRAG Answer\n\n"
+                "The language model did not return a response. "
+                "Please try the query again."
             )
 
+    # -----------------------------------------------------
+    # FINAL RESPONSE
+    # -----------------------------------------------------
 
-        choices = getattr(
-            response,
-            "choices",
-            None,
-        )
-
-        print(
-            "Choices:",
-            len(choices) if choices else 0,
-        )
-
-
-        # ----------------------------------------------------
-        # NO CHOICES
-        # ----------------------------------------------------
-
-        if not choices:
-
-            print()
-            print("FULL OPENROUTER RESPONSE:")
-            print(
-                _safe_response_debug(response)
-            )
-
-            print("=" * 70)
-
-            return (
-                "ERROR: OpenRouter returned no usable choices."
-            )
-
-
-        # ----------------------------------------------------
-        # CHOICE DEBUG
-        # ----------------------------------------------------
-
-        choice = choices[0]
-
-        print(
-            "Finish reason:",
-            getattr(
-                choice,
-                "finish_reason",
-                None,
-            ),
-        )
-
-        print(
-            "Provider:",
-            getattr(
-                response,
-                "provider",
-                None,
-            ),
-        )
-
-        print(
-            "Model returned:",
-            getattr(
-                response,
-                "model",
-                None,
-            ),
-        )
-
-
-        # ----------------------------------------------------
-        # EXTRACT TEXT
-        # ----------------------------------------------------
-
-        answer = _extract_text_from_response(
-            response
-        )
-
-
-        print()
-        print("Extracted answer:")
-        print(repr(answer))
-
-
-        # ----------------------------------------------------
-        # EMPTY CONTENT
-        # ----------------------------------------------------
-
-        if not answer:
-
-            print()
-            print(
-                "WARNING: OPENROUTER RESPONSE "
-                "CONTAINED NO TEXT"
-            )
-
-            print()
-            print(
-                "FULL OPENROUTER RESPONSE:"
-            )
-
-            print(
-                _safe_response_debug(response)
-            )
-
-            print("=" * 70)
-            print()
-
-
-            # Return a more useful diagnostic.
-            finish_reason = getattr(
-                choice,
-                "finish_reason",
-                None,
-            )
-
-            if finish_reason:
-
-                return (
-                    "ERROR: OpenRouter returned no text content.\n\n"
-                    f"Finish reason: {finish_reason}\n\n"
-                    "Please try the request again."
-                )
-
-            return (
-                "ERROR: OpenRouter returned no text content.\n\n"
-                "Please try the request again."
-            )
-
-
-        # ----------------------------------------------------
-        # SUCCESS
-        # ----------------------------------------------------
-
-        answer = answer.strip()
-
-        print()
-        print("FINAL ANSWER:")
-        print(answer)
-
-        print("=" * 70)
-        print()
-
-
-        return answer
-
-
-    # ========================================================
-    # ERROR
-    # ========================================================
-
-    except Exception as error:
-
-        print()
-        print("=" * 70)
-        print("MULTIRAG LLM ERROR")
-        print("=" * 70)
-
-        print(
-            "Exception type:",
-            type(error).__name__,
-        )
-
-        print(
-            "Exception:",
-            repr(error),
-        )
-
-        print("=" * 70)
-        print()
-
+    if not answer:
 
         return (
-            "ERROR: The AI service could not generate "
-            "an answer.\n\n"
-            f"Technical details: {error}"
+            "## MultiRAG Answer\n\n"
+            "The language model returned an empty response. "
+            "Please try the query again."
         )
+
+    print()
+    print("=" * 80)
+    print("[MULTIRAG FINAL ANSWER]")
+    print("=" * 80)
+    print(answer)
+    print("=" * 80)
+
+    return answer
+
+
+# =========================================================
+# OPTIONAL MODEL NAME HELPER
+# =========================================================
+
+def get_model_name() -> str:
+    return MODEL_NAME

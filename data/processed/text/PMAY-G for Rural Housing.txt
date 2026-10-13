@@ -1,0 +1,587 @@
+--- PAGE 1 ---
+File No.J-11060/04/2017-RH(A/c) 227
+ I/202114/2021
+
+ No. M- J-11060/04/2017-RH (A/c)
+ Government of India
+ Ministry of Rural Development
+ (Rural Housing Division)
+ Krishi Bhawan, New Delhi
+ Dated: 21st June, 2021
+ To
+ The Additional Chief Secretary/Principle Secretary/Secretary
+ Department of Rural Development and Panchayti Rajof all the States/UTs
+ in charge of Pradhan Mantri Awaas Yojana- Gramin (PMAY-G)
+
+ Subject: Deletion of ineligible from Permanent Wait List (PWL) of the PMAY-G: Revised
+ Remand Module– reg.
+
+ Sir/Madam,
+
+ I am directed to refer to this Ministry's letter of even number dated 25th September,
+ 2020 (copy enclosed) on the above mentioned subject vide which the Standard Operation
+ Procedure (SOP) in respect of revised Remand Module of PMAY-G was communicated to
+ the States/UTs to make this process of remand simpler.
+
+ 2. In this regard, I would like to inform that the Ministry has decided to further simplify
+ the process of deletion of ineligible households using Remand Module of PMAY-G and a
+ revised SOP is attached. The District Magistrate/ Collector is now empowered to approve
+ the deletion of ineligible households using Remand Module of PMAY-G after verifying the
+ documents uploaded by Block level. This has already been made Live on AwaasSoft, a MIS
+ for the PMAY-G.
+
+ 3. It is, therefore, requested to proceed as per the revised remand module for deleting
+ the names of the ineligible beneficiaries from the Permanent Wait List of the PMAYG as per
+ the revised SOP. This would help Ministry to allocate the targets to the eligible States/UTs
+ from final Awaas+ list.
+
+ Yours faithfully,
+ Encl: As above
+ (Shailesh Kumar)
+ Deputy Secretary to the Govt. of India
+ E-mail:shailesh.kumar83@nic.in
+ Phone: 011-23383006
+ Copy to:
+
+ i. Sr PPS to SRD
+ ii. PPS to AS (RD)
+ iii. PPS to DDG (RH)
+Signature Not Verified
+
+Digitally signed by SHAILESH
+KUMAR
+Date: 2021.06.21 12:06:46 IST
+
+--- PAGE 2 ---
+File No.J-11060/04/2017-RH(A/c)
+
+ Revised SOP for Deletion of ineligible beneficiary using Remand Process
+
+A provision was made in AwaasSoft to eliminate the ineligible beneficiaries from
+existing Permanent Wait List (PWL) of PMAY-G prepared on the basis of SECC 2011
+database as there may be changes/ modifications in the eligibility of the beneficiaries
+over the years of implementation of scheme. The reasons for beneficiary to be
+ineligible can be non-compliance of SECC 2011 13-point criteria or that house is already
+allocated through a state or central scheme or migration of the beneficiary or death of
+beneficiary & other criteria approved by the Ministry & duly communicated to the
+States/UTs. The remand module was made effective in FY 2017-18 and the same was
+communicated to States/UTs vide letter no. J-11060/04/2017-RH (A/c) dated 24th
+October, 2017.
+
+The process has been updated time from time to accommodate changes/ modification
+suggested by States/UTs. The present remand process was adopted to simplify the
+process and save the administrative time and procedural delays.
+
+The present remand process has been communicated to the States/UTs vide Letter no.
+J-11060/04.2017-RH (A/c) dated 25th September, 2020 and is as under:-
+
+1. Present process of Remand (w. e. f. 25th September, 2020)
+
+(a) District or Block Login
+ i. District or block level official will login at their level and select all the
+ beneficiaries who are to be remanded along with the appropriate reason (s) for the
+ same
+ ii. System generates a GP wise list of all the cases which are to be remanded and the
+ same is made available for download
+ iii. District or block level official uploads 2 documents for each GP wise list:
+ a. Inspection report of the official
+ b. Gram Sabha resolution for remand (Gram Panchayat resolution would be
+ accepted at present owing to Covid -19 and GP resolution would be placed before
+ Gram Sabha for ratification before deleting the names permanently).
+ iv. List of beneficiaries required to be remanded is sent to the State for final
+ approval
+
+(b) State Login
+ i. State level official can view the list of ineligible beneficiaries along with the
+ required documents
+ ii. State can either accept or reject the remand list depending upon the validity of
+ the supporting documents as a) Inspection Report b) Gram Sabha resolution
+ iii. The GP wise cases will be deleted from PWL once the State approves the list
+
+2. Requirement for changes in this flow
+
+--- PAGE 3 ---
+File No.J-11060/04/2017-RH(A/c)
+
+The current flow requires the approval of the State Government/UT for the remand
+cases. As the relevant documents to warrant deletion are already being uploaded, it was
+felt that the District Magistrate/ Collector/ Officer implementing PMAY-G at District
+Level may be made the competent authority for approval of the remand cases. As all
+States/UTs are already implementing PMAY-G through DM/DC at District Level for
+this purpose, this would lead to further saving of administrative time & would avoid
+delays in remand of cases. Further, this process would also be applicable for remand of
+households in Awaas+ database.
+
+3. Proposed process of Remand
+
+(a) Block Login
+i. Block level official/ Officer designated by State Government will login at their level
+and select all the beneficiaries who are to be remanded along with the appropriate
+reason (s) for the same
+ii. System generates a GP wise list of all the cases which are to be remanded and the
+same is made available for download
+iii. Block level official uploads 2 documents for each GP wise list:
+a. Inspection report of the official
+b. Gram Sabha resolution for remand (Gram Panchayat resolution would be accepted at
+present owing to Covid -19 and GP resolution would be placed before Gram Sabha for
+ratification before deleting the names permanently).
+iv. List of beneficiaries required to be remanded is sent to the District Level for
+removal
+
+(b) District Login
+i. District level official/Collector/ Officer designated by State Government can view
+the list of ineligible beneficiaries along with the required documents submitted by Block
+Level
+ii. District can either accept or reject the remand list depending upon the validity of
+the supporting documents as a) Inspection Report b) Gram Sabha resolution
+iii. The GP wise cases will be deleted from PWL once the District approves the list.
+
+ ***************
+
+--- PAGE 4 ---
+File No.J-11060/04/2017-RH(A/c) 117
+I/192794/2020
+
+ No.M- J-11060/04/2017-RH(A/c)
+ Government of India
+ Ministry of Rural Development
+ (Rural Housing Division)
+ Krishi Bhawan, New Delhi
+ Dated: 25th September, 2020
+ To
+ The Additional Chief Secretary/Principle Secretary/Secretary
+ Department of Rural Development, all States/UTs dealing with PMAY-G
+
+ Subject: Revised Remand Module under Pradhan Mantri Awaas Yojana
+ Gramin – reg.
+
+ Sir/Madam,
+
+ Please refer to this Ministry's OM No.J-11060/04/2017-RH(A/c) dated 24th October,
+ 2017(Annexure-I) regarding Remand Module for exclusion of names of the ineligible
+ beneficiaries from the Permanent Wait List (PWL) of the PMAY-G. In this regard, it is stated
+ that many States/UTs have reported that they are facing complexities while operating the
+ current remand module due to multiple iterative steps required in the approval of the remand
+ cases and shortage of manpower in the States due to engagement of the same in COVID
+ pandemic duty.
+
+ 2. It is informed that the it has been decided to revise the REMAND MODULE to make it
+ simpler for removing the names of the ineligible beneficiaries from the PWL of the PMAY-
+ G. The revised remand module will has been made live on AwaasSoft. The Standard
+ Operating Procedure (SoP) for revised remand module is enclosed herewith (Annexure-II).
+
+ 3. Further, it is stated that it has also been decided to accept Gram Panchayat Resolution
+ in place of Gram Sabha Resolution owing to COVID-19 pandemic for deletion of names of
+ ineligible beneficiaries from PWL list on priority, with the condition that Gram Panchayat
+ Resolution be placed before the next meeting of the Gram Sabha for its ratification. Final
+ removal from PWL may be subject to uploading of resolution after ratification in the next
+ Gram Sabha meeting.
+
+ 4. It is, therefore, requested to proceed as per the revised remand module for deleting the
+ names of the ineligible beneficiaries as per the SoP. This would help Ministry to allocate the
+ targets to the eligible States/UTs from final Awaas+ list.
+
+ Yours faithfully,
+
+ Encl: As above
+ (Anil Kumar Singh)
+ Under Secretary to the Govt. of India
+ E-mail:anilksingh.edu@nic.in
+ Copy to:
+ i. PPS to DDG(RH), MoRD
+ ii. NIC, DoRD for necessary action
+ iii.Sr PPS to SRD
+
+--- PAGE 5 ---
+File No.J-11060/04/2017-RH(A/c) 114
+I/192501/2020
+
+ Revision in Remand Process
+
+ Foundation for Permanent Wait List for PMAY-G beneficiary selection is based
+ on SECC 2011. Over the years, there may be modification in the eligibility status
+ of the PMAY-G household. Therefore, provision was made in AwaasSoft to
+ eliminate the ineligible beneficiaries. The reasons for beneficiary to be ineligible
+ can be non-compliance of SECC 2011, 13-point exclusion criteria or that house is
+ already allocated through a state or central scheme or migration of the
+ beneficiary or death of beneficiary, etc. The current remand process is revised
+ as per inputs from states to bring more efficiency and transparency in the
+ process of remand.
+
+ 1. Current process of Remand
+ a) District Login
+
+ The concerned officials at the district level will initiate the cases which are to
+ be remanded with provision of reason and required proofs. Upon submission, the
+ cases selected by the user will be sent to the States for further consideration.
+ The steps required in this stage are as mentioned below:
+
+ i. Login using the respective district user id and password in AwaasSoft
+ ii. Click on the link ‘Cases to be remanded to Gram Sabha’
+ iii.Select the block and gram panchayat from the dropdown
+ iv.Select the beneficiaries which are found by district/block level officials
+ as ineligible
+ v. Choose the reason for ineligibility from the dropdown of reasons
+ vi.Upload inspection report for each case and submit the list of selected
+ beneficiaries marked as ineligible to the State
+ b) State Login
+
+ The State can view the list of beneficiaries submitted by the district and
+ approve the same depending on the merit of the case, through OTP enabled
+ authentication. Consequent to the approval, the cases will start appearing at the
+ block/GP login. The steps required in this stage are as mentioned below:
+
+ i. Login from the state level in AwaasSoft
+ ii. Click on the link ‘Cases to be Remanded to Gram Sabha’
+ iii.Select the district, block and gram panchayat from the dropdown for
+ which changes are required to be made
+ iv. View reasons and documents uploaded by the district. Once the state level
+
+--- PAGE 6 ---
+File No.J-11060/04/2017-RH(A/c) 115
+I/192501/2020
+
+ official is satisfied, approval is given for those who are to be remanded to
+ the Gram Sabha
+ v. Click on ‘Submit’ button will lead to OTP generation which will be sent to
+ mobile no and email id mapped to the state login. On entering the OTP, the
+ list of beneficiaries approved for remand will be submitted to Gram Sabha
+ Once the cases have been submitted, the system will not allow any further
+ transaction against these cases till the entire process of remand is complete.
+
+ c) Block Login
+
+ The concerned officials at the block/GP level can view the list of all
+ beneficiaries whose remand has been approved at the State level. The steps
+ required in this stage are as mentioned below:
+
+ i. Login from the respective block/GP level in AwaasSoft
+ ii. Click on the link ‘Cases Remanded to Gram Sabha’
+ iii.Select the Gram Panchayat from the dropdown
+ iv.Download the lists containing the name of beneficiaries which have been
+ remanded to the Gram Sabha. The lists are to be presented to the Gram
+ Sabha in its next meeting, the date of which is already fixed
+ v. Based on the Gram Sabha resolution, the beneficiary is marked finally as
+ ‘Yes’ or ‘No’ for eligibility
+ vi.The minutes of the proceedings of the Gram Sabha resolution are
+ uploaded for future record purpose
+ vii.After approval, each case is sent to State for verification of Gram Sabha
+ resolution uploaded against the beneficiary.
+ d) State Login
+
+ The State will examine whether the minutes of the proceedings of the Gram
+ Sabha resolution are valid. If found valid, the state will confirm the findings of
+ the Gram Sabha. In this case, the beneficiary is confirmed as ‘ineligible’ and
+ his/her name will be deleted from the PWL. In case the house is already
+ sanctioned to the beneficiary, the sanctions are cancelled. The option to
+ sanction to a new beneficiary will be enabled. In another case wherein financial
+ assistance is already provided to the ineligible beneficiary, then the option to
+ sanction to new beneficiary will only be enabled on recovery of the disbursed
+ amount from the ineligible beneficiary.
+
+ 2. Challenges in the current flow
+
+ The current flow is challenging due to multiple steps to and fro steps required in
+
+--- PAGE 7 ---
+File No.J-11060/04/2017-RH(A/c) 116
+I/192501/2020
+
+ the approval of the remand cases. The new approach for remand will rationalize
+ the few steps mentioned above to make the remand process simpler for all the
+ levels. This will save the administrative time and procedural delays incurred in
+ the remand proceedings.
+
+ 3. Proposed process of Remand
+
+ a) District or Block Login
+
+ i. District or block level official will login at their level and select all the
+ beneficiaries who are to be remanded along with the appropriate reason
+ (s) for the same
+ ii. System generates a GP wise list of all the cases which are to be remanded
+ and the same is made available for download
+ iii.District or block level official uploads 2 documents for each GP wise list:
+ a. Inspection report of the official
+ b. Gram Sabha resolution for remand (Gram Panchayat resolution would be
+ accepted at present owing to covid -19 and GP resolution would be placed
+ for Gram Sabha for ratification before deleting names permanently).
+ iv.List of beneficiaries required to be remanded is sent to the State for
+ removal
+ b) State Login
+
+ i. State level official can view the list of ineligible beneficiaries along with
+ the required documents
+ ii. State can either accept or reject the remand list depending upon the
+ validity of the supporting documents as a) Inspection Report b) Gram
+ Sabha resolution
+ iii.The GP wise cases will be deleted from PWL once the State approves the
+ list
+ ***************
+
+--- PAGE 8 ---
+File No.L-11025/05/2018-RH 120
+ I/195484/2020
+
+ No. L-11025/05/2018-RH
+ Government of India
+ Ministry of Rural Development
+ Department of Rural Development
+ Krishi Bhawan, New Delhi
+ Dated: 3rd December, 2020
+ To,
+ The Additional Chief Secretary/ Principal Secretary/ Secretary (RD)
+ Of All States and UTs dealing with Pradhan Mantri Awaas Yojana- Gramin
+
+ Subject: Addition of options in Remand Module on AwaasSoft for dealing with
+ special cases including unwilling beneficiaries- Reg.
+
+ Sir/Madam,
+ I am directed to refer the above mentioned subject and to state that references
+ have been received from the State Governments of Tamil Nadu, Rajasthan and
+ Uttarakhand seeking directions for handling cases of beneficiaries unwilling to construct
+ house, living in sensitive areas, switch from rural area to urban area, site dispute, etc. for
+ their deletion/ removal from the Permanent Wait List (PWL) of PMAY-G. However, due
+ to limited options/ non availability of options for these special cases on the Remand
+ Module of AwaasSoft, the States are finding it difficult to clean their PWL of PMAY-G.
+
+ 2. These cases have been examined in detail and it has been decided with the
+ approval of competent authority for addition of options in the Remand Module on
+ AwaasSoft for dealing wth these special cases and deletion from PWL of PMAY-G for
+ achieving cleaning of PWL which is pre-requisite for allocation of targets from finalized
+ Awaas+ lists. The Standard Operating Procedure (SOP) of providing the additional
+ options on remand module on AwaasSoft is enclosed. The SOP also incorporates a Self-
+ Declaration form to be filled by the ineligible households and counter-signed by the
+ Officials of the State/UT concerned.
+
+ 3. Accordingly, the State Governments/UT Administration are requested to kindly
+ take necessary action and delete all the ineligible households from the PWL of PMAY-G
+ at the earliest.
+
+ Yours faithfully,
+ Encl: As above
+
+ (Anil Kumar Singh)
+ Under Secretary to the Government of India
+ Email: anilksingh.edu@nic.in
+ Copy to:-
+ i. NIC, DoRD with a request for enabling the options as per approved SOP on
+Signature Not remandVerifiedmodule of AwaasSoft
+ ii. PPS to DDG(RH), MoRD
+Digitally signed by ANIL
+KUMAR SINGH
+Date: 2020.12.04 10:45:01 IST
+
+--- PAGE 9 ---
+File No.L-11025/05/2018-RH 121
+I/195487/2020
+
+ SOP for Additional options in Remand Module on AwaasSoft for dealing with Special
+ Cases including Unwilling Beneficiaries
+
+ 1. As of now, following are the option available for deletion of ineligible beneficiaries
+ through remand Module of AwaasSoft.
+
+ RejectionReason_Code Rejection Reason
+ 01 Already has pucca house/availed under other scheme
+ 02 Beneficiary died with no nominee in SECC list
+ 03 Beneficiary migrated permanently
+ 04 Motorised two/three/four wheeler/ fishing boat
+ 05 Mechanised three/ four wheeler agricultural equipment
+ 06 Kisan Credit Card with credit limit of Rs.50,000 or above
+ 07 Household with any member as a Government employee
+ Households with non-agricultural enterprises registered with the
+ 08 Government
+ 09 Any member of the family earning more than Rs.10,000 per month
+ 10 Paying income tax
+ 11 Paying professional tax
+ 12 Own a refrigerator
+ 13 Own landline phone
+ Own 2.5 acres or more of irrigated land with at least one irrigation
+ 14 equipment
+ 15 5 acres or more of irrigated land for two or more crop seasons
+ Owning at least 7.5 acres of land or more with at least one irrigation
+ 16 equipment
+
+ 2. The following options are provided for deletion of beneficiaries with specific reasons
+ provided in drop down menu.
+
+ Rejection Reason_ Cases
+ Code
+ 17 Beneficiary unwilling to construct house
+
+ 18 Beneficiary not-traceable
+
+ 19 Beneficiary living in sensitive areas/forest areas and unable to
+ construct the house
+
+ 20 Double registration
+
+ 21 Switch from rural area to urban area/planning area.
+
+ 22 Site dispute/Joint property/Court cases.
+
+ 2.1 Procedure:
+
+--- PAGE 10 ---
+File No.L-11025/05/2018-RH 122
+ I/195487/2020
+
+ Step 1: State should identify such beneficiaries as per above given in para 2.
+
+ Step 2: Self declaration form of beneficiary to be filled along with the counter signature of
+ State officer/official responsible thereon [self declaration form attached in Annexure].
+
+ Step 3: The State official should update the details on remand module of AwaasSoft.
+
+ Annexure: Self -Declaration form
+
+ Name of the Beneficiary
+ Sex
+ Age
+ Category
+ Occupation
+ Annual Income
+ Identity proof
+ (Aadhar, PAN, Driving License, Voter Id, etc) (number only)
+ Total Members in the house
+ Address (GP, Block, District, State)
+ Number in priority list
+ Reason for unwillingness
+
+ Name and Signature of the Beneficiary
+ Date: Name and Signature of the State Official
+ Designation:
+ Date:
+
+Signature Not Verified
+
+Digitally signed by ANIL
+KUMAR SINGH
+Date: 2020.12.04 11:45:14 IST
+
+--- PAGE 11 ---
+I
+ J-'1"1060 /04 / 2017 -P.H(A/ c)
+ Government of lndia
+ Ministry of Rual Developmeot
+ (R.u-tal Housing Division)
+
+ Ktishi Bhawaq New Delhi
+ Dated: 246 October, 2017
+ To
+ The Addl. Chief Secretary / principal Seoetaiy/Secretary (X.D)
+ of AII States and UTs
+ dealing with ptadhan Maotri Awaas yolana-Gtamin.
+
+ Subiecc Module on deletioo ofHouseholds from pWL teg:_
+ sn,
+
+ permaneot I am ditected to say that a Module oo deletion of Households ftom
+ Wait List (PWL) aftet remaoding the same ftom Gram Sabha has been ptepated (copy
+ enclosed) and made live at District and State Login.
+ 2. In this connection, it is requested to proceed as per the above mentioned module
+ in respect of the pending cases regarding the deletion of households from p!,L.
+ , your,s faithfirlly
+ Encl: As above
+ /'L+"- (44. Ramaktishna)
+ Under Secreury to Govr of India
+ 'fel 23381343
+
+ ,('
+
+--- PAGE 12 ---
+DISTRICT- Colcerned olficial at th€ district level wilt initiate the crses which sre to be
+ remanded to the GS rvith reeson .rd sulfcietrt proof. Upon submissiotr, the case3 s€lected b;
+ the uscrwili be transmitted to the Stste for further consideratior.
+ l) Login from respective district in Awaassoft.
+ .Beneficiary 2) Access tab titled Selection under pMAy-G,
+ .Cases 3) Click on link- to be Remanded to Oram Sabha,
+ 4) Choose Block and Gram panchayat from the dropdown.
+ 5) cboose among J options appearing in the form of radio burons; (i) yet ro be sanctioned (ii)
+ sanctioned but no instarmeni paid (iii) sanctioned and instalrment rereased.
+ Remarks: The permanent wailiist (pwl) wi, be disprayed as p€r the option chos€n. For instance, .Sanctioned,. if the user chooses all beneficiaries appearing on the p\tr/L, who have been
+ sanctioned houses but are yet to receive
+ 6) serecr the benencia.y *r,o r,* u""n rou,lJ:tfffi_il:ffi#'rT,'X':;::;*_ **. *"
+ beneficiary. Choose reason for ineiigibility frorn dropdown. Upload necessary documents
+ substantiating the claim. Click on .Submit,.
+ Remsrkr: presently wo options will be displayed in the dropdown: Beneficiary has a pucca
+ house and Death/Migration.
+
+ STATE- The Stete wil cohsider the cr
+ dependirg on merir or the :l;'::.,;#"":J:fiItJTl;"["il: "*",,rJ; colsequetrl upon approval, the cates rvill start at the block/GP logir for further necesiary 'ppearirg action.
+ 1) t ogin fiom State level in Awaassofl.
+ .Beneficiary2) Access tab titled Selection under pMAy-C,
+ .Cases3) Click on link- to be Remanded to Gran Sabha,
+4) Choose District, Block smd Gram panchayat Iiom the dropdown.
+5) Choose among 3 options appearing in the form of radio buttons: (i) yet to be sancnoned (ii)
+ Sanctioned (iii) Sanctioned and installmenr released.
+6) View reasons and documents uploaded by rhe disEict. Once satisl6d, approve beneficiaries whose name(s) are to be remanded to the Gram Sabha for re- verification by clicking on the chcokbox next ro the beneficiary.
+
+--- PAGE 13 ---
+7) Click on 'submit'. An OTP will be sent to the mobile no. and e mail ID that is mapped to the
+ State login. Enter the OTP. The cases will get submitted.
+ Remarks: Once the cases have been submitted, they will 8et highlighted in the PWL. The system
+ will not allow any further transaction against these cases until the entire process ofremanding and
+ removal/reinstatement has teen completed. For instance, ifthe beneficiary rcmanded by the State
+ has atready been paid the first installment, his,&er name will no longer aPpear in the link for
+ inspecrion and likeq ise
+
+BLOCI(GP- Concerned omci.l (!) et the blocldcP level will be rerponsible for entering the
+decisiotrs taken by the Grrm Sabha, to which the csses hrve b€en remaDded, by uploading
+docum€trtery proof in the form of minutes of th€ pmceeding of the Jan Sunvai rnd th€ Gl?m
+Sabha relolution.
+ respective blocl/GP in Awaassoft. l) Login from
+ under PMAY-C'2) Access tab titled 'Beneficiary Selection
+ 'Cases Remanded to Gram Sabha' l) Click on link-
+ the dropdown incase block login is being used'4) Choose Cram Panchayat fiom
+ 5) Choose among 3 options aPpearing in the form of radio buttons; (i) Yet to be sanctioned (ii)
+ Sanctioned (iii) Sanctioned and installment released'
+ cases which have been remanded to the Gram Sabha' The lists are I ists 6) Downtoad the -containing
+ to be presented to the Gram Sabha for considemtion' The list/cases arc preferably to be presented
+ before the Gram Sabha in its coming meeting the date ofwhich is usually pre fixed'
+ 7) On the basis ofthe GS resolution, select the beneficiary from the list and choose between 'Yes' or
+ 'No' in the column asking 'ls beneficiary eligible?'
+ 8) Upload minutes of the prcceedings ofthe Jan Sunvai and the Gram Sabha rcsolution next to the
+ beneficiary for future record.
+ the cases for which conclusive decision has been taken by the Cram Sabha' 9) Save and submit
+
+ J'r Sunvai end STATE- The Strte will exsmine whether the minutes olthe Proceedingt ofthe
+ rre in order' If !o' rhe Stste will GIsm Sibhr resolutiotrt uplo.ded againrl the beDeficiary,
+ betrelicitry is corfnned i3 'Ioeligiblei hir/her confirm the lindirg3 of the Grrm Srbhr" If
+ house hrs beetr lstrctiotrgl to the benelicisry' the n.me will & deleted from the PWL. In c{se r
+ Place of the deleted sanctiotr will be crncelled. The optioD to srnction .ootber beEefici$i itr
+ lr€nericirry will be en.bled. Ilowever if fiutrciol e$istuce h,3 been provided to the ineligible
+
+--- PAGE 14 ---
+be[elicixry, the option to srnction rnother beDefici.ry itr phce of the deleted beDeliciary will
+ otrly be enrbled ooce the Stste has idtiated necBsary proceediDgs pert&iritrg to necovery or
+ .Eligible,, otherwfue. On the other hrtrd if the beneficiary iB coDlirDed .! his/ter orme witt uo
+ longer be highligh&d itr the pWL. Further traDsactioDs would be eDabled egainst such cases.
+
+ I ) Irgin fiom thc Srsb lcvel in Awaasso{t.
+ 2) Ac<rs! tab titl€d .Boneficiary Selection ullder pMAy€,
+ 3) Click on link- ,D€cision taken by Gram sabha on remnrded cas€s,
+ 4) Choose Dishict, Bloct and Gram paDch8yat from tte dropdown.
+ 5) Choox among 3 options .plrcaring in the form of radio buttons; (i) yet to be sanctioned (ii)
+ Sanctioned (iii) SaNtioned and installment ,eleased.
+ Romarks: For all 3 optionq the cases submitted by the Grani Sabha will be displayed. The user
+ rhould cxamine the docume[ts uploaded drough rhe block/Gp login against each c!se. TherEafter
+ the user may chooso either .Confirm, or ,Rej..t, depcndirg on the validity of the docu.eents
+ exrmin€d. A separare rab wilr open if .Rrject! is s€rect€d whcrcin th€ user will have to rocod the
+ reason.
+6) click on 'submir' button whioh wil appeo.against each crse. An orp wir bo sent to the mobile
+ no. and e mail ID tiat is m.pped to the StEte login. Enter the OTp. The deoision will 8et submitted.
+ Remarks: If both G.arn Sabho aod Sta& confirm eligibility, the beneficiarywill b€ reiDstated aDd
+ will no ronger be highrighted in the pwl. Furdrer transactions wourd be enabrod against suoh
+ crses. If both Gram Sabha and Staie confirm ineligibility, the borefciary will be delered from the
+ PWL. For option (i) 8rd (ii) in point 5, sanctioning ii.ptace of dolaed boneficiary will be
+ enabled. For option (iii), if the user confirms ineligibitity, s pop up will appe8, ssking- .If
+ necessary proceedings have been initia&d by the St{le?, The us€r will only bc allowe.d to submit
+ if he/she chooses ,yes,.
+ For cases which are rejocted by the Stato on grounds of invalidity ofdocumeEts, dte rcasons have
+ to b€ clea.ly recodod. It will be rhe responsibility ofih€ State to conv€y fie rElsons for rrje.tion
+ to the Gram Parchayat 6rd ask the conctmed ofiicial to fumish valid documents. Thenc.forih the
+ provision to rc cxrmine the cls€s may bG anabled,
+
+ ,{

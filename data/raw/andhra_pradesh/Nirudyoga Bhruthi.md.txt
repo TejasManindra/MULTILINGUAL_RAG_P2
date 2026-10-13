@@ -1,0 +1,433 @@
+# Nirudyoga Bhruthi / Yuva Galam
+
+## 1. Scheme Name
+
+**Nirudyoga Bhruthi / Yuva Galam**
+
+Also referred to as:
+
+* **Yuva Galam Nidhi**
+* **Yuva Galam Fund**
+* **Unemployment Allowance for Youth**
+* **Nirudyoga Bhruthi**
+
+There are two distinct records that must not be merged:
+
+1. **Mukhyamantri Yuvanestham / Nirudyoga Bhruthi** — the earlier AP unemployment-allowance programme.
+2. **Yuva Galam / Yuva Galam Nidhi** — the ₹3,000/month unemployment-allowance proposal associated with the 2024 electoral programme.
+
+---
+
+## 2. Scheme Status
+
+**CURRENT_STATUS:** PROPOSED / IMPLEMENTATION NOT CONFIRMED
+**SOURCE_VERIFICATION_STATUS:** VERIFIED_PROPOSAL_WITHOUT_CURRENT_IMPLEMENTATION_GUIDELINES
+
+The **₹3,000/month Yuva Galam unemployment allowance** was announced as a proposed benefit for unemployed youth. Available reporting does not establish a Government of Andhra Pradesh scheme notification containing final eligibility rules, application procedure and payment commencement.
+
+The earlier **Mukhyamantri Yuvanestham** was a separate implemented unemployment-allowance scheme under the previous administration. Government budget documentation records that its allowance was increased from ₹1,000 to **₹2,000/month** and that 4.3 lakh beneficiaries had been sanctioned. ([Amazon Web Services, Inc.][1])
+
+Therefore, these two programmes should be **versioned separately in the RAG database**.
+
+---
+
+## 3. Objective
+
+The proposed Yuva Galam unemployment allowance is intended to provide **financial support to unemployed youth until they obtain employment**, alongside the broader objective of creating employment opportunities.
+
+The announced proposal was for:
+
+* Employment opportunities for youth
+* **₹3,000/month unemployment allowance**
+* Assistance until employment is obtained. ([The New Indian Express][2])
+
+---
+
+## 4. Target Beneficiaries
+
+The proposal targets:
+
+* **Unemployed youth**
+* Youth seeking employment in Andhra Pradesh
+
+The publicly announced proposal did not establish a sufficiently detailed final beneficiary definition.
+
+Therefore, the RAG system should **not invent**:
+
+* Exact age range
+* Educational qualification
+* Income ceiling
+* Employment-exchange registration requirement
+* Family definition
+* Number of beneficiaries per household
+
+until official implementation guidelines are available.
+
+---
+
+## 5. Benefit Proposed
+
+The publicly announced benefit is:
+
+* **₹3,000 per month**
+* Intended as an unemployment allowance
+* Proposed to continue **until the beneficiary obtains employment**. ([The New Indian Express][2])
+
+This should be stored as:
+
+```text
+PROPOSED_BENEFIT = ₹3,000/month
+```
+
+and **not**:
+
+```text
+CURRENT_DISBURSEMENT = ₹3,000/month
+```
+
+because current implementation has not been conclusively established.
+
+---
+
+## 6. Eligibility Criteria
+
+### A. Employment Status
+
+The proposal targets **unemployed youth**.
+
+However, the precise legal definition of "unemployed" has not been established through a current Government Order.
+
+### B. Age
+
+A final official age range for the proposed Yuva Galam allowance was **not verified**.
+
+Do not automatically reuse the age criteria of Mukhyamantri Yuvanestham.
+
+### C. Education
+
+The proposal refers to unemployed youth, but a final educational qualification was not established.
+
+### D. Income
+
+No final official family-income ceiling was verified.
+
+### E. Employment Exchange / Registration
+
+A current mandatory employment-registration condition was not verified.
+
+### F. Other Exclusions
+
+The following should remain **UNVERIFIED** until final guidelines are issued:
+
+* Government employee exclusion
+* Pensioner exclusion
+* Income-tax payer exclusion
+* Vehicle ownership
+* Landholding
+* Property ownership
+* Electricity consumption
+* Family income
+
+---
+
+## 7. Family Definition
+
+A final Government definition of the beneficiary's family/household was not located.
+
+Therefore:
+
+```text
+FAMILY_DEFINITION:
+NOT_VERIFIED
+```
+
+The RAG system should not apply the family definitions used by Thalliki Vandanam, Kapu Nestham or EBC Nestham.
+
+---
+
+## 8. Required Documents
+
+A final official document checklist for the proposed Yuva Galam allowance was not verified.
+
+Possible documents such as:
+
+* Aadhaar
+* Educational certificates
+* Employment registration
+* Income certificate
+* Bank account
+* Residence certificate
+
+should **not be marked mandatory** in the RAG dataset until an official implementation notification confirms them.
+
+---
+
+## 9. Application / Delivery Mechanism
+
+No verified current application process was established.
+
+The system should therefore **not claim** that applicants can currently apply through:
+
+* Grama/Ward Sachivalayam
+* Employment Exchange
+* Online portal
+* GSWS
+* Any particular mobile application
+
+unless a current Government notification confirms the procedure.
+
+### Current RAG Rule
+
+```text
+APPLICATION_STATUS:
+NOT_CONFIRMED
+
+PAYMENT_STATUS:
+NOT_CONFIRMED
+```
+
+---
+
+## 10. Implementing Department
+
+A final implementing department for the **₹3,000 Yuva Galam unemployment allowance** was not conclusively verified.
+
+The proposal involved youth employment and unemployment support, but this is insufficient to assign a department in the production RAG dataset.
+
+Therefore:
+
+```text
+IMPLEMENTING_DEPARTMENT:
+NOT_VERIFIED
+```
+
+---
+
+## 11. Verification / Selection Conditions
+
+The eligibility engine should **not be activated** for the proposed Yuva Galam allowance.
+
+If a user asks:
+
+> "Am I eligible for Yuva Galam?"
+
+the system should first check whether a current Government notification has established:
+
+```text
+age
+education
+residence
+unemployment_status
+income
+registration_status
+other_exclusions
+```
+
+If those rules are unavailable, the system should return:
+
+```text
+CURRENT_IMPLEMENTATION_RULES_NOT_CONFIRMED
+```
+
+rather than making an eligibility determination.
+
+---
+
+## 12. Historical Context — Mukhyamantri Yuvanestham
+
+The earlier **Mukhyamantri Yuvanestham** must be maintained as a separate historical scheme record.
+
+Official AP budget documentation states that:
+
+* The scheme provided unemployment allowance to educated unemployed youth.
+* It was initially **₹1,000/month**.
+* The amount was increased to **₹2,000/month**.
+* **4.3 lakh beneficiaries** had been sanctioned.
+* The scheme also sought to connect unemployed youth with entrepreneurship, skill-development and placement programmes. ([Amazon Web Services, Inc.][1])
+
+This historical scheme should **not be merged** with the proposed ₹3,000 Yuva Galam allowance.
+
+---
+
+## 13. Current-Status Interpretation
+
+### Earlier Scheme
+
+**Mukhyamantri Yuvanestham / Nirudyoga Bhruthi**
+
+```text
+STATUS:
+HISTORICAL
+```
+
+It was an implemented unemployment-allowance programme under the earlier AP administration. ([Amazon Web Services, Inc.][1])
+
+### Proposed Scheme
+
+**Yuva Galam / Yuva Galam Nidhi**
+
+```text
+PROPOSED_BENEFIT:
+₹3,000/month
+```
+
+The ₹3,000 allowance was publicly announced as part of the youth-employment programme. ([The New Indian Express][2])
+
+However, the available evidence does **not establish a current 2026 payment system with final eligibility guidelines**.
+
+### RAG interpretation
+
+> **Do not classify ₹3,000/month Yuva Galam as an active 2026 welfare payment without a current Government notification.**
+
+---
+
+## 14. Important Scheme Distinction
+
+Do not confuse:
+
+| Scheme                                    | Status                                             |                 Documented Allowance |
+| ----------------------------------------- | -------------------------------------------------- | -----------------------------------: |
+| **Mukhyamantri Yuvanestham**              | Historical                                         |          ₹2,000/month after increase |
+| **Nirudyoga Bhruthi**                     | Historical terminology associated with Yuvanestham | ₹2,000/month in later implementation |
+| **Yuva Galam / Yuva Galam Nidhi**         | Proposed                                           |                         ₹3,000/month |
+| **Employment/job recruitment programmes** | Separate programmes                                |        Not an unemployment allowance |
+
+The earlier ₹2,000 programme and proposed ₹3,000 programme must have **separate source/version records**.
+
+---
+
+## 15. RAG Retrieval Keywords
+
+```text
+Nirudyoga Bhruthi
+Nirudyoga Bruthi
+Nirudyoga Bhruthi Andhra Pradesh
+Yuva Galam
+Yuva Galam Nidhi
+Yuva Galam Fund
+Yuva Galam unemployment allowance
+Yuva Galam ₹3000
+₹3000 unemployment allowance Andhra Pradesh
+AP unemployed youth scheme
+Andhra Pradesh unemployment allowance
+unemployed youth Andhra Pradesh
+Mukhyamantri Yuvanestham
+Yuvanestham unemployment allowance
+educated unemployed youth AP
+```
+
+---
+
+## 16. Suggested Metadata
+
+```yaml
+scheme_name: Yuva Galam
+alternate_name:
+  - Yuva Galam Nidhi
+  - Yuva Galam Fund
+  - Nirudyoga Bhruthi
+
+state: Andhra Pradesh
+
+scheme_type:
+  - Proposed Welfare Scheme
+  - Youth Employment Support
+  - Unemployment Allowance
+
+target_category:
+  - Unemployed Youth
+
+proposed_benefit_amount: 3000
+proposed_benefit_frequency: Monthly
+
+implementation_status:
+  Proposed
+  Implementation_Not_Confirmed
+
+final_guidelines_verified: false
+current_payment_verified: false
+eligibility_engine_enabled: false
+
+historical_related_scheme:
+  - Mukhyamantri Yuvanestham
+```
+
+---
+
+## 17. Source References
+
+### Government / Official Sources
+
+* **Government of Andhra Pradesh budget documentation:** records the earlier Mukhyamantri Yuvanestham/Nirudyoga Bhruthi programme, its increase from ₹1,000 to ₹2,000/month and 4.3 lakh sanctioned beneficiaries. ([Amazon Web Services, Inc.][1])
+
+### Proposal / Public Announcement Sources
+
+* **The New Indian Express, May 2023:** reports the announced ₹3,000/month unemployment allowance under Yuva Galam and the proposal to provide employment to youth. ([The New Indian Express][2])
+* **India Today, May 2023:** reports the proposed ₹3,000/month allowance for unemployed youth under Yuva Galam. ([India Today][3])
+* **Hindustan Times:** reports the announced ₹3,000/month Yuva Galam fund for jobless youth. ([Hindustan Times][4])
+
+The proposal sources establish the announced amount, but **do not substitute for a Government Order establishing current eligibility and payment rules**.
+
+---
+
+## 18. RAG Readiness
+
+```text
+RAG_STATUS:
+READY_AS_PROPOSED_SCHEME_RECORD
+
+ELIGIBILITY_ENGINE_STATUS:
+DISABLED_PENDING_FINAL_GUIDELINES
+
+CURRENT_STATUS:
+PROPOSED / IMPLEMENTATION_NOT_CONFIRMED
+
+SOURCE_VERIFICATION_STATUS:
+VERIFIED_PROPOSAL
+CURRENT_IMPLEMENTATION_NOT_VERIFIED
+```
+
+### Eligibility Engine
+
+**Do NOT enable the deterministic eligibility engine.**
+
+Use:
+
+```text
+IF scheme_version == YUVA_GALAM_3000
+    AND final_government_guidelines == unavailable
+THEN
+    return IMPLEMENTATION_RULES_NOT_CONFIRMED
+```
+
+The historical Yuvanestham rules must remain in a **separate historical rule set**.
+
+---
+
+## 19. Final RAG Classification
+
+**Yuva Galam / Nirudyoga Bhruthi should be retained in the AP RAG dataset, but as a proposed/unconfirmed current scheme record. The earlier Mukhyamantri Yuvanestham unemployment allowance must be stored separately as a historical scheme.**
+
+| Field                         | Value                                       |
+| ----------------------------- | ------------------------------------------- |
+| **Scheme**                    | Yuva Galam / Nirudyoga Bhruthi              |
+| **State**                     | Andhra Pradesh                              |
+| **Target User**               | Unemployed youth                            |
+| **Proposed Benefit**          | ₹3,000/month                                |
+| **Proposed Annual Value**     | ₹36,000                                     |
+| **Final Eligibility Rules**   | **Not verified**                            |
+| **Application Process**       | **Not verified**                            |
+| **Payment Start**             | **Not confirmed**                           |
+| **2026 Active Payment**       | **Not confirmed**                           |
+| **Historical Related Scheme** | Mukhyamantri Yuvanestham                    |
+| **Eligibility Engine**        | **DISABLED**                                |
+| **RAG**                       | **READY_AS_PROPOSED_RECORD**                |
+| **Current Status**            | **PROPOSED / IMPLEMENTATION NOT CONFIRMED** |
+| **Overall Record**            | **READY_WITH_STATUS_WARNING**               |
+
+**Key RAG rule:** Never answer that an unemployed youth is currently entitled to **₹3,000/month** merely from the announced Yuva Galam proposal. The ₹3,000 figure is a **proposed benefit**, while the earlier ₹2,000 Mukhyamantri Yuvanestham programme is a separate historical scheme. ([Amazon Web Services, Inc.][1])
+
+[1]: https://s3.ap-south-1.amazonaws.com/apfinance.gov.in/uploads/Previous/speech_english.pdf?utm_source=chatgpt.com "production increased by 50% to 138.25 lakh MTs, meat production by 45% to 7.08 lakh MTs, egg production by 36% to 1,778 crore. The state emerged as the fastest growing with an average sectoral growth rate of 33.5%. Our Government enabled the state to emerge as 1st in total fish production and value."
+[2]: https://www.newindianexpress.com/states/telangana/2023/May/29/chandrababu-naidu-sounds-poll-bugle-in-ap-promises-schemes-for-women-unemployed-youth-2579675.html?utm_source=chatgpt.com "Chandrababu Naidu sounds poll bugle in AP, promises schemes for women, unemployed youth"
+[3]: https://www.indiatoday.in/amp/india/andhra-pradesh/story/chandrababu-naidu-tables-poll-promises-andhra-pradesh-election-2024-2385923-2023-05-29?utm_source=chatgpt.com "Poll bugle sounded in Andhra Pradesh, Chandrababu Naidu promises schemes for women, unemployed - India Today"
+[4]: https://www.hindustantimes.com/india-news/tdp-chief-naidu-unveils-mini-election-manifesto-with-seven-promises-to-attract-voters-ahead-of-andhra-pradesh-assembly-elections-101685387269655.html?utm_source=chatgpt.com "7-point manifesto: TDP chief promises free bus ride, 3 gas cylinders to women | India News"

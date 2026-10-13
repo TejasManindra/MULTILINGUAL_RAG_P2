@@ -1,0 +1,810 @@
+# YSR Bima Scheme
+
+## 1. Basic Information
+
+Scheme ID: AP_YSR_BIMA
+
+Official Scheme Name:
+YSR Bima Scheme
+
+Historical / Related Name:
+Chandranna Bima
+
+State:
+Andhra Pradesh
+
+Government:
+Government of Andhra Pradesh
+
+Department:
+Labour Department
+
+Implementing Authority:
+Labour Department / Society for Elimination of Rural Poverty (SERP)
+and associated insurance administration
+
+Category:
+Social Security / Life & Accident Insurance
+
+Subcategory:
+Death and Disability Insurance for Eligible Workers / Families
+
+Scheme Type:
+Government-funded insurance / relief scheme
+
+Current Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Important Naming Note:
+The official Andhra Pradesh Bima portal currently uses the name
+"YSR Bima".
+
+Chandranna Bima refers to the earlier Andhra Pradesh unorganised
+worker insurance programme and its 2016-2018/PMJJBY-convergence
+versions.
+
+Do not create two separate current schemes unless the source data
+requires historical scheme tracking.
+
+
+## 2. Scheme Overview
+
+YSR Bima is an Andhra Pradesh Government social-security scheme
+intended to provide financial relief to eligible families following
+the death or disability of a primary bread earner.
+
+The scheme was introduced after the Government of India withdrew
+from the earlier converged insurance arrangement from 01 April 2020.
+
+The Government of Andhra Pradesh subsequently modified and continued
+the programme as YSR Bima.
+
+The official Andhra Pradesh Bima portal states that 100% of the
+premium for the YSR Bima scheme is borne by the State Government.
+
+The primary objectives are:
+
+- Provide financial relief after accidental death.
+- Provide relief after total or qualifying disability.
+- Provide relief after natural death where applicable.
+- Reduce the financial shock caused by loss of the primary bread
+  earner.
+- Provide associated scholarship support where applicable.
+
+
+## 3. Target Beneficiaries
+
+The current YSR Bima scheme is designed around:
+
+- Primary bread earners
+- Eligible BPL families
+- Eligible beneficiaries identified through the Andhra Pradesh
+  government beneficiary/database system
+
+The official YSR Bima portal states that primary bread earners
+belonging to BPL families in Andhra Pradesh are eligible.
+
+The 2020 Government Order defines a YSR Bima beneficiary as the
+primary bread earner of a BPL family.
+
+
+## 4. Eligibility Criteria
+
+### Primary Bread Earner
+
+The beneficiary is the primary bread earner of the eligible family.
+
+The 2020 Government Order specifically defines the YSR Bima
+beneficiary in this manner.
+
+
+### BPL Status
+
+The scheme applies to eligible BPL families.
+
+Government beneficiary databases/Rice Card information are used for
+identification under the applicable implementation process.
+
+
+### Age
+
+The current official YSR Bima scheme page states:
+
+18 to 70 years.
+
+Therefore:
+
+Minimum age:
+18 years
+
+Maximum age:
+70 years
+
+
+### Occupation
+
+The official YSR Bima portal describes the programme in the context
+of eligible unorganised workers.
+
+The older unorganised-worker framework explicitly covered workers
+registered under the applicable unorganised-worker/social-security
+system.
+
+Do not assume that every person earning an income automatically
+qualifies.
+
+
+### Income / Wage
+
+Historical/current Bima portal material states that eligible
+unorganised workers may have monthly wages of ₹15,000 or less.
+
+However, because the current YSR Bima framework is based on the
+modified BPL-family scheme, this should be stored with source/version
+metadata rather than treated as an independently sufficient
+eligibility test.
+
+Recommended RAG field:
+
+monthly_wage_limit:
+₹15,000 or less in the applicable unorganised-worker eligibility
+material.
+
+Primary current eligibility:
+BPL / eligible government beneficiary status.
+
+
+### Residence
+
+The scheme extends throughout Andhra Pradesh.
+
+Beneficiary must belong to the Andhra Pradesh eligible beneficiary
+system.
+
+
+### Gender
+
+No general gender restriction is specified for the primary
+bread-earner beneficiary.
+
+Both male and female primary bread earners may be covered where the
+scheme conditions are satisfied.
+
+
+### Education
+
+No education requirement for the insured primary bread earner.
+
+
+### Land
+
+No landholding condition was identified as a universal YSR Bima
+eligibility requirement.
+
+
+### Social Category
+
+No universal caste-specific eligibility condition identified.
+
+Eligibility is primarily linked to BPL/beneficiary status and the
+applicable worker/family criteria.
+
+
+## 5. Exclusions / Non-Eligibility
+
+Potential non-eligibility conditions include:
+
+- Person outside the applicable age range.
+- Person who is not an eligible beneficiary/primary bread earner.
+- Family not satisfying the applicable BPL/beneficiary criteria.
+- Person outside the applicable unorganised-worker framework where
+  that condition is required.
+- Claims that do not satisfy the applicable insurance/event rules.
+
+### Important
+
+Do not automatically apply Chandranna Bima's historical rules to the
+current YSR Bima scheme.
+
+Do not treat every historical PMJJBY/PMSBY/AABY rule as a current
+YSR Bima rule.
+
+The insurance component and age-specific benefit must be evaluated
+against the applicable scheme version.
+
+
+## 6. Benefits
+
+### Current YSR Bima Portal Benefit Structure
+
+The official Andhra Pradesh Bima portal currently states:
+
+#### Accidental Death / Total Disability
+
+Age 18–50:
+₹5,00,000
+
+Age 51–70:
+₹3,00,000
+
+
+#### Natural Death
+
+Age 18–50:
+₹2,00,000
+
+The currently displayed YSR Bima scheme page does not present the
+same natural-death benefit for the 51–70 group.
+
+Therefore:
+
+Natural death, age 51–70:
+NOT TO BE ASSUMED WITHOUT CURRENT SOURCE CONFIRMATION.
+
+
+### Historical / Earlier YSR Bima Material
+
+Another official Labour Department page describes an earlier
+converged structure in which:
+
+- 18–59:
+  ₹5 lakh accidental death/total disability
+  and up to ₹3.625 lakh partial disability
+- 60–70:
+  ₹4.25 lakh accidental death/total disability
+  and up to ₹3.25 lakh partial disability
+- Natural death:
+  ₹30,000 under AABY
+- Scholarship:
+  ₹1,200 per child for up to two children
+
+These figures belong to a different/versioned scheme structure and
+must not overwrite the current YSR Bima portal's benefit values.
+
+
+### Scholarship
+
+The official Bima material identifies scholarship assistance for
+children of eligible beneficiaries.
+
+Historical structure:
+₹1,200 per year per child,
+up to two children,
+for children studying in:
+
+- 9th class
+- 10th class
+- Intermediate
+- ITI
+
+Current scholarship eligibility should be verified against the
+applicable current Bima rules before being used as a deterministic
+2026 rule.
+
+
+## 7. Required Documents / Data
+
+Typical claim/beneficiary processing requires information such as:
+
+- Beneficiary identification
+- BPL / Rice Card information
+- Aadhaar/beneficiary database information
+- Death certificate for death claims
+- FIR / police documentation for qualifying accidental deaths
+- Inquest report where applicable
+- Medical/disability documentation for disability claims
+- Bank account information
+- Nominee/family information
+
+The exact documents depend on the type of claim.
+
+### Accidental Death
+
+May require:
+
+- Death certificate
+- FIR
+- Inquest / post-mortem documentation where applicable
+- Other police/medical evidence required by the claim process
+
+### Disability
+
+Requires appropriate medical/disability certification according to
+the applicable scheme/insurance rules.
+
+
+## 8. Application / Claim Process
+
+YSR Bima is primarily an enrolment-and-claim based social-security
+scheme.
+
+### Beneficiary Enrolment
+
+Eligible beneficiaries are identified/registered through the
+government's beneficiary and worker-registration systems.
+
+The Labour Department, SERP and associated local administration
+participate in implementation.
+
+### Death Claim
+
+Typical process:
+
+1. Death is reported.
+2. Death certificate is obtained.
+3. Where accidental death is involved, police documents are obtained.
+4. Claim documents are uploaded/processed through the Bima system.
+5. Insurance/claim authority verifies the claim.
+6. Eligible benefit is released to the nominee/family.
+
+
+### Disability Claim
+
+1. Disability event is reported.
+2. Medical/disability documentation is obtained.
+3. Claim is registered.
+4. Documents are verified.
+5. Applicable benefit is sanctioned.
+6. Amount is released to the eligible beneficiary.
+
+
+### Funeral Assistance
+
+Historical/current implementation material refers to funeral-expense
+support in applicable claim processing.
+
+The exact amount and payment timeline should be versioned and should
+not be hard-coded without the applicable current order.
+
+
+## 9. Important Dates
+
+Original AP unorganised-worker insurance scheme:
+02 October 2016
+
+Chandranna Bima:
+2017 onward under the then government framework.
+
+YSR Bima launch:
+21 October 2020
+
+Important policy change:
+Government of India withdrew from the earlier converged arrangement
+from 01 April 2020.
+
+YSR Bima subsequently continued as a state-funded Andhra Pradesh
+scheme.
+
+Current status:
+ACTIVE_CURRENT
+
+
+## 10. Selection / Verification / Approval
+
+### Beneficiary Verification
+
+Eligibility is determined through:
+
+- Government beneficiary database
+- BPL/Rice Card information
+- Applicable worker registration
+- Age
+- Primary-bread-earner status
+- Other applicable scheme conditions
+
+### Claim Verification
+
+Claims are verified through multiple agencies.
+
+The official Bima monitoring system shows involvement from:
+
+- Panchayat Raj Department
+- Municipal Administration
+- Police Department
+- Life Insurance Corporation of India
+- Oriental Insurance Company
+- SERP
+
+### Accident Claims
+
+Police documentation such as FIR and inquest records is integrated
+into the claim-verification process.
+
+### Insurance Processing
+
+After required documentation is uploaded and verified, the claim is
+processed by the applicable insurance/administrative authority.
+
+
+## 11. Implementing Authority
+
+Government:
+Government of Andhra Pradesh
+
+Administrative Department:
+Labour Department
+
+Implementation support:
+Society for Elimination of Rural Poverty (SERP)
+
+Other participating institutions can include:
+
+- Panchayat Raj Department
+- Municipal Administration Department
+- Police Department
+- Insurance companies
+- Local government/field administration
+
+
+## 12. Related / Historical Programs
+
+### Chandranna Bima
+
+Historical predecessor/version of the Andhra Pradesh unorganised
+worker insurance programme.
+
+The scheme was associated with convergence of:
+
+- PMJJBY
+- PMSBY
+- AABY
+- State accident/death/disability insurance
+
+Do not use Chandranna Bima benefit values as automatic current
+YSR Bima values.
+
+
+### PMJJBY
+
+Pradhan Mantri Jeevan Jyoti Bima Yojana is a Central Government
+insurance scheme.
+
+It was part of earlier convergence arrangements.
+
+Current PMJJBY eligibility and benefits are governed separately by
+the Government of India.
+
+
+### PMSBY
+
+Pradhan Mantri Suraksha Bima Yojana is a Central Government
+accident-insurance scheme.
+
+It was part of earlier YSR Bima/Chandranna Bima convergence
+structures.
+
+Do not merge current PMSBY eligibility with current YSR Bima
+eligibility.
+
+
+### AABY
+
+Aam Aadmi Bima Yojana formed part of earlier converged insurance
+structures.
+
+Its historical benefit amounts should not be represented as the
+current YSR Bima benefit unless a current government source confirms
+the continuation.
+
+
+## 13. Official Websites and Portals
+
+### Andhra Pradesh YSR Bima Portal
+
+Official:
+https://bima.ap.gov.in/
+
+Scheme information:
+https://bima.ap.gov.in/About_Scheme_New.aspx
+
+Eligibility information:
+https://www.bima.ap.gov.in/Eligibility.aspx
+
+About / Labour Department information:
+https://bima.ap.gov.in/About.aspx
+
+
+### Labour Department
+
+Government of Andhra Pradesh
+
+The YSR Bima portal is operated within the Andhra Pradesh Labour
+Department ecosystem.
+
+
+## 14. Official Source Documents
+
+### Source 1
+
+Government of Andhra Pradesh
+
+G.O.Ms.No.5,
+Labour, Factories & Boilers / Insurance & related Department
+dated 28.08.2020.
+
+YSR Bima Scheme Government Order.
+
+Supported facts:
+
+- YSR Bima scheme name
+- State-wide applicability
+- BPL-family basis
+- Primary bread-earner definition
+- Scheme framework
+- Family definition
+- Insurance structure
+
+
+### Source 2
+
+Official Andhra Pradesh YSR Bima Portal
+
+"About Scheme"
+
+Supported facts:
+
+- State-funded YSR Bima
+- 100% premium borne by Government of Andhra Pradesh
+- Primary bread-earner objective
+- 18–70 eligibility
+- Current displayed benefit amounts
+- Scheme launch date
+- 2020 modification after Central convergence withdrawal
+
+
+### Source 3
+
+Official Andhra Pradesh Labour Department Bima portal
+
+"Eligibility"
+
+Supported facts:
+
+- 18–70 registration range
+- Historical/current unorganised-worker framework
+- Age-specific benefit structure
+- Partial-disability benefits
+- Natural-death benefits
+- Scholarship provision
+
+
+### Source 4
+
+Current Andhra Pradesh district government pages
+
+These continue to describe YSR Bima/Chandranna Bima-related
+implementation and provide evidence of continued administrative
+processing.
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Evidence:
+
+- The official Andhra Pradesh Bima portal remains operational.
+- The portal currently identifies the scheme as YSR Bima.
+- Current scheme information describes state-funded YSR Bima.
+- The Bima portal continues to expose claim-monitoring,
+  insurance-company and departmental processing data.
+- Andhra Pradesh district government pages continue to reference
+  YSR Bima/related Bima administration.
+
+### Current-vs-Historical Warning
+
+The portal contains multiple generations of scheme information.
+
+Therefore the RAG must store:
+
+CURRENT:
+YSR Bima state-funded framework.
+
+HISTORICAL:
+Chandranna Bima / earlier PMJJBY-PMSBY-AABY convergence framework.
+
+Do not combine their benefit tables.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- YSR Bima is an Andhra Pradesh Government social-security scheme.
+- Official portal currently uses the name YSR Bima.
+- Scheme is administered through the Labour Department ecosystem.
+- Scheme targets eligible primary bread earners/BPL families.
+- Current portal states 18–70 age eligibility.
+- State Government bears 100% of the premium under the current
+  YSR Bima description.
+- Current portal displays ₹5 lakh accidental death/total disability
+  relief for ages 18–50.
+- Current portal displays ₹3 lakh accidental death/total disability
+  relief for ages 51–70.
+- Current portal displays ₹2 lakh natural-death relief for ages
+  18–50.
+
+
+### HISTORICAL / VERSIONED
+
+- Chandranna Bima.
+- PMJJBY/PMSBY/AABY convergence.
+- Historical ₹5 lakh / ₹4.25 lakh disability structures.
+- Historical ₹30,000 natural-death benefit.
+- Historical ₹1,200 scholarship structure.
+- Historical ₹15,000 monthly-wage eligibility rule.
+
+
+### DO NOT HARD-CODE WITHOUT VERSION CHECK
+
+- Natural-death benefit for age 51–70.
+- Current partial-disability amount.
+- Current scholarship amount/eligibility.
+- Current funeral-expense amount.
+- Exact current monthly-wage ceiling.
+- Exact current beneficiary-registration workflow.
+
+
+## 17. Notes and Limitations
+
+1. YSR Bima and Chandranna Bima must be represented as
+   versioned scheme identities.
+
+2. The current official portal is the preferred source for current
+   YSR Bima benefit values.
+
+3. Historical district pages frequently still use "Chandranna Bima"
+   terminology.
+
+4. Do not combine the historical Chandranna Bima table with the
+   current YSR Bima table.
+
+5. PMJJBY, PMSBY and AABY were part of earlier convergence
+   arrangements.
+
+6. Current Central Government insurance rules must not automatically
+   be treated as current YSR Bima rules.
+
+7. The scheme is intended to protect the primary bread earner/family,
+   not to provide a universal insurance benefit to every resident.
+
+8. Claim eligibility depends on the cause of death/disability and
+   applicable insurance rules.
+
+9. The current official portal displays age-specific benefits.
+
+10. The exact claim-document list should be treated as
+    event-specific.
+
+11. Death claims and disability claims have different documentary
+    requirements.
+
+12. Current claim-processing statistics on the Bima portal demonstrate
+    ongoing administrative activity but should not be interpreted as
+    eligibility rules.
+
+
+## 18. Structured Eligibility Data
+
+scheme_id:
+AP_YSR_BIMA
+
+current_status:
+ACTIVE_CURRENT
+
+historical_name:
+Chandranna Bima
+
+beneficiary_type:
+Primary bread earner of eligible BPL family
+
+age_min:
+18
+
+age_max:
+70
+
+bpl_required:
+YES
+
+primary_bread_earner:
+YES
+
+residence:
+Andhra Pradesh
+
+gender:
+No general restriction specified.
+
+income_limit:
+VERSION_DEPENDENT / NOT_SAFE_TO_HARD_CODE
+
+historical_wage_limit:
+₹15,000/month or less in applicable unorganised-worker material.
+
+occupation:
+Applicable unorganised-worker framework.
+
+education:
+None for insured beneficiary.
+
+land_requirement:
+None identified.
+
+social_category:
+No universal restriction identified.
+
+current_accidental_death_18_50:
+₹5,00,000
+
+current_accidental_death_51_70:
+₹3,00,000
+
+current_total_disability_18_50:
+₹5,00,000
+
+current_total_disability_51_70:
+₹3,00,000
+
+current_natural_death_18_50:
+₹2,00,000
+
+current_natural_death_51_70:
+NOT_CONFIRMED
+
+partial_disability:
+VERSION_DEPENDENT
+
+scholarship:
+VERSION_DEPENDENT
+
+premium:
+100% borne by Government of Andhra Pradesh.
+
+claim_type:
+Death / accidental death / disability.
+
+application_method:
+Government beneficiary registration + claim processing.
+
+official_portal:
+https://bima.ap.gov.in/
+
+implementing_department:
+Labour Department, Government of Andhra Pradesh.
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source | Status |
+|---|---|---|
+| Current scheme name YSR Bima | AP official Bima portal | VERIFIED_CURRENT |
+| State-funded scheme | AP official Bima portal | VERIFIED_CURRENT |
+| 100% premium borne by AP Government | AP official Bima portal | VERIFIED_CURRENT |
+| Primary bread-earner objective | AP official Bima portal | VERIFIED_CURRENT |
+| BPL family basis | 2020 AP Government Order | VERIFIED_CURRENT |
+| Primary bread-earner definition | 2020 AP Government Order | VERIFIED_CURRENT |
+| 18–70 eligibility | Current YSR Bima portal | VERIFIED_CURRENT |
+| ₹5 lakh accidental death/total disability, 18–50 | Current YSR Bima portal | VERIFIED_CURRENT |
+| ₹3 lakh accidental death/total disability, 51–70 | Current YSR Bima portal | VERIFIED_CURRENT |
+| ₹2 lakh natural death, 18–50 | Current YSR Bima portal | VERIFIED_CURRENT |
+| YSR Bima launch 21.10.2020 | Current YSR Bima portal | VERIFIED_CURRENT/HISTORICAL |
+| Central convergence withdrawal from 01.04.2020 | Current YSR Bima portal | HISTORICAL |
+| Chandranna Bima | AP district government / older Bima material | HISTORICAL |
+| PMJJBY/PMSBY/AABY convergence | Older AP Bima material | HISTORICAL |
+| ₹15,000 wage criterion | Older/current Bima eligibility material | VERSION_DEPENDENT |
+| ₹3.625 lakh partial disability | Older Bima portal | HISTORICAL/VERSIONED |
+| ₹30,000 natural death | Older Bima portal | HISTORICAL/VERSIONED |
+| ₹1,200 scholarship | Older Bima portal | HISTORICAL/VERSIONED |
+| Current claim monitoring | Official AP Bima portal | VERIFIED_CURRENT |
+| Current insurance-company processing | Official AP Bima portal | VERIFIED_CURRENT |
+| Current natural-death 51–70 amount | No sufficiently clear current source | NOT_CONFIRMED |
+| Current partial-disability amount | Conflicting/versioned sources | NOT_SAFE_TO_HARD_CODE |
+| Current scholarship rules | Versioned sources | NOT_SAFE_TO_HARD_CODE |

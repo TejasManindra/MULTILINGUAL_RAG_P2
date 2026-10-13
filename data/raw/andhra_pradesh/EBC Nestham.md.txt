@@ -1,0 +1,377 @@
+Scheme Status: HISTORICAL_CURRENT_CONTINUATION_UNCONFIRMED
+
+EBC Nestham
+
+## 1. Scheme Name
+
+**EBC Nestham**
+
+---
+
+## 2. Scheme Status
+
+**CURRENT_STATUS:** HISTORICAL / CURRENT-CONTINUATION NOT CONFIRMED
+**SOURCE_VERIFICATION_STATUS:** VERIFIED_SCHEME_RULES_WITH_CURRENT-CYCLE_CAVEAT
+
+The Government of Andhra Pradesh district BC Corporation pages currently continue to list EBC Nestham and its documented scheme details. However, the available official material reviewed does **not establish a fresh 2026-27 payment cycle or revised 2026 rules**. Therefore, the scheme should not be represented as a confirmed active 2026-27 benefit without a current Government Order or implementation notification. ([Kakinada District][1])
+
+---
+
+## 3. Objective
+
+The objective of EBC Nestham is to **financially empower women belonging to Economically Backward Classes (EBC)** by providing financial assistance for their livelihood and economic development.
+
+The scheme was introduced through **G.O.Ms.No.2, BC Welfare (C) Department, dated 20-04-2021**. ([Kakinada District][1])
+
+---
+
+## 4. Target Beneficiaries
+
+The documented scheme targets:
+
+* **EBC women**
+* Age **45 years and above and below 60 years**
+* EBC communities other than:
+
+  * SC
+  * ST
+  * BC
+  * Kapu
+  * Minority communities
+
+The AP district BC Corporation documentation explicitly describes the beneficiary group as EBC communities other than these categories. ([Kakinada District][1])
+
+---
+
+## 5. Benefit Provided
+
+The documented benefit is:
+
+* **₹15,000 per year**
+* For **3 years**
+* Total assistance: **₹45,000**
+
+The benefit is intended for the livelihood and economic empowerment of eligible EBC women. ([Kakinada District][1])
+
+---
+
+## 6. Eligibility Criteria
+
+### A. Community
+
+The beneficiary must belong to an eligible **EBC community**.
+
+The documented EBC category excludes:
+
+* SC
+* ST
+* BC
+* Kapu
+* Minority communities. ([Kakinada District][1])
+
+### B. Gender
+
+The scheme is for **women beneficiaries**. ([Kakinada District][1])
+
+### C. Age
+
+The beneficiary must:
+
+* Have completed **45 years**
+* Be **below 60 years**
+
+The age condition is documented with reference to the date specified for the scheme's Government Order. ([Kakinada District][1])
+
+### D. Family Definition
+
+The scheme identifies the family as:
+
+* Father
+* Mother
+* Dependent children. ([Konaseema][2])
+
+### E. Family Income
+
+Total family income should be:
+
+* **Less than ₹10,000 per month in rural areas**
+* **Less than ₹12,000 per month in urban areas**. ([Kakinada District][1])
+
+### F. Landholding
+
+Total family landholding should be:
+
+* Less than **3 acres wet land**, or
+* Less than **10 acres dry land**, or
+* Within the documented combined **10-acre** limit. ([Kakinada District][1])
+
+### G. Government Employee / Pensioner
+
+* No family member should be a Government employee.
+* No family member should be a Government pensioner.
+* **Families of sanitary employees are exempted** under the documented criteria. ([Kakinada District][1])
+
+### H. Four-Wheeler
+
+The family should not own a four-wheeler.
+
+The documented exemptions include:
+
+* Taxi
+* Tractor
+* Auto. ([Kakinada District][1])
+
+### I. Income Tax
+
+* No family member should be an **income-tax payee**. ([Kakinada District][1])
+
+### J. Municipal Property
+
+In municipal areas, the documented criterion is:
+
+* No property, or
+* Built-up area **less than 1,000 sq. ft.** for residential/commercial property. ([Kakinada District][1])
+
+---
+
+## 7. Required Documents
+
+The official district BC Corporation documentation identifies:
+
+1. **Integrated Caste Certificate**
+
+   * Caste
+   * Date of Birth
+   * Nativity
+
+2. **Birth Certificate / X Class Marks Sheet**
+
+3. **Voter ID Card**
+
+The available official material does not establish a complete current 2026 document checklist, so additional documents should not be hard-coded into the RAG dataset without further verification. ([Kakinada District][1])
+
+---
+
+## 8. Application / Delivery Mechanism
+
+The available official sources establish the scheme's eligibility and implementation framework but do **not provide a sufficiently current 2026 application workflow**.
+
+Therefore, the RAG system should not claim a specific 2026 application process unless a current Government notification confirms it.
+
+For historical implementation, the scheme was delivered through the State's welfare administration/secretariat system.
+
+---
+
+## 9. Implementing Department
+
+The scheme comes under the **Backward Classes Welfare Department / BC Corporation framework of the Government of Andhra Pradesh**.
+
+Current AP district BC Corporation pages continue to list EBC Nestham among the State Government schemes implemented by the BC Corporation. ([Kakinada District][1])
+
+---
+
+## 10. Verification / Selection Conditions
+
+The documented eligibility verification includes:
+
+* EBC/community status
+* Gender
+* Age
+* Family income
+* Family landholding
+* Government employee/pensioner status
+* Four-wheeler ownership
+* Income-tax status
+* Municipal property
+
+These should be treated as **deterministic eligibility attributes**, rather than allowing the LLM to independently decide eligibility.
+
+---
+
+## 11. Historical Implementation
+
+The official Konaseema District BC Corporation records **EBC Nestham achievements for 2021-22**.
+
+For Konaseema district:
+
+* **11,053 beneficiaries**
+* **₹1,657.95 lakh** recorded assistance. ([Konaseema][2])
+
+Kakinada District records for 2021-22 show:
+
+* **7,702 beneficiaries**
+* **₹1,155.3 lakh** assistance. ([Kakinada District][1])
+
+These are historical implementation figures and should not be interpreted as 2026 beneficiary counts.
+
+---
+
+## 12. Important Scheme Distinction
+
+EBC Nestham should be kept separate from:
+
+* Kapu Nestham
+* Jagananna Chedodu
+* YSR Cheyutha
+* NTR Bharosa Pension Scheme
+* Post-Matric Scholarships
+* Other BC/EBC welfare schemes
+
+In particular, **EBC Nestham and Kapu Nestham have similar age and economic filters but are separate schemes with different beneficiary categories and different scheme orders**.
+
+---
+
+## 13. Current-Status Interpretation
+
+There are two separate facts that should be represented in the RAG database:
+
+### Scheme documentation
+
+Current AP district government pages continue to publish EBC Nestham's scheme description, eligibility criteria and historical achievements. The Konaseema district page was updated **September 25, 2026**. ([Konaseema][2])
+
+### Current payment cycle
+
+The sources reviewed do **not establish a new 2026-27 payment cycle** or a revised current benefit amount through a 2026 Government Order.
+
+Therefore:
+
+> The documented scheme benefit is **₹15,000 per year for three years**, but the system should not automatically state that a new ₹15,000 payment is available in 2026-27.
+
+---
+
+## 14. RAG Retrieval Keywords
+
+```text
+EBC Nestham
+EBC Nestham Andhra Pradesh
+EBC women scheme
+EBC women financial assistance
+Economically Backward Classes women
+EBC Nestham eligibility
+EBC Nestham ₹15000
+EBC Nestham age
+EBC Nestham income
+EBC Nestham land eligibility
+EBC Nestham four wheeler
+EBC Nestham government employee
+EBC Nestham 2021
+EBC Nestham BC Welfare
+EBC Nestham Andhra Pradesh government
+```
+
+---
+
+## 15. Suggested Metadata
+
+```yaml
+scheme_name: EBC Nestham
+state: Andhra Pradesh
+department: Backward Classes Welfare Department
+beneficiary_category:
+  - EBC
+excluded_categories:
+  - SC
+  - ST
+  - BC
+  - Kapu
+  - Minority
+gender: Female
+age_min: 45
+age_max_exclusive: 60
+benefit_amount: 15000
+benefit_frequency: Annual
+benefit_duration_years: 3
+total_documented_benefit: 45000
+```
+
+---
+
+## 16. Eligibility Engine
+
+The deterministic eligibility engine can evaluate the documented rules:
+
+```text
+eligible_EBC_category
+AND female
+AND age >= 45
+AND age < 60
+AND rural_or_urban_income_limit_satisfied
+AND landholding_limit_satisfied
+AND no_disqualifying_government_employee_or_pensioner
+AND no_disqualifying_four_wheeler
+AND no_income_tax_payer
+AND municipal_property_limit_satisfied
+```
+
+### Important
+
+The engine should separately store:
+
+```text
+SCHEME_RULE_ELIGIBILITY
+```
+
+and
+
+```text
+CURRENT_PAYMENT_CYCLE_STATUS
+```
+
+because the scheme rules are documented, while a fresh 2026-27 payment cycle was not conclusively established.
+
+---
+
+## 17. Source References
+
+### Primary Government Sources
+
+* **Kakinada District, Government of Andhra Pradesh — BC Corporation**: EBC Nestham objective, benefit, eligibility and 2021-22 implementation data. ([Kakinada District][1])
+* **Dr. B. R. Ambedkar Konaseema District, Government of Andhra Pradesh — BC Corporation**: EBC Nestham scheme details and district-level 2021-22 achievements. ([Konaseema][2])
+* **Prakasam District, Government of Andhra Pradesh**: EBC Nestham programme inauguration documentation, April 2023. ([Prakasam District][3])
+
+---
+
+## 18. RAG Readiness
+
+```text
+RAG_STATUS:
+READY_WITH_CURRENT-CYCLE_CAVEAT
+
+ELIGIBILITY_ENGINE_STATUS:
+READY_FOR_DOCUMENTED_RULES
+
+CURRENT_STATUS:
+HISTORICAL_CURRENT-SERVICE_DOCUMENTATION
+CURRENT_2026-27_PAYMENT_NOT_CONFIRMED
+
+SOURCE_VERIFICATION_STATUS:
+VERIFIED_SCHEME_RULES_WITH_CURRENT-CYCLE_CAVEAT
+```
+
+---
+
+## 19. Final RAG Classification
+
+**EBC Nestham should be retained in the AP RAG dataset as a verified scheme record, with its documented 2021 scheme rules preserved and the 2026-27 payment status explicitly marked as unconfirmed.**
+
+| Field                            | Value                               |
+| -------------------------------- | ----------------------------------- |
+| **Scheme**                       | EBC Nestham                         |
+| **State**                        | Andhra Pradesh                      |
+| **Target User**                  | Eligible EBC women                  |
+| **Age**                          | 45 to below 60                      |
+| **Documented Benefit**           | ₹15,000/year                        |
+| **Documented Duration**          | 3 years                             |
+| **Documented Total**             | ₹45,000                             |
+| **Scheme GO**                    | G.O.Ms.No.2, BCW(C), 20-04-2021     |
+| **Eligibility Engine**           | **READY for documented rules**      |
+| **RAG**                          | **READY with current-cycle caveat** |
+| **2026-27 payment confirmation** | **NOT conclusively verified**       |
+| **Historical implementation**    | **Verified**                        |
+| **Overall Record**               | **READY_AFTER_STATUS_VERSIONING**   |
+
+**Key RAG rule:** Answer the documented scheme benefit as **₹15,000 annually for three years**, while clearly distinguishing this from whether a beneficiary can receive a **new payment during the 2026-27 cycle**. ([Kakinada District][1])
+
+[1]: https://kakinada.ap.gov.in/departments/bc-corporation/?utm_source=chatgpt.com "BC CORPORATION | Kakinada District | India"
+[2]: https://konaseema.ap.gov.in/bc-corporation/?utm_source=chatgpt.com "BC CORPORATION | Dr. B. R. Ambedkar Konaseema District | India"
+[3]: https://prakasam.ap.gov.in/inauguration-of-ebc-nestham-program-of-markapur-by-honourable-chief-minister-on-12-04-2023/?utm_source=chatgpt.com "Inauguration of EBC Nestham Program at Markapur by Honourable Chief Minister on 12/04/2023 | Prakasam District , Government of Andhra Pradesh | India"

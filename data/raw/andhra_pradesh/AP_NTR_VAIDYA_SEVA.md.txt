@@ -1,0 +1,838 @@
+# Dr. NTR Vaidya Seva Scheme
+
+## 1. Basic Information
+
+Scheme ID: AP_NTR_VAIDYA_SEVA
+
+Official Scheme Name:
+Dr. Nandamuri Taraka Rama Rao Vaidya Seva Scheme
+(Dr. NTR Vaidya Seva)
+
+Common Reference:
+NTR Vaidya Seva
+
+State:
+Andhra Pradesh
+
+Government:
+Government of Andhra Pradesh
+
+Department:
+Health, Medical & Family Welfare Department
+
+Implementing Authority:
+Dr. NTR Vaidya Seva Trust
+
+Category:
+Health / Medical Assistance / Health Protection
+
+Subcategory:
+Cashless Secondary and Tertiary Healthcare
+
+Scheme Type:
+State-sponsored healthcare assurance / cashless treatment
+
+Current Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Original Scheme Launch:
+01 April 2007
+
+Important Historical Note:
+The Government of Andhra Pradesh renamed the former Rajiv Aarogyasri
+Scheme as Dr. NTR Vaidya Seva after the reorganisation of Andhra
+Pradesh.
+
+Important Verification Note:
+Current Andhra Pradesh government sources do not expose identical
+scheme statistics. The H&MFW state page contains older coverage
+figures, while a current district government page describes a
+₹5 lakh family-floater and 3,257 listed therapies.
+
+Therefore, the RAG must not treat the older figures as current.
+
+
+## 2. Scheme Overview
+
+Dr. NTR Vaidya Seva is a state-sponsored healthcare scheme of the
+Government of Andhra Pradesh intended to provide financial protection
+and cashless healthcare to eligible poor/BPL families.
+
+The scheme provides:
+
+- Cashless medical treatment
+- Secondary and tertiary healthcare
+- Treatment for specified diseases/procedures
+- Services through empanelled network hospitals
+- Government hospitals and eligible private/corporate hospitals
+- Pre-treatment evaluation where applicable
+- Hospitalisation and treatment packages
+- Post-discharge follow-up services where applicable
+
+The scheme is administered through the Dr. NTR Vaidya Seva Trust.
+
+The scheme is designed to reduce catastrophic medical expenditure
+for eligible poor families.
+
+Eligible patients can receive treatment through empanelled network
+hospitals.
+
+Help desks staffed by Vaidya Mithras are provided at relevant
+healthcare facilities to assist beneficiaries.
+
+
+## 3. Target Beneficiaries
+
+Primary target group:
+
+Members of eligible Below Poverty Line (BPL) families identified
+through the Andhra Pradesh government beneficiary database.
+
+The official H&MFW description identifies beneficiaries as members
+of BPL families:
+
+- Enumerated in the Civil Supplies database
+- Associated with a White Ration Card
+- Photographed/identified in the beneficiary database
+- Linked with Aadhaar according to the applicable database system
+
+The scheme is intended to provide healthcare protection to poor
+families in both rural and urban areas.
+
+### Important
+
+Do not interpret the scheme as automatically covering every resident
+of Andhra Pradesh.
+
+Eligibility depends on the beneficiary database and applicable
+government rules.
+
+
+## 4. Eligibility Criteria
+
+### BPL / White Ration Card
+
+The official Andhra Pradesh Health Department describes beneficiaries
+as members of BPL families enumerated and photographed in the White
+Ration Card/Civil Supplies database.
+
+Therefore:
+
+BPL / eligible White Ration Card household:
+REQUIRED according to the verified scheme description.
+
+
+### Aadhaar
+
+The official scheme description identifies White Ration Card
+beneficiaries linked with Aadhaar.
+
+Aadhaar/database linkage is therefore part of beneficiary
+identification and authentication.
+
+Do not represent Aadhaar as an independent income-eligibility test.
+
+
+### Residence
+
+The scheme is an Andhra Pradesh Government programme for eligible
+beneficiaries in the Andhra Pradesh beneficiary database.
+
+No separate numerical residence-duration requirement was identified
+in the current verified material.
+
+
+### Income
+
+The scheme uses BPL/eligible beneficiary identification.
+
+A current universal numerical household-income ceiling was not
+established from the authoritative current sources reviewed.
+
+Therefore:
+
+Income limit:
+NOT_SPECIFIED AS A CURRENT NUMERICAL THRESHOLD.
+
+The RAG should use verified beneficiary-database status rather than
+inventing a monthly or annual income cutoff.
+
+
+### Age
+
+No universal age threshold was identified for the general scheme
+beneficiary.
+
+The scheme covers eligible family members rather than being an
+age-based pension or scholarship.
+
+
+### Gender
+
+No general gender restriction is specified.
+
+Eligible members of qualifying families may receive treatment,
+subject to the applicable scheme and treatment rules.
+
+
+### Occupation
+
+No universal occupation requirement was identified.
+
+
+### Education
+
+No education requirement.
+
+
+### Land
+
+No universal landholding requirement identified in the verified
+current scheme description.
+
+
+### Social Category
+
+No universal caste-specific eligibility rule identified in the
+verified current scheme description.
+
+Eligibility is primarily based on the government beneficiary/BPL
+database.
+
+
+### Family Requirement
+
+The scheme operates on a family basis.
+
+Financial coverage is described as a family-level floater in current
+district government material.
+
+The exact family composition is determined by the applicable
+government beneficiary database.
+
+
+## 5. Exclusions / Non-Eligibility
+
+The following should be treated as non-eligibility conditions only
+where supported by the current beneficiary database/rules:
+
+- Person/family not present in the eligible beneficiary database
+- Family not satisfying the applicable BPL/Rice/White Card criteria
+- Treatment not included in the approved scheme package
+- Treatment at a hospital that is not authorised/empanelled for the
+  relevant service
+- Services outside the scheme's approved benefit package
+
+### Important
+
+Do not hard-code the following as universal current exclusions unless
+a current Government Order explicitly establishes them:
+
+- A specific monthly income ceiling
+- A specific annual income ceiling
+- A specific land ceiling
+- A specific vehicle restriction
+- A specific electricity-consumption restriction
+- A specific property-size restriction
+
+These criteria appear in other Andhra Pradesh welfare schemes and
+must not automatically be imported into NTR Vaidya Seva.
+
+
+## 6. Benefits
+
+### Primary Benefit
+
+Cashless healthcare for eligible beneficiaries for approved
+secondary and tertiary treatment.
+
+### Treatment Coverage
+
+The scheme covers identified diseases and approved treatment
+packages/procedures.
+
+The current district government page describes:
+
+- 3,257 listed therapies
+- 31 disease categories
+- Cashless treatment
+
+However, because other official H&MFW material currently exposes
+older figures, the exact procedure count should be treated as
+versioned/current-source data rather than a timeless scheme constant.
+
+
+### Financial Coverage
+
+A current district government page states:
+
+Maximum coverage:
+₹5,00,000 per family per annum on a floater basis.
+
+Co-payment:
+No co-payment under the described scheme.
+
+IMPORTANT:
+The H&MFW state-level page still contains an older ₹2.50 lakh
+coverage description.
+
+Therefore:
+
+CURRENT_FINANCIAL_COVERAGE:
+₹5 lakh according to the newer current district government
+description.
+
+LEGACY_FINANCIAL_COVERAGE:
+₹2.50 lakh according to the older H&MFW page.
+
+The RAG should retain source/date/version metadata and should not
+silently merge the two.
+
+
+### Cashless Treatment
+
+Eligible treatment is provided on a cashless basis at authorised
+network hospitals.
+
+The package covers the applicable treatment period and specified
+post-discharge services according to the approved package.
+
+
+### Outpatient / Screening
+
+The scheme framework includes:
+
+- Health camps
+- Screening
+- Counselling
+- Free OP evaluation for listed therapies where applicable
+
+### Inpatient Treatment
+
+For approved listed therapies, the scheme provides end-to-end
+cashless treatment through an authorised network hospital.
+
+### Post-Discharge
+
+The scheme provides specified post-discharge medication and
+follow-up services according to the applicable treatment package.
+
+The exact number of days and follow-up period should be treated as
+package-specific rather than assumed universally.
+
+
+## 7. Required Documents
+
+Common beneficiary-identification information includes:
+
+- White Ration Card / eligible beneficiary record
+- Aadhaar-linked beneficiary information
+- Medical records
+- Diagnostic reports where applicable
+- Referral/medical documents where required
+
+At the hospital, the beneficiary's eligibility is authenticated
+through the applicable Vaidya Seva system.
+
+### Emergency Cases
+
+Emergency registration and treatment are supported under the scheme
+for eligible listed therapies, with the hospital obtaining the
+required authorisation according to scheme procedures.
+
+
+## 8. Application / Treatment Process
+
+Dr. NTR Vaidya Seva is not primarily a conventional online welfare
+application.
+
+### Normal Process
+
+1. Beneficiary approaches a government facility, health camp,
+   network hospital or relevant healthcare point.
+2. Beneficiary identity is verified.
+3. Medical condition is assessed.
+4. If the disease/treatment is covered, the patient is referred/
+   registered for the appropriate package.
+5. Network hospital obtains required authorisation.
+6. Treatment is provided cashlessly.
+7. Discharge and post-discharge services are provided according to
+   the approved package.
+8. Claims are processed through the Trust's online system.
+
+### Vaidya Mithra
+
+Vaidya Mithras/help desks assist beneficiaries at relevant
+healthcare facilities.
+
+They help patients with:
+
+- Eligibility verification
+- Registration
+- Scheme information
+- Hospital process
+- Documentation
+- Grievances
+
+
+## 9. Important Dates
+
+Original scheme launch:
+01 April 2007
+
+Renaming as Dr. NTR Vaidya Seva:
+Following reorganisation of Andhra Pradesh; Government Order
+G.O.Ms.No.157 HM & FM (I.1), dated 17.12.2014.
+
+Dr. NTR Vaidya Seva Trust:
+Registered under G.O.Rt.No.404 HM & FM (I.1), dated 05.08.2015.
+
+Current status:
+ACTIVE_CURRENT
+
+No fixed application closing date identified.
+
+The scheme is an ongoing healthcare programme rather than a
+time-limited application window.
+
+
+## 10. Selection / Verification / Approval
+
+There is no competitive selection process.
+
+### Beneficiary Verification
+
+Eligibility is established through the Andhra Pradesh government
+beneficiary/Civil Supplies database.
+
+The system identifies eligible BPL/White Ration Card beneficiaries.
+
+### Treatment Verification
+
+The hospital verifies:
+
+- Beneficiary identity
+- Eligibility
+- Medical condition
+- Covered therapy/procedure
+- Package applicability
+
+### Pre-Authorisation
+
+Where required, the network hospital obtains authorisation through
+the Trust's online processing system.
+
+### Emergency
+
+Emergency admission is available for eligible covered conditions,
+with the hospital obtaining the required emergency authorisation.
+
+
+## 11. Implementing Authority
+
+Government:
+Government of Andhra Pradesh
+
+Administrative Department:
+Health, Medical & Family Welfare Department
+
+Implementing Trust:
+Dr. NTR Vaidya Seva Trust
+
+Operational network:
+
+- Government hospitals
+- Empanelled private hospitals
+- Network hospitals
+- Primary Health Centres
+- Area hospitals
+- District hospitals
+- Other authorised healthcare facilities
+
+
+## 12. Related / Linked Government Programs
+
+### Aarogya Raksha
+
+Aarogya Raksha is a separate healthcare programme for APL families
+described in Andhra Pradesh government material.
+
+It should not be merged with Dr. NTR Vaidya Seva.
+
+### Employee Health Scheme (EHS)
+
+EHS is a separate scheme for eligible government employees,
+pensioners and dependants.
+
+It should not be treated as the same beneficiary pool.
+
+### Amrutha Health Scheme
+
+Amrutha Health Scheme is a separate programme for eligible orphans
+and destitutes in recognised institutions.
+
+### Aarogya Aasara
+
+Aarogya Aasara is a post-operative sustenance allowance associated
+with eligible Vaidya Seva patients.
+
+It is a related benefit and should be represented separately if
+included in the RAG.
+
+### Central Government Health Schemes
+
+Central programmes such as Ayushman Bharat/PM-JAY have separate
+eligibility and benefit rules.
+
+Do not merge their eligibility rules with NTR Vaidya Seva.
+
+
+## 13. Official Websites and Portals
+
+### Andhra Pradesh Health, Medical & Family Welfare Department
+
+Official:
+https://hmfw.ap.gov.in/
+
+Dr. NTR Vaidya Seva information:
+https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx
+
+
+### Dr. NTR Vaidya Seva Portal
+
+The Andhra Pradesh government district page identifies:
+
+http://www.drntrvaidyaseva.ap.gov.in/
+
+as the scheme website.
+
+Current accessibility/status of the separate portal should be
+validated before presenting it as the primary beneficiary portal.
+
+
+### District Government Health Pages
+
+Relevant Andhra Pradesh district portals also publish Dr. NTR
+Vaidya Seva information and local contact details.
+
+
+## 14. Official Source Documents
+
+### Source 1
+
+Government of Andhra Pradesh
+Health, Medical & Family Welfare Department
+
+Dr. NTR Vaidya Seva official departmental page.
+
+Supported facts:
+
+- Scheme identity
+- Historical renaming
+- BPL/White Ration Card beneficiary basis
+- Aadhaar linkage
+- Cashless healthcare
+- Network hospitals
+- Family-level financial coverage
+- Listed therapies
+- Health camps
+- Emergency treatment
+- Vaidya Mithra support
+- Grievance mechanism
+
+
+### Source 2
+
+SPSR Nellore District
+Government of Andhra Pradesh
+
+Current district Dr. NTR Vaidya Seva page.
+
+Supported facts:
+
+- Current scheme implementation
+- BPL beneficiary basis
+- White Ration Card/Aadhaar linkage
+- ₹5 lakh family annual floater figure
+- No co-payment
+- Current listed-therapy figure shown by the district page
+- Cashless treatment
+- Network hospital structure
+- Trust implementation
+
+
+### Source 3
+
+Andhra Pradesh district government health/tender records
+
+Current district records demonstrate continued operational use of
+Dr. NTR Vaidya Seva in government hospitals.
+
+Example:
+Government General Hospital, Srikakulam records NTR Vaidya Seva
+procurement activity in 2025.
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+Evidence:
+
+- The Andhra Pradesh Health, Medical & Family Welfare Department
+  maintains a dedicated Dr. NTR Vaidya Seva section.
+- Andhra Pradesh district government portals continue to publish
+  current NTR Vaidya Seva information.
+- District government hospital records show NTR Vaidya Seva activity
+  during 2025.
+- The scheme continues to operate through government and empanelled
+  network hospitals.
+
+
+### Current Version-Control Warning
+
+Two official government sources currently expose different financial
+coverage/procedure figures:
+
+State H&MFW page:
+₹2.50 lakh / older 1,044-procedure description.
+
+Current SPSR Nellore district page:
+₹5 lakh / 3,257 listed therapies.
+
+Therefore, for the RAG:
+
+CURRENT:
+Use the newer government district source's ₹5 lakh figure, with
+source-date metadata.
+
+LEGACY:
+Retain the older ₹2.50 lakh figure only as historical/versioned
+information.
+
+Do not present both as simultaneously applicable current rules.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+- Dr. NTR Vaidya Seva is an Andhra Pradesh Government healthcare
+  programme.
+- The scheme is administered through Dr. NTR Vaidya Seva Trust.
+- The programme targets eligible BPL/poor families.
+- Beneficiary identification is linked to the Civil Supplies/
+  White Ration Card database.
+- Aadhaar-linked beneficiary information is used.
+- Treatment is provided cashlessly for approved conditions/packages.
+- Government and empanelled private/network hospitals participate.
+- Health camps and screening are part of the scheme framework.
+- Vaidya Mithras/help desks assist beneficiaries.
+- Emergency treatment mechanisms exist for eligible covered
+  conditions.
+- The scheme remains operational in Andhra Pradesh.
+
+
+### VERIFIED_WITH_VERSION_CONFLICT
+
+Financial coverage:
+
+- Current district government page: ₹5 lakh per family per year
+  on floater basis.
+- Older H&MFW page: ₹2.50 lakh per family per year.
+
+Listed therapies:
+
+- Current district government page: 3,257.
+- Older H&MFW page: 1,044.
+
+These should be stored as versioned facts rather than merged.
+
+
+### NOT_SPECIFIED AS CURRENT UNIVERSAL RULE
+
+- Numerical income ceiling
+- Land ceiling
+- Vehicle ceiling
+- Electricity ceiling
+- Property-size ceiling
+- Age limit
+- Occupation requirement
+- Education requirement
+- Caste-specific restriction
+- Universal treatment for every disease
+- Universal treatment at every hospital
+
+
+## 17. Notes and Limitations
+
+1. Dr. NTR Vaidya Seva is a healthcare assurance scheme, not a
+   direct cash-transfer programme.
+
+2. Eligibility is strongly tied to the government beneficiary
+   database.
+
+3. Treatment must fall within the approved scheme package/list.
+
+4. Treatment must be delivered through an authorised/empanelled
+   healthcare provider where required.
+
+5. The RAG must distinguish:
+   beneficiary eligibility
+   from
+   treatment/package eligibility.
+
+6. A person being an eligible beneficiary does not mean every medical
+   procedure is automatically free.
+
+7. A hospital being a healthcare facility does not automatically mean
+   every service at that hospital is covered.
+
+8. Current government sources expose different generations of
+   financial/procedure figures.
+
+9. The newer ₹5 lakh figure should be stored as the current district
+   government value with provenance.
+
+10. The older ₹2.5 lakh figure should be retained only as historical
+    information.
+
+11. Do not import eligibility criteria from NTR Bharosa, Thalliki
+    Vandanam, Deepam 2.0 or other AP welfare schemes.
+
+12. Do not claim universal coverage for every Andhra Pradesh resident.
+
+13. The exact covered therapy list should be treated as a separately
+    versioned dataset.
+
+14. Current network-hospital availability should also be treated as
+    dynamic data.
+
+
+## 18. Structured Eligibility Data
+
+scheme_id:
+AP_NTR_VAIDYA_SEVA
+
+current_status:
+ACTIVE_CURRENT
+
+beneficiary_type:
+Eligible BPL / government beneficiary-database family member
+
+bpl_required:
+YES
+
+white_ration_card_basis:
+YES
+
+aadhaar_linkage:
+YES / beneficiary authentication
+
+age_min:
+NOT_SPECIFIED
+
+age_max:
+NOT_SPECIFIED
+
+gender:
+No general restriction identified.
+
+income_limit:
+NOT_SPECIFIED_AS_CURRENT_NUMERICAL_LIMIT
+
+occupation:
+No universal requirement identified.
+
+education:
+No requirement identified.
+
+land_requirement:
+None specified.
+
+social_category:
+No universal caste restriction identified.
+
+family_based:
+YES
+
+financial_coverage_current:
+₹5,00,000 per family per annum on floater basis
+according to current district government description.
+
+financial_coverage_legacy:
+₹2,50,000 per family per annum
+according to older H&MFW description.
+
+copayment:
+None according to current district government description.
+
+treatment_type:
+Cashless secondary and tertiary healthcare.
+
+listed_therapies_current_source:
+3,257
+
+listed_therapies_legacy_source:
+1,044
+
+disease_categories_current_source:
+31
+
+network_hospital_required:
+YES
+
+benefit:
+Cashless treatment for approved/listed conditions and procedures.
+
+application_method:
+Beneficiary verification and treatment registration through
+government/network healthcare system.
+
+official_department:
+Health, Medical & Family Welfare Department,
+Government of Andhra Pradesh.
+
+implementing_trust:
+Dr. NTR Vaidya Seva Trust.
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source | Status |
+|---|---|---|
+| Scheme name | AP H&MFW official page | VERIFIED_CURRENT |
+| Andhra Pradesh Government scheme | AP H&MFW official page | VERIFIED_CURRENT |
+| Implementing Trust | AP H&MFW official page | VERIFIED_CURRENT |
+| BPL beneficiary basis | AP H&MFW official page | VERIFIED_CURRENT |
+| White Ration Card basis | AP H&MFW official page | VERIFIED_CURRENT |
+| Aadhaar linkage | AP H&MFW official page | VERIFIED_CURRENT |
+| Cashless treatment | AP H&MFW official page | VERIFIED_CURRENT |
+| Network hospitals | AP H&MFW official page | VERIFIED_CURRENT |
+| Health camps | AP H&MFW official page | VERIFIED_CURRENT |
+| Vaidya Mithra/help desks | AP H&MFW official page | VERIFIED_CURRENT |
+| Emergency registration | AP H&MFW official page | VERIFIED_CURRENT |
+| Current ₹5 lakh coverage | SPSR Nellore district government page | VERIFIED_CURRENT_WITH_SOURCE_VERSION |
+| Current 3,257 listed therapies | SPSR Nellore district government page | VERIFIED_CURRENT_WITH_SOURCE_VERSION |
+| Current 31 categories | SPSR Nellore district government page | VERIFIED_CURRENT_WITH_SOURCE_VERSION |
+| No co-payment | SPSR Nellore district government page | VERIFIED_CURRENT_WITH_SOURCE_VERSION |
+| Older ₹2.5 lakh coverage | AP H&MFW official page | HISTORICAL/LEGACY |
+| Older 1,044 procedures | AP H&MFW official page | HISTORICAL/LEGACY |
+| Scheme launch 01.04.2007 | SPSR Nellore district government page | HISTORICAL |
+| Renaming from Rajiv Aarogyasri | AP H&MFW official page | HISTORICAL |
+| G.O.Ms.No.157 dated 17.12.2014 | AP H&MFW official page | HISTORICAL |
+| Trust G.O.Rt.No.404 dated 05.08.2015 | AP H&MFW official page | HISTORICAL |
+| Current district operational evidence | AP district government records | VERIFIED_CURRENT |
+| Numerical income limit | No authoritative current source established | NOT_SPECIFIED |
+| Land ceiling | No authoritative current source established | NOT_SPECIFIED |
+| Vehicle ceiling | No authoritative current source established | NOT_SPECIFIED |
+| Electricity ceiling | No authoritative current source established | NOT_SPECIFIED |
+| Property-size ceiling | No authoritative current source established | NOT_SPECIFIED |
+| Universal age limit | No authoritative current source established | NOT_SPECIFIED |

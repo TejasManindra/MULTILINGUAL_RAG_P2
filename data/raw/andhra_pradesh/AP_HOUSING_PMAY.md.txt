@@ -1,0 +1,1004 @@
+# Andhra Pradesh Housing / PMAY
+
+## 1. Basic Information
+
+Scheme ID:
+AP_HOUSING_PMAY
+
+Current Scheme Family:
+Pradhan Mantri Awas Yojana (PMAY)
+
+State:
+Andhra Pradesh
+
+Government:
+Government of Andhra Pradesh
++
+Government of India
+
+Primary State Implementing Agency:
+A.P. State Housing Corporation Limited (APSHCL)
+
+Housing Coverage:
+Rural + Urban
+
+Current Components:
+
+1. PMAY-G — Pradhan Mantri Awaas Yojana-Gramin
+2. PMAY-U 2.0 — Pradhan Mantri Awas Yojana-Urban 2.0
+
+Historical AP Programme:
+Navaratnalu – Pedalandariki Illu /
+Jagananna Housing Colonies
+
+Category:
+Housing / Poverty Alleviation / Shelter
+
+Scheme Type:
+Housing assistance / house construction / affordable housing
+
+Current Status:
+ACTIVE_CURRENT
+
+Important:
+This record is an umbrella RAG record only.
+
+Eligibility must be evaluated separately for:
+- PMAY-G
+- PMAY-U 2.0
+
+Historical Pedalandariki Illu rules must not be used as current
+PMAY-G or PMAY-U 2.0 eligibility rules.
+
+
+## 2. Scheme Overview
+
+The Andhra Pradesh housing programme is implemented through the
+A.P. State Housing Corporation Limited (APSHCL) in coordination with
+Government of India and Government of Andhra Pradesh housing
+programmes.
+
+APSHCL states that its objective is to assist BPL families in
+constructing permanent/pucca houses.
+
+The current housing framework includes:
+
+### Rural
+
+Pradhan Mantri Awaas Yojana-Gramin (PMAY-G)
+
+PMAY-G is the Government of India's rural housing programme for
+eligible houseless households and households living in kutcha or
+dilapidated houses.
+
+### Urban
+
+Pradhan Mantri Awas Yojana-Urban 2.0 (PMAY-U 2.0)
+
+PMAY-U 2.0 provides housing assistance to eligible EWS/LIG/MIG
+families living in urban areas.
+
+PMAY-U 2.0 covers multiple implementation verticals including:
+
+- Beneficiary Led Construction (BLC)
+- Affordable Housing in Partnership (AHP)
+- Affordable Rental Housing
+- Interest Subsidy Scheme (ISS)
+
+### Andhra Pradesh State Housing Programme
+
+Navaratnalu–Pedalandariki Illu was an Andhra Pradesh flagship
+housing/house-site programme launched under the previous state
+government.
+
+It included house-site distribution and housing construction in
+layouts and own-site locations.
+
+That historical programme must be retained separately from the
+current PMAY-U 2.0/PMAY-G eligibility engines.
+
+
+## 3. Target Beneficiaries
+
+### PMAY-G
+
+Primary target:
+
+Rural households that are:
+
+- Houseless, or
+- Living in kutcha/dilapidated housing,
+
+and satisfy the PMAY-G eligibility/selection criteria.
+
+Beneficiary selection is based on the prescribed deprivation/
+housing-status criteria and government verification.
+
+
+### PMAY-U 2.0
+
+Primary target:
+
+Urban families belonging to:
+
+- EWS
+- LIG
+- MIG
+
+who satisfy the scheme's housing-ownership and other eligibility
+conditions.
+
+Current PMAY-U 2.0 income categories:
+
+EWS:
+Annual household income up to ₹3 lakh.
+
+LIG:
+Annual household income above ₹3 lakh and up to ₹6 lakh.
+
+MIG:
+Annual household income above ₹6 lakh and up to ₹9 lakh.
+
+
+### Historical Pedalandariki Illu
+
+Historical target beneficiaries included eligible weaker-section
+families/households receiving:
+
+- House-site pattas
+- Houses in government-developed layouts
+- Houses on own sites
+- PMAY-linked housing assistance
+
+
+## 4. Eligibility Criteria
+
+# A. PMAY-G — Rural
+
+### Rural Residence
+
+The household must reside in a rural area.
+
+### Housing Condition
+
+PMAY-G is intended for households that:
+
+- Do not have a shelter, or
+- Live in a kutcha house, or
+- Live in a dilapidated house,
+
+subject to the complete PMAY-G eligibility/selection process.
+
+### Pucca House
+
+A household owning a pucca house is generally excluded.
+
+### Number of Rooms
+
+The official PMAY-G eligibility questionnaire asks whether the
+house has more than two rooms.
+
+A household with more than two rooms is excluded under the
+PMAY-G eligibility filter.
+
+
+### Motorised Vehicle
+
+Households owning a motorised three-wheeler or four-wheeler are
+excluded under the PMAY-G eligibility filter.
+
+### Agricultural Machinery
+
+Households owning mechanised three/four-wheeler agricultural
+equipment are excluded.
+
+
+### Kisan Credit Card
+
+Households having a Kisan Credit Card with a credit limit of
+₹50,000 or above are excluded under the PMAY-G eligibility filter.
+
+
+### Government Employment
+
+A household with a government employee is excluded under the
+PMAY-G eligibility filter.
+
+
+### Non-Agricultural Enterprise
+
+Households having a non-agricultural enterprise registered with the
+Government are excluded under the eligibility filter.
+
+
+### Monthly Income
+
+If any household member earns more than ₹15,000 per month, the
+household is excluded under the PMAY-G eligibility filter.
+
+
+### Income Tax
+
+If any household member pays income tax, the household is excluded.
+
+
+### Professional Tax
+
+If any household member pays professional tax, the household is
+excluded.
+
+
+### Landholding
+
+The PMAY-G eligibility questionnaire uses:
+
+Irrigated land:
+2.5 acres or more → exclusion.
+
+Unirrigated land:
+5 acres or more → exclusion.
+
+The complete PMAY-G selection/verification framework should be used
+rather than treating these questions as a standalone application
+form.
+
+
+# B. PMAY-U 2.0 — Urban
+
+### Urban Residence
+
+The family must live in an urban area falling under the applicable
+PMAY-U 2.0 jurisdiction.
+
+
+### Income
+
+EWS:
+Annual household income up to ₹3 lakh.
+
+LIG:
+Annual household income above ₹3 lakh and up to ₹6 lakh.
+
+MIG:
+Annual household income above ₹6 lakh and up to ₹9 lakh.
+
+
+### Existing Pucca House
+
+The family must not own a pucca house anywhere in India.
+
+This is a major current PMAY-U 2.0 eligibility condition.
+
+
+### Previous Housing Benefit
+
+A beneficiary who has been allotted a house under a Central,
+State/UT Government or Local Self Government housing scheme during
+the previous 20 years is not eligible for PMAY-U 2.0.
+
+The scheme guidelines require verification to prevent duplicate
+housing benefits.
+
+
+### Aadhaar
+
+All eligible beneficiaries/family members must have Aadhaar or
+Aadhaar Virtual ID integrated with beneficiary details.
+
+If an eligible beneficiary does not have Aadhaar/Aadhaar Virtual ID,
+the State/UT is required to facilitate enrolment.
+
+
+### Priority Groups
+
+PMAY-U 2.0 gives preference to:
+
+- Widows
+- Single women
+- Persons with Disabilities
+- Senior citizens
+- Transgender persons
+- Scheduled Castes
+- Scheduled Tribes
+- Minorities
+- Other weaker/vulnerable sections
+
+Special focus includes:
+
+- Safai Karmis
+- Street vendors identified under PMSVANidhi
+- Artisans under PM Vishwakarma
+- Anganwadi workers
+- Building and construction workers
+- Residents of slums/chawls
+- Other identified vulnerable groups
+
+
+## 5. Exclusions / Non-Eligibility
+
+# PMAY-G
+
+The PMAY-G eligibility filter excludes households satisfying
+specified exclusion conditions, including:
+
+- Owning a pucca house
+- House with more than two rooms
+- Owning a motorised three/four-wheeler
+- Owning mechanised agricultural equipment of the specified type
+- Kisan Credit Card limit ₹50,000 or above
+- Government employee in household
+- Registered non-agricultural enterprise
+- Household member earning more than ₹15,000/month
+- Income-tax payer
+- Professional-tax payer
+- Irrigated land of 2.5 acres or more
+- Unirrigated land of 5 acres or more
+
+Other PMAY-G selection/deprivation criteria also apply.
+
+
+# PMAY-U 2.0
+
+A family is not eligible where:
+
+- It already owns a pucca house anywhere in India.
+- It received a house under a government/local-self-government
+  housing scheme during the previous 20 years.
+- It otherwise fails the applicable EWS/LIG/MIG and scheme-vertical
+  conditions.
+- It is seeking a benefit outside the applicable PMAY-U 2.0 vertical.
+
+
+### Duplicate Benefit Prevention
+
+PMAY-G and PMAY-U 2.0 have a government-level MIS linkage intended
+to prevent duplicate beneficiaries between rural and urban housing
+programmes.
+
+Do not award both programmes to the same household without checking
+the applicable jurisdiction and duplication rules.
+
+
+## 6. Benefits
+
+# PMAY-G
+
+PMAY-G provides assistance for construction of a pucca house.
+
+The standard central assistance framework provides:
+
+- ₹1.20 lakh in plain areas
+- ₹1.30 lakh in specified hilly/difficult/IAP areas
+
+The beneficiary may also receive convergence benefits such as:
+
+- MGNREGS wage support
+- Toilet assistance through the applicable sanitation programme
+- Other convergence facilities
+
+The exact AP implementation package may contain additional
+State/GoAP support and material assistance.
+
+
+# PMAY-U 2.0
+
+PMAY-U 2.0 provides assistance according to the selected vertical.
+
+### BLC
+
+Beneficiary Led Construction supports eligible EWS families for
+construction/enhancement of houses on eligible land.
+
+### AHP
+
+Affordable Housing in Partnership supports EWS housing in
+public/private partnership projects.
+
+### ARH
+
+Affordable Rental Housing addresses rental housing needs of
+eligible urban beneficiaries.
+
+### ISS
+
+Interest Subsidy Scheme provides interest subsidy on eligible
+housing loans subject to PMAY-U 2.0 rules.
+
+
+### Current AP PMAY-U 2.0 Evidence
+
+Government of India sanction records show PMAY-U 2.0 central
+assistance approved for Andhra Pradesh BLC projects during FY
+2026-27.
+
+Therefore PMAY-U 2.0 is currently operational in Andhra Pradesh.
+
+
+## 7. Required Documents
+
+### PMAY-G
+
+Depending on the verification stage:
+
+- Aadhaar
+- Bank-account details
+- Mobile number
+- MGNREGS Job Card where applicable
+- Household information
+- Land/plot information
+- Photograph
+- Housing-condition information
+- Other documents requested during verification
+
+
+### PMAY-U 2.0
+
+Typical beneficiary information includes:
+
+- Aadhaar/Aadhaar Virtual ID
+- Identity information
+- Address
+- Income/category information
+- Bank details where applicable
+- Land/property documents for BLC where applicable
+- Existing housing information
+- Previous housing-benefit declaration
+- Loan information for ISS where applicable
+
+
+### Important
+
+The exact documents vary by PMAY vertical and beneficiary category.
+
+Do not make a single universal document checklist for every PMAY
+application.
+
+
+## 8. Application / Selection Process
+
+# PMAY-G
+
+PMAY-G is not simply a first-come-first-served online housing
+application.
+
+The process involves:
+
+1. Identification through prescribed rural housing/deprivation
+   databases.
+2. Verification of household conditions.
+3. Gram Panchayat / local-level verification.
+4. Preparation of eligible beneficiary list.
+5. Approval under the prescribed administrative process.
+6. Sanction of house.
+7. Construction-stage monitoring.
+8. Instalment payments linked to construction progress.
+9. Geo-tagging/photographic monitoring.
+10. Completion and convergence of basic amenities.
+
+
+### AwaasPlus
+
+AwaasPlus is used for identification/survey of additional eligible
+rural households under the applicable PMAY-G process.
+
+AwaasPlus 2024 provides survey and e-KYC functionality.
+
+
+# PMAY-U 2.0
+
+Urban beneficiaries are identified through:
+
+- Urban Local Bodies
+- State/UT housing authorities
+- PMAY-U 2.0 MIS
+- Demand surveys
+- Beneficiary verification
+- CSMC/project sanction process
+
+For BLC, beneficiary and project details are submitted through the
+State/ULB system and sanctioned through the prescribed PMAY-U 2.0
+process.
+
+
+## 9. Important Dates
+
+PMAY-G:
+Effective from 01 April 2016.
+
+Original PMAY-U:
+Launched 25 June 2015.
+
+PMAY-U 2.0:
+Current urban housing mission under the Government of India.
+
+PMAY-U 2.0 Guidelines:
+September 2024.
+
+Current FY 2026-27:
+PMAY-U 2.0 central-assistance sanctions for Andhra Pradesh continue.
+
+
+### Historical AP Housing Programme
+
+Navaratnalu–Pedalandariki Illu:
+Launched under the previous Andhra Pradesh Government.
+
+House-site/housing implementation began around 2020.
+
+Its historical beneficiary rules must not be treated as current
+PMAY-U 2.0 eligibility.
+
+
+## 10. Selection / Verification / Approval
+
+### PMAY-G
+
+Selection is based on prescribed deprivation/housing criteria and
+government verification.
+
+The official PMAY-G eligibility questionnaire includes questions
+covering:
+
+- Shelter status
+- Rural residence
+- Pucca house ownership
+- House size
+- Vehicle ownership
+- Agricultural machinery
+- Kisan Credit Card
+- Government employment
+- Non-agricultural enterprise
+- Monthly income
+- Income tax
+- Professional tax
+- Landholding
+
+Final beneficiary selection follows the prescribed government
+process.
+
+
+### PMAY-U 2.0
+
+Verification includes:
+
+- Urban jurisdiction
+- Household income
+- EWS/LIG/MIG category
+- Existing house ownership
+- Previous government housing benefit
+- Aadhaar
+- Beneficiary/family details
+- Applicable vertical-specific conditions
+
+ULBs/States verify beneficiary demand before proposals are submitted
+for sanction.
+
+The PMAY-U 2.0 MIS is used to prevent duplication with PMAY-G.
+
+
+## 11. Implementing Authority
+
+### Central Government
+
+PMAY-G:
+Ministry of Rural Development
+
+PMAY-U 2.0:
+Ministry of Housing and Urban Affairs
+
+### Andhra Pradesh
+
+A.P. State Housing Corporation Limited (APSHCL)
+
+Relevant state/local implementing agencies:
+
+- District administration
+- Urban Local Bodies
+- Gram Panchayats
+- Housing Department
+- Other designated implementing agencies
+
+
+## 12. Related / Linked Government Programs
+
+### Navaratnalu–Pedalandariki Illu
+
+Historical Andhra Pradesh state housing/house-site programme.
+
+It included:
+
+- House-site pattas
+- Housing layouts
+- Own-site houses
+- PMAY-linked houses
+
+Maintain as a historical record.
+
+
+### Jagananna Housing Colonies
+
+Housing layouts associated with the historical Pedalandariki Illu
+programme.
+
+Do not use their historical eligibility criteria as current
+PMAY-U 2.0 rules.
+
+
+### PMAY-G
+
+Current rural housing component.
+
+
+### PMAY-U 2.0
+
+Current urban housing component.
+
+
+### MGNREGS
+
+Can provide wage/convergence support for eligible PMAY-G
+beneficiaries.
+
+
+### Swachh Bharat Mission
+
+Toilet construction/convergence assistance may be linked with
+housing beneficiaries under applicable rules.
+
+
+## 13. Official Websites and Portals
+
+### Andhra Pradesh State Housing Corporation
+
+Official:
+https://housing.ap.gov.in/
+
+APSHCL is the main Andhra Pradesh housing implementation agency.
+
+
+### PMAY-U
+
+Official:
+https://pmay-urban.gov.in/
+
+PMAY-U 2.0 guidelines and current sanction information are available
+on the official Ministry of Housing and Urban Affairs portal.
+
+
+### PMAY-G
+
+Official:
+https://pmayg.nic.in/
+
+PMAY-G eligibility and survey information are available through the
+Government of India's rural housing portal.
+
+
+## 14. Official Source Documents
+
+### Source 1
+
+A.P. State Housing Corporation Limited
+
+Official website:
+https://housing.ap.gov.in/
+
+Supported facts:
+
+- APSHCL role
+- Andhra Pradesh housing implementation
+- PMAY-G/PMAY-U coordination
+- Housing construction assistance
+- State housing administration
+
+
+### Source 2
+
+PMAY-U 2.0 Operational Guidelines
+
+Ministry of Housing and Urban Affairs.
+
+Supported facts:
+
+- EWS/LIG/MIG eligibility
+- No pucca house anywhere in India
+- Previous 20-year housing-benefit exclusion
+- Income categories
+- Aadhaar/Aadhaar Virtual ID
+- Priority groups
+- PMAY-G/PMAY-U duplication prevention
+- PMAY-U 2.0 verticals
+
+
+### Source 3
+
+PMAY-U 2.0 current sanction records
+
+Government of India.
+
+Current FY 2026-27 records show Central assistance sanctions for
+Andhra Pradesh BLC projects under PMAY-U 2.0.
+
+
+### Source 4
+
+PMAY-G official eligibility questionnaire.
+
+Supported facts:
+
+- Rural residence
+- Pucca-house ownership
+- House-room criterion
+- Vehicle criterion
+- Agricultural-equipment criterion
+- KCC criterion
+- Government employment
+- Non-agricultural enterprise
+- Income
+- Income tax
+- Professional tax
+- Landholding criteria
+
+
+### Source 5
+
+Government of Andhra Pradesh
+
+Historical Navaratnalu–Pedalandariki Illu Government Orders.
+
+Supported facts:
+
+- Historical house-site/housing programme
+- Eligible-beneficiary housing distribution
+- PMAY-linked housing
+- G+3 housing projects
+
+
+## 15. Current Status
+
+Status:
+ACTIVE_CURRENT
+
+Current As Of:
+September 2026
+
+### Rural
+
+PMAY-G remains the applicable Government of India rural housing
+framework.
+
+### Urban
+
+PMAY-U 2.0 is currently operational in Andhra Pradesh.
+
+Government of India records show Andhra Pradesh receiving central
+assistance for PMAY-U 2.0 BLC projects in FY 2026-27. :contentReference[oaicite:1]{index=1}
+
+### State Housing Corporation
+
+APSHCL remains the Andhra Pradesh housing implementation agency. Its
+official portal continues to provide housing-programme information.
+:contentReference[oaicite:2]{index=2}
+
+### Historical
+
+Navaratnalu–Pedalandariki Illu is a historical AP programme and
+should be stored separately.
+
+
+## 16. Verification Summary
+
+### VERIFIED_CURRENT
+
+PMAY-G:
+
+- Current rural housing programme.
+- Targets eligible rural houseless/kutcha/dilapidated-house
+  households.
+- Uses prescribed deprivation/eligibility filters.
+- Includes government verification and construction-stage monitoring.
+
+PMAY-U 2.0:
+
+- Current urban housing programme.
+- Covers EWS/LIG/MIG households.
+- No pucca house anywhere in India.
+- Previous government housing benefit within 20 years can exclude.
+- Aadhaar/Aadhaar Virtual ID integration is required.
+- PMAY-G/PMAY-U duplication is checked.
+- Preference is given to specified vulnerable groups.
+- Andhra Pradesh has current PMAY-U 2.0 BLC sanctions in FY 2026-27.
+
+
+### HISTORICAL
+
+- Navaratnalu–Pedalandariki Illu
+- Jagananna Housing Colonies
+- PMAY-YSR branding
+- Historical state-specific housing benefit structures
+
+
+### DO NOT HARD-CODE
+
+- Historical Pedalandariki Illu income rules as PMAY-U 2.0 rules.
+- Historical PMAY-YSR assistance amounts as current PMAY-U 2.0
+  assistance.
+- One eligibility test for both rural and urban beneficiaries.
+- One benefit amount for all PMAY verticals.
+
+
+## 17. Notes and Limitations
+
+1. "Andhra Pradesh Housing / PMAY" is an umbrella category, not one
+   single beneficiary rule.
+
+2. PMAY-G and PMAY-U 2.0 must be separate eligibility engines.
+
+3. Rural/urban jurisdiction is the first major branching condition.
+
+4. PMAY-U 2.0 has multiple verticals with different benefit
+   mechanisms.
+
+5. PMAY-G selection is based on prescribed rural housing/deprivation
+   criteria and government verification.
+
+6. PMAY-U 2.0 uses income categories EWS/LIG/MIG.
+
+7. PMAY-U 2.0's no-pucca-house condition applies anywhere in India.
+
+8. Previous government housing benefit within 20 years is an
+   important PMAY-U 2.0 exclusion.
+
+9. Current central assistance does not necessarily equal the total
+   value of the house received by an Andhra Pradesh beneficiary.
+
+10. State/GoAP contributions and convergence benefits must be stored
+    separately from Central assistance.
+
+11. Historical Navaratnalu–Pedalandariki Illu should not be merged
+    with PMAY-U 2.0.
+
+12. Current project-level sanction amounts should not be interpreted
+    as individual beneficiary cash benefits.
+
+13. Final beneficiary selection remains subject to State/ULB/
+    Panchayat verification and applicable government orders.
+
+
+## 18. Structured Eligibility Data
+
+scheme_id:
+AP_HOUSING_PMAY
+
+current_status:
+ACTIVE_CURRENT
+
+rural_component:
+PMAY-G
+
+urban_component:
+PMAY-U 2.0
+
+state_implementing_agency:
+AP State Housing Corporation Limited
+
+PMAY_G_target:
+Rural houseless / kutcha / dilapidated-house households satisfying
+prescribed criteria.
+
+PMAY_G_rural_required:
+YES
+
+PMAY_G_pucca_house:
+Household owning pucca house is excluded.
+
+PMAY_G_rooms:
+More than 2 rooms → exclusion.
+
+PMAY_G_motor_vehicle:
+Motorised 3/4 wheeler → exclusion.
+
+PMAY_G_agricultural_equipment:
+Specified mechanised agricultural 3/4 wheeler equipment → exclusion.
+
+PMAY_G_KCC:
+KCC credit limit ₹50,000 or above → exclusion.
+
+PMAY_G_government_employee:
+YES → exclusion.
+
+PMAY_G_non_agri_enterprise:
+Registered non-agricultural enterprise → exclusion.
+
+PMAY_G_monthly_income:
+> ₹15,000 by any household member → exclusion.
+
+PMAY_G_income_tax:
+Any household income-tax payer → exclusion.
+
+PMAY_G_professional_tax:
+Any household professional-tax payer → exclusion.
+
+PMAY_G_irrigated_land:
+2.5 acres or more → exclusion.
+
+PMAY_G_unirrigated_land:
+5 acres or more → exclusion.
+
+PMAY_U2_EWS:
+Annual household income <= ₹3 lakh.
+
+PMAY_U2_LIG:
+Annual household income > ₹3 lakh and <= ₹6 lakh.
+
+PMAY_U2_MIG:
+Annual household income > ₹6 lakh and <= ₹9 lakh.
+
+PMAY_U2_pucca_house:
+NO pucca house anywhere in India.
+
+PMAY_U2_previous_housing_benefit:
+No housing benefit under Central/State/UT/Local Government scheme
+during previous 20 years.
+
+PMAY_U2_aadhaar:
+Required/integrated with beneficiary details.
+
+PMAY_U2_priority_groups:
+- Widows
+- Single women
+- Persons with Disabilities
+- Senior citizens
+- Transgenders
+- SC
+- ST
+- Minorities
+- Other vulnerable/weaker groups
+
+historical_ap_programme:
+Navaratnalu–Pedalandariki Illu
+
+historical_status:
+HISTORICAL
+
+official_ap_housing_portal:
+https://housing.ap.gov.in/
+
+official_pmay_u_portal:
+https://pmay-urban.gov.in/
+
+official_pmay_g_portal:
+https://pmayg.nic.in/
+
+
+## 19. Source-to-Fact Mapping
+
+| Fact | Source | Status |
+|---|---|---|
+| APSHCL is AP housing implementation agency | APSHCL official website | VERIFIED_CURRENT |
+| AP housing includes PMAY-G/PMAY-U | APSHCL official website | VERIFIED_CURRENT |
+| PMAY-G rural housing purpose | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G rural eligibility questionnaire | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G pucca-house exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G >2 rooms exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G vehicle exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G KCC ₹50,000 exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G government employee exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G non-agricultural enterprise exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G >₹15,000 monthly income exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G income-tax exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G professional-tax exclusion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G 2.5-acre irrigated criterion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-G 5-acre unirrigated criterion | PMAY-G official portal | VERIFIED_CURRENT |
+| PMAY-U 2.0 EWS <=₹3 lakh | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| PMAY-U 2.0 LIG ₹3–6 lakh | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| PMAY-U 2.0 MIG ₹6–9 lakh | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| No pucca house anywhere | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| Previous housing benefit within 20 years | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| Aadhaar/Aadhaar Virtual ID | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| Vulnerable-group preference | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| PMAY-G/PMAY-U duplication prevention | PMAY-U 2.0 Guidelines | VERIFIED_CURRENT |
+| AP PMAY-U 2.0 BLC sanctions FY 2026-27 | MoHUA sanction records | VERIFIED_CURRENT |
+| Navaratnalu–Pedalandariki Illu | AP Government historical records | HISTORICAL |
+| Jagananna Housing Colonies | AP Government district records | HISTORICAL |
+| Historical PMAY-YSR assistance | AP district housing records | HISTORICAL |
